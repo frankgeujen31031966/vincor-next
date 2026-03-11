@@ -1,0 +1,119 @@
+{
+  "meta": {
+    "title": "Behandeling — Vincor | 3-Fasen Behandelmodel",
+    "description": "Het Vincor 3-Fasen Behandelmodel: van relaxatiesplint tot volledige reconstructie. Ontdek hoe wij kaak- en houdingsklachten stapsgewijs behandelen.",
+    "slug": "behandeling"
+  },
+  "hero": {
+    "breadcrumb": ["Home", "Behandeling"],
+    "title": "Ons 3-Fasen Behandelmodel",
+    "titleHighlight": "Behandelmodel",
+    "description": "Een stapsgewijze aanpak die begint bij ontspanning en eindigt bij blijvend herstel. Elke fase bouwt voort op de vorige, zodat uw lichaam de tijd krijgt om zich structureel aan te passen."
+  },
+  "introduction": {
+    "sectionLabel": "Onze Methode",
+    "title": "Een gefaseerde aanpak voor blijvend resultaat",
+    "description": "Bij Vincor geloven wij dat structurele klachten niet met een enkele ingreep verholpen worden. Ons 3-fasen model combineert geavanceerde diagnostiek met bewezen splinttherapie en, indien nodig, definitieve reconstructie. Zo behandelen wij de oorzaak, niet alleen het symptoom."
+  },
+  "overviewSteps": [
+    {
+      "number": 1,
+      "title": "Relaxatie",
+      "description": "Ontspanning van de kaak- en rugmusculatuur en eerste diagnostiek bij Vincor."
+    },
+    {
+      "number": 2,
+      "title": "Repositionering",
+      "description": "Correctie van de beet en houdingsbalans met een op maat gemaakte splint bij Vincor."
+    },
+    {
+      "number": 3,
+      "title": "Reconstructie",
+      "description": "Definitieve restauratie door middel van orthodontie, implantologie of prothetiek bij PDA."
+    }
+  ],
+  "phaseCards": {
+    "sectionLabel": "De Drie Fasen",
+    "title": "Uw behandeltraject in detail",
+    "description": "Elke fase heeft een duidelijk doel en wordt pas gestart wanneer de vorige fase het gewenste resultaat heeft opgeleverd.",
+    "phases": [
+      {
+        "phase": "Fase 1",
+        "title": "Relaxatiesplint",
+        "price": "195",
+        "currency": "EUR",
+        "description": "De eerste stap is gericht op het ontspannen van de kaak-, nek- en rugmusculatuur. Tegelijkertijd voeren wij een uitgebreide diagnostische scan uit om de relatie tussen uw beet en houding in kaart te brengen.",
+        "features": [
+          "4D occlusie- en houdingsscan (DIERS Formetric)",
+          "Analyse van kaakgewricht en spiertonus",
+          "Op maat gemaakte relaxatiesplint",
+          "Vermindering van spierspanning en pijnklachten",
+          "Eerste beoordeling van behandelopties"
+        ],
+        "location": "Vincor, Eindhoven",
+        "featured": false
+      },
+      {
+        "phase": "Fase 2",
+        "title": "Repositioneringssplint",
+        "price": "595",
+        "currency": "EUR",
+        "badge": "Meest gekozen",
+        "description": "Op basis van de diagnostiek uit fase 1 vervaardigen wij een repositioneringssplint. Deze corrigeert de occlusie (beet) en herstelt de posturale balans tussen kaak, wervelkolom en bekken.",
+        "features": [
+          "Gedetailleerde occlusieanalyse en beetregistratie",
+          "Repositionering van de onderkaak naar optimale positie",
+          "Herstel van posturale balans (rug, nek, bekken)",
+          "Tussentijdse controle met 4D scan",
+          "Aanzienlijke vermindering van klachten",
+          "Persoonlijk behandelplan met voortgangsrapportage"
+        ],
+        "location": "Vincor, Eindhoven",
+        "featured": true
+      },
+      {
+        "phase": "Fase 3",
+        "title": "Reconstructie",
+        "price": "3.000 – 7.000",
+        "currency": "EUR",
+        "description": "Wanneer splinttherapie onvoldoende blijkt of een definitieve oplossing gewenst is, verwijzen wij u door naar ons partnercentrum PDA voor orthodontie, implantologie of volledige gebitsreconstructie.",
+        "features": [
+          "Orthodontische correctie van de beet",
+          "Implantologie bij ontbrekende elementen",
+          "Volledige gebitsreconstructie indien nodig",
+          "Prothetische restauratie voor langdurig resultaat",
+          "Nazorg en controle in samenwerking met Vincor"
+        ],
+        "location": "PDA (partnercentrum)",
+        "featured": false
+      }
+    ]
+  },
+  "bodySplint": {
+    "sectionLabel": "Vincor BodySplint",
+    "title": "De splint die uw lichaam als geheel behandelt",
+    "image": "behandeling-hero.jpg",
+    "imageAlt": "Vincor BodySplint behandeling",
+    "paragraphs": [
+      "De Vincor BodySplint is geen gewone gebitssplint. Op basis van uw persoonlijke 4D scan wordt de splint zo ontworpen dat deze niet alleen de kaakgewrichten ontlast, maar ook de wervelkolom en het bekken in een betere positie brengt.",
+      "Door de wisselwerking tussen occlusie (beet) en houding te corrigeren, ervaren patienten vaak verbetering van klachten die zij nooit met hun kaak in verband hadden gebracht: rugpijn, nekklachten, hoofdpijn en zelfs slaapproblemen."
+    ],
+    "features": [
+      "Individueel vervaardigd op basis van 4D diagnostiek",
+      "Corrigeert de relatie tussen beet en houding",
+      "Comfortabel en onzichtbaar te dragen",
+      "Meetbaar resultaat via voor- en nametingen"
+    ]
+  },
+  "trustBar": [
+    "Stralingsvrije diagnostiek",
+    "Resultaat binnen enkele weken",
+    "Multidisciplinaire samenwerking"
+  ],
+  "cta": {
+    "title": "Klaar om de eerste stap te zetten?",
+    "description": "Maak een afspraak voor uw eerste scan en ontdek welke behandelfase bij u past.",
+    "buttonText": "Afspraak maken",
+    "buttonLink": "/contact"
+  }
+}

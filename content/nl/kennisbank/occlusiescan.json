@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "title": "Wat is een occlusiescan? \u2014 Vincor Kennisbank",
+    "description": "Alles over de DIERS 4D Spinescan: hoe de occlusiescan werkt, wat het meet, en waarom het veiliger en nauwkeuriger is dan traditionele diagnostiek.",
+    "slug": "kennisbank/occlusiescan",
+    "readingTime": "4 minuten",
+    "publishDate": "maart 2026",
+    "category": "Diagnostiek"
+  },
+  "hero": {
+    "breadcrumb": ["Home", "Kennisbank", "Occlusiescan"],
+    "title": "Wat is een occlusiescan?",
+    "titleHighlight": "occlusiescan",
+    "description": "Alles over de DIERS 4D Spinescan"
+  },
+  "featuredImage": {
+    "src": "formetric-evaluation.jpg",
+    "alt": "DIERS 4D Spinescan evaluatie"
+  },
+  "body": [
+    {
+      "type": "intro",
+      "text": "Bij Vincor vormt de occlusiescan het startpunt van elke behandeling. Maar wat is zo\u2019n scan precies? Wat wordt er gemeten? En hoe verschilt het van een r\u00f6ntgenfoto? In dit artikel leggen we alles helder uit."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Wat meet de scan?"
+    },
+    {
+      "type": "paragraph",
+      "text": "De DIERS Formetric 4D Spinescan brengt uw volledige houding in kaart. Concreet meet het systeem:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "De stand van de wervelkolom: kromming, rotatie en eventuele scoliose",
+        "De positie van het bekken: scheefstand, kanteling en rotatie",
+        "Spierbalans: symmetrie van de rompmusculatuur links en rechts",
+        "Lichaamsstatiek: de algehele balans van uw lichaam in drie dimensies"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Bij een occlusiescan voeren wij deze meting tweemaal uit: \u00e9\u00e9n keer in uw huidige situatie en \u00e9\u00e9n keer met een therapeutische testbeet. Door het verschil te analyseren, wordt direct zichtbaar of en hoeveel uw beet uw houding be\u00efnvloedt."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Hoe werkt het? Video-Raster-Stereografie uitgelegd"
+    },
+    {
+      "type": "paragraph",
+      "text": "De technologie achter de scan heet Video-Raster-Stereografie (VRS). Het principe is verrassend elegant: een projector werpt een raster van lichtlijnen op uw rug. Twee camera\u2019s registreren hoe dit lichtpatroon vervormt door de contouren van uw lichaam. Een computer berekent hieruit in fracties van een seconde een driedimensionaal model van uw rugoppervlak."
+    },
+    {
+      "type": "paragraph",
+      "text": "Omdat het systeem in 4D werkt (drie dimensies plus tijd), worden er meerdere beelden per seconde vastgelegd. Zo wordt niet alleen uw houding gemeten, maar ook de dynamiek \u2014 hoe uw lichaam beweegt en schommelt."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Waarom geen r\u00f6ntgenfoto?"
+    },
+    {
+      "type": "paragraph",
+      "text": "De DIERS scan verschilt op fundamentele punten van traditionele diagnostiek:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Geen straling: de scan werkt uitsluitend met zichtbaar licht. Er is geen r\u00f6ntgenstraling, geen elektromagnetische straling en geen contact met het lichaam.",
+        "Contactloos: er worden geen sensoren, markers of pleisters op uw huid geplaatst.",
+        "Supersnel: de meting duurt letterlijk seconden. Inclusief voorbereiding bent u binnen een kwartier klaar.",
+        "Herhaalbaar: omdat de scan volledig veilig is, kan deze zo vaak als nodig worden herhaald om voortgang te meten."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "De nauwkeurigheid van de meting is vergelijkbaar met die van r\u00f6ntgenopnamen \u2014 maar dan zonder de nadelen. Dat maakt de scan ook geschikt voor kinderen, zwangere vrouwen en pati\u00ebnten die regelmatig gecontroleerd moeten worden."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Wat kunt u verwachten tijdens de scan?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Het proces is eenvoudig en comfortabel. U wordt gevraagd om uw bovenlichaam te ontbloten (vrouwen mogen een open rughemd dragen) en ontspannen voor het apparaat te gaan staan. Het systeem projecteert een patroon van lichtlijnen op uw rug \u2014 u voelt hier niets van."
+    },
+    {
+      "type": "paragraph",
+      "text": "Na enkele seconden is de eerste meting klaar. Vervolgens krijgt u een therapeutische testbeet (een wasrol of siliconen opbouw) en wordt de meting herhaald. De resultaten zijn direct beschikbaar en worden samen met u besproken op het scherm."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Van scanresultaat naar behandelplan"
+    },
+    {
+      "type": "paragraph",
+      "text": "De scanresultaten vormen de basis voor uw persoonlijke behandelplan. De kleurenkaarten laten in \u00e9\u00e9n oogopslag zien waar uw lichaam uit balans is en hoe groot het verschil is met en zonder testbeet. Op basis hiervan bepalen wij welke behandeling het meest geschikt is \u2014 vaak beginnend met een therapeutische kaaksplint."
+    },
+    {
+      "type": "paragraph",
+      "text": "Meer weten over de technologie en diagnostiek? Bekijk onze uitgebreide diagnostiekpagina."
+    }
+  ],
+  "relatedArticles": [
+    {
+      "title": "De relatie tussen kaak en rug",
+      "slug": "kennisbank/kaak-en-rug",
+      "image": "rug-nek.jpg"
+    },
+    {
+      "title": "Hoe herken je CMD?",
+      "slug": "kennisbank/cmd-herkennen",
+      "image": "kaakpijn.jpg"
+    }
+  ],
+  "cta": {
+    "title": "Benieuwd wat de scan over uw houding onthult?",
+    "description": "Maak een afspraak voor een occlusiescan. Stralingsvrij, contactloos en direct resultaat.",
+    "buttonText": "Afspraak maken",
+    "buttonLink": "/contact"
+  }
+}

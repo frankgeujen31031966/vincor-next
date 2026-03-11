@@ -1,0 +1,335 @@
+{
+  "meta": {
+    "title": "Vincor — Occlusie & Houdingsdiagnostiek",
+    "description": "Vincor — Ontdek de oorzaak van uw kaak-, nek- of migraineklachten met een gratis 4D scan. Gespecialiseerd in occlusie & houdingsdiagnostiek."
+  },
+  "hero": {
+    "badge": "Gratis 4D Scan",
+    "title": "Ontdek de oorzaak van uw kaak-, nek- of migraineklachten",
+    "titleHighlight": "oorzaak",
+    "subtitle": "Met de DIERS 4D Spinescan brengen wij de verbinding tussen kaak en wervelkolom objectief in beeld — stralingsvrij en binnen enkele minuten.",
+    "ctaPrimary": {
+      "text": "Boek Gratis Scan",
+      "href": "contact.html"
+    },
+    "ctaSecondary": {
+      "text": "Meer Informatie",
+      "href": "#hoe-werkt-het"
+    },
+    "stats": [
+      { "number": "82%", "label": "Minder pijn" },
+      { "number": "500+", "label": "Scans uitgevoerd" },
+      { "number": "85%", "label": "Minder spanning" }
+    ],
+    "backgroundImage": "images/hero-bg.png",
+    "scrollIndicator": "Scroll"
+  },
+  "trustBar": {
+    "items": [
+      "Stralingsvrij",
+      "Geen verplichting",
+      "Objectieve meting",
+      "Direct inzicht"
+    ]
+  },
+  "klachten": {
+    "label": "Klachten",
+    "title": "Last van deze klachten?",
+    "description": "Veel chronische klachten in het hoofd-, nek- en schoudergebied hebben een gemeenschappelijke oorzaak: een verstoorde kaakpositie.",
+    "items": [
+      {
+        "title": "Kaakpijn",
+        "image": "images/kaakpijn.jpg",
+        "imageAlt": "Kaakpijn behandeling",
+        "href": "klachten/kaakpijn.html"
+      },
+      {
+        "title": "Hoofdpijn & Migraine",
+        "image": "images/migraine.jpg",
+        "imageAlt": "Hoofdpijn en migraine behandeling",
+        "href": "klachten/hoofdpijn-migraine.html"
+      },
+      {
+        "title": "Tinnitus",
+        "image": "images/Tinnitus-2.jpg",
+        "imageAlt": "Tinnitus behandeling",
+        "href": "klachten/tinnitus.html"
+      },
+      {
+        "title": "Zenuwpijn",
+        "image": "images/zenuwpijn.jpg",
+        "imageAlt": "Zenuwpijn behandeling",
+        "href": "klachten/zenuwpijn.html"
+      },
+      {
+        "title": "Tandenknarsen & Bruxisme",
+        "image": "images/Tandenknarsen.jpg",
+        "imageAlt": "Tandenknarsen en bruxisme behandeling",
+        "href": "klachten/tandenknarsen.html"
+      },
+      {
+        "title": "Stijve Nek & Schouders",
+        "image": "images/stijve-nek.jpg",
+        "imageAlt": "Stijve nek en schouders behandeling",
+        "href": "klachten/stijve-nek.html"
+      },
+      {
+        "title": "Rug- en Nekklachten",
+        "image": "images/rug-nek.jpg",
+        "imageAlt": "Rug- en nekklachten behandeling",
+        "href": "klachten/rug-nekklachten.html"
+      }
+    ]
+  },
+  "howItWorks": {
+    "label": "Werkwijze",
+    "title": "Hoe werkt het?",
+    "description": "In drie heldere stappen van klacht naar oplossing — volledig afgestemd op uw situatie.",
+    "steps": [
+      {
+        "number": 1,
+        "title": "Gratis 4D Scan",
+        "description": "Binnen enkele minuten brengt de DIERS scanner uw houding en kaakpositie objectief in beeld — volledig stralingsvrij."
+      },
+      {
+        "number": 2,
+        "title": "Diagnose & Advies",
+        "description": "Onze specialist analyseert de resultaten en bespreekt een persoonlijk behandelplan met u."
+      },
+      {
+        "number": 3,
+        "title": "Behandeling op Maat",
+        "description": "Een gefaseerd traject van relaxatie tot reconstructie, afgestemd op de ernst van uw klachten."
+      }
+    ]
+  },
+  "behandeling": {
+    "label": "Behandeling",
+    "title": "Van inzicht naar herstel",
+    "description": "Ons behandeltraject bestaat uit drie fasen. Elke fase bouwt voort op de vorige en wordt afgestemd op uw specifieke situatie.",
+    "phases": [
+      {
+        "phase": "Fase 1",
+        "title": "Relaxatiesplint",
+        "price": "€195",
+        "description": "De eerste stap naar ontspanning van de kaakmusculatuur en vermindering van acute klachten.",
+        "features": [
+          "Op maat gemaakte splint",
+          "Verlichting binnen 2-4 weken",
+          "Inclusief controlebezoek"
+        ],
+        "cta": {
+          "text": "Meer over Fase 1",
+          "href": "behandeling/fase-1-relaxatiesplint.html",
+          "variant": "outline"
+        },
+        "location": "Bij Vincor, Eindhoven",
+        "featured": false
+      },
+      {
+        "phase": "Fase 2",
+        "title": "Repositioneringssplint",
+        "price": "€595",
+        "badge": "Meest gekozen",
+        "description": "Correctie van de kaakpositie voor structurele verbetering van de kaak-wervelkolom balans.",
+        "features": [
+          "Digitaal ontworpen splint",
+          "Structurele kaakcorrectie",
+          "Tussentijdse 4D metingen",
+          "Persoonlijke begeleiding"
+        ],
+        "cta": {
+          "text": "Meer over Fase 2",
+          "href": "behandeling/fase-2-repositioneringssplint.html",
+          "variant": "primary"
+        },
+        "location": "Bij Vincor, Eindhoven",
+        "featured": true
+      },
+      {
+        "phase": "Fase 3",
+        "title": "Reconstructie",
+        "price": "€3.000–7.000",
+        "description": "Definitieve reconstructie van het gebit voor een blijvend resultaat en optimale functie.",
+        "features": [
+          "Volledige gebitreconstructie",
+          "Blijvend resultaat",
+          "Uitgevoerd door PDA-tandarts"
+        ],
+        "cta": {
+          "text": "Meer over Fase 3",
+          "href": "behandeling/fase-3-reconstructie.html",
+          "variant": "outline"
+        },
+        "location": "Bij PDA, partnerlocatie",
+        "featured": false
+      }
+    ]
+  },
+  "resultaten": {
+    "label": "Resultaten",
+    "title": "Echte resultaten, blijvende verbetering",
+    "description": "Onze aanpak levert meetbare verbetering op — bevestigd door objectieve 4D metingen en de ervaringen van honderden patiënten.",
+    "stats": [
+      { "number": 82, "suffix": "%", "label": "Minder pijn na behandeling" },
+      { "number": 85, "suffix": "%", "label": "Minder spanning in kaak & nek" },
+      { "number": 72, "suffix": "%", "label": "Betere slaapkwaliteit" }
+    ]
+  },
+  "diagnostiek": {
+    "label": "Diagnostiek",
+    "title": "DIERS 4D Spinescan technologie",
+    "description": "De DIERS 4D Spinescan is een geavanceerd diagnostisch systeem dat de wervelkolom, houding en beweging in real-time analyseert. Zonder straling of fysiek contact krijgt u direct inzicht in de relatie tussen uw kaakpositie en lichaamshouding.",
+    "image": "images/spine-model.gif",
+    "imageAlt": "DIERS 4D Spinescan - 3D wervelkolom model",
+    "features": [
+      "Stralingsvrije 3D-oppervlakteanalyse",
+      "Dynamische houdingsmeting in beweging",
+      "Objectieve voor- en nameting",
+      "Meting duurt slechts enkele minuten"
+    ],
+    "cta": {
+      "text": "Meer over onze diagnostiek",
+      "href": "diagnostiek/"
+    }
+  },
+  "partners": {
+    "label": "Samenwerking",
+    "title": "Partnerschap met Balans Rugcentrum Eindhoven",
+    "description": "Vincor werkt nauw samen met Balans Rugcentrum Eindhoven. Samen combineren wij expertise op het gebied van occlusie en houdingstherapie voor een integrale benadering van uw klachten.",
+    "secondaryText": "Onze DIERS 4D Spinescan staat bij Balans Rugcentrum, waar u terecht kunt voor uw gratis scan en persoonlijk adviesgesprek.",
+    "image": "images/balans-clinic.png",
+    "imageAlt": "Balans Rugcentrum Eindhoven"
+  },
+  "testimonials": {
+    "label": "Ervaringen",
+    "title": "Wat onze patiënten zeggen",
+    "items": [
+      {
+        "text": "Na jaren van hoofdpijn en kaakklachten kreeg ik eindelijk inzicht in de oorzaak. De 4D scan liet duidelijk zien hoe mijn kaakpositie mijn hele houding beïnvloedde. Na de behandeling met de repositioneringssplint is de hoofdpijn bijna helemaal verdwenen.",
+        "name": "Annelies, 43",
+        "role": "Patiënt sinds 2024",
+        "avatar": "images/testimonial-annelies.jpg"
+      },
+      {
+        "text": "Ik had al maanden last van nekpijn en spanning in mijn schouders. Mijn fysiotherapeut kon de oorzaak niet vinden. Bij Vincor bleek mijn kaakpositie de boosdoener. De splintbehandeling heeft mijn leven enorm verbeterd — ik slaap beter en heb nauwelijks nog nekpijn.",
+        "name": "Tom, 39",
+        "role": "Patiënt sinds 2025",
+        "avatar": "images/testimonial-tom.jpg"
+      }
+    ]
+  },
+  "googleReviews": {
+    "label": "Reviews",
+    "title": "Wat onze patiënten zeggen",
+    "overallRating": 4.8,
+    "totalReviews": "32 reviews op Google",
+    "items": [
+      {
+        "stars": 5,
+        "timeAgo": "3 weken geleden",
+        "text": "Na jaren van hoofdpijn eindelijk een duidelijke diagnose. De 4D scan liet precies zien wat er aan de hand was. Heel blij met het resultaat van de splint.",
+        "author": "Mark V.",
+        "initial": "M",
+        "source": "Google"
+      },
+      {
+        "stars": 5,
+        "timeAgo": "1 maand geleden",
+        "text": "Professioneel en vriendelijk team. De uitleg over de relatie tussen mijn kaak en nekklachten was erg verhelderend. Aanrader!",
+        "author": "Sandra K.",
+        "initial": "S",
+        "source": "Google"
+      },
+      {
+        "stars": 5,
+        "timeAgo": "2 maanden geleden",
+        "text": "De repositioneringssplint heeft mijn leven veranderd. Geen migraine meer sinds 4 maanden. Kan Vincor niet genoeg aanbevelen.",
+        "author": "Peter de J.",
+        "initial": "P",
+        "source": "Google"
+      },
+      {
+        "stars": 4,
+        "timeAgo": "3 weken geleden",
+        "text": "Goede ervaring. Scan was snel en pijnloos. Wel jammer dat niet alles vergoed wordt door de verzekering, maar de kosten zijn transparant.",
+        "author": "Lisa M.",
+        "initial": "L",
+        "source": "Google"
+      }
+    ],
+    "cta": {
+      "text": "Bekijk alle reviews op Google",
+      "href": "#"
+    }
+  },
+  "cta": {
+    "title": "Boek uw gratis 4D scan",
+    "description": "Ervaar zelf hoe de DIERS 4D Spinescan de oorzaak van uw klachten in beeld brengt — geheel vrijblijvend en stralingsvrij.",
+    "button": {
+      "text": "Maak een afspraak",
+      "href": "contact.html"
+    }
+  },
+  "faq": {
+    "note": "FAQ section is on a separate page (faq.html), not on the homepage.",
+    "items": []
+  },
+  "newsletter": {
+    "note": "No newsletter section found on the homepage."
+  },
+  "cookieBanner": {
+    "text": "Wij gebruiken cookies om uw ervaring te verbeteren en onze website te analyseren. Lees ons privacybeleid voor meer informatie.",
+    "privacyLink": "privacy.html",
+    "acceptButton": "Accepteren",
+    "declineButton": "Weigeren"
+  },
+  "whatsapp": {
+    "href": "https://wa.me/31401234567",
+    "ariaLabel": "Chat via WhatsApp"
+  },
+  "footer": {
+    "brand": {
+      "name": "VINCOR",
+      "description": "Gespecialiseerd in de diagnostiek en behandeling van klachten die ontstaan door een verstoorde relatie tussen kaak en wervelkolom."
+    },
+    "columns": [
+      {
+        "heading": "Klachten",
+        "links": [
+          { "text": "Kaakpijn", "href": "klachten/kaakpijn.html" },
+          { "text": "Hoofdpijn & Migraine", "href": "klachten/hoofdpijn-migraine.html" },
+          { "text": "Tinnitus", "href": "klachten/tinnitus.html" },
+          { "text": "Zenuwpijn", "href": "klachten/zenuwpijn.html" },
+          { "text": "Tandenknarsen", "href": "klachten/tandenknarsen.html" },
+          { "text": "Stijve Nek & Schouders", "href": "klachten/stijve-nek.html" },
+          { "text": "Rug- en Nekklachten", "href": "klachten/rug-nekklachten.html" }
+        ]
+      },
+      {
+        "heading": "Behandeling",
+        "links": [
+          { "text": "Fase 1 — Relaxatiesplint", "href": "behandeling/fase-1-relaxatiesplint.html" },
+          { "text": "Fase 2 — Repositioneringssplint", "href": "behandeling/fase-2-repositioneringssplint.html" },
+          { "text": "Fase 3 — Reconstructie", "href": "behandeling/fase-3-reconstructie.html" },
+          { "text": "Diagnostiek", "href": "diagnostiek/" },
+          { "text": "Veelgestelde vragen", "href": "faq.html" },
+          { "text": "Kennisbank", "href": "kennisbank.html" }
+        ]
+      },
+      {
+        "heading": "Contact",
+        "address": "Vestdijk 25\n5611 CA Eindhoven",
+        "phone": { "text": "040 - 123 4567", "href": "tel:+31401234567" },
+        "email": { "text": "info@vincor.nl", "href": "mailto:info@vincor.nl" }
+      }
+    ],
+    "bottom": {
+      "copyright": "© 2026 Vincor. Alle rechten voorbehouden.",
+      "links": [
+        { "text": "Privacy", "href": "privacy.html" },
+        { "text": "Voorwaarden", "href": "voorwaarden.html" }
+      ]
+    }
+  }
+}

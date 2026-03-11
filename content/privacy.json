@@ -1,0 +1,79 @@
+{
+  "meta": {
+    "title": "Privacybeleid \u2014 Vincor",
+    "description": "Privacybeleid van Vincor. Lees hoe wij omgaan met uw persoonsgegevens conform de AVG.",
+    "slug": "privacy"
+  },
+  "hero": {
+    "breadcrumb": ["Home", "Privacy"],
+    "title": "Privacybeleid",
+    "titleHighlight": "beleid",
+    "description": "Hoe Vincor omgaat met uw persoonsgegevens, conform de Algemene Verordening Gegevensbescherming (AVG)."
+  },
+  "lastUpdated": "maart 2026",
+  "sections": [
+    {
+      "title": "Wie zijn wij",
+      "content": "Vincor is gevestigd aan de Dokter Cuyperslaan 76, 5623 BB Eindhoven. Wij zijn verantwoordelijk voor de verwerking van uw persoonsgegevens zoals beschreven in dit privacybeleid. U kunt ons bereiken via info@vincorscan.nl."
+    },
+    {
+      "title": "Welke gegevens verzamelen wij",
+      "content": "Wij verwerken de volgende persoonsgegevens wanneer u gebruik maakt van onze diensten:",
+      "list": [
+        "Naam en achternaam",
+        "E-mailadres",
+        "Telefoonnummer",
+        "Informatie over uw klachten en medische voorgeschiedenis",
+        "Scandata (4D houdingsscans en occlusieanalyses)"
+      ]
+    },
+    {
+      "title": "Waarom verzamelen wij deze gegevens",
+      "content": "Wij gebruiken uw gegevens uitsluitend voor de volgende doeleinden:",
+      "list": [
+        "Het maken en beheren van afspraken",
+        "Het uitvoeren van diagnostiek en behandeling",
+        "Het contact met u opnemen per telefoon of e-mail indien nodig",
+        "Het voldoen aan wettelijke verplichtingen"
+      ]
+    },
+    {
+      "title": "Bewaartermijn",
+      "content": "Wij bewaren uw persoonsgegevens niet langer dan strikt noodzakelijk is voor de doeleinden waarvoor zij worden verzameld. Voor medische gegevens hanteren wij de wettelijke bewaartermijn van 20 jaar, conform de Wet op de geneeskundige behandelingsovereenkomst (WGBO). Overige gegevens worden verwijderd zodra zij niet meer nodig zijn."
+    },
+    {
+      "title": "Delen met derden",
+      "content": "Vincor verkoopt uw gegevens niet aan derden. Wij delen uw gegevens uitsluitend met derden wanneer dit noodzakelijk is voor de uitvoering van onze overeenkomst met u of om te voldoen aan een wettelijke verplichting. Met bedrijven die uw gegevens verwerken in onze opdracht sluiten wij een verwerkersovereenkomst. Concreet delen wij gegevens met:",
+      "list": [
+        "PDA (Prothetische Dentale Applicaties) \u2014 uitsluitend bij fase 3 (reconstructie), wanneer u hiervoor kiest",
+        "Balans Rugcentrum \u2014 voor het uitvoeren van de 4D houdingsscans"
+      ]
+    },
+    {
+      "title": "Uw rechten",
+      "content": "Op grond van de AVG heeft u de volgende rechten met betrekking tot uw persoonsgegevens:",
+      "list": [
+        "Recht op inzage \u2014 u kunt opvragen welke gegevens wij van u verwerken",
+        "Recht op correctie \u2014 u kunt onjuiste gegevens laten aanpassen",
+        "Recht op verwijdering \u2014 u kunt verzoeken uw gegevens te laten verwijderen, voor zover de wet dit toestaat",
+        "Recht op bezwaar \u2014 u kunt bezwaar maken tegen de verwerking van uw gegevens"
+      ],
+      "additionalContent": "Om gebruik te maken van uw rechten kunt u contact opnemen via info@vincorscan.nl. Wij reageren zo snel mogelijk, maar uiterlijk binnen vier weken, op uw verzoek. Daarnaast heeft u het recht een klacht in te dienen bij de Autoriteit Persoonsgegevens."
+    },
+    {
+      "title": "Cookies",
+      "content": "Onze website maakt gebruik van functionele cookies die noodzakelijk zijn voor het correct functioneren van de website. Daarnaast gebruiken wij analytische cookies om het gebruik van de website te analyseren en te verbeteren. Deze cookies verzamelen geen persoonsgegevens waarmee u direct ge\u00efdentificeerd kunt worden. U kunt cookies uitschakelen via uw browserinstellingen, maar dit kan de werking van de website be\u00efnvloeden."
+    },
+    {
+      "title": "Contact voor privacyvragen",
+      "content": "Heeft u vragen over dit privacybeleid of over de verwerking van uw persoonsgegevens? Neem dan contact met ons op:",
+      "contactDetails": {
+        "name": "Vincor",
+        "street": "Dokter Cuyperslaan 76",
+        "postcode": "5623 BB Eindhoven",
+        "email": "info@vincorscan.nl",
+        "phone": "+31 40 245 00 23"
+      }
+    }
+  ]
+}

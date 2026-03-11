@@ -1,0 +1,39 @@
+{
+  "navigation": {
+    "home": "Accueil",
+    "klachten": "Plaintes",
+    "behandeling": "Traitement",
+    "diagnostiek": "Diagnostic",
+    "overOns": "À Propos",
+    "faq": "FAQ",
+    "kennisbank": "Base de connaissances",
+    "contact": "Contact",
+    "resultaten": "Résultats",
+    "boekScan": "Réserver une Analyse Gratuite"
+  },
+  "footer": {
+    "description": "Spécialisé dans le diagnostic et le traitement des plaintes qui surviennent en raison d'une relation perturbée entre la mâchoire et la colonne vertébrale.",
+    "klachten": "Plaintes",
+    "behandeling": "Traitement",
+    "contact": "Contact",
+    "copyright": "© 2026 Vincor. Tous droits réservés.",
+    "privacy": "Confidentialité",
+    "voorwaarden": "Conditions"
+  },
+  "common": {
+    "readMore": "Lire plus",
+    "bookScan": "Réserver une Analyse Gratuite",
+    "makeAppointment": "Prendre rendez-vous",
+    "contactUs": "Nous contacter",
+    "moreInfo": "Plus d'informations",
+    "back": "Retour",
+    "close": "Fermer",
+    "phase": "Phase",
+    "mostChosen": "Choix le plus populaire"
+  },
+  "cookie": {
+    "text": "Nous utilisons des cookies pour améliorer votre expérience et analyser notre site web. Consultez notre politique de confidentialité pour plus d'informations.",
+    "accept": "Accepter",
+    "decline": "Refuser"
+  }
+}

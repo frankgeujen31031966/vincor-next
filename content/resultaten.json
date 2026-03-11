@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "title": "Resultaten & Pati\u00ebntervaringen \u2014 Vincor",
+    "description": "Bekijk meetbare behandelresultaten en pati\u00ebntervaringen bij Vincor. Ontdek hoe onze 4D diagnostiek en splinttherapie levens veranderen.",
+    "slug": "resultaten"
+  },
+  "hero": {
+    "breadcrumb": ["Home", "Resultaten"],
+    "title": "Resultaten & Pati\u00ebntervaringen",
+    "titleHighlight": "Pati\u00ebntervaringen",
+    "description": "Meetbare verbetering, ervaren door onze pati\u00ebnten"
+  },
+  "stats": {
+    "sectionLabel": "Cijfers",
+    "title": "Onze resultaten in cijfers",
+    "items": [
+      { "value": "500+", "label": "Scans uitgevoerd" },
+      { "value": "93%", "label": "Ervaart vermindering van klachten" },
+      { "value": "4.8", "label": "Gemiddelde Google-beoordeling" }
+    ]
+  },
+  "caseStudies": {
+    "sectionLabel": "Pati\u00ebntjourneys",
+    "title": "Pati\u00ebntjourneys",
+    "description": "Drie geanonimiseerde casussen die laten zien hoe een verstoorde beet uiteenlopende klachten kan veroorzaken \u2014 en hoe wij daar verandering in brengen.",
+    "cases": [
+      {
+        "title": "Van chronische migraine naar een leven zonder hoofdpijn",
+        "image": "migraine.jpg",
+        "imageAlt": "Pati\u00ebnte met chronische migraine die succesvol behandeld is bij Vincor",
+        "patient": "Vrouw, 38 jaar, marketingmanager",
+        "complaint": "3-4x per week migraine, al 8 jaar. Geen medicatie hielp structureel.",
+        "diagnosis": "De 4D scan toonde duidelijke asymmetrie in de kaakstand en compensatie in de cervicale wervelkolom.",
+        "treatment": "Fase 1 (relaxatiesplint) \u2192 Fase 2 (repositioneringssplint)",
+        "result": "Na 3 maanden: migraine teruggebracht van 3-4x per week naar 1x per maand. Na 6 maanden: vrijwel migrainevrij."
+      },
+      {
+        "title": "Rugklachten die niemand kon verklaren",
+        "image": "rug-nek.jpg",
+        "imageAlt": "Pati\u00ebnt met chronische rugklachten die succesvol behandeld is bij Vincor",
+        "patient": "Man, 52 jaar, IT-professional",
+        "complaint": "Chronische lage rugpijn en stijve nek, al 5 jaar. Fysiotherapie bood slechts tijdelijke verlichting.",
+        "diagnosis": "De DIERS 4D scan liet zien dat een verstoorde kaakpositie compensatie veroorzaakte in de thoracale en lumbale wervelkolom.",
+        "treatment": "Fase 1 \u2192 Fase 2, in combinatie met houdingstherapie bij Balans Rugcentrum.",
+        "result": "70% reductie in rugpijn na 4 maanden. Kan weer sporten zonder klachten."
+      },
+      {
+        "title": "Tandenknarsen en de gevolgen die ik niet zag",
+        "image": "Tandenknarsen.jpg",
+        "imageAlt": "Pati\u00ebnte met tandenknarsen en tinnitus die succesvol behandeld is bij Vincor",
+        "patient": "Vrouw, 45 jaar, docente",
+        "complaint": "Ernstig tandenknarsen, kaakpijn bij het opstaan, tinnitus en nekstijfheid.",
+        "diagnosis": "Gecombineerde occlusie-analyse en 4D scan toonde ernstige slijtage en posturale dysbalans.",
+        "treatment": "Fase 1 \u2192 Fase 2 \u2192 Fase 3 (gedeeltelijke reconstructie bij PDA)",
+        "result": "Knarsen gestopt, tinnitus sterk verminderd. Nieuwe gebitsopbouw zorgt voor een stabiele beet en houding."
+      }
+    ]
+  },
+  "measurements": {
+    "sectionLabel": "Meetbaar verschil",
+    "title": "Meetbaar verschil",
+    "description": "Bij Vincor werken wij met objectieve 4D metingen om uw voortgang zichtbaar te maken. Door de scan bij intake te vergelijken met de scan na behandeling, zien wij exact wat er veranderd is.",
+    "image": "formetric-evaluation.jpg",
+    "imageAlt": "DIERS Formetric 4D scan vergelijking: intake versus na behandeling",
+    "subtitle": "Wat meten wij?",
+    "text": "De DIERS Formetric 4D scan brengt uw volledige houding in kaart. Door de meting voor en na behandeling te vergelijken, kunnen wij objectief vaststellen welke verbeteringen zijn bereikt.",
+    "parameters": [
+      {
+        "name": "Wervelkolomsymmetrie",
+        "description": "afwijkingen in de stand van de wervelkolom"
+      },
+      {
+        "name": "Bekkenstand",
+        "description": "scheefstand en rotatie van het bekken"
+      },
+      {
+        "name": "Schouderhoogte",
+        "description": "verschil in hoogte tussen linker- en rechterschouder"
+      },
+      {
+        "name": "Spierbalans",
+        "description": "asymmetrie in spieractiviteit en -spanning"
+      }
+    ]
+  },
+  "testimonials": {
+    "sectionLabel": "Ervaringen",
+    "title": "Wat onze pati\u00ebnten zeggen",
+    "items": [
+      {
+        "quote": "De 4D scan was een eye-opener. Eindelijk begreep ik waarom ik al die jaren hoofdpijn had.",
+        "author": "Annelies",
+        "age": 42
+      },
+      {
+        "quote": "Professioneel, grondig en menselijk. Bij Vincor voelde ik me voor het eerst echt gehoord.",
+        "author": "Tom",
+        "age": 55
+      },
+      {
+        "quote": "Mijn fysiotherapeut had me jaren eerder naar Vincor moeten sturen. Dit was de oplossing.",
+        "author": "Marieke",
+        "age": 36
+      }
+    ]
+  },
+  "cta": {
+    "title": "Benieuwd wat wij voor u kunnen betekenen?",
+    "description": "Neem contact met ons op voor een vrijblijvend gesprek of maak direct een afspraak.",
+    "buttonText": "Neem contact op",
+    "buttonLink": "/contact"
+  }
+}

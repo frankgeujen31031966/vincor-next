@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "title": "Rug- & Nekklachten | Vincor",
+    "description": "Chronische rugpijn en houdingsklachten? De oorzaak kan in uw kaak liggen. Vincor onderzoekt het verband tussen occlusie en de wervelkolom met 4D-diagnostiek."
+  },
+  "hero": {
+    "breadcrumb": ["Home", "Klachten", "Rug- & Nekklachten"],
+    "title": "Rug- & Nekklachten",
+    "description": "Chronische rugpijn en houdingsklachten zijn volkskwaal nummer een. Wanneer standaard behandelingen falen, kan een verstoorde occlusie de ontbrekende schakel zijn. Bij Vincor onderzoeken we de relatie tussen kaak en wervelkolom."
+  },
+  "watIsHet": {
+    "label": "Wat is het",
+    "title": "Rugpijn en de kaakverbinding",
+    "paragraphs": [
+      "Rugpijn is een van de meest voorkomende klachten wereldwijd en een belangrijke oorzaak van arbeidsverzuim. Het omvat klachten in de gehele wervelkolom: van de cervicale (nek), thoracale (bovenrug) tot lumbale (onderrug) regio. Veel patiënten ervaren hun klachten als chronisch en therapieresistent.",
+      "De wervelkolom functioneert als een kinematische keten: een verandering op een niveau heeft consequenties voor alle andere niveaus. Wat minder bekend is, is dat deze keten begint bij de kaak. De positie van de onderkaak beïnvloedt via het tongbeen en de cervicale spieren de stand van het hoofd, en daarmee de volledige spinale curve. Dit principe — de descending pathway — verklaart hoe een beetprobleem uiteindelijk rugklachten kan veroorzaken."
+    ],
+    "image": "/images/rug-nek.jpg"
+  },
+  "symptomen": {
+    "title": "Herkent u deze klachten?",
+    "description": "Rug- en nekklachten met een occlusale component kenmerken zich door specifieke patronen.",
+    "items": [
+      "Chronische rug- of nekpijn die niet reageert op standaard behandeling",
+      "Houdingsafwijkingen: voorwaartse hoofdpositie, ronde schouders",
+      "Asymmetrische schouderhoogte of bekkenscheefstand",
+      "Pijn tussen de schouderbladen (thoracale regio)",
+      "Lage rugpijn die samenhangt met perioden van kaakklemmen",
+      "Klachten die begonnen na tandheelkundige ingrepen of veranderde beet",
+      "Spierspanning in de rug die steeds terugkeert ondanks behandeling",
+      "Gecombineerde klachten: rugpijn samen met kaakpijn of hoofdpijn"
+    ]
+  },
+  "oorzaken": {
+    "label": "Oorzaken",
+    "title": "De descenderende keten: van kaak tot rug",
+    "paragraphs": [
+      "Het menselijk lichaam functioneert als een aaneenschakeling van segmenten die elkaar wederzijds beïnvloeden. De kaak staat bovenaan deze keten. De positie van de onderkaak bepaalt via het tongbeen de stand van het hoofd op de cervicale wervelkolom (de craniocervicale hoek).",
+      "Wanneer de beet verandert — door slijtage, tandverlies of een onjuiste restauratie — verschuift het evenwichtspunt van het hoofd. Om de blik horizontaal te houden, compenseert de cervicale wervelkolom. Deze compensatie plant zich voort naar de thoracale en lumbale wervelkolom: de schouders roteren, het bekken kantelt en de lumbale lordose verandert.",
+      "Dit cascade-effect, in de vakliteratuur beschreven als de \u201cdescending postural pattern\u201d, verklaart waarom patiënten met beetproblemen vaak klachten ontwikkelen op meerdere niveaus van de wervelkolom. Het maakt ook duidelijk waarom puur lokale behandeling van de rug vaak onvoldoende is: de sturende factor bovenin de keten — de kaak — moet worden gecorrigeerd."
+    ],
+    "image": "/images/4d-posturelab.jpg"
+  },
+  "diagnostiek": {
+    "title": "Hoe wij de oorzaak van uw rugklachten onderzoeken",
+    "description": "Onze 4D-diagnostiek brengt de volledige posturale keten in kaart, van occlusie tot bekkenstand.",
+    "cards": [
+      {
+        "title": "Posturografie",
+        "description": "Dynamische houdingsmeting die de volledige spinale curve in 3D vastlegt en asymmetrieën kwantificeert."
+      },
+      {
+        "title": "Occlusie-houdingstest",
+        "description": "Meting van het directe effect van beetverandering op de spinale houding, met voor- en naregistratie."
+      },
+      {
+        "title": "Krachtverdelingsanalyse",
+        "description": "Stabilometrie die de drukverdeling onder de voeten meet als afspiegeling van de totale lichaamsbalans."
+      }
+    ]
+  },
+  "behandeling": {
+    "title": "Behandelmogelijkheden bij rug- & nekklachten",
+    "description": "Onze integrale aanpak combineert beetcorrectie met houdingstherapie voor een duurzaam resultaat op alle niveaus van de wervelkolom.",
+    "phases": [
+      {
+        "phase": "Fase 1",
+        "title": "Stabilisatie",
+        "description": "Directe ontlasting van de posturale keten door optimalisatie van de kaakpositie.",
+        "features": [
+          "Neuromusculaire stabilisatiesplint",
+          "TENS-therapie voor spierontspanning",
+          "Ergonomische adviezen werkplek en slaaphouding"
+        ]
+      },
+      {
+        "phase": "Fase 2",
+        "title": "Integrale correctie",
+        "description": "Gelijktijdige optimalisatie van beet en houding voor maximale verbetering.",
+        "featured": true,
+        "badge": "Meest gekozen",
+        "features": [
+          "Neuromusculaire orthotic therapie",
+          "Multidisciplinaire houdingsrevalidatie",
+          "Geïntegreerde fysiotherapie kaak-rug-bekken"
+        ]
+      },
+      {
+        "phase": "Fase 3",
+        "title": "Onderhoud",
+        "description": "Langdurige stabiliteit van de verbeterde houding en beetrelatie.",
+        "features": [
+          "Definitieve gebitsrehabilitatie",
+          "Periodieke posturografische controle",
+          "Oefenprogramma houding en kernstabiliteit"
+        ]
+      }
+    ]
+  },
+  "faq": {
+    "title": "FAQ over rug- & nekklachten",
+    "items": [
+      {
+        "question": "Hoe kan mijn beet invloed hebben op mijn rug?",
+        "answer": "Het lichaam functioneert als een kinematische keten. De positie van de onderkaak beïnvloedt via het tongbeen en de cervicale spieren de stand van het hoofd. Om de blik horizontaal te houden, compenseert de wervelkolom van boven naar beneden: de cervicale curve verandert, de thoracale kyfose past zich aan, en het bekken kantelt. Wetenschappelijke studies bevestigen dat zelfs kleine beetveranderingen meetbare houdingsveranderingen veroorzaken."
+      },
+      {
+        "question": "Werkt Vincor samen met mijn fysiotherapeut of orthopeed?",
+        "answer": "Absoluut. Bij rug- en nekklachten is een multidisciplinaire aanpak het meest effectief. Wij werken graag samen met uw fysiotherapeut, osteopaat of orthopeed. Vincor focust op de kaak-gerelateerde component, terwijl uw bestaande behandelaars de lokale klachten adresseren. Deze combinatie levert de beste resultaten op."
+      },
+      {
+        "question": "Ik heb een hernia. Kan Vincor toch helpen?",
+        "answer": "Een hernia is een structureel probleem dat medisch behandeld dient te worden. Echter, de houdingsafwijking die door een beetprobleem wordt veroorzaakt, kan de belasting op de wervelkolom vergroten en zo bijdragen aan het ontstaan of verergeren van een hernia. Door de houding te optimaliseren via beetcorrectie, kan de belasting beter verdeeld worden. Dit is complementair aan uw orthopedische behandeling."
+      },
+      {
+        "question": "Hoe lang duurt het voordat ik verbetering merk in mijn rug?",
+        "answer": "Verbetering van nek- en schouderspanning treedt vaak snel op: binnen 2-4 weken na het dragen van de stabilisatiesplint. Veranderingen in de lumbale regio vergen meer tijd, omdat de posturale aanpassingen zich van boven naar beneden door de keten voortplanten. Gemiddeld merken patiënten na 6-12 weken verbetering in de onderrug. De volledige behandelcyclus duurt 4-8 maanden."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Boek uw gratis scan",
+    "description": "Ontdek of uw rugklachten een kaak-gerelateerde oorzaak hebben. Onze 4D-diagnostiek brengt de volledige posturale keten in kaart.",
+    "buttonText": "Maak een afspraak",
+    "buttonHref": "/contact"
+  }
+}

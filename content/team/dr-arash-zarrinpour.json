@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "title": "Dr. Arash Zarrinpour — Tandarts & Occlusiespecialist | Vincor",
+    "description": "Dr. Arash Zarrinpour is tandarts en occlusiespecialist in Parijs. Gespecialiseerd in functionele occlusie, gnathologie en kaakgewrichtsrehabilitatie. Partner van Vincor.",
+    "slug": "over-ons/dr-arash-zarrinpour"
+  },
+  "hero": {
+    "breadcrumb": ["Home", "Over Ons", "Dr. Arash Zarrinpour"],
+    "title": "Dr. Arash Zarrinpour",
+    "titleHighlight": "Arash Zarrinpour",
+    "description": "Tandarts & Occlusiespecialist — Parijs"
+  },
+  "intro": {
+    "sectionLabel": "Profiel",
+    "title": "Internationale expertise in occlusie en kaakgewrichtsrehabilitatie",
+    "image": "patient.jpg",
+    "imageAlt": "Dr. Arash Zarrinpour — Tandarts en Occlusiespecialist",
+    "paragraphs": [
+      "Dr. Arash Zarrinpour is tandarts en occlusiespecialist gevestigd in Parijs, Frankrijk. Met meer dan 15 jaar ervaring in de functionele tandheelkunde heeft hij zich gespecialiseerd in de behandeling van complexe occlusie-gerelateerde klachten en kaakgewrichtsaandoeningen.",
+      "Als partner van Vincor vormt hij de brug tussen de Nederlandstalige en Franstalige wereld op het gebied van occlusie en houdingsdiagnostiek. Zijn praktijk in Parijs biedt dezelfde diagnostische en therapeutische benadering als Vincor in Eindhoven, aangevuld met zijn eigen expertise in gnathologie en neuromusculaire tandheelkunde.",
+      "Dr. Zarrinpour combineert een wetenschappelijke achtergrond met een empathische benadering. Hij gelooft, net als het Vincor-team, dat de kaak een sleutelrol speelt in het functioneren van het gehele lichaam."
+    ]
+  },
+  "expertise": {
+    "sectionLabel": "Expertise",
+    "title": "Specialisatiegebieden",
+    "items": [
+      {
+        "title": "Functionele Occlusie",
+        "description": "Analyse en correctie van de wijze waarop boven- en onderkaak op elkaar inwerken. Gericht op het herstellen van een evenwichtige beet die het hele houdingssysteem ondersteunt."
+      },
+      {
+        "title": "Gnathologie",
+        "description": "De wetenschap van het kauwstelsel in al zijn aspecten: kaakgewrichten, kauwspieren, gebit en de onderlinge relaties. Een integrale benadering van de kaakfunctie."
+      },
+      {
+        "title": "Kaakgewrichtsrehabilitatie",
+        "description": "Behandeling van CMD (TMD), kaakgewrichtsklachten en gerelateerde pijnsydromen. Van splinttherapie tot neuromusculaire rehabilitatie."
+      },
+      {
+        "title": "Neuromusculaire Tandheelkunde",
+        "description": "Benadering waarbij de positie van de kaak wordt bepaald door de optimale ontspanning van de kauw- en nekmusculatuur, niet alleen door de positie van de tanden."
+      }
+    ]
+  },
+  "approach": {
+    "sectionLabel": "Werkwijze",
+    "title": "Een Franstalig aanspreekpunt",
+    "paragraphs": [
+      "Voor Franstalige patiënten biedt Dr. Zarrinpour de mogelijkheid om het volledige Vincor-traject in het Frans te doorlopen. Van intake en diagnostiek tot splinttherapie en nazorg — alles in uw eigen taal, in het hart van Parijs.",
+      "De samenwerking tussen Vincor Eindhoven en de praktijk van Dr. Zarrinpour in Parijs is volledig geïntegreerd. Diagnostische data, behandelprotocollen en voortgangsrapportages worden veilig gedeeld, zodat de kwaliteit en continuïteit van zorg gewaarborgd blijven."
+    ],
+    "features": [
+      "Volledig Franstalig behandeltraject",
+      "Gedeeld diagnostisch protocol met Vincor Eindhoven",
+      "DIERS 4D Spinescan en Shining 3D technologie",
+      "Directe afstemming met het Nederlandse team"
+    ]
+  },
+  "credentials": {
+    "sectionLabel": "Opleiding & Registratie",
+    "title": "Achtergrond",
+    "items": [
+      "Doctorat en Chirurgie Dentaire — Université Paris Descartes",
+      "Diplôme Universitaire en Occlusodontie et Prothèse",
+      "Postgraduate opleiding gnathologie en neuromusculaire tandheelkunde",
+      "Geregistreerd tandarts bij de Ordre National des Chirurgiens-Dentistes",
+      "Lid van de Société Française d'Occlusodontie"
+    ]
+  },
+  "contact": {
+    "sectionLabel": "Contact",
+    "title": "Een afspraak maken met Dr. Zarrinpour",
+    "description": "U kunt rechtstreeks contact opnemen met de praktijk van Dr. Zarrinpour in Parijs, of via Vincor Eindhoven een verwijzing ontvangen.",
+    "location": "Parijs, Frankrijk",
+    "languages": ["Frans", "Engels", "Perzisch"]
+  },
+  "cta": {
+    "title": "Contact opnemen",
+    "description": "Neem contact op met Vincor voor meer informatie over een behandeling bij Dr. Zarrinpour in Parijs.",
+    "buttonText": "Neem contact op",
+    "buttonLink": "/contact"
+  }
+}

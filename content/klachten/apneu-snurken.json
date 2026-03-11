@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "title": "Apneu & Snurken | Vincor",
+    "description": "Last van snurken of slaapapneu? Vincor behandelt obstructieve slaapapneu met een op maat gemaakte MRA (Mandibulaire Repositionerings Appliance) in combinatie met 4D diagnostiek."
+  },
+  "hero": {
+    "breadcrumb": ["Home", "Klachten", "Apneu & Snurken"],
+    "title": "Apneu & Snurken",
+    "description": "Obstructieve slaapapneu (OSA) en chronisch snurken beïnvloeden niet alleen uw nachtrust, maar uw hele gezondheid. Bij Vincor behandelen wij de oorzaak met een op maat gemaakte MRA — een bewezen alternatief voor CPAP."
+  },
+  "watIsHet": {
+    "label": "Wat is het",
+    "title": "Wat is slaapapneu?",
+    "paragraphs": [
+      "Obstructieve slaapapneu (OSA) is een slaapstoornis waarbij de bovenste luchtwegen tijdens de slaap herhaaldelijk gedeeltelijk of volledig geblokkeerd raken. Hierdoor stopt de ademhaling tijdelijk — soms tientallen keren per nacht — waarna het lichaam met een schrikreactie weer begint te ademen.",
+      "Snurken is vaak het eerste en meest opvallende symptoom van OSA. Maar de gevolgen reiken veel verder dan nachtelijk lawaai. Chronische slaapapneu leidt tot vermoeidheid overdag, concentratieproblemen, verhoogde bloeddruk en een significant hoger risico op hart- en vaatziekten. Naar schatting 80% van de mensen met matige tot ernstige slaapapneu is niet gediagnosticeerd."
+    ],
+    "image": "/images/kaakpijn.jpg"
+  },
+  "symptomen": {
+    "title": "Herkent u deze klachten?",
+    "description": "Slaapapneu uit zich op veel meer manieren dan alleen snurken. Veel patiënten herkennen zichzelf in meerdere van onderstaande symptomen.",
+    "items": [
+      "Luid en onregelmatig snurken",
+      "Ademstops tijdens de slaap (door partner waargenomen)",
+      "Onrustige slaap en veelvuldig wakker worden",
+      "Overmatige vermoeidheid en slaperigheid overdag",
+      "Ochtendhoofpijn en een droge mond bij het ontwaken",
+      "Concentratieproblemen en vergeetachtigheid",
+      "Prikkelbaarheid en stemmingswisselingen",
+      "Nachtelijk tandenknarsen (bruxisme)"
+    ]
+  },
+  "oorzaken": {
+    "label": "Oorzaken",
+    "title": "De kaak als sleutel tot vrije luchtwegen",
+    "paragraphs": [
+      "Bij obstructieve slaapapneu zakt de tong en het zachte gehemelte naar achteren tijdens de slaap, waardoor de luchtweg vernauwd of volledig geblokkeerd raakt. De positie van de onderkaak speelt hierbij een cruciale rol: een teruggelegen onderkaak (retrognathie) vergroot het risico op luchtwegobstructie aanzienlijk.",
+      "Bij Vincor begrijpen wij dat de kaakpositie niet alleen invloed heeft op de houding, maar ook op de luchtweg. Onze expertise in occlusie en mandibulaire repositionering maakt het mogelijk om slaapapneu effectief te behandelen vanuit dezelfde principes die wij toepassen bij onze andere behandelingen.",
+      "Een Mandibulaire Repositionerings Appliance (MRA) — ook wel een snurkbeugel of MAS (Mandibular Advancement Splint) genoemd — brengt de onderkaak tijdens de slaap naar voren. Hierdoor blijft de luchtweg open en verdwijnen snurken en ademstops."
+    ],
+    "image": "/images/4d-posturelab.jpg"
+  },
+  "diagnostiek": {
+    "title": "Hoe wij slaapapneu diagnosticeren",
+    "description": "Een nauwkeurige diagnose is essentieel voor een effectieve behandeling. Wij combineren onze 4D diagnostiek met specifieke slaapapneu-analyse.",
+    "cards": [
+      {
+        "title": "4D Houdingsanalyse",
+        "description": "De DIERS 4D scan brengt de relatie tussen uw kaakpositie, luchtweg en houding in kaart. Een teruggelegen onderkaak en voorwaartse hoofdhouding zijn vaak signalen van compensatie voor een vernauwde luchtweg."
+      },
+      {
+        "title": "Kaakpositie-analyse",
+        "description": "Wij analyseren de positie van uw onderkaak ten opzichte van de bovenkaak en de luchtweg. Deze analyse bepaalt hoeveel de onderkaak naar voren gebracht moet worden voor een optimaal resultaat."
+      },
+      {
+        "title": "Slaapregistratie",
+        "description": "In samenwerking met uw huisarts of slaapcentrum kan een thuisslaaptest (polygraphy) worden uitgevoerd om de ernst van de apneu objectief vast te stellen (AHI-score)."
+      }
+    ]
+  },
+  "behandeling": {
+    "title": "Behandeling met MRA",
+    "description": "De Mandibulaire Repositionerings Appliance is een op maat gemaakt hulpmiddel dat de onderkaak tijdens de slaap in een voorwaartse positie houdt, waardoor de luchtweg open blijft.",
+    "phases": [
+      {
+        "phase": "Stap 1",
+        "title": "Diagnose & Scan",
+        "description": "Uitgebreide intake met 4D scan en kaakpositie-analyse. Eventueel aanvulling met thuisslaaptest.",
+        "features": [
+          "4D houdingsscan en kaakanalyse",
+          "Beoordeling geschiktheid MRA-therapie",
+          "Afstemming met huisarts/slaapcentrum"
+        ]
+      },
+      {
+        "phase": "Stap 2",
+        "title": "MRA op maat",
+        "description": "Vervaardiging en plaatsing van uw persoonlijke MRA, ontworpen met Shining 3D intraoral scanning technologie.",
+        "featured": true,
+        "badge": "Kernbehandeling",
+        "features": [
+          "Digitale gebitsafdruk (geen putty)",
+          "Op maat vervaardigd met CAD/CAM",
+          "Titreerbaar: stapsgewijze voorwaartse aanpassing",
+          "Comfortabel en discreet"
+        ]
+      },
+      {
+        "phase": "Stap 3",
+        "title": "Controle & Optimalisatie",
+        "description": "Regelmatige controle en fijnafstemming voor maximaal resultaat.",
+        "features": [
+          "Controlescan na 6-8 weken",
+          "Titratie voor optimaal effect",
+          "Langetermijn monitoring"
+        ]
+      }
+    ]
+  },
+  "faq": {
+    "title": "FAQ over slaapapneu behandeling",
+    "items": [
+      {
+        "question": "Is een MRA een goed alternatief voor CPAP?",
+        "answer": "Ja, voor milde tot matige obstructieve slaapapneu (AHI 5-30) is een MRA een wetenschappelijk bewezen en door de NVALT erkend alternatief voor CPAP. Bij ernstige slaapapneu kan een MRA worden overwogen wanneer CPAP niet verdragen wordt. Studies tonen aan dat de therapietrouw bij een MRA significant hoger is dan bij CPAP, omdat het apparaat comfortabeler en praktischer is."
+      },
+      {
+        "question": "Is snurken altijd slaapapneu?",
+        "answer": "Nee, niet iedereen die snurkt heeft slaapapneu. Sociaal snurken (zonder ademstops) komt veel voor en is meestal onschuldig. Wanneer snurken echter gepaard gaat met ademstops, overmatige vermoeidheid overdag of ochtendhoofpijn, kan er sprake zijn van obstructieve slaapapneu. Een slaapregistratie kan dit onderscheid maken."
+      },
+      {
+        "question": "Wordt de MRA vergoed?",
+        "answer": "Een MRA wordt in veel gevallen vergoed vanuit de basisverzekering wanneer er een diagnose slaapapneu is gesteld door een slaapcentrum of longarts. De verwijzing en het diagnostisch traject bepalen de vergoedingsmogelijkheden. Wij helpen u graag bij het uitzoeken van uw specifieke situatie."
+      },
+      {
+        "question": "Kan ik met een MRA gewoon slapen?",
+        "answer": "Ja, de MRA is ontworpen voor maximaal slaapcomfort. U kunt gewoon uw mond openen en sluiten, en de meeste patiënten wennen binnen een week aan het dragen. De MRA is aanzienlijk minder belastend dan een CPAP-masker en is ideaal voor op reis."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Last van snurken of vermoeidheid?",
+    "description": "Maak een afspraak voor een scan en ontdek of een MRA de oplossing is voor uw slaapprobleem.",
+    "buttonText": "Maak een afspraak",
+    "buttonHref": "/contact"
+  }
+}

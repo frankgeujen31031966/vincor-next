@@ -1,0 +1,39 @@
+{
+  "navigation": {
+    "home": "Home",
+    "klachten": "Klachten",
+    "behandeling": "Behandeling",
+    "diagnostiek": "Diagnostiek",
+    "overOns": "Over Ons",
+    "faq": "FAQ",
+    "kennisbank": "Kennisbank",
+    "contact": "Contact",
+    "resultaten": "Resultaten",
+    "boekScan": "Boek Gratis Scan"
+  },
+  "footer": {
+    "description": "Gespecialiseerd in de diagnostiek en behandeling van klachten die ontstaan door een verstoorde relatie tussen kaak en wervelkolom.",
+    "klachten": "Klachten",
+    "behandeling": "Behandeling",
+    "contact": "Contact",
+    "copyright": "© 2026 Vincor. Alle rechten voorbehouden.",
+    "privacy": "Privacy",
+    "voorwaarden": "Voorwaarden"
+  },
+  "common": {
+    "readMore": "Lees meer",
+    "bookScan": "Boek Gratis Scan",
+    "makeAppointment": "Maak een afspraak",
+    "contactUs": "Neem contact op",
+    "moreInfo": "Meer informatie",
+    "back": "Terug",
+    "close": "Sluiten",
+    "phase": "Fase",
+    "mostChosen": "Meest gekozen"
+  },
+  "cookie": {
+    "text": "Wij gebruiken cookies om uw ervaring te verbeteren en onze website te analyseren. Lees ons privacybeleid voor meer informatie.",
+    "accept": "Accepteren",
+    "decline": "Weigeren"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "navigation": {
+    "home": "Home",
+    "klachten": "Complaints",
+    "behandeling": "Treatment",
+    "diagnostiek": "Diagnosis",
+    "overOns": "About Us",
+    "faq": "FAQ",
+    "kennisbank": "Knowledge Base",
+    "contact": "Contact",
+    "resultaten": "Results",
+    "boekScan": "Book Free Scan"
+  },
+  "footer": {
+    "description": "Specialized in the diagnosis and treatment of complaints that arise from a disturbed relationship between the jaw and spine.",
+    "klachten": "Complaints",
+    "behandeling": "Treatment",
+    "contact": "Contact",
+    "copyright": "© 2026 Vincor. All rights reserved.",
+    "privacy": "Privacy",
+    "voorwaarden": "Terms"
+  },
+  "common": {
+    "readMore": "Read more",
+    "bookScan": "Book Free Scan",
+    "makeAppointment": "Make an appointment",
+    "contactUs": "Contact us",
+    "moreInfo": "More information",
+    "back": "Back",
+    "close": "Close",
+    "phase": "Phase",
+    "mostChosen": "Most chosen"
+  },
+  "cookie": {
+    "text": "We use cookies to improve your experience and analyze our website. Read our privacy policy for more information.",
+    "accept": "Accept",
+    "decline": "Decline"
+  }
+}
