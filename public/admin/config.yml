@@ -1,0 +1,308 @@
+backend:
+  name: github
+  repo: frankgeujen31031966/vincor-next
+  branch: master
+
+media_folder: public/images
+public_folder: /images
+
+locale: nl
+
+collections:
+  # ── Klachten (NL) ──
+  - name: klachten-nl
+    label: "Klachten (NL)"
+    label_singular: Klacht
+    folder: content/nl/klachten
+    format: json
+    create: false
+    identifier_field: hero.title
+    fields: &klachten-fields
+      - { name: hero, label: Hero, widget: object, fields: [
+          { name: breadcrumb, label: Breadcrumb, widget: list, field: { name: item, label: Item, widget: string } },
+          { name: title, label: Titel, widget: string },
+          { name: description, label: Beschrijving, widget: text }
+        ]}
+      - { name: watIsHet, label: Wat is het, widget: object, fields: [
+          { name: label, label: Label, widget: string },
+          { name: title, label: Titel, widget: string },
+          { name: paragraphs, label: Paragrafen, widget: list, field: { name: text, label: Tekst, widget: text } },
+          { name: image, label: Afbeelding, widget: image }
+        ]}
+      - { name: symptomen, label: Symptomen, widget: object, fields: [
+          { name: title, label: Titel, widget: string },
+          { name: description, label: Beschrijving, widget: text },
+          { name: items, label: Items, widget: list, field: { name: item, label: Symptoom, widget: string } }
+        ]}
+      - { name: oorzaken, label: Oorzaken, widget: object, fields: [
+          { name: label, label: Label, widget: string },
+          { name: title, label: Titel, widget: string },
+          { name: paragraphs, label: Paragrafen, widget: list, field: { name: text, label: Tekst, widget: text } },
+          { name: image, label: Afbeelding, widget: image }
+        ]}
+      - { name: diagnostiek, label: Diagnostiek, widget: object, fields: [
+          { name: title, label: Titel, widget: string },
+          { name: description, label: Beschrijving, widget: text },
+          { name: cards, label: Kaarten, widget: list, fields: [
+            { name: title, label: Titel, widget: string },
+            { name: description, label: Beschrijving, widget: text }
+          ]}
+        ]}
+      - { name: behandeling, label: Behandeling, widget: object, fields: [
+          { name: title, label: Titel, widget: string },
+          { name: description, label: Beschrijving, widget: text },
+          { name: phases, label: Fasen, widget: list, fields: [
+            { name: phase, label: Fase, widget: string },
+            { name: title, label: Titel, widget: string },
+            { name: description, label: Beschrijving, widget: text },
+            { name: features, label: Kenmerken, widget: list, field: { name: feature, label: Kenmerk, widget: string } },
+            { name: featured, label: Uitgelicht, widget: boolean, default: false },
+            { name: badge, label: Badge, widget: string, required: false }
+          ]}
+        ]}
+      - { name: faq, label: FAQ, widget: object, fields: [
+          { name: title, label: Titel, widget: string },
+          { name: items, label: Items, widget: list, fields: [
+            { name: question, label: Vraag, widget: string },
+            { name: answer, label: Antwoord, widget: text }
+          ]}
+        ]}
+      - { name: cta, label: CTA, widget: object, fields: [
+          { name: title, label: Titel, widget: string },
+          { name: description, label: Beschrijving, widget: text },
+          { name: buttonText, label: Button tekst, widget: string },
+          { name: buttonHref, label: Button link, widget: string }
+        ]}
+
+  - name: klachten-en
+    label: "Klachten (EN)"
+    label_singular: Complaint
+    folder: content/en/klachten
+    format: json
+    create: false
+    identifier_field: hero.title
+    fields: *klachten-fields
+
+  - name: klachten-fr
+    label: "Klachten (FR)"
+    label_singular: Plainte
+    folder: content/fr/klachten
+    format: json
+    create: false
+    identifier_field: hero.title
+    fields: *klachten-fields
+
+  # ── Behandeling (NL) ──
+  - name: behandeling-nl
+    label: "Behandeling (NL)"
+    label_singular: Behandelfase
+    folder: content/nl/behandeling
+    format: json
+    create: false
+    identifier_field: hero.title
+    fields: &behandeling-fields
+      - { name: hero, label: Hero, widget: object, fields: [
+          { name: breadcrumb, label: Breadcrumb, widget: list, field: { name: item, label: Item, widget: string } },
+          { name: title, label: Titel, widget: string },
+          { name: titleHighlight, label: Highlight, widget: string, required: false },
+          { name: description, label: Beschrijving, widget: text }
+        ]}
+      - { name: intro, label: Introductie, widget: object, fields: [
+          { name: sectionLabel, label: Label, widget: string },
+          { name: title, label: Titel, widget: string },
+          { name: paragraphs, label: Paragrafen, widget: list, field: { name: text, label: Tekst, widget: text } },
+          { name: image, label: Afbeelding, widget: string },
+          { name: imageAlt, label: Alt tekst, widget: string }
+        ]}
+      - { name: cta, label: CTA, widget: object, fields: [
+          { name: title, label: Titel, widget: string },
+          { name: description, label: Beschrijving, widget: text },
+          { name: buttonText, label: Button tekst, widget: string },
+          { name: buttonLink, label: Button link, widget: string }
+        ]}
+
+  - name: behandeling-en
+    label: "Behandeling (EN)"
+    folder: content/en/behandeling
+    format: json
+    create: false
+    identifier_field: hero.title
+    fields: *behandeling-fields
+
+  - name: behandeling-fr
+    label: "Behandeling (FR)"
+    folder: content/fr/behandeling
+    format: json
+    create: false
+    identifier_field: hero.title
+    fields: *behandeling-fields
+
+  # ── Kennisbank (NL) ──
+  - name: kennisbank-nl
+    label: "Kennisbank (NL)"
+    label_singular: Artikel
+    folder: content/nl/kennisbank
+    format: json
+    create: true
+    identifier_field: hero.title
+    fields: &kennisbank-fields
+      - { name: hero, label: Hero, widget: object, fields: [
+          { name: breadcrumb, label: Breadcrumb, widget: list, field: { name: item, label: Item, widget: string } },
+          { name: title, label: Titel, widget: string },
+          { name: titleHighlight, label: Highlight, widget: string, required: false },
+          { name: description, label: Beschrijving, widget: text }
+        ]}
+      - { name: meta, label: Meta, widget: object, fields: [
+          { name: category, label: Categorie, widget: string },
+          { name: readingTime, label: Leestijd, widget: string },
+          { name: publishDate, label: Publicatiedatum, widget: string }
+        ]}
+      - { name: featuredImage, label: Uitgelichte afbeelding, widget: object, required: false, fields: [
+          { name: src, label: Afbeelding, widget: string },
+          { name: alt, label: Alt tekst, widget: string }
+        ]}
+      - { name: body, label: Inhoud, widget: list, types: [
+          { name: intro, label: Intro, widget: object, fields: [
+            { name: type, label: Type, widget: hidden, default: intro },
+            { name: text, label: Tekst, widget: text }
+          ]},
+          { name: paragraph, label: Paragraaf, widget: object, fields: [
+            { name: type, label: Type, widget: hidden, default: paragraph },
+            { name: text, label: Tekst, widget: text }
+          ]},
+          { name: heading, label: Kop, widget: object, fields: [
+            { name: type, label: Type, widget: hidden, default: heading },
+            { name: level, label: Niveau, widget: select, options: ['2', '3', '4'] },
+            { name: text, label: Tekst, widget: string }
+          ]},
+          { name: list, label: Lijst, widget: object, fields: [
+            { name: type, label: Type, widget: hidden, default: list },
+            { name: items, label: Items, widget: list, field: { name: item, label: Item, widget: string } }
+          ]}
+        ]}
+      - { name: cta, label: CTA, widget: object, fields: [
+          { name: title, label: Titel, widget: string },
+          { name: description, label: Beschrijving, widget: text },
+          { name: buttonText, label: Button tekst, widget: string },
+          { name: buttonLink, label: Button link, widget: string }
+        ]}
+
+  - name: kennisbank-en
+    label: "Kennisbank (EN)"
+    folder: content/en/kennisbank
+    format: json
+    create: true
+    identifier_field: hero.title
+    fields: *kennisbank-fields
+
+  - name: kennisbank-fr
+    label: "Kennisbank (FR)"
+    folder: content/fr/kennisbank
+    format: json
+    create: true
+    identifier_field: hero.title
+    fields: *kennisbank-fields
+
+  # ── Single pages ──
+  - name: pages-nl
+    label: "Pagina's (NL)"
+    files:
+      - name: contact
+        label: Contact
+        file: content/nl/contact.json
+        fields: &contact-fields
+          - { name: hero, label: Hero, widget: object, fields: [
+              { name: breadcrumb, label: Breadcrumb, widget: list, field: { name: item, label: Item, widget: string } },
+              { name: title, label: Titel, widget: string },
+              { name: titleHighlight, label: Highlight, widget: string, required: false },
+              { name: description, label: Beschrijving, widget: text }
+            ]}
+          - { name: form, label: Formulier, widget: object, fields: [
+              { name: title, label: Titel, widget: string },
+              { name: description, label: Beschrijving, widget: text },
+              { name: submitButton, label: Verzendknop, widget: string }
+            ]}
+          - { name: contactInfo, label: Contact info, widget: object, fields: [
+              { name: title, label: Titel, widget: string }
+            ]}
+          - { name: cta, label: CTA, widget: object, fields: [
+              { name: title, label: Titel, widget: string },
+              { name: description, label: Beschrijving, widget: text },
+              { name: buttonText, label: Button tekst, widget: string },
+              { name: buttonLink, label: Button link, widget: string }
+            ]}
+
+      - name: diagnostiek
+        label: Diagnostiek
+        file: content/nl/diagnostiek.json
+        fields: &page-hero-cta
+          - { name: hero, label: Hero, widget: object, fields: [
+              { name: breadcrumb, label: Breadcrumb, widget: list, field: { name: item, label: Item, widget: string } },
+              { name: title, label: Titel, widget: string },
+              { name: titleHighlight, label: Highlight, widget: string, required: false },
+              { name: description, label: Beschrijving, widget: text }
+            ]}
+
+      - name: faq
+        label: FAQ
+        file: content/nl/faq.json
+        fields:
+          - { name: hero, label: Hero, widget: object, fields: [
+              { name: breadcrumb, label: Breadcrumb, widget: list, field: { name: item, label: Item, widget: string } },
+              { name: title, label: Titel, widget: string },
+              { name: titleHighlight, label: Highlight, widget: string, required: false },
+              { name: description, label: Beschrijving, widget: text }
+            ]}
+          - { name: categories, label: Categorieën, widget: list, fields: [
+              { name: title, label: Titel, widget: string },
+              { name: items, label: Vragen, widget: list, fields: [
+                { name: question, label: Vraag, widget: string },
+                { name: answer, label: Antwoord, widget: text }
+              ]}
+            ]}
+
+      - name: over-ons
+        label: Over Ons
+        file: content/nl/over-ons.json
+        fields: *page-hero-cta
+
+      - name: resultaten
+        label: Resultaten
+        file: content/nl/resultaten.json
+        fields: *page-hero-cta
+
+      - name: privacy
+        label: Privacy
+        file: content/nl/privacy.json
+        fields: *page-hero-cta
+
+      - name: voorwaarden
+        label: Voorwaarden
+        file: content/nl/voorwaarden.json
+        fields: *page-hero-cta
+
+  - name: pages-en
+    label: "Pages (EN)"
+    files:
+      - name: contact-en
+        label: Contact
+        file: content/en/contact.json
+        fields: *contact-fields
+
+      - name: faq-en
+        label: FAQ
+        file: content/en/faq.json
+        fields: *page-hero-cta
+
+  - name: pages-fr
+    label: "Pages (FR)"
+    files:
+      - name: contact-fr
+        label: Contact
+        file: content/fr/contact.json
+        fields: *contact-fields
+
+      - name: faq-fr
+        label: FAQ
+        file: content/fr/faq.json
+        fields: *page-hero-cta

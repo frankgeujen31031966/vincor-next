@@ -1,7 +1,26 @@
 import Link from 'next/link'
 import Image from 'next/image'
+import { getLocale } from 'next-intl/server'
 
-export default function Footer() {
+export default async function Footer() {
+  const locale = await getLocale()
+
+  const klachtenLinks = [
+    { label: 'Kaakpijn', slug: 'kaakpijn' },
+    { label: 'Hoofdpijn & Migraine', slug: 'hoofdpijn-migraine' },
+    { label: 'Tinnitus', slug: 'tinnitus' },
+    { label: 'Zenuwpijn', slug: 'zenuwpijn' },
+    { label: 'Tandenknarsen', slug: 'tandenknarsen' },
+    { label: 'Stijve Nek', slug: 'stijve-nek' },
+    { label: 'Rug- & Nekklachten', slug: 'rug-nekklachten' },
+  ]
+
+  const behandelingLinks = [
+    { label: 'Fase 1 — Relaxatiesplint', slug: 'fase-1-relaxatiesplint' },
+    { label: 'Fase 2 — Repositioneringssplint', slug: 'fase-2-repositioneringssplint' },
+    { label: 'Fase 3 — Reconstructie', slug: 'fase-3-reconstructie' },
+  ]
+
   return (
     <footer className="bg-[#0e0e0e] text-gray-300 py-16">
       <div className="max-w-[1200px] mx-auto px-8">
@@ -26,41 +45,13 @@ export default function Footer() {
           <div>
             <h4 className="text-white font-semibold mb-4">Klachten</h4>
             <ul className="space-y-2">
-              <li>
-                <Link href="/klachten/kaakpijn" className="text-gray-400 hover:text-teal transition-colors">
-                  Kaakpijn
-                </Link>
-              </li>
-              <li>
-                <Link href="/klachten/hoofdpijn-migraine" className="text-gray-400 hover:text-teal transition-colors">
-                  Hoofdpijn & Migraine
-                </Link>
-              </li>
-              <li>
-                <Link href="/klachten/tinnitus" className="text-gray-400 hover:text-teal transition-colors">
-                  Tinnitus
-                </Link>
-              </li>
-              <li>
-                <Link href="/klachten/zenuwpijn" className="text-gray-400 hover:text-teal transition-colors">
-                  Zenuwpijn
-                </Link>
-              </li>
-              <li>
-                <Link href="/klachten/tandenknarsen" className="text-gray-400 hover:text-teal transition-colors">
-                  Tandenknarsen
-                </Link>
-              </li>
-              <li>
-                <Link href="/klachten/stijve-nek" className="text-gray-400 hover:text-teal transition-colors">
-                  Stijve Nek
-                </Link>
-              </li>
-              <li>
-                <Link href="/klachten/rug-nekklachten" className="text-gray-400 hover:text-teal transition-colors">
-                  Rug- & Nekklachten
-                </Link>
-              </li>
+              {klachtenLinks.map((link) => (
+                <li key={link.slug}>
+                  <Link href={`/${locale}/klachten/${link.slug}`} className="text-gray-400 hover:text-teal transition-colors">
+                    {link.label}
+                  </Link>
+                </li>
+              ))}
             </ul>
           </div>
 
@@ -68,21 +59,13 @@ export default function Footer() {
           <div>
             <h4 className="text-white font-semibold mb-4">Behandeling</h4>
             <ul className="space-y-2">
-              <li>
-                <Link href="/behandeling/fase-1" className="text-gray-400 hover:text-teal transition-colors">
-                  Fase 1 — Relaxatiesplint
-                </Link>
-              </li>
-              <li>
-                <Link href="/behandeling/fase-2" className="text-gray-400 hover:text-teal transition-colors">
-                  Fase 2 — Repositioneringssplint
-                </Link>
-              </li>
-              <li>
-                <Link href="/behandeling/fase-3" className="text-gray-400 hover:text-teal transition-colors">
-                  Fase 3 — Reconstructie
-                </Link>
-              </li>
+              {behandelingLinks.map((link) => (
+                <li key={link.slug}>
+                  <Link href={`/${locale}/behandeling/${link.slug}`} className="text-gray-400 hover:text-teal transition-colors">
+                    {link.label}
+                  </Link>
+                </li>
+              ))}
             </ul>
           </div>
 
@@ -93,7 +76,7 @@ export default function Footer() {
               <li className="text-gray-400">Eindhoven</li>
               <li className="text-gray-400">040-1234567</li>
               <li className="text-gray-400">
-                <Link href="/contact" className="hover:text-teal transition-colors">
+                <Link href={`/${locale}/contact`} className="hover:text-teal transition-colors">
                   info@vincorscan.nl
                 </Link>
               </li>
@@ -103,12 +86,12 @@ export default function Footer() {
 
         {/* Bottom bar */}
         <div className="border-t border-white/10 mt-12 pt-6 flex justify-between text-sm text-gray-500">
-          <span>© 2026 Vincor</span>
+          <span>&copy; 2026 Vincor</span>
           <div className="flex gap-4">
-            <Link href="/privacy" className="hover:text-teal transition-colors">
+            <Link href={`/${locale}/privacy`} className="hover:text-teal transition-colors">
               Privacy
             </Link>
-            <Link href="/voorwaarden" className="hover:text-teal transition-colors">
+            <Link href={`/${locale}/voorwaarden`} className="hover:text-teal transition-colors">
               Voorwaarden
             </Link>
           </div>

@@ -1,11 +1,5 @@
 import type { Metadata } from 'next'
-import { Geist } from 'next/font/google'
 import './globals.css'
-
-const geist = Geist({
-  subsets: ['latin'],
-  variable: '--font-primary',
-})
 
 export const metadata: Metadata = {
   title: 'Vincor — Occlusie & Houdingsdiagnostiek',
@@ -17,11 +11,5 @@ export default function RootLayout({
 }: {
   children: React.ReactNode
 }) {
-  return (
-    <html className={geist.variable}>
-      <body className="font-[family-name:var(--font-primary)] text-gray-700 bg-white overflow-x-hidden leading-relaxed">
-        {children}
-      </body>
-    </html>
-  )
+  return children
 }

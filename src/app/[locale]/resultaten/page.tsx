@@ -20,7 +20,7 @@ export default async function ResultatenPage({ params }: { params: Promise<{ loc
       <PageHero
         breadcrumb={content.hero.breadcrumb.map((label: any, i: number) => ({
           label,
-          href: i === 0 ? '/nl' : undefined,
+          href: i === 0 ? `/${locale}` : undefined,
         }))}
         title={content.hero.title}
         titleHighlight={content.hero.titleHighlight}

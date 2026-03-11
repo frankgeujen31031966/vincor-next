@@ -14,7 +14,7 @@ export default async function OverOnsPage({ params }: { params: Promise<{ locale
       <PageHero
         breadcrumb={content.hero.breadcrumb.map((label: any, i: number) => ({
           label,
-          href: i === 0 ? '/nl' : undefined,
+          href: i === 0 ? `/${locale}` : undefined,
         }))}
         title={content.hero.title}
         titleHighlight={content.hero.titleHighlight}

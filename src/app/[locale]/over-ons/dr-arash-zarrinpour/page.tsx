@@ -20,7 +20,7 @@ export default async function DrArashPage({ params }: { params: Promise<{ locale
       <PageHero
         breadcrumb={content.hero.breadcrumb.map((label: any, i: number) => ({
           label,
-          href: i === 0 ? '/nl' : i === 1 ? '/nl/over-ons' : undefined,
+          href: i === 0 ? `/${locale}` : i === 1 ? `/${locale}/over-ons` : undefined,
         }))}
         title={content.hero.title}
         titleHighlight={content.hero.titleHighlight}

@@ -11,7 +11,7 @@ export default async function VoorwaardenPage({ params }: { params: Promise<{ lo
       <PageHero
         breadcrumb={content.hero.breadcrumb.map((label: any, i: number) => ({
           label,
-          href: i === 0 ? '/nl' : undefined,
+          href: i === 0 ? `/${locale}` : undefined,
         }))}
         title={content.hero.title}
         titleHighlight={content.hero.titleHighlight}

@@ -22,7 +22,7 @@ export default async function KlachtenPage({ params }: { params: Promise<{ local
       <PageHero
         breadcrumb={content.hero.breadcrumb.map((label: any, i: number) => ({
           label,
-          href: i === 0 ? '/nl' : undefined,
+          href: i === 0 ? `/${locale}` : undefined,
         }))}
         title={content.hero.title}
         description={content.hero.description}
@@ -49,7 +49,7 @@ export default async function KlachtenPage({ params }: { params: Promise<{ local
             {conditionCards.map((card: any) => (
               <ScrollReveal key={card.title}>
                 <Link
-                  href={card.href}
+                  href={`/${locale}${card.href}`}
                   className="group relative rounded-xl overflow-hidden aspect-[4/3] block"
                 >
                   <Image src={card.image} alt={card.alt} fill className="object-cover transition-transform duration-500 group-hover:scale-105" />
@@ -81,7 +81,7 @@ export default async function KlachtenPage({ params }: { params: Promise<{ local
                     </li>
                   ))}
                 </ul>
-                <Link href={content.approach.buttonHref} className="inline-flex items-center gap-2 bg-teal text-white px-5 py-2.5 rounded-full font-semibold hover:brightness-110 transition">
+                <Link href={`/${locale}${content.approach.buttonHref}`} className="inline-flex items-center gap-2 bg-teal text-white px-5 py-2.5 rounded-full font-semibold hover:brightness-110 transition">
                   {content.approach.buttonText}
                 </Link>
               </div>
@@ -99,7 +99,7 @@ export default async function KlachtenPage({ params }: { params: Promise<{ local
           <ScrollReveal>
             <h2 className="text-3xl font-bold mb-4">{content.nietGevonden.title}</h2>
             <p className="text-gray-500 mb-6">{content.nietGevonden.description}</p>
-            <Link href={content.nietGevonden.buttonHref} className="inline-flex items-center gap-2 border border-gray-300 text-gray-700 px-5 py-2.5 rounded-full font-semibold hover:bg-gray-100 transition">
+            <Link href={`/${locale}${content.nietGevonden.buttonHref}`} className="inline-flex items-center gap-2 border border-gray-300 text-gray-700 px-5 py-2.5 rounded-full font-semibold hover:bg-gray-100 transition">
               {content.nietGevonden.buttonText}
             </Link>
           </ScrollReveal>

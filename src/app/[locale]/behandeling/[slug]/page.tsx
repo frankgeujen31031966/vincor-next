@@ -6,12 +6,13 @@ import SectionHeader from '@/components/SectionHeader'
 import ScrollReveal from '@/components/ScrollReveal'
 import FaqAccordion from '@/components/FaqAccordion'
 import CtaBanner from '@/components/CtaBanner'
+import { getContent } from '@/lib/content'
 
 /* eslint-disable @typescript-eslint/no-explicit-any */
-const slugMap: Record<string, () => Promise<any>> = {
-  'fase-1-relaxatiesplint': () => import('@/../content/behandeling/fase-1.json'),
-  'fase-2-repositioneringssplint': () => import('@/../content/behandeling/fase-2.json'),
-  'fase-3-reconstructie': () => import('@/../content/behandeling/fase-3.json'),
+const slugToFile: Record<string, string> = {
+  'fase-1-relaxatiesplint': 'behandeling/fase-1',
+  'fase-2-repositioneringssplint': 'behandeling/fase-2',
+  'fase-3-reconstructie': 'behandeling/fase-3',
 }
 
 function CheckIcon() {
@@ -21,23 +22,22 @@ function CheckIcon() {
 }
 
 export async function generateStaticParams() {
-  return Object.keys(slugMap).map((slug) => ({ slug }))
+  return Object.keys(slugToFile).map((slug) => ({ slug }))
 }
 
-export default async function BehandelingDetailPage({ params }: { params: Promise<{ slug: string }> }) {
-  const { slug } = await params
-  const loader = slugMap[slug]
-  if (!loader) notFound()
+export default async function BehandelingDetailPage({ params }: { params: Promise<{ locale: string; slug: string }> }) {
+  const { locale, slug } = await params
+  const contentPath = slugToFile[slug]
+  if (!contentPath) notFound()
 
-  const mod = await loader()
-  const content = (mod.default ?? mod) as any
+  const content = getContent(locale, contentPath) as any
 
   return (
     <>
       <PageHero
         breadcrumb={content.hero.breadcrumb.map((label: string, i: number) => ({
           label,
-          href: i === 0 ? '/nl' : i === 1 ? '/nl/behandeling' : undefined,
+          href: i === 0 ? `/${locale}` : i === 1 ? `/${locale}/behandeling` : undefined,
         }))}
         title={content.hero.title}
         titleHighlight={content.hero.titleHighlight}
@@ -214,7 +214,7 @@ export default async function BehandelingDetailPage({ params }: { params: Promis
                   ))}
                 </ul>
                 <p className="text-xs text-gray-400 mb-4">{content.pricing.location}</p>
-                <Link href="/nl/contact" className="inline-flex items-center gap-2 bg-teal text-white px-6 py-3 rounded-full font-semibold hover:brightness-110 transition w-full justify-center">
+                <Link href={`/${locale}/contact`} className="inline-flex items-center gap-2 bg-teal text-white px-6 py-3 rounded-full font-semibold hover:brightness-110 transition w-full justify-center">
                   {content.pricing.buttonText || 'Afspraak maken'}
                 </Link>
               </div>

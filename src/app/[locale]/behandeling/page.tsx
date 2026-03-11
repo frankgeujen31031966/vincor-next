@@ -21,7 +21,7 @@ export default async function BehandelingPage({ params }: { params: Promise<{ lo
       <PageHero
         breadcrumb={content.hero.breadcrumb.map((label: any, i: number) => ({
           label,
-          href: i === 0 ? '/nl' : undefined,
+          href: i === 0 ? `/${locale}` : undefined,
         }))}
         title={content.hero.title}
         titleHighlight={content.hero.titleHighlight}
@@ -83,7 +83,7 @@ export default async function BehandelingPage({ params }: { params: Promise<{ lo
                   </ul>
                   <div className="text-xs text-gray-500 mb-4">{p.location}</div>
                   <Link
-                    href={`/nl/behandeling/${p.phase === 'Fase 1' ? 'fase-1-relaxatiesplint' : p.phase === 'Fase 2' ? 'fase-2-repositioneringssplint' : 'fase-3-reconstructie'}`}
+                    href={`/${locale}/behandeling/${p.phase === 'Fase 1' ? 'fase-1-relaxatiesplint' : p.phase === 'Fase 2' ? 'fase-2-repositioneringssplint' : 'fase-3-reconstructie'}`}
                     className={`text-center py-2.5 rounded-full font-semibold text-sm transition block ${p.featured ? 'bg-teal text-white hover:brightness-110' : 'border border-white/20 text-white hover:bg-white/5'}`}
                   >
                     Meer over {p.phase}

@@ -1,20 +1,20 @@
-'use client'
-
-import { useState } from 'react'
-import Link from 'next/link'
 import PageHero from '@/components/PageHero'
 import ScrollReveal from '@/components/ScrollReveal'
-import content from '@/../content/contact.json'
+import { getContent } from '@/lib/content'
+import ContactForm from './ContactForm'
 
-export default function ContactPage() {
-  const [formData, setFormData] = useState<Record<string, string>>({})
+/* eslint-disable @typescript-eslint/no-explicit-any */
+
+export default async function ContactPage({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params
+  const content = getContent(locale, 'contact')
 
   return (
     <>
       <PageHero
         breadcrumb={content.hero.breadcrumb.map((label: any, i: number) => ({
           label,
-          href: i === 0 ? '/nl' : undefined,
+          href: i === 0 ? `/${locale}` : undefined,
         }))}
         title={content.hero.title}
         titleHighlight={content.hero.titleHighlight}
@@ -26,68 +26,10 @@ export default function ContactPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             {/* Form */}
             <ScrollReveal>
-              <div>
-                <h2 className="text-2xl font-bold mb-2">{content.form.title}</h2>
-                <p className="text-gray-500 mb-6">{content.form.description}</p>
-                <form className="space-y-4" onSubmit={(e) => e.preventDefault()}>
-                  {content.form.fields.map((field) => (
-                    <div key={field.id}>
-                      <label htmlFor={field.id} className="block text-sm font-medium text-gray-700 mb-1">
-                        {field.label}{field.required && <span className="text-red-500 ml-1">*</span>}
-                      </label>
-                      {field.type === 'textarea' ? (
-                        <textarea
-                          id={field.id}
-                          placeholder={field.placeholder}
-                          required={field.required}
-                          rows={4}
-                          className="w-full border border-gray-300 rounded-lg px-4 py-2.5 text-sm focus:border-teal focus:ring-1 focus:ring-teal outline-none transition"
-                          onChange={(e) => setFormData({ ...formData, [field.id]: e.target.value })}
-                        />
-                      ) : field.type === 'select' ? (
-                        <select
-                          id={field.id}
-                          required={field.required}
-                          className="w-full border border-gray-300 rounded-lg px-4 py-2.5 text-sm focus:border-teal focus:ring-1 focus:ring-teal outline-none transition"
-                          onChange={(e) => setFormData({ ...formData, [field.id]: e.target.value })}
-                        >
-                          <option value="">{field.placeholder}</option>
-                          {field.options?.map((opt) => (
-                            <option key={opt.value} value={opt.value}>{opt.label}</option>
-                          ))}
-                        </select>
-                      ) : (
-                        <input
-                          id={field.id}
-                          type={field.type}
-                          placeholder={field.placeholder}
-                          required={field.required}
-                          className="w-full border border-gray-300 rounded-lg px-4 py-2.5 text-sm focus:border-teal focus:ring-1 focus:ring-teal outline-none transition"
-                          onChange={(e) => setFormData({ ...formData, [field.id]: e.target.value })}
-                        />
-                      )}
-                    </div>
-                  ))}
-                  {content.form.checkboxes.map((cb) => (
-                    <label key={cb.id} className="flex items-start gap-3 text-sm text-gray-600">
-                      <input type="checkbox" required={cb.required} className="mt-1 accent-teal" />
-                      <span>
-                        {cb.label.split(cb.link.text).map((part, i) =>
-                          i === 0 ? (
-                            <span key={i}>{part}<Link href={cb.link.href} className="text-teal underline">{cb.link.text}</Link></span>
-                          ) : <span key={i}>{part}</span>
-                        )}
-                      </span>
-                    </label>
-                  ))}
-                  <button
-                    type="submit"
-                    className="bg-teal text-white px-8 py-3 rounded-full font-semibold hover:brightness-110 transition w-full"
-                  >
-                    {content.form.submitButton}
-                  </button>
-                </form>
-              </div>
+              <ContactForm
+                form={content.form}
+                locale={locale}
+              />
             </ScrollReveal>
 
             {/* Contact Info */}
@@ -111,7 +53,7 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <h3 className="font-semibold text-sm text-gray-400 uppercase tracking-wider mb-1">{content.contactInfo.openingHours.label}</h3>
-                      {content.contactInfo.openingHours.hours.map((h) => (
+                      {content.contactInfo.openingHours.hours.map((h: any) => (
                         <div key={h.days} className="flex justify-between text-gray-700 text-sm py-1">
                           <span>{h.days}</span>
                           <span>{h.time}</span>

@@ -6,18 +6,13 @@ import SectionHeader from '@/components/SectionHeader'
 import ScrollReveal from '@/components/ScrollReveal'
 import FaqAccordion from '@/components/FaqAccordion'
 import CtaBanner from '@/components/CtaBanner'
+import { getContent } from '@/lib/content'
 
 /* eslint-disable @typescript-eslint/no-explicit-any */
-const slugMap: Record<string, () => Promise<any>> = {
-  'kaakpijn': () => import('@/../content/klachten/kaakpijn.json'),
-  'hoofdpijn-migraine': () => import('@/../content/klachten/hoofdpijn-migraine.json'),
-  'tinnitus': () => import('@/../content/klachten/tinnitus.json'),
-  'zenuwpijn': () => import('@/../content/klachten/zenuwpijn.json'),
-  'tandenknarsen': () => import('@/../content/klachten/tandenknarsen.json'),
-  'stijve-nek': () => import('@/../content/klachten/stijve-nek.json'),
-  'rug-nekklachten': () => import('@/../content/klachten/rug-nekklachten.json'),
-  'apneu-snurken': () => import('@/../content/klachten/apneu-snurken.json'),
-}
+const validSlugs = [
+  'kaakpijn', 'hoofdpijn-migraine', 'tinnitus', 'zenuwpijn',
+  'tandenknarsen', 'stijve-nek', 'rug-nekklachten', 'apneu-snurken',
+]
 
 function CheckIcon() {
   return (
@@ -26,23 +21,21 @@ function CheckIcon() {
 }
 
 export async function generateStaticParams() {
-  return Object.keys(slugMap).map((slug) => ({ slug }))
+  return validSlugs.map((slug) => ({ slug }))
 }
 
-export default async function KlachtPage({ params }: { params: Promise<{ slug: string }> }) {
-  const { slug } = await params
-  const loader = slugMap[slug]
-  if (!loader) notFound()
+export default async function KlachtPage({ params }: { params: Promise<{ locale: string; slug: string }> }) {
+  const { locale, slug } = await params
+  if (!validSlugs.includes(slug)) notFound()
 
-  const mod = await loader()
-  const content = mod.default ?? mod
+  const content = getContent(locale, `klachten/${slug}`)
 
   return (
     <>
       <PageHero
         breadcrumb={content.hero.breadcrumb.map((label: string, i: number) => ({
           label,
-          href: i === 0 ? '/nl' : i === 1 ? '/nl/klachten' : undefined,
+          href: i === 0 ? `/${locale}` : i === 1 ? `/${locale}/klachten` : undefined,
         }))}
         title={content.hero.title}
         description={content.hero.description}

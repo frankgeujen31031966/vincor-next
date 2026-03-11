@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { getLocale } from 'next-intl/server'
 
 interface CtaBannerProps {
   title: string
@@ -7,14 +8,16 @@ interface CtaBannerProps {
   buttonHref: string
 }
 
-export default function CtaBanner({ title, description, buttonText, buttonHref }: CtaBannerProps) {
+export default async function CtaBanner({ title, description, buttonText, buttonHref }: CtaBannerProps) {
+  const locale = await getLocale()
+  const href = buttonHref.startsWith('/') && !buttonHref.startsWith(`/${locale}`) ? `/${locale}${buttonHref}` : buttonHref
   return (
     <section className="section-padding bg-dark">
       <div className="max-w-[800px] mx-auto px-8 text-center">
         <h2 className="text-4xl font-bold text-white mb-4">{title}</h2>
         <p className="text-gray-400 mb-8">{description}</p>
         <Link
-          href={buttonHref}
+          href={href}
           className="inline-flex items-center gap-2 bg-teal text-white px-8 py-4 rounded-full font-semibold text-lg hover:brightness-110 transition shadow-glow"
         >
           {buttonText}

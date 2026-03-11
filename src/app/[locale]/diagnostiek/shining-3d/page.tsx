@@ -20,7 +20,7 @@ export default async function Shining3DPage({ params }: { params: Promise<{ loca
       <PageHero
         breadcrumb={content.hero.breadcrumb.map((label: any, i: number) => ({
           label,
-          href: i === 0 ? '/nl' : i === 1 ? '/nl/diagnostiek' : undefined,
+          href: i === 0 ? `/${locale}` : i === 1 ? `/${locale}/diagnostiek` : undefined,
         }))}
         title={content.hero.title}
         titleHighlight={content.hero.titleHighlight}

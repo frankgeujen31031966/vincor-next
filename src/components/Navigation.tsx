@@ -3,6 +3,8 @@
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
+import { useLocale } from 'next-intl';
+import { usePathname } from 'next/navigation';
 
 interface NavItem {
   label: string;
@@ -47,8 +49,19 @@ const navItems: NavItem[] = [
 ];
 
 export default function Navigation() {
+  const locale = useLocale();
+  const pathname = usePathname();
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileOpen, setIsMobileOpen] = useState(false);
+
+  // Build locale-prefixed href
+  const l = (href: string) => `/${locale}${href}`;
+
+  // Switch locale: replace current locale prefix in pathname
+  const switchLocale = (newLocale: string) => {
+    const rest = pathname.replace(/^\/(nl|en|fr)/, '');
+    return `/${newLocale}${rest || ''}`;
+  };
 
   useEffect(() => {
     const handleScroll = () => {
@@ -75,7 +88,7 @@ export default function Navigation() {
     >
       <div className="flex items-center justify-between max-w-[1400px] mx-auto px-8">
         {/* Logo */}
-        <Link href="/" className="flex-shrink-0">
+        <Link href={l('/')} className="flex-shrink-0">
           <Image
             src="/images/vincor-logo.webp"
             alt="Vincor"
@@ -90,7 +103,7 @@ export default function Navigation() {
           {navItems.map((item, index) => (
             <div key={index} className="relative group">
               <Link
-                href={item.href}
+                href={l(item.href)}
                 className="text-white hover:text-teal-400 transition-colors font-medium"
               >
                 {item.label}
@@ -100,7 +113,7 @@ export default function Navigation() {
                   {item.children.map((child, childIndex) => (
                     <Link
                       key={childIndex}
-                      href={child.href}
+                      href={l(child.href)}
                       className="block px-4 py-2 text-gray-800 hover:bg-teal-50 rounded-lg transition-colors"
                       onClick={handleMobileClose}
                     >
@@ -114,16 +127,19 @@ export default function Navigation() {
 
           {/* Language Selector */}
           <div className="flex items-center gap-3 ml-4">
-            <span className="text-white text-sm font-medium">NL</span>
-            <span className="text-white/60 text-sm">|</span>
-            <span className="text-white text-sm font-medium">EN</span>
-            <span className="text-white/60 text-sm">|</span>
-            <span className="text-white text-sm font-medium">FR</span>
+            {['nl', 'en', 'fr'].map((loc, i) => (
+              <React.Fragment key={loc}>
+                {i > 0 && <span className="text-white/60 text-sm">|</span>}
+                <Link href={switchLocale(loc)} className={`text-sm font-medium transition-colors ${locale === loc ? 'text-teal' : 'text-white hover:text-teal-400'}`}>
+                  {loc.toUpperCase()}
+                </Link>
+              </React.Fragment>
+            ))}
           </div>
 
           {/* CTA Button */}
           <Link
-            href="/contact"
+            href={l('/contact')}
             className="bg-teal text-white px-5 py-2.5 rounded-full font-semibold hover:bg-teal-600 transition-colors"
           >
             Boek Gratis Scan
@@ -159,7 +175,7 @@ export default function Navigation() {
             {navItems.map((item, index) => (
               <div key={index} className="relative">
                 <Link
-                  href={item.href}
+                  href={l(item.href)}
                   className="block py-2 hover:text-teal-400 transition-colors"
                   onClick={handleMobileClose}
                 >
@@ -170,7 +186,7 @@ export default function Navigation() {
                     {item.children.map((child, childIndex) => (
                       <Link
                         key={childIndex}
-                        href={child.href}
+                        href={l(child.href)}
                         className="block px-4 py-3 text-gray-300 hover:bg-teal-600 hover:text-white transition-colors"
                         onClick={handleMobileClose}
                       >
@@ -184,16 +200,19 @@ export default function Navigation() {
 
             {/* Language Selector */}
             <div className="flex items-center gap-3 text-lg">
-              <span className="font-medium">NL</span>
-              <span className="text-gray-500">|</span>
-              <span className="font-medium">EN</span>
-              <span className="text-gray-500">|</span>
-              <span className="font-medium">FR</span>
+              {['nl', 'en', 'fr'].map((loc, i) => (
+                <React.Fragment key={loc}>
+                  {i > 0 && <span className="text-gray-500">|</span>}
+                  <Link href={switchLocale(loc)} className={`font-medium transition-colors ${locale === loc ? 'text-teal' : 'hover:text-teal-400'}`} onClick={handleMobileClose}>
+                    {loc.toUpperCase()}
+                  </Link>
+                </React.Fragment>
+              ))}
             </div>
 
             {/* CTA Button */}
             <Link
-              href="/contact"
+              href={l('/contact')}
               className="bg-teal text-white px-6 py-3 rounded-full font-semibold hover:bg-teal-600 transition-colors"
               onClick={handleMobileClose}
             >

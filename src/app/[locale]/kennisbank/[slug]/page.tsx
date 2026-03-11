@@ -4,17 +4,13 @@ import Link from 'next/link'
 import PageHero from '@/components/PageHero'
 import ScrollReveal from '@/components/ScrollReveal'
 import CtaBanner from '@/components/CtaBanner'
+import { getContent } from '@/lib/content'
 
 /* eslint-disable @typescript-eslint/no-explicit-any */
-const slugMap: Record<string, () => Promise<any>> = {
-  'cmd-herkennen': () => import('@/../content/kennisbank/cmd-herkennen.json'),
-  'kaak-en-rug': () => import('@/../content/kennisbank/kaak-en-rug.json'),
-  'occlusiescan': () => import('@/../content/kennisbank/occlusiescan.json'),
-  'kaaksplint-nodig': () => import('@/../content/kennisbank/kaaksplint-nodig.json'),
-}
+const validSlugs = ['cmd-herkennen', 'kaak-en-rug', 'occlusiescan', 'kaaksplint-nodig']
 
 export async function generateStaticParams() {
-  return Object.keys(slugMap).map((slug) => ({ slug }))
+  return validSlugs.map((slug) => ({ slug }))
 }
 
 function BodyBlock({ block }: { block: any }) {
@@ -43,20 +39,18 @@ function BodyBlock({ block }: { block: any }) {
   }
 }
 
-export default async function KennisbankArticlePage({ params }: { params: Promise<{ slug: string }> }) {
-  const { slug } = await params
-  const loader = slugMap[slug]
-  if (!loader) notFound()
+export default async function KennisbankArticlePage({ params }: { params: Promise<{ locale: string; slug: string }> }) {
+  const { locale, slug } = await params
+  if (!validSlugs.includes(slug)) notFound()
 
-  const mod = await loader()
-  const content = mod.default ?? mod
+  const content = getContent(locale, `kennisbank/${slug}`)
 
   return (
     <>
       <PageHero
         breadcrumb={content.hero.breadcrumb.map((label: string, i: number) => ({
           label,
-          href: i === 0 ? '/nl' : i === 1 ? '/nl/kennisbank' : undefined,
+          href: i === 0 ? `/${locale}` : i === 1 ? `/${locale}/kennisbank` : undefined,
         }))}
         title={content.hero.title}
         titleHighlight={content.hero.titleHighlight}
@@ -92,7 +86,7 @@ export default async function KennisbankArticlePage({ params }: { params: Promis
               <h3 className="text-lg font-bold mb-4">Gerelateerde artikelen</h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {content.relatedArticles.map((article: { title: string; slug: string; image: string }) => (
-                  <Link key={article.slug} href={`/nl/${article.slug}`} className="group flex items-center gap-4 bg-gray-50 rounded-lg p-3 hover:bg-gray-100 transition">
+                  <Link key={article.slug} href={`/${locale}/${article.slug}`} className="group flex items-center gap-4 bg-gray-50 rounded-lg p-3 hover:bg-gray-100 transition">
                     <div className="relative w-16 h-16 rounded-lg overflow-hidden shrink-0">
                       <Image src={`/images/${article.image}`} alt={article.title} fill className="object-cover" />
                     </div>

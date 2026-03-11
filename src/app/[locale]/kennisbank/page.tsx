@@ -15,7 +15,7 @@ export default async function KennisbankPage({ params }: { params: Promise<{ loc
       <PageHero
         breadcrumb={content.hero.breadcrumb.map((label: any, i: number) => ({
           label,
-          href: i === 0 ? '/nl' : undefined,
+          href: i === 0 ? `/${locale}` : undefined,
         }))}
         title={content.hero.title}
         titleHighlight={content.hero.titleHighlight}
@@ -27,7 +27,7 @@ export default async function KennisbankPage({ params }: { params: Promise<{ loc
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {content.articles.map((article: any) => (
               <ScrollReveal key={article.slug}>
-                <Link href={`/nl/${article.slug}`} className="group block bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition h-full">
+                <Link href={`/${locale}/${article.slug}`} className="group block bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition h-full">
                   <div className="relative aspect-[16/9]">
                     <Image src={`/images/${article.image}`} alt={article.imageAlt} fill className="object-cover transition-transform duration-500 group-hover:scale-105" />
                     <div className="absolute top-4 left-4">

@@ -6,13 +6,13 @@ import CounterAnimation from '@/components/CounterAnimation'
 import FaqAccordion from '@/components/FaqAccordion'
 
 const klachten = [
-  { title: 'Kaakpijn', image: '/images/kaakpijn.jpg', href: '/nl/klachten/kaakpijn' },
-  { title: 'Hoofdpijn & Migraine', image: '/images/migraine.jpg', href: '/nl/klachten/hoofdpijn-migraine' },
-  { title: 'Tinnitus', image: '/images/Tinnitus-2.jpg', href: '/nl/klachten/tinnitus' },
-  { title: 'Zenuwpijn', image: '/images/zenuwpijn.jpg', href: '/nl/klachten/zenuwpijn' },
-  { title: 'Tandenknarsen & Bruxisme', image: '/images/Tandenknarsen.jpg', href: '/nl/klachten/tandenknarsen' },
-  { title: 'Stijve Nek & Schouders', image: '/images/stijve-nek.jpg', href: '/nl/klachten/stijve-nek' },
-  { title: 'Rug- en Nekklachten', image: '/images/rug-nek.jpg', href: '/nl/klachten/rug-nekklachten' },
+  { title: 'Kaakpijn', image: '/images/kaakpijn.jpg', slug: 'kaakpijn' },
+  { title: 'Hoofdpijn & Migraine', image: '/images/migraine.jpg', slug: 'hoofdpijn-migraine' },
+  { title: 'Tinnitus', image: '/images/Tinnitus-2.jpg', slug: 'tinnitus' },
+  { title: 'Zenuwpijn', image: '/images/zenuwpijn.jpg', slug: 'zenuwpijn' },
+  { title: 'Tandenknarsen & Bruxisme', image: '/images/Tandenknarsen.jpg', slug: 'tandenknarsen' },
+  { title: 'Stijve Nek & Schouders', image: '/images/stijve-nek.jpg', slug: 'stijve-nek' },
+  { title: 'Rug- en Nekklachten', image: '/images/rug-nek.jpg', slug: 'rug-nekklachten' },
 ]
 
 const phases = [
@@ -20,19 +20,19 @@ const phases = [
     phase: 'Fase 1', title: 'Relaxatiesplint', price: '€195',
     description: 'De eerste stap naar ontspanning van de kaakmusculatuur en vermindering van acute klachten.',
     features: ['Op maat gemaakte splint', 'Verlichting binnen 2-4 weken', 'Inclusief controlebezoek'],
-    href: '/nl/behandeling/fase-1-relaxatiesplint', location: 'Bij Vincor, Eindhoven', featured: false,
+    slug: 'fase-1-relaxatiesplint', location: 'Bij Vincor, Eindhoven', featured: false,
   },
   {
     phase: 'Fase 2', title: 'Repositioneringssplint', price: '€595', badge: 'Meest gekozen',
     description: 'Correctie van de kaakpositie voor structurele verbetering van de kaak-wervelkolom balans.',
     features: ['Digitaal ontworpen splint', 'Structurele kaakcorrectie', 'Tussentijdse 4D metingen', 'Persoonlijke begeleiding'],
-    href: '/nl/behandeling/fase-2-repositioneringssplint', location: 'Bij Vincor, Eindhoven', featured: true,
+    slug: 'fase-2-repositioneringssplint', location: 'Bij Vincor, Eindhoven', featured: true,
   },
   {
     phase: 'Fase 3', title: 'Reconstructie', price: '€3.000–7.000',
     description: 'Definitieve reconstructie van het gebit voor een blijvend resultaat en optimale functie.',
     features: ['Volledige gebitreconstructie', 'Blijvend resultaat', 'Uitgevoerd door PDA-tandarts'],
-    href: '/nl/behandeling/fase-3-reconstructie', location: 'Bij PDA, partnerlocatie', featured: false,
+    slug: 'fase-3-reconstructie', location: 'Bij PDA, partnerlocatie', featured: false,
   },
 ]
 
@@ -61,7 +61,8 @@ function StarIcon({ filled = true }: { filled?: boolean }) {
   )
 }
 
-export default function HomePage() {
+export default async function HomePage({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params
   return (
     <>
       {/* HERO */}
@@ -83,7 +84,7 @@ export default function HomePage() {
               Met de DIERS 4D Spinescan brengen wij de verbinding tussen kaak en wervelkolom objectief in beeld — stralingsvrij en binnen enkele minuten.
             </p>
             <div className="flex flex-wrap gap-4">
-              <Link href="/nl/contact" className="inline-flex items-center gap-2 bg-teal text-white px-6 py-3 rounded-full font-semibold hover:brightness-110 transition shadow-glow">
+              <Link href={`/${locale}/contact`} className="inline-flex items-center gap-2 bg-teal text-white px-6 py-3 rounded-full font-semibold hover:brightness-110 transition shadow-glow">
                 Boek Gratis Scan <ArrowIcon />
               </Link>
               <a href="#hoe-werkt-het" className="inline-flex items-center gap-2 border border-white/25 text-white/85 px-6 py-3 rounded-full font-semibold hover:bg-white/10 transition">
@@ -130,7 +131,7 @@ export default function HomePage() {
           </ScrollReveal>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-12">
             {klachten.map((k) => (
-              <Link key={k.title} href={k.href} className="group relative rounded-xl overflow-hidden aspect-[4/3]">
+              <Link key={k.title} href={`/${locale}/klachten/${k.slug}`} className="group relative rounded-xl overflow-hidden aspect-[4/3]">
                 <Image src={k.image} alt={k.title} fill className="object-cover transition-transform duration-500 group-hover:scale-105" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
                 <div className="absolute bottom-0 left-0 right-0 p-5">
@@ -190,7 +191,7 @@ export default function HomePage() {
                     </li>
                   ))}
                 </ul>
-                <Link href="/nl/diagnostiek" className="inline-flex items-center gap-2 bg-teal text-white px-5 py-2.5 rounded-full font-semibold hover:brightness-110 transition">
+                <Link href={`/${locale}/diagnostiek`} className="inline-flex items-center gap-2 bg-teal text-white px-5 py-2.5 rounded-full font-semibold hover:brightness-110 transition">
                   Meer over onze diagnostiek <ArrowIcon />
                 </Link>
               </div>
@@ -226,7 +227,7 @@ export default function HomePage() {
                     ))}
                   </ul>
                   <div className="text-xs text-gray-500 mb-4">{p.location}</div>
-                  <Link href={p.href} className={`text-center py-2.5 rounded-full font-semibold text-sm transition ${p.featured ? 'bg-teal text-white hover:brightness-110' : 'border border-white/20 text-white hover:bg-white/5'}`}>
+                  <Link href={`/${locale}/behandeling/${p.slug}`} className={`text-center py-2.5 rounded-full font-semibold text-sm transition ${p.featured ? 'bg-teal text-white hover:brightness-110' : 'border border-white/20 text-white hover:bg-white/5'}`}>
                     Meer over {p.phase}
                   </Link>
                 </div>
@@ -348,7 +349,7 @@ export default function HomePage() {
             <p className="text-gray-400 mb-8">
               Ervaar zelf hoe de DIERS 4D Spinescan de oorzaak van uw klachten in beeld brengt — geheel vrijblijvend en stralingsvrij.
             </p>
-            <Link href="/nl/contact" className="inline-flex items-center gap-2 bg-teal text-white px-8 py-4 rounded-full font-semibold text-lg hover:brightness-110 transition shadow-glow">
+            <Link href={`/${locale}/contact`} className="inline-flex items-center gap-2 bg-teal text-white px-8 py-4 rounded-full font-semibold text-lg hover:brightness-110 transition shadow-glow">
               Maak een afspraak <ArrowIcon />
             </Link>
           </ScrollReveal>
