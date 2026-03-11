@@ -35,10 +35,6 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   })
 }
 
-export async function generateStaticParams() {
-  return validSlugs.map((slug) => ({ slug }))
-}
-
 export default async function KlachtPage({ params }: { params: Promise<{ locale: string; slug: string }> }) {
   const { locale, slug } = await params
   if (!validSlugs.includes(slug)) notFound()

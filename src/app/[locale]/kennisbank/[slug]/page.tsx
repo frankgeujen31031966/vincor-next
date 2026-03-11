@@ -11,10 +11,6 @@ import { buildMetadata } from '@/lib/seo'
 /* eslint-disable @typescript-eslint/no-explicit-any */
 const validSlugs = ['cmd-herkennen', 'kaak-en-rug', 'occlusiescan', 'kaaksplint-nodig']
 
-export async function generateStaticParams() {
-  return validSlugs.map((slug) => ({ slug }))
-}
-
 export async function generateMetadata({ params }: { params: Promise<{ locale: string; slug: string }> }): Promise<Metadata> {
   const { locale, slug } = await params
   if (!validSlugs.includes(slug)) return {}

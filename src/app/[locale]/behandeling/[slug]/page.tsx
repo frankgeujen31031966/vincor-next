@@ -31,10 +31,6 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   return buildMetadata({ locale, path: `/behandeling/${slug}`, title: `${content.hero.title} — Vincor`, description: content.hero.description })
 }
 
-export async function generateStaticParams() {
-  return Object.keys(slugToFile).map((slug) => ({ slug }))
-}
-
 export default async function BehandelingDetailPage({ params }: { params: Promise<{ locale: string; slug: string }> }) {
   const { locale, slug } = await params
   const contentPath = slugToFile[slug]
