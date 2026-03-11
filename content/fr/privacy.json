@@ -1,0 +1,79 @@
+{
+  "meta": {
+    "title": "Politique de confidentialité — Vincor",
+    "description": "Politique de confidentialité de Vincor. Découvrez comment nous gérons vos données personnelles conformément au RGPD.",
+    "slug": "privacy"
+  },
+  "hero": {
+    "breadcrumb": ["Accueil", "Politique de confidentialité"],
+    "title": "Politique de confidentialité",
+    "titleHighlight": "politique",
+    "description": "Comment Vincor gère vos données personnelles, conformément au Règlement Général sur la Protection des Données (RGPD)."
+  },
+  "lastUpdated": "mars 2026",
+  "sections": [
+    {
+      "title": "Qui sommes-nous",
+      "content": "Vincor est établi au 76, rue du Dr Cuypers, 5623 BB Eindhoven. Nous sommes responsables du traitement de vos données personnelles tel que décrit dans cette politique de confidentialité. Vous pouvez nous contacter via info@vincorscan.nl."
+    },
+    {
+      "title": "Quelles données collectons-nous",
+      "content": "Nous traitons les données personnelles suivantes lorsque vous utilisez nos services :",
+      "list": [
+        "Nom et prénom",
+        "Adresse e-mail",
+        "Numéro de téléphone",
+        "Informations sur vos plaintes et antécédents médicaux",
+        "Données de scan (scans posturaux 4D et analyses occlusales)"
+      ]
+    },
+    {
+      "title": "Pourquoi collectons-nous ces données",
+      "content": "Nous utilisons vos données exclusivement pour les finalités suivantes :",
+      "list": [
+        "La prise de rendez-vous et leur gestion",
+        "L'exécution du diagnostic et du traitement",
+        "L'établissement de contact avec vous par téléphone ou e-mail si nécessaire",
+        "Le respect des obligations légales"
+      ]
+    },
+    {
+      "title": "Durée de conservation",
+      "content": "Nous ne conservons pas vos données personnelles plus longtemps que strictement nécessaire aux finalités pour lesquelles elles sont collectées. Pour les données médicales, nous appliquons la durée de conservation légale de 20 ans, conformément à la Loi sur les conventions de soins médicaux (WGBO). Les autres données sont supprimées dès qu'elles ne sont plus nécessaires."
+    },
+    {
+      "title": "Partage avec des tiers",
+      "content": "Vincor ne vend pas vos données à des tiers. Nous partageons vos données exclusivement avec des tiers lorsque cela est nécessaire pour l'exécution de notre contrat avec vous ou pour répondre à une obligation légale. Avec les entreprises qui traitent vos données pour notre compte, nous signons un contrat de traitement. Concrètement, nous partageons des données avec :",
+      "list": [
+        "PDA (Applications Dentaires Prothétiques) — uniquement lors de la phase 3 (reconstruction), lorsque vous choisissez cette option",
+        "Balans Rugcentrum — pour l'exécution des scans posturaux 4D"
+      ]
+    },
+    {
+      "title": "Vos droits",
+      "content": "En vertu du RGPD, vous disposez des droits suivants concernant vos données personnelles :",
+      "list": [
+        "Droit d'accès — vous pouvez demander quelles données nous traitons à votre sujet",
+        "Droit de rectification — vous pouvez demander la correction de données inexactes",
+        "Droit à l'effacement — vous pouvez demander la suppression de vos données, dans la mesure où la loi le permet",
+        "Droit d'opposition — vous pouvez vous opposer au traitement de vos données"
+      ],
+      "additionalContent": "Pour exercer vos droits, vous pouvez nous contacter via info@vincorscan.nl. Nous répondrons dans les meilleurs délais, mais dans tous les cas sous quatre semaines, à votre demande. De plus, vous avez le droit de déposer une plainte auprès de l'Autorité de protection des données."
+    },
+    {
+      "title": "Cookies",
+      "content": "Notre site web utilise des cookies fonctionnels nécessaires au bon fonctionnement du site. De plus, nous utilisons des cookies analytiques pour analyser et améliorer l'utilisation du site. Ces cookies ne collectent pas de données personnelles permettant d'identifier directement l'utilisateur. Vous pouvez désactiver les cookies via les paramètres de votre navigateur, mais cela peut affecter le fonctionnement du site."
+    },
+    {
+      "title": "Contact pour les questions de confidentialité",
+      "content": "Avez-vous des questions sur cette politique de confidentialité ou sur le traitement de vos données personnelles ? Contactez-nous :",
+      "contactDetails": {
+        "name": "Vincor",
+        "street": "76, rue du Dr Cuypers",
+        "postcode": "5623 BB Eindhoven",
+        "email": "info@vincorscan.nl",
+        "phone": "+31 40 245 00 23"
+      }
+    }
+  ]
+}

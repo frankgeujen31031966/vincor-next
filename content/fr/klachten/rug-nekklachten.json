@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "title": "Douleurs du dos et du cou | Vincor",
+    "description": "Douleurs chroniques du dos et troubles posturaux ? La cause peut être dans votre mâchoire. Vincor examine le lien entre l'occlusion et la colonne vertébrale avec une diagnostic 4D."
+  },
+  "hero": {
+    "breadcrumb": ["Accueil", "Problèmes de santé", "Douleurs du dos et du cou"],
+    "title": "Douleurs du dos et du cou",
+    "description": "Les douleurs chroniques du dos et les troubles posturaux sont le premier problème de santé populaire. Lorsque les traitements standards échouent, une occlusion perturbée peut être le maillon manquant. Chez Vincor, nous examinons la relation entre la mâchoire et la colonne vertébrale."
+  },
+  "watIsHet": {
+    "label": "Qu'est-ce que c'est",
+    "title": "Douleurs du dos et articulation mandibulaire",
+    "paragraphs": [
+      "Les douleurs du dos sont l'un des problèmes de santé les plus courants dans le monde et une cause importante d'absentéisme au travail. Elles englobent les troubles de toute la colonne vertébrale : de la région cervicale (cou), thoracique (haut du dos) jusqu'à la région lombaire (bas du dos). Beaucoup de patients considèrent leurs troubles comme chroniques et résistants aux traitements.",
+      "La colonne vertébrale fonctionne comme une chaîne cinématique : un changement à un niveau a des conséquences pour tous les autres niveaux. Ce qui est moins connu, c'est que cette chaîne commence par la mâchoire. La position de la mâchoire inférieure influence via l'os hyoïde et les muscles cervicaux la position de la tête, et donc la courbe spinale complète. Ce principe — la voie descendante — explique comment un problème de morsion peut finalement causer des troubles du dos."
+    ],
+    "image": "/images/rug-nek.jpg"
+  },
+  "symptomen": {
+    "title": "Reconnaissez-vous ces symptômes ?",
+    "description": "Les troubles du dos et du cou avec un composant occlusal se caractérisent par des motifs spécifiques.",
+    "items": [
+      "Douleurs chroniques du dos ou du cou qui ne répondent pas au traitement standard",
+      "Troubles posturaux : position de tête avancée, épaules rondes",
+      "Hauteur d'épaule asymétrique ou inclinaison du bassin",
+      "Douleurs entre les omoplates (région thoracique)",
+      "Douleurs lombaires qui sont liées à des périodes de serrage de la mâchoire",
+      "Troubles qui ont commencé après des interventions dentaires ou changement de morsion",
+      "Tensions musculaires dans le dos qui reviennent constamment malgré le traitement",
+      "Troubles combinés : douleurs du dos avec douleurs de la mâchoire ou maux de tête"
+    ]
+  },
+  "oorzaken": {
+    "label": "Causes",
+    "title": "La chaîne descendante : de la mâchoire au dos",
+    "paragraphs": [
+      "Le corps humain fonctionne comme une chaîne de segments qui s'influencent mutuellement. La mâchoire est en haut de cette chaîne. La position de la mâchoire inférieure détermine via l'os hyoïde la position de la tête sur la colonne vertébrale cervicale (l'angle craniocervical).",
+      "Lorsque la morsion change — par usure, perte de dents ou une restauration incorrecte — le point d'équilibre de la tête se déplace. Pour maintenir le regard horizontal, la colonne vertébrale cervicale compense. Cette compensation se propage vers la colonne vertébrale thoracique et lombaire : les épaules tournent, le bassin s'incline et la lordose lombaire change.",
+      "Cet effet en cascade, décrit dans la littérature spécialisée comme le \"descending postural pattern\", explique pourquoi les patients avec des problèmes de morsion développent souvent des troubles à plusieurs niveaux de la colonne vertébrale. Cela explique aussi pourquoi un traitement purement local du dos est souvent insuffisant : le facteur directeur en haut de la chaîne — la mâchoire — doit être corrigé."
+    ],
+    "image": "/images/4d-posturelab.jpg"
+  },
+  "diagnostiek": {
+    "title": "Comment nous examinons la cause de vos troubles du dos",
+    "description": "Notre diagnostic 4D cartographie la chaîne posturale complète, de l'occlusion à la position du bassin.",
+    "cards": [
+      {
+        "title": "Posturographie",
+        "description": "Mesure dynamique de la posture qui enregistre la courbe spinale complète en 3D et quantifie les asymétries."
+      },
+      {
+        "title": "Test occlusion-posture",
+        "description": "Mesure de l'effet direct du changement de morsion sur la posture spinale, avec enregistrement avant et après."
+      },
+      {
+        "title": "Analyse de répartition des forces",
+        "description": "Stabilométrie qui mesure la répartition de la pression sous les pieds comme reflet de l'équilibre corporel total."
+      }
+    ]
+  },
+  "behandeling": {
+    "title": "Options de traitement pour les troubles du dos et du cou",
+    "description": "Notre approche intégrale combine la correction de la morsion avec la thérapie posturale pour un résultat durable à tous les niveaux de la colonne vertébrale.",
+    "phases": [
+      {
+        "phase": "Phase 1",
+        "title": "Stabilisation",
+        "description": "Décharge directe de la chaîne posturale par optimisation de la position de la mâchoire.",
+        "features": [
+          "Splint de stabilisation neuromusculaire",
+          "Thérapie TENS pour la relaxation musculaire",
+          "Conseils ergonomiques pour le poste de travail et la position de sommeil"
+        ]
+      },
+      {
+        "phase": "Phase 2",
+        "title": "Correction intégrale",
+        "description": "Optimisation simultanée de la morsion et de la posture pour une amélioration maximale.",
+        "featured": true,
+        "badge": "Plus choisi",
+        "features": [
+          "Thérapie orthotique neuromusculaire",
+          "Réadaptation posturale multidisciplinaire",
+          "Physiothérapie intégrée mâchoire-dos-bassin"
+        ]
+      },
+      {
+        "phase": "Phase 3",
+        "title": "Entretien",
+        "description": "Stabilité à long terme de la posture améliorée et de la relation de morsion.",
+        "features": [
+          "Réhabilitation dentaire définitive",
+          "Contrôle posturographique périodique",
+          "Programme d'exercices posture et stabilité du tronc"
+        ]
+      }
+    ]
+  },
+  "faq": {
+    "title": "FAQ sur les troubles du dos et du cou",
+    "items": [
+      {
+        "question": "Comment ma morsion peut-elle influencer mon dos ?",
+        "answer": "Le corps fonctionne comme une chaîne cinématique. La position de la mâchoire inférieure influence via l'os hyoïde et les muscles cervicaux la position de la tête. Pour maintenir le regard horizontal, la colonne vertébrale compense du haut vers le bas : la courbe cervicale change, la cyphose thoracique s'adapte, et le bassin s'incline. Des études scientifiques confirment que même de petits changements de morsion causent des changements posturaux mesurables."
+      },
+      {
+        "question": "Vincor travaille-t-il avec mon physiothérapeute ou orthopédiste ?",
+        "answer": "Absolument. Pour les troubles du dos et du cou, une approche multidisciplinaire est la plus efficace. Nous travaillons volontiers avec votre physiothérapeute, ostéopathe ou orthopédiste. Vincor se concentre sur le composant lié à la mâchoire, tandis que vos thérapeutes existants traitent les troubles locaux. Cette combinaison donne les meilleurs résultats."
+      },
+      {
+        "question": "J'ai une hernie discale. Vincor peut-il quand même aider ?",
+        "answer": "Une hernie discale est un problème structurel qui doit être traité médicalement. Cependant, le trouble postural causé par un problème de morsion peut augmenter la charge sur la colonne vertébrale et ainsi contribuer à l'apparition ou l'aggravation d'une hernie discale. En optimisant la posture via la correction de la morsion, la charge peut être mieux répartie. C'est complémentaire à votre traitement orthopédique."
+      },
+      {
+        "question": "Combien de temps faut-il avant de remarquer une amélioration dans mon dos ?",
+        "answer": "L'amélioration des tensions du cou et des épaules se produit souvent rapidement : dans les 2-4 semaines après le port de la splint de stabilisation. Les changements dans la région lombaire demandent plus de temps, car les adaptations posturales se propagent du haut vers le bas dans la chaîne. En moyenne, les patients remarquent une amélioration dans le bas du dos après 6-12 semaines. Le cycle de traitement complet dure 4-8 mois."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Prenez rendez-vous pour votre scan gratuit",
+    "description": "Découvrez si vos troubles du dos ont une cause liée à la mâchoire. Notre diagnostic 4D cartographie la chaîne posturale complète.",
+    "buttonText": "Prendre rendez-vous",
+    "buttonHref": "/contact"
+  }
+}

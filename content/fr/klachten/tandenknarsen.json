@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "title": "Bruxisme (Serrage de dents) | Vincor",
+    "description": "Souriez-vous des dents ou serrez-vous la mâchoire ? Le bruxisme peut entraîner des douleurs graves de la mâchoire, de la tête et du cou. Vincor offre une diagnostic et un traitement avancés."
+  },
+  "hero": {
+    "breadcrumb": ["Accueil", "Problèmes", "Bruxisme"],
+    "title": "Bruxisme et Serrage de dents",
+    "description": "Le bruxisme et le serrage de dents sont plus qu'une mauvaise habitude. Le bruxisme peut entraîner une usure dentaire grave, des douleurs de la mâchoire et des maux de tête chroniques. Chez Vincor, nous traitons la cause sous-jacente."
+  },
+  "watIsHet": {
+    "label": "Qu'est-ce que c'est",
+    "title": "Qu'est-ce que le bruxisme ?",
+    "paragraphs": [
+      "Le bruxisme est le grincement inconscient des dents ou le serrage de la mâchoire, principalement pendant le sommeil (bruxisme du sommeil) mais aussi pendant la journée (bruxisme de veille). Les forces qui en résultent sont énormes : jusqu'à 600 Newton, plusieurs fois plus fortes qu'une mastication normale.",
+      "Le bruxisme du sommeil est un trouble du mouvement lié au sommeil qui affecte, selon les estimations, 8-13% de la population adulte. Beaucoup de gens ne sont pas conscients de leur bruxisme jusqu'à ce qu'un partenaire entende des grincements ou qu'un dentiste constate une usure dentaire. Les conséquences vont au-delà de la dentition : une surcharge chronique des muscles de la mastication entraîne des douleurs de la mâchoire, des maux de tête, des troubles de l'oreille et des douleurs du cou et des épaules."
+    ],
+    "image": "/images/Tandenknarsen.jpg"
+  },
+  "symptomen": {
+    "title": "Reconnaissez-vous ces symptômes ?",
+    "description": "Le bruxisme provoque une large gamme de symptômes qui ne sont pas toujours directement liés au grincement des dents.",
+    "items": [
+      "Dents et molaires usées, cassées ou sensibles",
+      "Douleurs de la mâchoire et raideur au réveil",
+      "Muscles de la mastication fatigués ou enflés",
+      "Le partenaire entend des grincements pendant votre sommeil",
+      "Maux de tête dans les tempes, surtout le matin",
+      "Dépressions ou impressions sur le côté de la langue",
+      "Hypertrophie des muscles de la mastication (hypertrophie du muscle masséter)",
+      "Troubles du sommeil nocturne et fatigue pendant la journée"
+    ]
+  },
+  "oorzaken": {
+    "label": "Causes",
+    "title": "Pourquoi grincez-vous des dents ?",
+    "paragraphs": [
+      "Le bruxisme a rarement une seule cause. Chez Vincor, nous observons une combinaison complexe de facteurs, où l'occlusion — la façon dont vos dents s'emboîtent — joue un rôle central.",
+      "Lorsque la morsure n'est pas optimale, le système neuromusculaire tente de compenser. Pendant le sommeil, lorsque le contrôle conscient disparaît, cela se manifeste par du grincement et du serrage. Le cerveau tente en quelque sorte de \"corriger\" la morsure en faisant glisser les dents les unes sur les autres.",
+      "Le stress et l'anxiété augmentent la tendance au bruxisme, mais sont rarement la seule cause. Une occlusion perturbée combinée à une tension psychologique crée un cercle vicieux : le grincement entraîne des douleurs musculaires, les douleurs musculaires entraînent de la tension, la tension entraîne plus de grincement. Sans traitement du problème de morsure sous-jacent, ce cycle persiste."
+    ],
+    "image": "/images/4d-posturelab-small.png"
+  },
+  "diagnostiek": {
+    "title": "Comment nous diagnostiquons le bruxisme",
+    "description": "Notre diagnostic 4D cartographie avec précision à la fois la cause et les conséquences de votre bruxisme.",
+    "cards": [
+      {
+        "title": "Analyse numérique de la morsure",
+        "description": "Mesure précise de la distribution de la pression sur la dentition pour identifier les troubles de contact et les interférences."
+      },
+      {
+        "title": "Analyse du sommeil EMG",
+        "description": "Électromyographie des muscles de la mastication pour objectiver le degré d'activité musculaire nocturne et les motifs de grincement."
+      },
+      {
+        "title": "Analyse des motifs d'usure",
+        "description": "Scan 3D de la dentition pour analyser les motifs d'usure qui révèlent la direction et l'intensité du grincement."
+      }
+    ]
+  },
+  "behandeling": {
+    "title": "Options de traitement pour le bruxisme",
+    "description": "Notre approche va au-delà de la simple protection : nous traitons la cause du grincement pour un résultat durable.",
+    "phases": [
+      {
+        "phase": "Phase 1",
+        "title": "Protection",
+        "description": "Protection immédiate de la dentition et réduction de la surcharge musculaire.",
+        "features": [
+          "Plateau de grincement sur mesure",
+          "Thérapie TENS relaxante pour les muscles",
+          "Hygiène du sommeil et réduction du stress"
+        ]
+      },
+      {
+        "phase": "Phase 2",
+        "title": "Correction de la morsure",
+        "description": "Élimination de la cause occlusale du grincement pour un résultat durable.",
+        "featured": true,
+        "badge": "Plus choisi",
+        "features": [
+          "Thérapie orthotique neuromusculaire",
+          "Ajustement de l'équilibre occlusal",
+          "Formation par biofeedback"
+        ]
+      },
+      {
+        "phase": "Phase 3",
+        "title": "Récupération",
+        "description": "Restauration de la dentition endommagée par le grincement et stabilisation à long terme.",
+        "features": [
+          "Réhabilitation dentaire et technique de couronnes",
+          "Contrôle EMG périodique",
+          "Programme d'entretien préventif"
+        ]
+      }
+    ]
+  },
+  "faq": {
+    "title": "FAQ sur le bruxisme",
+    "items": [
+      {
+        "question": "Comment savoir si je grince la nuit ?",
+        "answer": "Les signes typiques sont : raideur matinale de la mâchoire, maux de tête au réveil, zones d'usure sur vos dents, dépressions sur le côté de la langue, ou un partenaire qui entend des grincements. Notre diagnostic peut déterminer objectivement si et dans quelle mesure vous grincez, même si vous n'en êtes pas conscient, grâce à des mesures EMG."
+      },
+      {
+        "question": "Une simple plaque de protection du dentiste n'est-elle pas suffisante ?",
+        "answer": "Une plaque de protection standard protège la dentition contre une usure supplémentaire, mais ne traite pas la cause du grincement. Comparez cela à porter un casque tout en marchant toujours contre le même mur : la protection aide, mais la solution est de ne plus marcher contre le mur. Notre orthotique neuromusculaire est spécifiquement conçu pour traiter la cause occlusale, réduisant ainsi le grincement lui-même ou l'arrêtant."
+      },
+      {
+        "question": "Le stress peut-il être la seule cause de mon bruxisme ?",
+        "answer": "Le stress est un déclencheur important, mais rarement la seule cause. La recherche montre que la plupart des patients bruxisme ont également un certain degré de disharmonie occlusale. Le stress abaisse le seuil au-dessus duquel le grincement se produit. Sans problème de morsure, le même stress se manifesterait plutôt comme une tension musculaire ailleurs dans le corps. Notre diagnostic fait la distinction entre ces facteurs."
+      },
+      {
+        "question": "Les dommages à mes dents peuvent-ils être réparés ?",
+        "answer": "Oui, dans la phase 3 de notre traitement, nous restaurons les éléments dentaires endommagés par le grincement avec des techniques restauratives modernes telles que la construction composite, les couronnes ou les facettes. Il est important que cela ne se fasse qu'après avoir traité la cause du grincement, afin que les restaurations ne soient pas à nouveau endommagées. Ainsi, nous atteignons un résultat durable."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Prenez rendez-vous pour votre scan gratuit",
+    "description": "Arrêtez les dommages à votre dentition. Découvrez la cause de votre bruxisme avec notre diagnostic avancé 4D.",
+    "buttonText": "Prendre rendez-vous",
+    "buttonHref": "/contact"
+  }
+}

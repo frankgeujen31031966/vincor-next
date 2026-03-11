@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "title": "Acouphènes | Vincor",
+    "description": "Sourdes ou bourdonnements dans les oreilles ? L'acouphène peut être causé par la tension de la mâchoire. Vincor examine le lien avec une diagnostique avancée 4D."
+  },
+  "hero": {
+    "breadcrumb": ["Accueil", "Problèmes", "Acouphènes"],
+    "title": "Acouphènes",
+    "description": "Les bourdonnements, sifflements ou grésillements dans les oreilles peuvent avoir une relation directe avec la tension des muscles masticateurs et l'articulation de la mâchoire. Chez Vincor, nous examinons cette cause souvent négligée."
+  },
+  "watIsHet": {
+    "label": "Qu'est-ce que c'est",
+    "title": "Qu'est-ce que l'acouphène ?",
+    "paragraphs": [
+      "L'acouphène est la perception de sons dans les oreilles ou la tête sans qu'une source sonore externe soit présente. Il peut se manifester comme des sifflements, bourdonnements, grondements, sifflements ou grésillements et varie de légèrement gênant à gravement invalidant. On estime que 10-15% de la population adulte souffre dans une certaine mesure d'acouphènes.",
+      "Il existe différentes formes : acouphène subjectif (perceptible uniquement par le patient) et acouphène objectif (également mesurable par un médecin). La forme la plus courante est subjective et est souvent à tort attribuée exclusivement à une perte d'audition. En réalité, le système somatosensoriel — en particulier la mâchoire et le cou — joue un rôle crucial chez une part significative des patients souffrant d'acouphènes."
+    ],
+    "image": "/images/Tinnitus-2.jpg"
+  },
+  "symptomen": {
+    "title": "Reconnaît-vous ces symptômes ?",
+    "description": "L'acouphène somatosensoriel — acouphène lié à la mâchoire et au cou — se caractérise par des motifs spécifiques.",
+    "items": [
+      "Son sifflement, bourdonnement ou grésillement dans une ou les deux oreilles",
+      "Acouphène qui s'aggrave lors de la compression ou du mouvement de la mâchoire",
+      "Bourdonnements qui varient en intensité au cours de la journée",
+      "Sensation d'oreille bouchée ou pression sans infection de l'oreille avérée",
+      "Acouphène survenu après des interventions dentaires ou un traumatisme de la mâchoire",
+      "Symptômes simultanés de douleur à la mâchoire, clics ou ouverture buccale limitée",
+      "Bourdonnements qui s'aggravent pendant les périodes de stress ou de tension",
+      "Problèmes de concentration et de sommeil dus au son persistant"
+    ]
+  },
+  "oorzaken": {
+    "label": "Causes",
+    "title": "Comment la mâchoire influence vos oreilles",
+    "paragraphs": [
+      "L'articulation de la mâchoire (TMJ) se trouve directement à côté de l'oreille moyenne, séparée par seulement une fine couche osseuse. Le musculus tensor tympani — un petit muscle qui tend la membrane tympanique — partage son innervation avec les muscles masticateurs via le nervus trigeminus. Lorsque les muscles masticateurs sont chroniquement tendus, cela peut influencer le tensor tympani et provoquer des acouphènes.",
+      "De plus, le ligamentum disco-malleolare, une bande de tissu conjonctif anatomique, va du disque articulaire de l'articulation de la mâchoire vers la chaîne osseuse de l'oreille moyenne. En cas de disque déplacé ou d'articulation de la mâchoire surchargée, la traction sur ce ligament peut exercer une influence directe sur la transmission sonore dans l'oreille.",
+      "Une occlusion perturbée provoque une tension asymétrique dans les muscles masticateurs, qui peut, via ces connexions anatomiques, entraîner des acouphènes unilatéraux ou bilatéraux. Cela explique pourquoi l'acouphène fluctue chez de nombreux patients selon le degré de tension de la mâchoire."
+    ],
+    "image": "/images/spine-model.gif"
+  },
+  "diagnostiek": {
+    "title": "Comment nous examinons l'acouphène",
+    "description": "Notre diagnostique 4D combine l'analyse de l'articulation de la mâchoire avec des mesures de tension musculaire pour exclure ou confirmer une cause somatosensorielle de vos acouphènes.",
+    "cards": [
+      {
+        "title": "Imagerie TMJ",
+        "description": "Scan 3D détaillée de l'articulation de la mâchoire et de la position du disque articulaire par rapport à l'oreille moyenne."
+      },
+      {
+        "title": "Test de tension musculaire",
+        "description": "Mesure EMG des muscles masticateurs et du cou, avec une attention particulière à la corrélation entre tension et intensité des acouphènes."
+      },
+      {
+        "title": "Test de provocation",
+        "description": "Mouvements de la mâchoire ciblés et tests de pression pour déterminer si vos acouphènes sont modulables via le système somatosensoriel."
+      }
+    ]
+  },
+  "behandeling": {
+    "title": "Options de traitement pour l'acouphène",
+    "description": "Lorsque vos acouphènes ont une composante somatosensorielle, un traitement ciblé de la fonction de la mâchoire peut réduire significativement l'intensité.",
+    "phases": [
+      {
+        "phase": "Phase 1",
+        "title": "Détente",
+        "description": "Réduction de la tension des muscles masticateurs pour réduire l'influence sur le système auditif.",
+        "features": [
+          "Splint de stabilisation pour la détente de la mâchoire",
+          "Traitement TENS des muscles masticateurs",
+          "Exercices de détente et réduction du stress"
+        ]
+      },
+      {
+        "phase": "Phase 2",
+        "title": "Correction",
+        "description": "Restauration de la position optimale de la mâchoire pour soulager la pression sur le système auditif.",
+        "featured": true,
+        "badge": "Le plus choisi",
+        "features": [
+          "Thérapie orthodontique neuromusculaire",
+          "Optimisation de l'occlusion et équilibre de la morsure",
+          "Thérapie manuelle mâchoire et cou"
+        ]
+      },
+      {
+        "phase": "Phase 3",
+        "title": "Stabilisation",
+        "description": "Maintien à long terme des résultats et prévention du retour des acouphènes.",
+        "features": [
+          "Réhabilitation dentaire définitive",
+          "Contrôle et surveillance périodiques",
+          "Programme d'auto-soins préventif"
+        ]
+      }
+    ]
+  },
+  "faq": {
+    "title": "FAQ sur l'acouphène",
+    "items": [
+      {
+        "question": "Ma mâchoire peut-elle vraiment être la cause de mes acouphènes ?",
+        "answer": "Oui, la recherche montre que chez environ 40-60% des patients souffrant d'acouphènes, une composante somatosensorielle est présente, où l'articulation de la mâchoire et les muscles masticateurs jouent un rôle. La proximité anatomique de l'articulation de la mâchoire et de l'oreille moyenne, combinée à des voies nerveuses partagées, rend cette relation médicalement bien explicable. Un test simple : si vous pouvez influencer vos acouphènes en bougeant ou en comprimant votre mâchoire, il y a probablement une composante liée à la mâchoire."
+      },
+      {
+        "question": "Mes acouphènes disparaîtront-ils complètement après le traitement ?",
+        "answer": "Le résultat dépend du degré dans lequel vos acouphènes sont liés à la mâchoire. Chez les patients avec un acouphène principalement somatosensoriel, nous observons souvent une réduction significative ou même la disparition complète des symptômes. Dans les cas de causes mixtes (partiellement perte d'audition, partiellement mâchoire), le traitement conduit généralement à une amélioration notable. Notre diagnostique vous donne une image réaliste du résultat attendu avant le traitement."
+      },
+      {
+        "question": "Je suis déjà allé chez un ORL. Pourquoi Vincor trouverait-il autre chose ?",
+        "answer": "Un ORL examine à juste titre l'audition et l'oreille. Lorsqu'aucune anomalie n'est trouvée, l'acouphène est souvent étiqueté comme \u201cinexpliquable\u201d. Vincor examine spécifiquement les causes somatosensorielles : l'articulation de la mâchoire, les muscles masticateurs, la morsure et la relation de posture. Cette approche est complémentaire à l'évaluation ORL et met en lumière une cause qui n'est pas évaluée lors d'un examen standard de l'oreille."
+      },
+      {
+        "question": "Combien de temps puis-je attendre une amélioration ?",
+        "answer": "Certains patients remarquent déjà une amélioration dans les premières semaines de la phase de stabilisation, lorsque les muscles masticateurs se détendent grâce à la thérapie par splint. Chez la plupart des patients, une réduction claire se produit dans les 4-8 semaines. Le cycle de traitement complet dure en moyenne 3-6 mois, selon la complexité de votre situation."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Prenez rendez-vous pour votre scan gratuit",
+    "description": "Découvrez si vos acouphènes ont une cause liée à la mâchoire. Notre diagnostique 4D vous apporte rapidement des réponses claires.",
+    "buttonText": "Prendre rendez-vous",
+    "buttonHref": "/contact"
+  }
+}

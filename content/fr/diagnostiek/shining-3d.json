@@ -1,0 +1,101 @@
+{
+  "meta": {
+    "title": "Shining 3D Scanner Intraorale | Vincor Diagnostiek",
+    "description": "La Shining 3D Aoralscan 3 scanner intraorale : empreintes dentaires numériques en couleur et haute résolution. Plus précis, rapide et confortable que les empreintes traditionnelles.",
+    "slug": "diagnostiek/shining-3d"
+  },
+  "hero": {
+    "breadcrumb": ["Accueil", "Diagnostiek", "Scanner Shining 3D"],
+    "title": "Shining 3D Scanner Intraorale",
+    "titleHighlight": "Shining 3D",
+    "description": "Précision numérique pour votre traitement. L'Aoralscan 3 crée des empreintes dentaires en couleur complète et haute résolution — plus rapide, plus précis et beaucoup plus confortable que les méthodes traditionnelles."
+  },
+  "technology": {
+    "sectionLabel": "La Technologie",
+    "title": "Aoralscan 3 : la prochaine génération",
+    "image": "spine-model.gif",
+    "imageAlt": "Shining 3D Aoralscan scanner intraoral",
+    "paragraphs": [
+      "La Shining 3D Aoralscan 3 est l'un des scanners intraoraux les plus avancés du marché. Avec la lumière structurée et le traitement d'image piloté par l'IA, le scanner crée en quelques minutes un modèle 3D numérique complet de vos dents — en couleurs réalistes et avec une précision jusqu'à 7 microns.",
+      "Chez Vincor, nous utilisons l'Aoralscan pour la fabrication de tous nos produits de splint : splints de relaxation, splints de repositionnement et MRA pour l'apnée du sommeil. Le flux de travail numérique remplace complètement l'empreinte en pâte traditionnelle, ce qui est non seulement plus confortable pour vous en tant que patient, mais produit également un résultat final plus précis."
+    ]
+  },
+  "benefits": {
+    "sectionLabel": "Avantages",
+    "title": "Pourquoi scanner numériquement ?",
+    "description": "Le passage des empreintes dentaires traditionnelles au scan numérique offre des avantages à la fois pour le patient et le thérapeute.",
+    "items": [
+      {
+        "title": "Plus de pâte",
+        "description": "Plus de pâte d'empreinte désagréable dans votre bouche. Le scanner est petit, léger et sans contact. Idéal pour les patients souffrant de syndrome de Gorlin-Goltz."
+      },
+      {
+        "title": "Précision accrue",
+        "description": "Les scans numériques sont prouvés plus précis que les empreintes traditionnelles. Cela se traduit par des splints qui s'ajustent mieux et fonctionnent plus efficacement."
+      },
+      {
+        "title": "Résultat immédiat",
+        "description": "Vous voyez le modèle 3D directement sur l'écran. Nous examinons ensemble vos dents et discutons des options de traitement."
+      },
+      {
+        "title": "Trajet plus rapide",
+        "description": "Le flux de travail numérique réduit le délai du scan au produit fini. Aucun envoi d'empreintes physiques — tout va numériquement vers le laboratoire."
+      }
+    ]
+  },
+  "howItWorks": {
+    "sectionLabel": "Votre Scan",
+    "title": "Comment fonctionne le scan intraoral ?",
+    "description": "Un scan avec l'Aoralscan 3 est rapide, indolore et entièrement numérique.",
+    "steps": [
+      {
+        "title": "Préparation",
+        "description": "Le scanner est activé et votre bouche est brièvement séchée. Aucune autre préparation nécessaire."
+      },
+      {
+        "title": "Scan",
+        "description": "Le scanwand compact est déplacé le long de vos dents. En 2-3 minutes, l'ensemble de l'arcade supérieure et inférieure est enregistré en 3D couleur."
+      },
+      {
+        "title": "Enregistrement de l'occlusion",
+        "description": "Un scan supplémentaire court fixe comment votre mâchoire supérieure et inférieure s'emboîtent. C'est essentiel pour la conception de votre splint."
+      },
+      {
+        "title": "Conception & production",
+        "description": "Le modèle numérique est envoyé au laboratoire où votre splint est fabriqué sur mesure avec la technologie CAD/CAM."
+      }
+    ]
+  },
+  "specs": {
+    "sectionLabel": "Spécifications",
+    "title": "Détails techniques",
+    "items": [
+      { "label": "Précision", "value": "≤7 μm" },
+      { "label": "Temps de scan arcade complète", "value": "2-3 minutes" },
+      { "label": "Reproduction des couleurs", "value": "Couleur complète (True Color)" },
+      { "label": "Champ de scan", "value": "16 × 14 mm" },
+      { "label": "Poids scanwand", "value": "175 grammes" },
+      { "label": "Support IA", "value": "Reconnaissance et filtrage automatique" }
+    ]
+  },
+  "metismile": {
+    "sectionLabel": "Plateforme MetiSmile",
+    "title": "Planification de traitement basée sur le cloud",
+    "paragraphs": [
+      "L'Aoralscan 3 est connecté à la plateforme cloud MetiSmile — un écosystème numérique pour la planification de traitement et la communication avec le laboratoire technique dentaire.",
+      "Via MetiSmile, nous pouvons analyser votre modèle dentaire numérique, évaluer la conception du splint et communiquer directement avec l'équipe de production. Cela accélère le processus et améliore la qualité du résultat final."
+    ],
+    "features": [
+      "Stockage et analyse basés sur le cloud des données de scan",
+      "Communication numérique directe avec le laboratoire",
+      "Visualisation 3D des résultats de traitement",
+      "Stockage de données sécurisé conforme au RGPD"
+    ]
+  },
+  "cta": {
+    "title": "Découvrez le scan numérique",
+    "description": "Prenez rendez-vous et découvrez par vous-même à quel point une empreinte dentaire numérique est confortable et rapide.",
+    "buttonText": "Prendre rendez-vous",
+    "buttonLink": "/contact"
+  }
+}

@@ -6,58 +6,30 @@ import Image from 'next/image';
 import { useLocale } from 'next-intl';
 import { usePathname } from 'next/navigation';
 
+interface NavChild {
+  label: string;
+  href: string;
+}
+
 interface NavItem {
   label: string;
   href: string;
-  children?: NavItem[];
+  children?: NavChild[];
 }
 
-const navItems: NavItem[] = [
-  {
-    label: 'Klachten',
-    href: '/klachten',
-    children: [
-      { label: 'Kaakpijn', href: '/klachten/kaakpijn' },
-      { label: 'Hoofdpijn & Migraine', href: '/klachten/hoofdpijn-migraine' },
-      { label: 'Tinnitus', href: '/klachten/tinnitus' },
-      { label: 'Zenuwpijn', href: '/klachten/zenuwpijn' },
-      { label: 'Tandenknarsen', href: '/klachten/tandenknarsen' },
-      { label: 'Stijve Nek', href: '/klachten/stijve-nek' },
-      { label: 'Rug- & Nekklachten', href: '/klachten/rug-nekklachten' },
-    ],
-  },
-  {
-    label: 'Diagnostiek',
-    href: '/diagnostiek',
-  },
-  {
-    label: 'Behandeling',
-    href: '/behandeling',
-  },
-  {
-    label: 'Over Ons',
-    href: '/over-ons',
-  },
-  {
-    label: 'FAQ',
-    href: '/faq',
-  },
-  {
-    label: 'Kennisbank',
-    href: '/kennisbank',
-  },
-];
+interface NavigationProps {
+  items: NavItem[];
+  cta: string;
+}
 
-export default function Navigation() {
+export default function Navigation({ items, cta }: NavigationProps) {
   const locale = useLocale();
   const pathname = usePathname();
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileOpen, setIsMobileOpen] = useState(false);
 
-  // Build locale-prefixed href
   const l = (href: string) => `/${locale}${href}`;
 
-  // Switch locale: replace current locale prefix in pathname
   const switchLocale = (newLocale: string) => {
     const rest = pathname.replace(/^\/(nl|en|fr)/, '');
     return `/${newLocale}${rest || ''}`;
@@ -69,7 +41,7 @@ export default function Navigation() {
     };
 
     window.addEventListener('scroll', handleScroll);
-    handleScroll(); // Initial check
+    handleScroll();
 
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
@@ -100,7 +72,7 @@ export default function Navigation() {
 
         {/* Desktop Navigation */}
         <div className="hidden lg:flex items-center gap-8">
-          {navItems.map((item, index) => (
+          {items.map((item, index) => (
             <div key={index} className="relative group">
               <Link
                 href={l(item.href)}
@@ -142,7 +114,7 @@ export default function Navigation() {
             href={l('/contact')}
             className="bg-teal text-white px-5 py-2.5 rounded-full font-semibold hover:bg-teal-600 transition-colors"
           >
-            Boek Gratis Scan
+            {cta}
           </Link>
         </div>
 
@@ -172,7 +144,7 @@ export default function Navigation() {
         {/* Mobile Overlay */}
         {isMobileOpen && (
           <div className="fixed inset-0 bg-[#0e0e0e] z-[300] flex flex-col items-center justify-center gap-6 text-white text-xl">
-            {navItems.map((item, index) => (
+            {items.map((item, index) => (
               <div key={index} className="relative">
                 <Link
                   href={l(item.href)}
@@ -216,7 +188,7 @@ export default function Navigation() {
               className="bg-teal text-white px-6 py-3 rounded-full font-semibold hover:bg-teal-600 transition-colors"
               onClick={handleMobileClose}
             >
-              Boek Gratis Scan
+              {cta}
             </Link>
           </div>
         )}

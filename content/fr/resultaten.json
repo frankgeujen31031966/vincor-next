@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "title": "Résultats & Expérience Patient — Vincor",
+    "description": "Découvrez les résultats de traitement mesurables et l'expérience des patients chez Vincor. Découvrez comment notre diagnostic 4D et la thérapie par attelle changent des vies.",
+    "slug": "resultats"
+  },
+  "hero": {
+    "breadcrumb": ["Accueil", "Résultats"],
+    "title": "Résultats & Expérience Patient",
+    "titleHighlight": "Expérience Patient",
+    "description": "Amélioration mesurable, vécue par nos patients"
+  },
+  "stats": {
+    "sectionLabel": "Chiffres",
+    "title": "Nos résultats en chiffres",
+    "items": [
+      { "value": "500+", "label": "Scans effectués" },
+      { "value": "93%", "label": "Expérience de réduction des symptômes" },
+      { "value": "4.8", "label": "Note moyenne Google" }
+    ]
+  },
+  "caseStudies": {
+    "sectionLabel": "Histoires de patients",
+    "title": "Histoires de patients",
+    "description": "Trois cas anonymisés qui montrent comment une occlusion perturbée peut causer des symptômes variés — et comment nous y remédions.",
+    "cases": [
+      {
+        "title": "De la migraine chronique à une vie sans maux de tête",
+        "image": "migraine.jpg",
+        "imageAlt": "Patiente souffrant de migraine chronique ayant été traitée avec succès chez Vincor",
+        "patient": "Femme, 38 ans, responsable marketing",
+        "complaint": "Migraine 3-4 fois par semaine depuis 8 ans. Aucun médicament n'a apporté de soulagement structurel.",
+        "diagnosis": "La scan 4D a montré une asymétrie claire de la position de la mâchoire et une compensation dans la colonne cervicale.",
+        "treatment": "Phase 1 (attelle de relaxation) → Phase 2 (attelle de repositionnement)",
+        "result": "Après 3 mois : migraine réduite de 3-4 fois par semaine à 1 fois par mois. Après 6 mois : presque exempte de migraine."
+      },
+      {
+        "title": "Problèmes de dos que personne ne pouvait expliquer",
+        "image": "rug-nek.jpg",
+        "imageAlt": "Patient souffrant de problèmes de dos chroniques ayant été traité avec succès chez Vincor",
+        "patient": "Homme, 52 ans, professionnel de l'IT",
+        "complaint": "Douleurs lombaires chroniques et cou raide depuis 5 ans. La physiothérapie n'a apporté qu'un soulagement temporaire.",
+        "diagnosis": "La scan DIERS 4D a montré qu'une position de mâchoire perturbée causait une compensation dans la colonne thoracique et lombaire.",
+        "treatment": "Phase 1 → Phase 2, en combinaison avec une thérapie posturale au Balans Rugcentrum.",
+        "result": "Réduction de 70% des douleurs lombaires après 4 mois. Peut à nouveau faire du sport sans symptômes."
+      },
+      {
+        "title": "Grincement de dents et les conséquences que je ne voyais pas",
+        "image": "Tandenknarsen.jpg",
+        "imageAlt": "Patiente souffrant de grincement de dents et de bourdonnement d'oreille ayant été traitée avec succès chez Vincor",
+        "patient": "Femme, 45 ans, professeure",
+        "complaint": "Grincement de dents sévère, douleurs de mâchoire au réveil, bourdonnement d'oreille et raideur du cou.",
+        "diagnosis": "Analyse occlusale combinée et scan 4D ont montré une usure sévère et une dysbalance posturale.",
+        "treatment": "Phase 1 → Phase 2 → Phase 3 (reconstruction partielle chez PDA)",
+        "result": "Grincement arrêté, bourdonnement d'oreille fortement réduit. La nouvelle reconstruction dentaire assure une occlusion et une posture stables."
+      }
+    ]
+  },
+  "measurements": {
+    "sectionLabel": "Différence mesurable",
+    "title": "Différence mesurable",
+    "description": "Chez Vincor, nous utilisons des mesures 4D objectives pour rendre votre progression visible. En comparant la scan à l'introduction avec la scan après traitement, nous voyons exactement ce qui a changé.",
+    "image": "formetric-evaluation.jpg",
+    "imageAlt": "Comparaison scan DIERS Formetric 4D : introduction versus après traitement",
+    "subtitle": "Que mesurons-nous ?",
+    "text": "La scan DIERS Formetric 4D cartographie votre posture complète. En comparant la mesure avant et après traitement, nous pouvons objectivement déterminer quelles améliorations ont été atteintes.",
+    "parameters": [
+      {
+        "name": "Symétrie de la colonne vertébrale",
+        "description": "déviation de la position de la colonne vertébrale"
+      },
+      {
+        "name": "Position du bassin",
+        "description": "inclinaison et rotation du bassin"
+      },
+      {
+        "name": "Hauteur d'épaule",
+        "description": "différence de hauteur entre l'épaule gauche et l'épaule droite"
+      },
+      {
+        "name": "Équilibre musculaire",
+        "description": "asymétrie dans l'activité et la tension musculaire"
+      }
+    ]
+  },
+  "testimonials": {
+    "sectionLabel": "Expériences",
+    "title": "Ce que disent nos patients",
+    "items": [
+      {
+        "quote": "La scan 4D a été une révélation. Finalement, j'ai compris pourquoi j'avais des maux de tête pendant toutes ces années.",
+        "author": "Annelies",
+        "age": 42
+      },
+      {
+        "quote": "Professionnel, rigoureux et humain. Chez Vincor, je me suis sentie pour la première fois vraiment écoutée.",
+        "author": "Tom",
+        "age": 55
+      },
+      {
+        "quote": "Mon physiothérapeute aurait dû m'orienter vers Vincor des années plus tôt. C'était la solution.",
+        "author": "Marieke",
+        "age": 36
+      }
+    ]
+  },
+  "cta": {
+    "title": "Vous vous demandez ce que nous pouvons faire pour vous ?",
+    "description": "Contactez-nous pour une conversation sans engagement ou prenez rendez-vous directement.",
+    "buttonText": "Prendre contact",
+    "buttonLink": "/contact"
+  }
+}

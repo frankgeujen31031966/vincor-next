@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "title": "Apnée & Ronflement | Vincor",
+    "description": "Souffrez de ronflement ou d'apnée du sommeil ? Vincor traite l'apnée obstructive du sommeil avec une MRA (Appareil de Repositionnement Mandibulaire) sur mesure combinée à la diagnostic 4D."
+  },
+  "hero": {
+    "breadcrumb": ["Accueil", "Problèmes", "Apnée & Ronflement"],
+    "title": "Apnée & Ronflement",
+    "description": "L'apnée obstructive du sommeil (OSA) et le ronflement chronique n'affectent pas seulement votre sommeil nocturne, mais toute votre santé. Chez Vincor, nous traitons la cause avec une MRA sur mesure — une alternative éprouvée à la CPAP."
+  },
+  "watIsHet": {
+    "label": "Qu'est-ce que c'est",
+    "title": "Qu'est-ce que l'apnée du sommeil ?",
+    "paragraphs": [
+      "L'apnée obstructive du sommeil (OSA) est un trouble du sommeil où les voies aériennes supérieures sont partiellement ou complètement bloquées de manière répétée pendant le sommeil. Par conséquent, la respiration s'arrête temporairement — parfois des dizaines de fois par nuit — après quoi le corps recommence à respirer avec une réaction de surprise.",
+      "Le ronflement est souvent le premier et le symptôme le plus évident de l'OSA. Mais les conséquences vont bien au-delà du bruit nocturne. L'apnée du sommeil chronique entraîne de la fatigue diurne, des problèmes de concentration, une hypertension et un risque significativement plus élevé de maladies cardiovasculaires. On estime que 80% des personnes souffrant d'une apnée du sommeil modérée à sévère ne sont pas diagnostiquées."
+    ],
+    "image": "/images/kaakpijn.jpg"
+  },
+  "symptomen": {
+    "title": "Reconnaît-vous ces symptômes ?",
+    "description": "L'apnée du sommeil se manifeste de bien plus de manières que le simple ronflement. Beaucoup de patients se reconnaissent dans plusieurs des symptômes ci-dessous.",
+    "items": [
+      "Ronflement fort et irrégulier",
+      "Arrêts respiratoires pendant le sommeil (observés par le partenaire)",
+      "Sommeil agité et réveils fréquents",
+      "Fatigue excessive et somnolence diurne",
+      "Maux de tête matinaux et bouche sèche au réveil",
+      "Problèmes de concentration et oublis",
+      "Irritabilité et changements d'humeur",
+      "Grincement des dents nocturne (bruxisme)"
+    ]
+  },
+  "oorzaken": {
+    "label": "Causes",
+    "title": "La mâchoire comme clé pour des voies aériennes libres",
+    "paragraphs": [
+      "Dans l'apnée obstructive du sommeil, la langue et le voile du palais tombent vers l'arrière pendant le sommeil, ce qui rétrécit ou bloque complètement la voie aérienne. La position de la mâchoire inférieure joue un rôle crucial ici : une mâchoire inférieure en retrait (rétrognathie) augmente considérablement le risque d'obstruction des voies aériennes.",
+      "Chez Vincor, nous comprenons que la position de la mâchoire n'a pas seulement une influence sur la posture, mais aussi sur la voie aérienne. Notre expertise en occlusion et repositionnement mandibulaire permet de traiter efficacement l'apnée du sommeil selon les mêmes principes que ceux que nous appliquons pour nos autres traitements.",
+      "Une Appareil de Repositionnement Mandibulaire (MRA) — également appelé béquille de ronflement ou MAS (Splint d'Avancement Mandibulaire) — avance la mâchoire inférieure pendant le sommeil. Par conséquent, la voie aérienne reste ouverte et le ronflement et les arrêts respiratoires disparaissent."
+    ],
+    "image": "/images/4d-posturelab.jpg"
+  },
+  "diagnostiek": {
+    "title": "Comment nous diagnostiquons l'apnée du sommeil",
+    "description": "Un diagnostic précis est essentiel pour un traitement efficace. Nous combinons notre diagnostic 4D avec une analyse spécifique de l'apnée du sommeil.",
+    "cards": [
+      {
+        "title": "Analyse de posture 4D",
+        "description": "La scan DIERS 4D cartographie la relation entre votre position de mâchoire, voie aérienne et posture. Une mâchoire inférieure en retrait et une position de tête vers l'avant sont souvent des signes de compensation pour une voie aérienne rétrécie."
+      },
+      {
+        "title": "Analyse de position de mâchoire",
+        "description": "Nous analysons la position de votre mâchoire inférieure par rapport à la mâchoire supérieure et à la voie aérienne. Cette analyse détermine dans quelle mesure la mâchoire inférieure doit être avancée pour un résultat optimal."
+      },
+      {
+        "title": "Enregistrement du sommeil",
+        "description": "En collaboration avec votre médecin traitant ou centre du sommeil, un test de sommeil à domicile (polygraphie) peut être effectué pour établir objectivement la gravité de l'apnée (score AHI)."
+      }
+    ]
+  },
+  "behandeling": {
+    "title": "Traitement avec MRA",
+    "description": "L'Appareil de Repositionnement Mandibulaire est un dispositif sur mesure qui maintient la mâchoire inférieure dans une position avancée pendant le sommeil, ce qui garde la voie aérienne ouverte.",
+    "phases": [
+      {
+        "phase": "Étape 1",
+        "title": "Diagnostic & Scan",
+        "description": "Intake approfondie avec scan 4D et analyse de position de mâchoire. Complément éventuel avec test de sommeil à domicile.",
+        "features": [
+          "Scan de posture 4D et analyse de mâchoire",
+          "Évaluation de l'adéquation de la thérapie MRA",
+          "Coordination avec médecin traitant/centre du sommeil"
+        ]
+      },
+      {
+        "phase": "Étape 2",
+        "title": "MRA sur mesure",
+        "description": "Fabrication et pose de votre MRA personnelle, conçue avec la technologie de scan intraoral Shining 3D.",
+        "featured": true,
+        "badge": "Traitement principal",
+        "features": [
+          "Impression dentaire numérique (pas de putty)",
+          "Fabriqué sur mesure avec CAD/CAM",
+          "Ajustable : adaptation progressive vers l'avant",
+          "Confortable et discret"
+        ]
+      },
+      {
+        "phase": "Étape 3",
+        "title": "Contrôle & Optimisation",
+        "description": "Contrôle régulier et ajustement fin pour un résultat maximal.",
+        "features": [
+          "Scan de contrôle après 6-8 semaines",
+          "Titration pour un effet optimal",
+          "Surveillance à long terme"
+        ]
+      }
+    ]
+  },
+  "faq": {
+    "title": "FAQ sur le traitement de l'apnée du sommeil",
+    "items": [
+      {
+        "question": "Une MRA est-elle une bonne alternative à la CPAP ?",
+        "answer": "Oui, pour une apnée obstructive du sommeil légère à modérée (AHI 5-30), une MRA est une alternative scientifiquement prouvée et reconnue par la NVALT à la CPAP. Dans le cas d'une apnée du sommeil sévère, une MRA peut être envisagée lorsque la CPAP n'est pas tolérée. Les études montrent que l'observance thérapeutique avec une MRA est significativement plus élevée qu'avec la CPAP, car l'appareil est plus confortable et pratique."
+      },
+      {
+        "question": "Le ronflement est-il toujours une apnée du sommeil ?",
+        "answer": "Non, tout le monde qui ronfle n'a pas d'apnée du sommeil. Le ronflement social (sans arrêts respiratoires) est fréquent et généralement inoffensif. Lorsque le ronflement s'accompone d'arrêts respiratoires, de fatigue excessive diurne ou de maux de tête matinaux, il peut y avoir une apnée obstructive du sommeil. Un enregistrement du sommeil peut faire cette distinction."
+      },
+      {
+        "question": "La MRA est-elle remboursée ?",
+        "answer": "Une MRA est remboursée dans de nombreux cas via l'assurance de base lorsqu'un diagnostic d'apnée du sommeil est établi par un centre du sommeil ou pneumologue. La référence et le parcours diagnostique déterminent les possibilités de remboursement. Nous vous aidons volontiers à explorer votre situation spécifique."
+      },
+      {
+        "question": "Puis-je dormir normalement avec une MRA ?",
+        "answer": "Oui, la MRA est conçue pour un confort de sommeil maximal. Vous pouvez ouvrir et fermer votre bouche normalement, et la plupart des patients s'habituent à la porter dans une semaine. La MRA est considérablement moins contraignante qu'un masque CPAP et est idéale pour les voyages."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Souffrez de ronflement ou de fatigue ?",
+    "description": "Prenez rendez-vous pour un scan et découvrez si une MRA est la solution à votre problème de sommeil.",
+    "buttonText": "Prendre rendez-vous",
+    "buttonHref": "/contact"
+  }
+}

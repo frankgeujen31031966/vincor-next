@@ -1,0 +1,148 @@
+{
+  "meta": {
+    "title": "Phase 3 — Reconstruction — Vincor | Correction Définitive en PDA",
+    "description": "Phase 3 du modèle de traitement Vincor : reconstruction définitive au centre partenaire PDA. Orthodontie, implantologie et reconstruction complète de la dentition pour un résultat durable.",
+    "slug": "behandeling/fase-3-reconstructie"
+  },
+  "hero": {
+    "breadcrumb": ["Accueil", "Traitement", "Phase 3 — Reconstruction"],
+    "title": "Phase 3 — Reconstruction",
+    "titleHighlight": "Reconstruction",
+    "description": "La solution définitive pour un équilibre durable entre mors, mâchoire et posture. Une fois que la thérapie par splint a posé les bases, la reconstruction offre le résultat permanent."
+  },
+  "intro": {
+    "sectionLabel": "Phase 3 — Correction Définitive",
+    "title": "De la thérapie par splint à la solution permanente",
+    "image": "fase3-reconstructie.jpg",
+    "imageAlt": "Reconstruction phase 3 au centre partenaire PDA",
+    "paragraphs": [
+      "Pour de nombreux patients, les phases 1 et 2 apportent tout ce dont ils ont besoin. Mais lorsque la correction structurelle de la mors est nécessaire pour un résultat durable, la phase 3 offre la solution définitive.",
+      "En étroite collaboration avec PDA — un centre spécialisé en reconstruction dentaire — nous réunissons tout ce que nous avons appris sur la biomécanique unique de votre corps. Ensemble, nous créons une correction permanente qui ne restaure pas seulement votre dentition, mais consolide également les améliorations posturales des phases 1 et 2.",
+      "Ce n'est pas un traitement standard. C'est l'élément final d'un parcours que nous avons commencé avec vous — construit sur des mois de diagnostic, de mesures et de thérapie ciblée."
+    ]
+  },
+  "indications": {
+    "sectionLabel": "Indications",
+    "title": "Quand la phase 3 est-elle nécessaire ?",
+    "description": "Tous les patients n'ont pas besoin de la phase 3. Nous conseillons la reconstruction uniquement lorsqu'elle apporte une valeur ajoutée claire par rapport à une thérapie par splint permanente.",
+    "items": [
+      {
+        "title": "Déviations de mors sévères",
+        "description": "Problèmes de mors qui ne peuvent pas être corrigés structurellement par la thérapie par splint et qui nécessitent une solution orthodontique ou prothétique."
+      },
+      {
+        "title": "Éléments dentaires manquants",
+        "description": "Dents ou molaires manquantes qui perturbent l'occlusion et affaiblissent ainsi durablement l'équilibre postural."
+      },
+      {
+        "title": "Usure due au bruxisme",
+        "description": "Un bruxisme prolongé peut endommager la dentition au point qu'une restauration est nécessaire pour rétablir la mors."
+      },
+      {
+        "title": "Désir d'une solution permanente",
+        "description": "Vous obtenez des résultats avec la splint, mais souhaitez une correction définitive afin que la splint ne soit plus nécessaire à long terme."
+      }
+    ]
+  },
+  "partnership": {
+    "sectionLabel": "Partenariat",
+    "title": "Notre collaboration avec PDA",
+    "image": "smile-result.jpg",
+    "imageAlt": "Résultat après reconstruction au centre PDA",
+    "paragraphs": [
+      "PDA est notre centre partenaire de confiance pour les reconstructions dentaires complexes. Lorsque la phase 3 est indiquée, nous ne transférons pas simplement — nous travaillons ensemble.",
+      "Vincor fournit toutes les données diagnostiques à l'équipe de PDA : scans 4D, analyses d'occlusion, mesures de tonus musculaire et l'historique complet du traitement des phases 1 et 2. Ensemble, nous établissons un plan de reconstruction qui adresse à la fois les aspects dentaires et posturaux.",
+      "Vous ne recommencez pas à zéro. Vous bâissez sur tout ce que nous avons déjà découvert ensemble. C'est ce qui fait la différence entre une intervention dentaire standard et une reconstruction qui profite à votre corps dans son ensemble."
+    ]
+  },
+  "treatmentOptions": {
+    "sectionLabel": "Options de traitement",
+    "title": "Possibilités dans la phase 3",
+    "description": "Selon votre situation, nous conseillons une ou plusieurs des traitements ci-dessous. Le plan de reconstruction est toujours personnalisé.",
+    "options": [
+      {
+        "title": "Orthodontie",
+        "description": "Correction de l'alignement dentaire et de la mors à l'aide d'appareils ou d'aligneurs. Indiqué pour les déviations de mors légères à modérées où les positions dentaires doivent être corrigées structurellement."
+      },
+      {
+        "title": "Implantologie",
+        "description": "Remplacement des éléments dentaires manquants par des implants en titane. Restaure complètement l'occlusion et empêche tout déplacement supplémentaire des autres éléments."
+      },
+      {
+        "title": "Reconstruction complète",
+        "description": "Restauration étendue de la dentition avec couronnes, ponts et/ou prothèses. Pour les patients présentant une usure sévère ou une problématique complexe nécessitant une approche intégrale."
+      }
+    ]
+  },
+  "timeline": {
+    "sectionLabel": "Le Parcours",
+    "title": "Que pouvez-vous attendre ?",
+    "description": "De la première consultation au suivi : chaque étape est soigneusement planifiée afin que vous sachiez exactement ce qui va se passer.",
+    "steps": [
+      {
+        "number": 1,
+        "title": "Consultation Vincor & PDA",
+        "description": "Sur la base de vos données diagnostiques complètes — scans 4D, analyse d'occlusion et historique du traitement — Vincor et PDA discutent de la meilleure approche pour votre situation."
+      },
+      {
+        "number": 2,
+        "title": "Plan de traitement personnalisé",
+        "description": "Vous recevez un plan de traitement détaillé avec une estimation de coûts claire. Aucune surprise — vous savez à l'avance exactement ce que comprend le traitement et combien il coûte."
+      },
+      {
+        "number": 3,
+        "title": "Exécution chez PDA",
+        "description": "La reconstruction est réalisée par l'équipe spécialisée de PDA. La durée varie selon le traitement : de quelques mois pour l'orthodontie à 6–12 mois pour une reconstruction complète."
+      },
+      {
+        "number": 4,
+        "title": "Suivi et contrôle",
+        "description": "Après l'achèvement, Vincor reste impliqué. Avec des scans 4D de suivi, nous vérifions si la reconstruction consolide les améliorations posturales des phases 1 et 2."
+      }
+    ]
+  },
+  "pricing": {
+    "sectionLabel": "Investissement",
+    "title": "Coûts transparents",
+    "phase": "Phase 3 — Reconstruction",
+    "price": "3.000 – 7.000",
+    "currency": "EUR",
+    "description": "Les coûts varient selon la complexité de votre traitement. Une correction orthodontique simple se situe à la partie inférieure de cette fourchette, tandis qu'une reconstruction complète de la dentition se situe à la partie supérieure. Après la consultation entre Vincor et PDA, vous recevrez toujours une estimation de coûts précise à l'avance — afin que vous ne soyez pas confronté à des surprises.",
+    "insuranceNote": "Une partie des coûts peut être remboursée par votre assurance maladie. Nous sommes heureux de vous aider à explorer vos options de remboursement.",
+    "location": "PDA (centre partenaire)",
+    "buttonText": "Demandez une consultation"
+  },
+  "trustBar": [
+    "Collaboration multidisciplinaire Vincor + PDA",
+    "Toutes les données diagnostiques sont prises en compte",
+    "Suivi et contrôle par Vincor"
+  ],
+  "faq": {
+    "sectionLabel": "Questions Fréquentes",
+    "title": "Vos questions sur la phase 3",
+    "items": [
+      {
+        "question": "Dois-je suivre les trois phases ?",
+        "answer": "Non, ce n'est pas toujours nécessaire. Certains patients ont suffisamment les phases 1 ou 2 pour réduire considérablement leurs symptômes. La phase 3 est seulement conseillée lorsque la correction structurelle de la dentition est nécessaire pour un résultat durable, ou lorsque vous avez personnellement le désir de continuer sans splint. Nous discutons toujours en détail avec vous avant de faire une recommandation."
+      },
+      {
+        "question": "Combien de temps dure la phase 3 ?",
+        "answer": "La durée varie considérablement selon le traitement. Une correction orthodontique prend généralement quelques mois, tandis qu'une reconstruction complète de la dentition peut prendre de 6 à 12 mois. Lors de l'établissement de votre plan de traitement personnalisé, PDA donne une indication de temps détaillée, afin que vous sachiez exactement ce que vous pouvez attendre."
+      },
+      {
+        "question": "La phase 3 est-elle remboursée ?",
+        "answer": "Partiellement, selon votre assurance maladie. Les traitements orthodontiques peuvent être remboursés pour les patients de moins de 18 ans via l'assurance de base. L'implantologie et les restaurations prothétiques relèvent de règles de remboursement séparées qui varient selon chaque assureur. Nous sommes heureux de vous aider à évaluer vos possibilités et de vous soutenir dans votre demande."
+      },
+      {
+        "question": "Vincor reste-t-il impliqué après la phase 3 ?",
+        "answer": "Absolument. Après l'achèvement de la reconstruction chez PDA, Vincor reste impliqué dans votre parcours de suivi. Nous effectuons des scans 4D de suivi pour vérifier si la reconstruction consolide les améliorations posturales des phases 1 et 2. Si un ajustement est nécessaire, nous en discutons directement avec PDA. Vous n'êtes jamais seul."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ensemble vers un résultat durable",
+    "description": "Avez-vous des questions sur la phase 3 ou souhaitez-vous discuter si la reconstruction est la bonne étape pour vous ? Nous sommes heureux de réfléchir avec vous.",
+    "buttonText": "Prenez contact",
+    "buttonLink": "/contact"
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "title": "Cou Raide | Vincor",
+    "description": "Raideur chronique du cou et tension aux épaules ? Une mauvaise position de la mâchoire peut en être la cause. Vincor examine le lien avec une diagnostique avancée 4D."
+  },
+  "hero": {
+    "breadcrumb": ["Accueil", "Problèmes", "Cou Raide"],
+    "title": "Cou Raide & Tension Épaules",
+    "description": "La raideur chronique du cou et la tension aux épaules sont souvent traitées comme un problème isolé. Chez Vincor, nous examinons comment une mauvaise position de la mâchoire affecte la colonne cervicale et maintient vos problèmes de cou."
+  },
+  "watIsHet": {
+    "label": "Qu'est-ce que c'est",
+    "title": "Raideur du cou provenant de la mâchoire",
+    "paragraphs": [
+      "La raideur chronique du cou se caractérise par une mobilité réduite de la colonne cervicale, souvent accompagnée de douleur et d'une sensation constante de tension dans la musculature du cou et des épaules. De nombreux patients ont déjà essayé diverses traitements — de la physiothérapie à la chiropractie — sans résultat durable.",
+      "La raison en est que le cou ne se tient pas seul. Le système craniomandibulaire (mâchoire, dents et crâne) et le système cervical (vertèbres cervicales, muscles du cou et nerfs) forment une unité fonctionnelle. Les muscles suprahyoïdiens et infrahyoïdiens — les muscles au-dessus et en dessous de l'os hyoïde — forment un couplage biomécanique direct entre la mâchoire inférieure et la colonne cervicale. Lorsque la position de la mâchoire n'est pas optimale, le cou s'adapte avec une tension compensatoire."
+    ],
+    "image": "/images/stijve-nek.jpg"
+  },
+  "symptomen": {
+    "title": "Reconnaît-vous ces symptômes ?",
+    "description": "La raideur du cou avec une composante liée à la mâchoire a des caractéristiques distinctives que vous pouvez identifier.",
+    "items": [
+      "Raideur et tension chroniques dans la musculature du cou et des épaules",
+      "Mobilité réduite de rotation et flexion du cou",
+      "Problèmes de cou qui reviennent constamment malgré la physiothérapie",
+      "Tension dans le muscle trapèze (de l'omoplate à la base du crâne)",
+      "Douleur à la base du crâne qui irradie vers l'arrière de la tête",
+      "Combinaison de raideur du cou avec des clics de mâchoire ou douleur de mâchoire",
+      "Bruits de craquement ou de crépitement lors de la rotation de la tête",
+      "Symptômes de fatigue dus à une compensation constante de la posture"
+    ]
+  },
+  "oorzaken": {
+    "label": "Causes",
+    "title": "La connexion mâchoire-cou",
+    "paragraphs": [
+      "La mâchoire inférieure est connectée biomécaniquement à la colonne cervicale via l'os hyoïde. L'os hyoïde est le seul os du corps humain qui n'est pas directement fixé à un autre os — il \"flotte\" dans un réseau de muscles qui connecte la mâchoire au cou.",
+      "Lorsque la position de la mâchoire change — due à une occlusion perturbée, des dents manquantes ou une mâchoire inférieure rétrognathe — les muscles de l'os hyoïde doivent compenser. Cela a un effet direct sur la position de la tête et la tension dans les muscles du cou. La tête peut pencher vers l'avant (posture de tête avancée), ce qui modifie la lordose cervicale et surcharge chroniquement les muscles du cou.",
+      "Les études montrent qu'un changement de seulement 1 millimètre dans la dimension verticale de l'occlusion provoque des changements mesurables dans l'activité musculaire cervicale. Cela explique pourquoi les problèmes de cou reviennent souvent après le traitement : si la position de la mâchoire n'est pas corrigée, la cause persiste."
+    ],
+    "image": "/images/spine-model.gif"
+  },
+  "diagnostiek": {
+    "title": "Comment nous examinons la raideur du cou",
+    "description": "Notre diagnostique 4D examine le système craniocervical complet : de l'occlusion à la colonne cervicale.",
+    "cards": [
+      {
+        "title": "Analyse de posture cervicale",
+        "description": "Mesure 3D de la position de la tête, du cou et des épaules pour objectiver les déviations de posture."
+      },
+      {
+        "title": "EMG mâchoire & cou",
+        "description": "Électromyographie combinée des muscles masticateurs et du cou pour mesurer la corrélation entre la fonction de la mâchoire et la tension du cou."
+      },
+      {
+        "title": "Test de position d'occlusion",
+        "description": "Analyse de l'effet du changement d'occlusion sur la mobilité cervicale et le tonus musculaire, avec des mesures avant et après directes."
+      }
+    ]
+  },
+  "behandeling": {
+    "title": "Options de traitement pour la raideur du cou",
+    "description": "En traitant à la fois la position de la mâchoire et la posture cervicale, nous obtenons un résultat durable que le traitement purement cervical ne peut offrir.",
+    "phases": [
+      {
+        "phase": "Phase 1",
+        "title": "Détente",
+        "description": "Réduction directe de la tension dans les muscles masticateurs et du cou.",
+        "features": [
+          "Splint de déprogrammation pour la détente de la mâchoire",
+          "Thérapie TENS pour la musculature mâchoire et cou",
+          "Conseils ergonomiques et posturaux"
+        ]
+      },
+      {
+        "phase": "Phase 2",
+        "title": "Correction",
+        "description": "Restauration de la relation optimale mâchoire-cou pour une amélioration structurelle.",
+        "featured": true,
+        "badge": "Le plus choisi",
+        "features": [
+          "Thérapie orthodontique neuromusculaire",
+          "Physiothérapie combinée mâchoire et cou",
+          "Correction de posture cervicale"
+        ]
+      },
+      {
+        "phase": "Phase 3",
+        "title": "Stabilisation",
+        "description": "Maintien durable de la fonction cou-mâchoire améliorée et de la posture.",
+        "features": [
+          "Réhabilitation dentaire définitive",
+          "Programme d'exercices à domicile cou et posture",
+          "Contrôle et surveillance périodiques"
+        ]
+      }
+    ]
+  },
+  "faq": {
+    "title": "FAQ sur le cou raide",
+    "items": [
+      {
+        "question": "Ma mâchoire peut-elle vraiment être la cause de mes problèmes de cou ?",
+        "answer": "Oui, le couplage biomécanique entre la mâchoire et le cou est largement documenté scientifiquement. Via l'os hyoïde et les muscles environnants, la position de la mâchoire affecte directement la tension dans la musculature du cou et la position de la colonne cervicale. Chez les patients avec des problèmes de cou résistants au traitement, une dysfonction de la mâchoire sous-jacente est régulièrement présente."
+      },
+      {
+        "question": "J'ai déjà eu de la physiothérapie sans résultat. Qu'est-ce que Vincor fait de différent ?",
+        "answer": "La physiothérapie traite directement les muscles du cou, mais si la cause est dans la mâchoire, les symptômes reviennent constamment. Vincor examine le système craniocervical complet : de l'occlusion à la colonne vertébrale. En corrigeant la position de la mâchoire, nous éliminons la source qui maintient la tension du cou. Nous combinons souvent cela avec une physiothérapie ciblée pour les meilleurs résultats."
+      },
+      {
+        "question": "Combien de temps dois-je attendre pour voir une amélioration ?",
+        "answer": "De nombreux patients remarquent déjà une amélioration pendant la phase diagnostique : lorsque nous optimisons temporairement l'occlusion pendant l'examen, beaucoup ressentent directement plus de mobilité dans le cou. Avec la splint de stabilisation, l'amélioration se produit généralement dans les 2-4 semaines. La correction structurelle complète prend en moyenne 3-6 mois."
+      },
+      {
+        "question": "Toute raideur du cou a-t-elle toujours une cause liée à la mâchoire ?",
+        "answer": "Non, tous les problèmes de cou ne sont pas liés à la mâchoire. Les hernies, l'arthrose, les traumatismes et d'autres affections cervicales peuvent également causer une raideur du cou. Notre diagnostique établit objectivement s'il y a une composante de la mâchoire. Lorsque c'est le cas, un traitement ciblé peut offrir une amélioration significative. Lorsqu'il n'y a pas de relation, nous vous référons au bon spécialiste."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Prenez rendez-vous pour votre scan gratuit",
+    "description": "Découvrez si votre raideur du cou a une cause liée à la mâchoire. Notre diagnostique 4D établit le lien.",
+    "buttonText": "Prendre rendez-vous",
+    "buttonHref": "/contact"
+  }
+}

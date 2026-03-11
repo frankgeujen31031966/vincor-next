@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "title": "Douleurs de la mâchoire (CMD/TMJ) | Vincor",
+    "description": "Souffrez-vous de douleurs de la mâchoire, une mâchoire qui clique ou une ouverture buccale limitée ? Vincor traite les CMD et les troubles de l'articulation de la mâchoire avec une diagnostique avancée 4D."
+  },
+  "hero": {
+    "breadcrumb": ["Accueil", "Problèmes", "Douleurs de la mâchoire"],
+    "title": "Douleurs de la mâchoire & CMD",
+    "description": "La dysfonction craniomandibulaire (CMD) est une affection fréquente qui provoque des douleurs, des clics et des mouvements limités de l'articulation de la mâchoire. Chez Vincor, nous traitons la cause, pas seulement les symptômes."
+  },
+  "watIsHet": {
+    "label": "Qu'est-ce que c'est",
+    "title": "Qu'est-ce que les douleurs de la mâchoire (CMD) ?",
+    "paragraphs": [
+      "La dysfonction craniomandibulaire (CMD), connue internationalement sous le nom de TMJ/TMD, est un terme générique désignant les troubles de l'articulation de la mâchoire et des muscles masticateurs environnants. L'articulation de la mâchoire est l'une des articulations les plus complexes du corps humain et est sollicitée des milliers de fois chaque jour lors de la mastication, de la parole et de la déglutition.",
+      "Dans le cas de la CMD, l'interaction entre l'articulation de la mâchoire, les muscles masticateurs et les éléments dentaires ne fonctionne pas de manière optimale. Cela entraîne des douleurs, des limitations de mouvement et souvent aussi des symptômes irradiants vers la tête, le cou et les épaules. Environ 30% de la population souffre dans une certaine mesure de troubles liés à la CMD."
+    ],
+    "image": "/images/kaakpijn.jpg"
+  },
+  "symptomen": {
+    "title": "Reconnaissez-vous ces symptômes ?",
+    "description": "Les douleurs de la mâchoire se manifestent de différentes manières. De nombreux patients se reconnaissent dans plusieurs des symptômes ci-dessous.",
+    "items": [
+      "Douleur ou sensibilité autour de l'articulation de la mâchoire",
+      "Clics, craquements ou claquements lors de l'ouverture de la bouche",
+      "Ouverture buccale limitée ou une articulation de la mâchoire qui se \"verrouille\"",
+      "Douleurs de mastication qui s'aggravent lors de la consommation d'aliments durs",
+      "Douleurs irradiant vers l'oreille, le temple ou le cou",
+      "Raideur matinale de la mâchoire après un grincement nocturne",
+      "Bite modifiée ou l'impression que les dents ne s'emboîtent pas correctement",
+      "Muscles masticateurs fatigués ou tendus, surtout le matin"
+    ]
+  },
+  "oorzaken": {
+    "label": "Causes",
+    "title": "La connexion mâchoire-colonne vertébrale",
+    "paragraphs": [
+      "Les douleurs de la mâchoire ne surviennent presque jamais de manière isolée. Chez Vincor, nous voyons quotidiennement comment une occlusion perturbée — la manière dont votre mâchoire supérieure et inférieure se mordent l'une l'autre — provoque une réaction en chaîne qui affecte tout le système de posture.",
+      "Lorsque la bite n'est pas symétrique, les muscles masticateurs compensent en se tendant de manière inégale. Cette tension se propage vers les muscles du cou, la partie des épaules et finalement la colonne vertébrale entière. Inversement, une déviation de la colonne vertébrale ou du bassin peut influencer la position de la mâchoire.",
+      "D'autres facteurs qui contribuent à la CMD sont le stress (ce qui provoque une contraction involontaire), le bruxisme, un traumatisme du visage ou de la mâchoire, l'arthrose de l'articulation de la mâchoire et l'usure du disque articulaire (discus)."
+    ],
+    "image": "/images/4d-posturelab.jpg"
+  },
+  "diagnostiek": {
+    "title": "Comment nous diagnostiquons les douleurs de la mâchoire",
+    "description": "Notre scan 4D avancé cartographie l'interaction complète entre la mâchoire, les dents et la posture, afin que nous puissions déterminer la véritable cause de vos symptômes.",
+    "cards": [
+      {
+        "title": "Scan 4D de la mâchoire",
+        "description": "Imagerie tridimensionnelle de l'articulation de la mâchoire en mouvement, afin que nous puissions voir exactement où la dysfonction se produit."
+      },
+      {
+        "title": "Analyse de l'occlusion",
+        "description": "Enregistrement numérique de la bite qui mesure avec précision la répartition de la pression sur vos dents et détecte les asymétries."
+      },
+      {
+        "title": "Mesure de l'activité musculaire",
+        "description": "Électromyographie (EMG) des muscles masticateurs et du cou pour mesurer la surcharge et les asymétries dans la tension musculaire."
+      }
+    ]
+  },
+  "behandeling": {
+    "title": "Options de traitement pour les douleurs de la mâchoire",
+    "description": "Sur la base du diagnostic, nous établissons un plan de traitement personnalisé. Notre approche combine le soulagement direct de la douleur avec l'élimination de la cause sous-jacente.",
+    "phases": [
+      {
+        "phase": "Phase 1",
+        "title": "Stabilisation",
+        "description": "Soulagement immédiat des douleurs de la mâchoire aiguës et protection de l'articulation de la mâchoire.",
+        "features": [
+          "Bite protectrice sur mesure",
+          "Exercices relaxants pour les muscles",
+          "Conseils sur le mode de vie et réduction du stress"
+        ]
+      },
+      {
+        "phase": "Phase 2",
+        "title": "Correction",
+        "description": "Restauration de la relation de bite correcte et de la position de l'articulation de la mâchoire.",
+        "featured": true,
+        "badge": "Plus choisi",
+        "features": [
+          "Thérapie orthodontique neuromusculaire",
+          "Correction de la bite et optimisation de l'occlusion",
+          "Suivi par physiothérapie"
+        ]
+      },
+      {
+        "phase": "Phase 3",
+        "title": "Entretien",
+        "description": "Stabilité à long terme et prévention du retour des symptômes.",
+        "features": [
+          "Contrôles et surveillance périodiques",
+          "Réhabilitation dentaire définitive",
+          "Programme d'exercices préventif"
+        ]
+      }
+    ]
+  },
+  "faq": {
+    "title": "FAQ sur les douleurs de la mâchoire",
+    "items": [
+      {
+        "question": "Comment savoir si j'ai une CMD ?",
+        "answer": "La CMD se caractérise par des douleurs ou des inconforts dans l'articulation de la mâchoire, des clics lors de l'ouverture de la bouche, une ouverture buccale limitée et parfois des douleurs oreille ou des maux de tête. Si vous ressentez régulièrement l'un ou plusieurs de ces symptômes, il est judicieux de faire effectuer un examen diagnostique. Notre scan gratuit vous apporte rapidement des réponses."
+      },
+      {
+        "question": "Un clic de mâchoire est-il toujours un problème ?",
+        "answer": "Un bruit de clic occasionnel sans douleur est souvent inoffensif et est causé par le disque articulaire qui se déplace temporairement. Lorsque le clic s'accompagne cependant de douleurs, d'une ouverture buccale limitée ou s'aggrave avec le temps, cela peut indiquer un déplacement progressif du disque. Une diagnostique précoce évite d'autres dommages à l'articulation de la mâchoire."
+      },
+      {
+        "question": "Combien de temps dure un traitement CMD chez Vincor ?",
+        "answer": "La durée du traitement varie selon le patient et dépend de la gravité de l'affection. La phase 1 (stabilisation) apporte généralement un soulagement dans les 2-4 semaines. Le cycle de traitement complet, y compris la correction et l'entretien, dure en moyenne 3-6 mois. Lors de la première consultation, nous vous donnons un calendrier réaliste basé sur votre diagnostic spécifique."
+      },
+      {
+        "question": "Le traitement est-il remboursé par mon assurance maladie ?",
+        "answer": "De nombreuses parties du traitement CMD sont couvertes par le remboursement dentaire ou physiothérapeutique de votre assurance complémentaire. Le scan diagnostique initial est remboursé par la plupart des assureurs. Nous vous conseillons de contacter votre assureur maladie à l'avance. Notre équipe vous aidera volontiers avec les informations nécessaires pour une demande de remboursement."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Prenez rendez-vous pour votre scan gratuit",
+    "description": "Découvrez la cause de vos douleurs de la mâchoire avec notre diagnostique avancée 4D. Totalement sans engagement et sans ordonnance.",
+    "buttonText": "Prendre rendez-vous",
+    "buttonHref": "/contact"
+  }
+}

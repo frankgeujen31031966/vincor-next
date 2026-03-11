@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "title": "Questions Fréquentes — Vincor",
+    "description": "Réponses aux questions fréquentes sur la Vincor occlusion et posture scan, traitement, coûts et technologie.",
+    "slug": "faq"
+  },
+  "hero": {
+    "breadcrumb": ["Accueil", "FAQ"],
+    "title": "Questions Fréquentes",
+    "titleHighlight": "Questions",
+    "description": "Ici, vous trouverez des réponses aux questions les plus courantes concernant notre diagnostic, traitement et méthodologie."
+  },
+  "categories": [
+    {
+      "sectionLabel": "Général",
+      "title": "Questions générales",
+      "items": [
+        {
+          "question": "Qu'est-ce qu'une scan d'occlusion?",
+          "answer": "Une scan d'occlusion évalue la relation entre votre mors (occlusion) et votre posture corporelle. Chez Vincor, nous combinons une analyse de l'articulation temporo-mandibulaire avec une scan 4D de la colonne vertébrale. Ainsi, il devient visible comment votre mors influence votre posture."
+        },
+        {
+          "question": "Combien de temps dure une scan?",
+          "answer": "La mesure elle-même ne prend que quelques secondes. En incluant l'introduction, l'explication et la discussion des résultats, vous êtes généralement prêt en 30 à 45 minutes."
+        },
+        {
+          "question": "La scan est-elle indolore?",
+          "answer": "Oui, complètement. La scan DIERS Formetric 4D est sans contact et fonctionne avec une lumière visible. Rien n'est placé sur votre corps et aucune forme de rayonnement n'est utilisée. Vous vous tenez simplement détendu devant l'appareil."
+        },
+        {
+          "question": "Ai-je besoin d'une référence?",
+          "answer": "Non, vous pouvez directement prendre rendez-vous chez Vincor. Une référence de votre médecin généraliste, dentiste ou kinésithérapeute n'est pas nécessaire, mais est bien sûr la bienvenue si vous en avez une."
+        }
+      ]
+    },
+    {
+      "sectionLabel": "Symptômes",
+      "title": "Questions sur les symptômes",
+      "items": [
+        {
+          "question": "Quels symptômes traite Vincor?",
+          "answer": "Vincor se concentre sur les symptômes liés à la relation entre mors et posture. Pensez aux douleurs mandibulaires, maux de tête, douleurs cervicales, douleurs dorsales, acouphènes, vertiges, douleurs d'épaule et troubles du sommeil. Beaucoup de ces symptômes ont une origine commune dans une occlusion perturbée."
+        },
+        {
+          "question": "Ma position mandibulaire peut-elle vraiment causer des maux de tête?",
+          "answer": "Oui, c'est un lien très courant. Lorsque la mors n'est pas correcte, les muscles de la mâchoire sont surchargés. Cette tension se propage via les muscles du cou vers la tête et peut entraîner des maux de tête de tension, des symptômes migraineux et même des douleurs faciales."
+        },
+        {
+          "question": "Une mors perturbée peut-elle causer des douleurs dorsales?",
+          "answer": "Absolument. La mâchoire inférieure est connectée via des muscles et des fascias au cou, aux épaules et à la colonne vertébrale. Une position mandibulaire déviée peut entraîner une charge musculaire asymétrique, une inclinaison pelvique et finalement des douleurs dorsales chroniques. Ce lien est appelé la chaîne crânio-mandibulo-cervicale."
+        },
+        {
+          "question": "J'ai déjà beaucoup de traitements sans résultat. Vincor peut-il aider?",
+          "answer": "Beaucoup de nos patients ont un long parcours derrière eux chez des kinésithérapeutes, chiropraticiens ou autres spécialistes. Lorsque les symptômes reviennent constamment, la cause peut être dans l'occlusion. Notre scan 4D peut démontrer ou exclure ce lien. Ainsi, vous saurez enfin d'où cela vient."
+        }
+      ]
+    },
+    {
+      "sectionLabel": "Traitement",
+      "title": "Questions sur le traitement",
+      "items": [
+        {
+          "question": "Combien coûte le traitement?",
+          "answer": "Phase 1 (splint de relaxation incluant scan 4D) coûte 195€. Phase 2 (splint de repositionnement avec analyse approfondie) coûte 595€. Phase 3 (reconstruction en cas de PDA) varie de 3.000€ à 7.000€ selon la complexité. Tous les patients n'ont pas besoin des trois phases."
+        },
+        {
+          "question": "Combien de temps dure tout le parcours de traitement?",
+          "answer": "Cela varie selon le patient. La Phase 1 dure généralement 4 à 6 semaines. La Phase 2 prend 2 à 4 mois. La Phase 3, si nécessaire, peut durer 6 à 12 mois. Nous discutons toujours à l'avance avec vous du calendrier attendu."
+        },
+        {
+          "question": "Le traitement est-il remboursé par mon assureur de santé?",
+          "answer": "Le remboursement dépend de votre assurance complémentaire. Certains assureurs remboursent (partiellement) la thérapie par splint sous la dénomination gnathologie ou physiothérapie orofaciale. Nous vous recommandons de contacter votre assureur de santé à l'avance. Nous vous fournissons volontiers les informations nécessaires pour une demande."
+        },
+        {
+          "question": "Dois-je passer par les trois phases?",
+          "answer": "Non, pas nécessairement. Beaucoup de patients ressentent déjà une amélioration suffisante après la phase 1 ou 2. La Phase 3 (reconstruction) n'est à considérer que lorsqu'une correction définitive des dents est souhaitée ou nécessaire. Nous en discutons toujours en concertation avec vous."
+        },
+        {
+          "question": "Combien de temps avant de remarquer un résultat?",
+          "answer": "Beaucoup de patients remarquent déjà une amélioration après quelques jours à semaines lors du port de la splint de relaxation. Le degré et la vitesse d'amélioration dépendent de la nature et de la gravité des symptômes. Lors de la scan 4D intermédiaire, nous pouvons mesurer objectivement les progrès."
+        }
+      ]
+    },
+    {
+      "sectionLabel": "Technologie",
+      "title": "Questions sur la technologie",
+      "items": [
+        {
+          "question": "Qu'est-ce que DIERS Formetric?",
+          "answer": "DIERS Formetric 4D est un système de diagnostic médical allemand qui utilise la vidéo-raster-stéréographie. Un motif lumineux est projeté sur le dos et enregistré par des caméras, puis un modèle 3D précis de la colonne vertébrale est calculé. Le système est utilisé dans les hôpitaux et cliniques à travers le monde."
+        },
+        {
+          "question": "La scan est-elle sûre?",
+          "answer": "Oui, la scan est entièrement sûre. Aucun rayonnement X ou rayonnement électromagnétique n'est utilisé. Le système fonctionne exclusivement avec une lumière visible (comparable à un projecteur). La scan est donc également adaptée aux enfants, aux femmes enceintes et aux patients qui doivent être scannés régulièrement."
+        },
+        {
+          "question": "Quelle est la précision de la mesure?",
+          "answer": "La scan DIERS Formetric a une précision de mesure comparable aux radiographies, sans le rayonnement associé. Le système détecte les déviations dans la colonne vertébrale jusqu'au millimètre et peut suivre précisément les changements de posture dans le temps."
+        },
+        {
+          "question": "La scan peut-elle être répétée pour mesurer les progrès?",
+          "answer": "Oui, et c'est l'un des grands avantages. Puisque la scan est entièrement exempte de rayonnement, elle peut être répétée aussi souvent que nécessaire. Nous utilisons des scans intermédiaires pour mesurer objectivement l'effet de la thérapie par splint et ajuster le plan de traitement si nécessaire."
+        }
+      ]
+    }
+  ],
+  "cta": {
+    "title": "Votre question n'y figure pas?",
+    "description": "N'hésitez pas à nous contacter. Nous répondrons volontiers à votre question personnellement.",
+    "buttonText": "Posez votre question",
+    "buttonLink": "/contact"
+  }
+}

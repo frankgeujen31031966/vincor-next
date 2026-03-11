@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "title": "Contact & Rendez-vous — Vincor",
+    "description": "Prenez rendez-vous chez Vincor à Eindhoven. Contactez-nous par téléphone, e-mail ou via le formulaire de contact.",
+    "slug": "contact"
+  },
+  "hero": {
+    "breadcrumb": ["Accueil", "Contact"],
+    "title": "Contact & Rendez-vous",
+    "titleHighlight": "Rendez-vous",
+    "description": "Prenez rendez-vous pour votre première scan ou posez votre question. Nous sommes à votre écoute."
+  },
+  "form": {
+    "title": "Prendre rendez-vous",
+    "description": "Remplissez le formulaire ci-dessous et nous vous contacterons dans les plus brefs délais pour planifier un rendez-vous.",
+    "fields": [
+      {
+        "id": "name",
+        "label": "Nom",
+        "type": "text",
+        "placeholder": "Votre nom complet",
+        "required": true
+      },
+      {
+        "id": "email",
+        "label": "Adresse e-mail",
+        "type": "email",
+        "placeholder": "votre@email.fr",
+        "required": true
+      },
+      {
+        "id": "phone",
+        "label": "Numéro de téléphone",
+        "type": "tel",
+        "placeholder": "+33 6 12345678",
+        "required": false
+      },
+      {
+        "id": "subject",
+        "label": "Sujet",
+        "type": "select",
+        "placeholder": "Sélectionnez un sujet",
+        "required": false,
+        "options": [
+          { "value": "scan", "label": "Rendez-vous pour scan" },
+          { "value": "traitement", "label": "Question sur le traitement" },
+          { "value": "coûts", "label": "Question sur les frais/remboursement" },
+          { "value": "autre", "label": "Autre" }
+        ]
+      },
+      {
+        "id": "message",
+        "label": "Votre message",
+        "type": "textarea",
+        "placeholder": "Décrivez brièvement vos symptômes ou votre question...",
+        "required": false
+      }
+    ],
+    "checkboxes": [
+      {
+        "id": "privacy",
+        "required": true,
+        "label": "J'accepte la politique de confidentialité et j'autorise le traitement de mes données dans le cadre de ce rendez-vous.",
+        "link": { "text": "politique de confidentialité", "href": "/privacy" }
+      },
+      {
+        "id": "terms",
+        "required": false,
+        "label": "J'accepte les conditions générales.",
+        "link": { "text": "conditions générales", "href": "/voorwaarden" }
+      }
+    ],
+    "submitButton": "Demander un rendez-vous"
+  },
+  "contactInfo": {
+    "title": "Coordonnées",
+    "address": {
+      "label": "Adresse",
+      "street": "Dokter Cuyperslaan 76",
+      "postcode": "5623 BB",
+      "city": "Eindhoven",
+      "country": "Pays-Bas"
+    },
+    "phone": {
+      "label": "Téléphone",
+      "number": "+31 40 245 00 23",
+      "href": "tel:+31402450023"
+    },
+    "email": {
+      "label": "E-mail",
+      "address": "info@vincorscan.nl",
+      "href": "mailto:info@vincorscan.nl"
+    },
+    "openingHours": {
+      "label": "Horaires d'ouverture",
+      "hours": [
+        { "days": "Lundi – Vendredi", "time": "08:30 – 17:30" },
+        { "days": "Samedi", "time": "Sur rendez-vous" },
+        { "days": "Dimanche", "time": "Fermé" }
+      ]
+    }
+  },
+  "map": {
+    "src": "https://www.google.com/maps?q=Vincor,+Dokter+Cuyperslaan+76,+5623+BB+Eindhoven,+Netherlands&output=embed",
+    "title": "Emplacement Vincor — Dokter Cuyperslaan 76, Eindhoven"
+  },
+  "cta": {
+    "title": "Préférez appeler directement ?",
+    "description": "Notre équipe est à votre disposition du lundi au vendredi de 08:30 à 17:30.",
+    "buttonText": "+31 40 245 00 23",
+    "buttonLink": "tel:+31402450023"
+  }
+}

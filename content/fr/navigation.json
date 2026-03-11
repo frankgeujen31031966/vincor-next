@@ -1,0 +1,42 @@
+{
+  "nav": [
+    {
+      "label": "Plaintes",
+      "href": "/klachten",
+      "children": [
+        { "label": "Douleurs de la mâchoire", "href": "/klachten/kaakpijn" },
+        { "label": "Maux de tête & Migraine", "href": "/klachten/hoofdpijn-migraine" },
+        { "label": "Acouphènes", "href": "/klachten/tinnitus" },
+        { "label": "Douleurs nerveuses", "href": "/klachten/zenuwpijn" },
+        { "label": "Bruxisme", "href": "/klachten/tandenknarsen" },
+        { "label": "Cou raide", "href": "/klachten/stijve-nek" },
+        { "label": "Douleurs du dos & de la nuque", "href": "/klachten/rug-nekklachten" },
+        { "label": "Apnée & Ronflement", "href": "/klachten/apneu-snurken" }
+      ]
+    },
+    { "label": "Diagnostic", "href": "/diagnostiek" },
+    { "label": "Traitement", "href": "/behandeling" },
+    { "label": "À Propos", "href": "/over-ons" },
+    { "label": "FAQ", "href": "/faq" },
+    { "label": "Base de connaissances", "href": "/kennisbank" }
+  ],
+  "cta": "Réserver une consultation gratuite",
+  "footer": {
+    "description": "Vincor (Vinculum Corporis — le lien du corps). Spécialisé dans l'occlusion & le diagnostic postural.",
+    "klachtenTitle": "Plaintes",
+    "behandelingTitle": "Traitement",
+    "contactTitle": "Contact",
+    "behandelingLinks": [
+      { "label": "Phase 1 — Splint de relaxation", "href": "/behandeling/fase-1-relaxatiesplint" },
+      { "label": "Phase 2 — Splint de repositionnement", "href": "/behandeling/fase-2-repositioneringssplint" },
+      { "label": "Phase 3 — Reconstruction", "href": "/behandeling/fase-3-reconstructie" }
+    ],
+    "privacy": "Confidentialité",
+    "terms": "Conditions"
+  },
+  "cookie": {
+    "text": "Nous utilisons des cookies pour améliorer votre expérience. En continuant à naviguer, vous acceptez notre utilisation des cookies.",
+    "accept": "Accepter",
+    "decline": "Refuser"
+  }
+}

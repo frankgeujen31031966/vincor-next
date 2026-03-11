@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "title": "Base de connaissances — Vincor | Articles sur la mâchoire, la posture et la santé",
+    "description": "Lisez des articles et des insights sur les troubles de la mâchoire, les problèmes posturaux, CMD et la relation entre la morsure et le corps. La Base de connaissances Vincor.",
+    "slug": "kennisbank"
+  },
+  "hero": {
+    "breadcrumb": ["Accueil", "Base de connaissances"],
+    "title": "Base de connaissances",
+    "titleHighlight": "bank",
+    "description": "Articles et insights sur la mâchoire, la posture et la santé"
+  },
+  "articles": [
+    {
+      "title": "Comment reconnaître le CMD ?",
+      "slug": "kennisbank/cmd-herkennen",
+      "category": "Symptômes",
+      "excerpt": "Douleurs de mâchoire, maux de tête, clics dans l'articulation de la mâchoire ? Ce sont des signaux courants du CMD. Apprenez à reconnaître les 7 symptômes les plus importants.",
+      "image": "kaakpijn.jpg",
+      "imageAlt": "Reconnaître les douleurs de mâchoire et le CMD",
+      "readingTime": "5 min de lecture"
+    },
+    {
+      "title": "La relation entre la mâchoire et le dos",
+      "slug": "kennisbank/kaak-en-rug",
+      "category": "Diagnostic",
+      "excerpt": "Douleurs de dos sans cause claire ? Le lien pourrait être dans votre mâchoire. Découvrez comment une morsure perturbée peut influencer toute votre posture.",
+      "image": "rug-nek.jpg",
+      "imageAlt": "La relation entre la mâchoire et le dos",
+      "readingTime": "6 min de lecture"
+    },
+    {
+      "title": "Qu'est-ce qu'une scan occlusale ?",
+      "slug": "kennisbank/occlusiescan",
+      "category": "Diagnostic",
+      "excerpt": "Tout sur la DIERS 4D Spinescan : comment elle fonctionne, ce qu'elle mesure et pourquoi elle est plus sûre et plus rapide que le diagnostic traditionnel.",
+      "image": "formetric-evaluation.jpg",
+      "imageAlt": "DIERS 4D Spinescan scan occlusale",
+      "readingTime": "4 min de lecture"
+    },
+    {
+      "title": "Quand avez-vous besoin d'une splint de mâchoire ?",
+      "slug": "kennisbank/kaaksplint-nodig",
+      "category": "Traitement",
+      "excerpt": "Tous les troubles de la mâchoire ne nécessitent pas une splint. Apprenez quand une splint thérapeutique de mâchoire est utile et la différence avec une plaque de bite ordinaire.",
+      "image": "behandeling-hero.jpg",
+      "imageAlt": "Traitement avec splint de mâchoire",
+      "readingTime": "5 min de lecture"
+    }
+  ],
+  "cta": {
+    "title": "Avez-vous une question qui n'est pas répondue ici ?",
+    "description": "N'hésitez pas à nous contacter. Nous sommes heureux de vous aider.",
+    "buttonText": "Prendre contact",
+    "buttonLink": "/contact"
+  }
+}

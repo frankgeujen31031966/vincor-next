@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "title": "Dr. Arash Zarrinpour — Dentiste & Spécialiste en Occlusion | Vincor",
+    "description": "Dr. Arash Zarrinpour est dentiste et spécialiste en occlusion à Paris. Spécialisé en occlusion fonctionnelle, gnathologie et réhabilitation articulaire mandibulaire. Partenaire de Vincor.",
+    "slug": "over-ons/dr-arash-zarrinpour"
+  },
+  "hero": {
+    "breadcrumb": ["Accueil", "À Propos", "Dr. Arash Zarrinpour"],
+    "title": "Dr. Arash Zarrinpour",
+    "titleHighlight": "Arash Zarrinpour",
+    "description": "Dentiste & Spécialiste en Occlusion — Paris"
+  },
+  "intro": {
+    "sectionLabel": "Profil",
+    "title": "Expertise internationale en occlusion et réhabilitation articulaire mandibulaire",
+    "image": "patient.jpg",
+    "imageAlt": "Dr. Arash Zarrinpour — Dentiste et Spécialiste en Occlusion",
+    "paragraphs": [
+      "Dr. Arash Zarrinpour est dentiste et spécialiste en occlusion installé à Paris, en France. Avec plus de 15 ans d'expérience en odontologie fonctionnelle, il s'est spécialisé dans le traitement de pathologies complexes liées à l'occlusion et aux troubles articulaires mandibulaires.",
+      "En tant que partenaire de Vincor, il fait le pont entre le monde francophone et néerlandophone dans le domaine de l'occlusion et de la diagnostic postural. Son cabinet à Paris offre la même approche diagnostique et thérapeutique que Vincor à Eindhoven, complétée par son expertise personnelle en gnathologie et en odontologie neuromusculaire.",
+      "Dr. Zarrinpour combine un background scientifique avec une approche empathique. Il croit, comme l'équipe de Vincor, que la mâchoire joue un rôle clé dans le fonctionnement de l'ensemble du corps."
+    ]
+  },
+  "expertise": {
+    "sectionLabel": "Expertise",
+    "title": "Domaines de spécialisation",
+    "items": [
+      {
+        "title": "Occlusion Fonctionnelle",
+        "description": "Analyse et correction de la manière dont la mâchoire supérieure et inférieure interagissent. Axé sur la restauration d'une occlusion équilibrée qui soutient l'ensemble du système postural."
+      },
+      {
+        "title": "Gnathologie",
+        "description": "La science du système masticateur dans tous ses aspects : articulations temporomandibulaires, muscles masticateurs, dentition et relations mutuelles. Une approche intégrale de la fonction mandibulaire."
+      },
+      {
+        "title": "Réhabilitation Articulaire Mandibulaire",
+        "description": "Traitement des CMD (TMD), troubles articulaires mandibulaires et syndromes de douleur associés. De la thérapie par splint à la réhabilitation neuromusculaire."
+      },
+      {
+        "title": "Odontologie Neuromusculaire",
+        "description": "Approche où la position de la mâchoire est déterminée par la relaxation optimale des muscles masticateurs et cervicaux, et non seulement par la position des dents."
+      }
+    ]
+  },
+  "approach": {
+    "sectionLabel": "Méthodologie",
+    "title": "Un interlocuteur francophone",
+    "paragraphs": [
+      "Pour les patients francophones, Dr. Zarrinpour offre la possibilité de suivre l'intégralité du parcours Vincor en français. De l'introduction et du diagnostic à la thérapie par splint et au suivi — tout dans votre langue, au cœur de Paris.",
+      "La collaboration entre Vincor Eindhoven et le cabinet de Dr. Zarrinpour à Paris est entièrement intégrée. Les données diagnostiques, les protocoles de traitement et les rapports de progression sont partagés en toute sécurité, garantissant ainsi la qualité et la continuité des soins."
+    ],
+    "features": [
+      "Parcours de traitement entièrement en français",
+      "Protocole diagnostique partagé avec Vincor Eindhoven",
+      "Technologie DIERS 4D Spinescan et Shining 3D",
+      "Coordination directe avec l'équipe néerlandophone"
+    ]
+  },
+  "credentials": {
+    "sectionLabel": "Formation & Enregistrement",
+    "title": "Formation",
+    "items": [
+      "Doctorat en Chirurgie Dentaire — Université Paris Descartes",
+      "Diplôme Universitaire en Occlusodontie et Prothèse",
+      "Formation postgraduate en gnathologie et odontologie neuromusculaire",
+      "Dentiste inscrit à l'Ordre National des Chirurgiens-Dentistes",
+      "Membre de la Société Française d'Occlusodontie"
+    ]
+  },
+  "contact": {
+    "sectionLabel": "Contact",
+    "title": "Prendre rendez-vous avec Dr. Zarrinpour",
+    "description": "Vous pouvez contacter directement le cabinet de Dr. Zarrinpour à Paris, ou recevoir une référence via Vincor Eindhoven.",
+    "location": "Paris, France",
+    "languages": ["Français", "Anglais", "Persan"]
+  },
+  "cta": {
+    "title": "Prendre contact",
+    "description": "Contactez Vincor pour plus d'informations sur un traitement chez Dr. Zarrinpour à Paris.",
+    "buttonText": "Prendre contact",
+    "buttonLink": "/contact"
+  }
+}

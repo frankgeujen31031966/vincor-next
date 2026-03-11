@@ -1,0 +1,92 @@
+{
+  "meta": {
+    "title": "Klachten | Vincor — Occlusie & Houdingsdiagnostiek",
+    "description": "Découvrez quels troubles Vincor traite : douleurs de mâchoire, migraine, acouphènes, bruxisme, douleurs nerveuses, troubles cervicaux et plus encore. Tout cela à partir de la connexion mâchoire-colonne vertébrale."
+  },
+  "hero": {
+    "breadcrumb": ["Home", "Klachten"],
+    "title": "Quels troubles traite Vincor ?",
+    "description": "Beaucoup de troubles chroniques dans la région de la tête, du cou et des épaules ont une cause commune : une position de mâchoire perturbée qui influence la posture. Notre diagnostic rend cette relation visible."
+  },
+  "intro": {
+    "label": "Notre Expertise",
+    "title": "La connexion entre la mâchoire et le corps",
+    "titleHighlight": "mâchoire et corps",
+    "description": "Une occlusion perturbée (position de la mâchoire) peut causer des troubles qui semblent n'avoir rien à voir avec la mâchoire — de la migraine aux douleurs du dos. Chez Vincor, nous rendons ces connexions objectives visibles avec la DIERS 4D Spinescan."
+  },
+  "conditionCards": [
+    {
+      "title": "Douleurs de mâchoire & CMD",
+      "href": "/klachten/kaakpijn",
+      "image": "/images/kaakpijn.jpg",
+      "alt": "Traitement des douleurs de mâchoire"
+    },
+    {
+      "title": "Douleurs de tête & Migraine",
+      "href": "/klachten/hoofdpijn-migraine",
+      "image": "/images/migraine.jpg",
+      "alt": "Traitement des douleurs de tête et migraine"
+    },
+    {
+      "title": "Acouphènes",
+      "href": "/klachten/tinnitus",
+      "image": "/images/Tinnitus-2.jpg",
+      "alt": "Traitement des acouphènes"
+    },
+    {
+      "title": "Bruxisme & Grincement de dents",
+      "href": "/klachten/tandenknarsen",
+      "image": "/images/Tandenknarsen.jpg",
+      "alt": "Traitement du bruxisme et grincement de dents"
+    },
+    {
+      "title": "Douleurs nerveuses",
+      "href": "/klachten/zenuwpijn",
+      "image": "/images/zenuwpijn.jpg",
+      "alt": "Traitement des douleurs nerveuses"
+    },
+    {
+      "title": "Cou & Épaules raides",
+      "href": "/klachten/stijve-nek",
+      "image": "/images/stijve-nek.jpg",
+      "alt": "Traitement du cou et des épaules raides"
+    },
+    {
+      "title": "Troubles du dos et du cou",
+      "href": "/klachten/rug-nekklachten",
+      "image": "/images/rug-nek.jpg",
+      "alt": "Traitement des troubles du dos et du cou"
+    },
+    {
+      "title": "Apnée & Ronflement",
+      "href": "/klachten/apneu-snurken",
+      "image": "/images/kaakpijn.jpg",
+      "alt": "Traitement de l'apnée du sommeil et ronflement"
+    }
+  ],
+  "approach": {
+    "label": "Notre Approche",
+    "title": "Du symptôme à la cause",
+    "description": "Chez Vincor, nous ne traitons pas seulement les symptômes, mais nous cherchons la cause sous-jacente. Avec la DIERS 4D Spinescan, nous rendons objectives visibles la relation entre la mâchoire, la colonne vertébrale et la posture.",
+    "items": [
+      "Analyse 4D sans rayonnement de la colonne vertébrale",
+      "Mesure de l'influence de la position de la mâchoire sur la posture",
+      "Plan de traitement personnalisé basé sur des données objectives"
+    ],
+    "image": "/images/spine-model.gif",
+    "buttonText": "En savoir plus sur notre diagnostic",
+    "buttonHref": "/diagnostiek"
+  },
+  "nietGevonden": {
+    "title": "Votre trouble n'y figure pas ?",
+    "description": "Il existe d'autres troubles liés à une position de mâchoire perturbée. N'hésitez pas à nous contacter — nous sommes heureux de réfléchir avec vous.",
+    "buttonText": "Prendre contact",
+    "buttonHref": "/contact"
+  },
+  "cta": {
+    "title": "Réservez votre scan 4D gratuit",
+    "description": "Découvrez en quelques minutes si vos troubles ont une cause commune — entièrement sans engagement.",
+    "buttonText": "Réserver un Scan Gratuit",
+    "buttonHref": "/contact"
+  }
+}

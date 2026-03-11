@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "title": "Qu'est-ce qu'une occlusiescan ? — Vincor Base de connaissances",
+    "description": "Tout sur la DIERS 4D Spinescan : comment fonctionne l'occlusiescan, ce qu'elle mesure, et pourquoi elle est plus sûre et plus précise que la diagnostique traditionnelle.",
+    "slug": "kennisbank/occlusiescan",
+    "readingTime": "4 minutes",
+    "publishDate": "mars 2026",
+    "category": "Diagnostiek"
+  },
+  "hero": {
+    "breadcrumb": ["Home", "Kennisbank", "Occlusiescan"],
+    "title": "Qu'est-ce qu'une occlusiescan?",
+    "titleHighlight": "occlusiescan",
+    "description": "Tout sur la DIERS 4D Spinescan"
+  },
+  "featuredImage": {
+    "src": "formetric-evaluation.jpg",
+    "alt": "Évaluation DIERS 4D Spinescan"
+  },
+  "body": [
+    {
+      "type": "intro",
+      "text": "Chez Vincor, l'occlusiescan constitue le point de départ de chaque traitement. Mais qu'est-ce qu'une telle scan exactement ? Que mesure-t-elle ? Et en quoi diffère-t-elle d'une radiographie ? Dans cet article, nous expliquons tout clairement."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Que mesure la scan ?"
+    },
+    {
+      "type": "paragraph",
+      "text": "La DIERS Formetric 4D Spinescan cartographie votre posture complète. Concrètement, le système mesure :"
+    },
+    {
+      "type": "list",
+      "items": [
+        "La position de la colonne vertébrale : courbure, rotation et éventuelle scoliose",
+        "La position du bassin : inclinaison, rotation et déviation",
+        "L'équilibre musculaire : symétrie de la musculature du tronc à gauche et à droite",
+        "La statique corporelle : l'équilibre global de votre corps en trois dimensions"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Pour une occlusiescan, nous effectuons cette mesure deux fois : une fois dans votre situation actuelle et une fois avec un test de mors thérapeutique. En analysant la différence, il devient immédiatement visible si et dans quelle mesure votre mors influence votre posture."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Comment ça marche ? La stéréographie grille vidéo expliquée"
+    },
+    {
+      "type": "paragraph",
+      "text": "La technologie derrière la scan s'appelle la stéréographie grille vidéo (VRS). Le principe est surprenant d'élégance : un projecteur projette une grille de lignes de lumière sur votre dos. Deux caméras enregistrent comment ce motif lumineux se déforme par les contours de votre corps. Un ordinateur calcule à partir de cela en fractions de seconde un modèle tridimensionnel de votre surface dorsale."
+    },
+    {
+      "type": "paragraph",
+      "text": "Puisque le système fonctionne en 4D (trois dimensions plus le temps), plusieurs images sont enregistrées par seconde. Ainsi, non seulement votre posture est mesurée, mais aussi la dynamique — comment votre corps bouge et oscille."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Pourquoi pas une radiographie ?"
+    },
+    {
+      "type": "paragraph",
+      "text": "La scan DIERS diffère sur des points fondamentaux de la diagnostique traditionnelle :"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Aucun rayonnement : la scan fonctionne exclusivement avec de la lumière visible. Il n'y a aucun rayonnement X, aucun rayonnement électromagnétique et aucun contact avec le corps.",
+        "Sans contact : aucun capteur, marqueur ou autocollant n'est placé sur votre peau.",
+        "Ultra-rapide : la mesure dure littéralement des secondes. Y compris la préparation, vous êtes prêt en un quart d'heure.",
+        "Répétable : puisque la scan est entièrement sûre, elle peut être répétée autant que nécessaire pour mesurer les progrès."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "La précision de la mesure est comparable à celle des radiographies — mais sans les inconvénients. Cela rend la scan également adaptée aux enfants, aux femmes enceintes et aux patients qui doivent être contrôlés régulièrement."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Que pouvez-vous attendre pendant la scan ?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Le processus est simple et confortable. Vous êtes invité à vous déshabiller le haut du corps (les femmes peuvent porter un débardeur ouvert) et de vous tenir debout devant l'appareil en vous détendant. Le système projette un motif de lignes de lumière sur votre dos — vous ne sentez rien de cela."
+    },
+    {
+      "type": "paragraph",
+      "text": "Après quelques secondes, la première mesure est prête. Ensuite, vous recevez un test de mors thérapeutique (un rouleau de coton ou une construction en silicone) et la mesure est répétée. Les résultats sont immédiatement disponibles et sont discutés avec vous sur l'écran."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Des résultats de scan vers un plan de traitement"
+    },
+    {
+      "type": "paragraph",
+      "text": "Les résultats de la scan constituent la base de votre plan de traitement personnalisé. Les cartes de couleurs montrent d'un coup d'œil où votre corps est déséquilibré et à quel point la différence est avec et sans test de mors. Sur cette base, nous déterminons quel traitement est le plus approprié — souvent en commençant par une plaque occlusale thérapeutique."
+    },
+    {
+      "type": "paragraph",
+      "text": "Vous voulez en savoir plus sur la technologie et la diagnostique ? Consultez notre page diagnostique détaillée."
+    }
+  ],
+  "relatedArticles": [
+    {
+      "title": "La relation entre mâchoire et dos",
+      "slug": "kennisbank/kaak-en-rug",
+      "image": "rug-nek.jpg"
+    },
+    {
+      "title": "Comment reconnaître la CMD ?",
+      "slug": "kennisbank/cmd-herkennen",
+      "image": "kaakpijn.jpg"
+    }
+  ],
+  "cta": {
+    "title": "Curieux de savoir ce que la scan révèle sur votre posture ?",
+    "description": "Prenez rendez-vous pour une occlusiescan. Sans rayonnement, sans contact et résultat immédiat.",
+    "buttonText": "Prendre rendez-vous",
+    "buttonLink": "/contact"
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "meta": {
+    "title": "Phase 1 — Splint de relaxation | Traitement Vincor",
+    "description": "Phase 1 du modèle de traitement Vincor : la splint de relaxation. Relaxation des muscles de la mâchoire et du dos, diagnostic 4D et première étape vers la guérison. À partir de 195 €.",
+    "slug": "behandeling/fase-1-relaxatiesplint"
+  },
+  "hero": {
+    "breadcrumb": ["Accueil", "Traitement", "Phase 1 — Splint de relaxation"],
+    "title": "Phase 1 — Splint de relaxation",
+    "titleHighlight": "Splint de relaxation",
+    "description": "La première étape vers le soulagement. Là où la relaxation commence et où l'on comprend ce dont votre corps a réellement besoin."
+  },
+  "intro": {
+    "sectionLabel": "Le Point de Départ",
+    "title": "Vous n'êtes pas le premier à chercher des réponses depuis des années",
+    "image": "fase1-relaxatie.jpg",
+    "imageAlt": "Traitement splint de relaxation phase 1 chez Vincor",
+    "paragraphs": [
+      "Beaucoup de nos patients ont un long parcours derrière eux. Du médecin généraliste au spécialiste, du physiothérapeute au chirurgien maxillo-facial — sans qu'aucun ne puisse trouver la véritable cause de leurs symptômes. Reconnaissable ? Alors vous êtes au bon endroit.",
+      "La splint de relaxation est votre première étape. Pas n'importe quelle splint, mais un outil soigneusement conçu qui permet aux muscles surchargés de votre mâchoire, cou et dos de se détendre. Votre corps obtient enfin l'espace nécessaire pour se guérir. En même temps, cette phase fournit les premières informations diagnostiques : qu'est-ce qui se passe réellement, et quelle direction convient à votre situation ?",
+      "La phase 1 est volontairement accessible. Pas de traitement invasif, pas de grande dépense — mais un début concret et une réponse claire."
+    ]
+  },
+  "whatYouGet": {
+    "sectionLabel": "Ce Que Vous Recevez",
+    "title": "Que comprend cette phase ?",
+    "description": "La phase 1 combine diagnostic et traitement en quatre parties claires. Vous saurez exactement où vous en êtes.",
+    "cards": [
+      {
+        "title": "Intake & anamnèse détaillées",
+        "description": "Nous prenons le temps d'examiner vos symptômes, antécédents médicaux et fonctionnement quotidien. Pas de précipitation, mais une conversation approfondie qui pose les bases de votre traitement."
+      },
+      {
+        "title": "Scan DIERS 4D Spinescan",
+        "description": "Une analyse sans rayonnement et sans contact de votre posture corporelle complète. En quelques secondes, la scan met objectivement en évidence la relation entre votre position de mâchoire, colonne vertébrale et bassin."
+      },
+      {
+        "title": "Splint de relaxation sur mesure",
+        "description": "Sur la base des données diagnostiques, votre splint est fabriquée individuellement. Pas de solution standard, mais un outil personnalisé qui correspond parfaitement à votre situation et à votre motif de symptômes."
+      },
+      {
+        "title": "Première évaluation & plan de traitement",
+        "description": "Après 4 à 6 semaines, nous évaluons ensemble les résultats. Vos symptômes ont-ils diminué ? Que montre le contrôle ? Sur cette base, nous discutons de la poursuite du parcours et de la manière de le faire."
+      }
+    ]
+  },
+  "howItWorks": {
+    "sectionLabel": "Le Fonctionnement",
+    "title": "Comment fonctionne la splint de relaxation ?",
+    "image": "splint-detail.jpg",
+    "imageAlt": "Détail de la splint de relaxation Vincor",
+    "paragraphs": [
+      "La splint de relaxation n'est pas une simple plaque contre le bruxisme que vous achetez en pharmacie. C'est un instrument de précision conçu sur la base de vos données de posture 4D personnelles. La splint positionne votre mâchoire inférieure dans une position légèrement ajustée, permettant aux muscles de la mâchoire, du cou et du dos surchargés de se détendre.",
+      "Vous portez la splint principalement la nuit. Pendant que vous dormez, la splint travaille à briser le cycle de tension qui maintient vos symptômes. Là où une simple plaque ne fait que protéger contre l'usure, la splint de relaxation s'attaque au problème à la source.",
+      "Beaucoup de patients remarquent déjà une amélioration dans les premières semaines : moins de douleur à la mâchoire au réveil, moins de maux de tête, et un cou qui devient progressivement plus souple. Ce ne sont pas des promesses — ce sont les expériences que nous entendons quotidiennement."
+    ],
+    "features": [
+      "Conçue sur la base du diagnostic de posture 4D",
+      "Brise le cycle de tension musculaire à la source",
+      "Confortable à porter pendant la nuit",
+      "Amélioration notable souvent déjà dans quelques semaines"
+    ]
+  },
+  "timeline": {
+    "sectionLabel": "Votre Parcours",
+    "title": "Que pouvez-vous attendre ?",
+    "description": "La phase 1 est claire et prévisible. À trois moments, vous saurez où vous en êtes.",
+    "steps": [
+      {
+        "number": 1,
+        "title": "Semaine 1 — Intake, scan & impression",
+        "description": "Pendant votre première visite, nous effectuons une intake détaillée, réalisons la scan de posture 4D et prenons une empreinte dentaire précise. Tout ce qui est nécessaire pour fabriquer votre splint de relaxation personnalisé."
+      },
+      {
+        "number": 2,
+        "title": "Semaines 2–3 — Placement de la splint de relaxation",
+        "description": "Votre splint sur mesure est placée et ajustée avec précision. Vous recevez des instructions claires sur le port et l'entretien, afin que vous puissiez commencer immédiatement à domicile."
+      },
+      {
+        "number": 3,
+        "title": "Semaines 4–6 — Contrôle & évaluation",
+        "description": "Nous évaluons ensemble l'évolution de vos symptômes. Sur la base des résultats, nous discutons si la phase 1 est suffisante, ou si une poursuite avec une répositionnement (phase 2) est judicieuse."
+      }
+    ]
+  },
+  "stats": [
+    {
+      "value": "93%",
+      "label": "des patients ressentent une diminution des symptômes après la phase 1"
+    },
+    {
+      "value": "4–6 sem.",
+      "label": "durée de traitement moyenne de cette première phase"
+    },
+    {
+      "value": "1 scan",
+      "label": "est tout ce qui est nécessaire pour un diagnostic complet"
+    }
+  ],
+  "pricing": {
+    "sectionLabel": "Investissement",
+    "title": "Coûts transparents, aucune surprise",
+    "description": "La phase 1 est une première étape volontairement accessible. Tout est inclus — de l'intake à l'évaluation.",
+    "phase": "Phase 1",
+    "name": "Splint de relaxation",
+    "price": "195",
+    "currency": "EUR",
+    "priceDescription": "Tout ce dont vous avez besoin pour un début solide de votre parcours de traitement, dans un tarif clair unique.",
+    "features": [
+      "Scan d'occlusion et de posture 4D (DIERS Formetric)",
+      "Analyse de l'articulation temporo-mandibulaire et du tonus musculaire",
+      "Splint de relaxation sur mesure",
+      "Diminution de la tension musculaire et des douleurs",
+      "Première évaluation des options de traitement",
+      "Rendez-vous de contrôle et évaluation après 4–6 semaines"
+    ],
+    "location": "Vincor, Eindhoven",
+    "buttonText": "Commencez votre parcours"
+  },
+  "faq": {
+    "sectionLabel": "Questions Fréquentes",
+    "title": "Questions sur la phase 1",
+    "description": "Nous comprenons que vous ayez des questions. Ci-dessous, nous répondons aux questions les plus fréquentes sur la splint de relaxation.",
+    "items": [
+      {
+        "question": "La splint de relaxation est-elle douloureuse ?",
+        "answer": "Non, la splint est conçue pour le confort. Comme elle est fabriquée sur mesure, elle s'adapte précisément à vos dents. Les 1 à 2 premiers jours, vous pouvez ressentir une légère sensation car vos muscles s'habituent à la nouvelle position, mais c'est léger et cela disparaît rapidement. La plupart des patients trouvent la splint agréable dès la première nuit."
+      },
+      {
+        "question": "Combien de temps dois-je porter la splint ?",
+        "answer": "La splint de relaxation est principalement portée la nuit. C'est le moment où beaucoup de patients bruxent ou serrent les dents inconsciemment, et où les muscles bénéficient le plus de la relaxation. Dans certains cas, nous conseillons également de porter la splint pendant la journée, par exemple lors de moments de stress ou en travaillant devant un écran. Nous en discutons personnellement avec vous."
+      },
+      {
+        "question": "La phase 1 est-elle remboursée par l'assurance ?",
+        "answer": "Cela dépend de votre assurance maladie et des conditions de votre police. Certaines assurances complémentaires remboursent (une partie des) frais pour la thérapie par splint. Nous vous aidons volontiers à établir la déclaration et pouvons vous informer à l'avance sur les possibilités. N'hésitez pas à nous contacter afin que nous puissions examiner ensemble ce qui s'applique à votre situation."
+      },
+      {
+        "question": "Que faire si mes symptômes ne s'améliorent pas après la phase 1 ?",
+        "answer": "La phase 1 n'est pas seulement un traitement, mais aussi un instrument diagnostique. Si vos symptômes ne s'améliorent pas suffisamment après la phase de relaxation, cela nous fournit des informations précieuses. Dans ce cas, nous évaluons si une splint de répositionnement (phase 2) est nécessaire pour traiter plus ciblée la cause sous-jacente — souvent une relation mordre-posture perturbée. Vous ne serez jamais laissé seul : nous discutons chaque étape avec vous."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Prêt pour la première étape ?",
+    "description": "Vous n'avez plus besoin d'hésiter. Prenez rendez-vous et découvrez ce que la splint de relaxation peut signifier pour vous. Nous sommes prêts à vous aider.",
+    "buttonText": "Prendre rendez-vous",
+    "buttonLink": "/contact"
+  }
+}

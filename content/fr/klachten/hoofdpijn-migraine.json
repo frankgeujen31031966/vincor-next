@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "title": "Maux de tête & Migraine | Vincor",
+    "description": "Maux de tête chroniques ou migraine ? Découvrez comment la tension dans la mâchoire et une occlusion perturbée peuvent être la cause. Vincor offre une diagnostique avancée en 4D."
+  },
+  "hero": {
+    "breadcrumb": ["Accueil", "Pathologies", "Maux de tête & Migraine"],
+    "title": "Maux de tête & Migraine",
+    "description": "Les maux de tête de tension et la migraine sont souvent causés par une fonction mandibulaire perturbée. Chez Vincor, nous examinons le lien entre votre occlusion, les muscles de la mâchoire et les maux de tête chroniques."
+  },
+  "watIsHet": {
+    "label": "Qu'est-ce que c'est",
+    "title": "Maux de tête d'origine mandibulaire",
+    "paragraphs": [
+      "Les maux de tête de tension sont la forme la plus courante de maux de tête et se caractérisent par une sensation de pression, en bande, autour de la tête. La migraine est un trouble neurologique avec des crises, souvent unilatérales, pulsatoires, accompagnées de nausées et de sensibilité à la lumière et au son.",
+      "Ce que beaucoup de gens ignorent, c'est que les maux de tête de tension comme la migraine peuvent être déclenchés ou aggravés par une dysfonction de l'articulation temporo-mandibulaire et une surcharge des muscles masticateurs. Le muscle temporalis — le grand muscle pariétal qui commande l'articulation temporo-mandibulaire — passe directement sur le pariétal et peut causer des maux de tête en cas de surcharge qui ne peuvent pas être distingués d'un mal de tête primaire."
+    ],
+    "image": "/images/migraine.jpg"
+  },
+  "symptomen": {
+    "title": "Reconnaît-vous ces symptômes ?",
+    "description": "Les maux de tête d'origine mandibulaire ont des modèles caractéristiques que vous pouvez identifier.",
+    "items": [
+      "Maux de tête de pression ou serrants des deux côtés de la tête",
+      "Maux de tête qui sont les plus forts le matin (à cause du bruxisme nocturne)",
+      "Crises de migraine qui coïncident avec la tension mandibulaire",
+      "Douleur dans les tempes qui s'aggrave en mâchant ou en bâillant",
+      "Maux de tête chroniques qui ne répondent pas aux analgésiques standards",
+      "Sensibilité à la pression sur les muscles masticateurs ou l'articulation temporo-mandibulaire",
+      "Combinaison de maux de tête avec raideur du cou et douleur à l'épaule",
+      "Troubles visuels (aura) précédant les crises de migraine"
+    ]
+  },
+  "oorzaken": {
+    "label": "Causes",
+    "title": "Comment la tension mandibulaire cause des maux de tête",
+    "paragraphs": [
+      "Les muscles masticateurs font partie des muscles les plus puissants du corps humain. Lorsque ces muscles sont chroniquement surchargés — à cause d'une occlusion incorrecte, du bruxisme ou du stress — des points déclencheurs se forment qui referrent la douleur vers la tête.",
+      "Le muscle temporalis (muscle pariétal) et le muscle masseter (muscle masticateur) sont directement connectés aux signaux de douleur qui déclenchent les maux de tête de tension et la migraine. Une occlusion perturbée fait en sorte que ces muscles travaillent continuellement plus dur que nécessaire, ce qui conduit à une surstimulation chronique du système nerveux trigéminal — le même nerf impliqué dans la migraine.",
+      "De plus, une position mandibulaire incorrecte affecte l'équilibre postural de la tête et du cou, ce qui irrite les nerfs cervicaux et forme une source supplémentaire de maux de tête."
+    ],
+    "image": "/images/formetric-evaluation.jpg"
+  },
+  "diagnostiek": {
+    "title": "Comment nous trouvons la cause de vos maux de tête",
+    "description": "Notre scan 4D révèle la relation cachée entre votre fonction mandibulaire et les maux de tête chroniques en cartographiant le système craniomandibulaire complet.",
+    "cards": [
+      {
+        "title": "Analyse trigéminal",
+        "description": "Mesure de la fonction nerveuse trigéminal pour déterminer dans quelle mesure la tension mandibulaire contribue à votre modèle de maux de tête."
+      },
+      {
+        "title": "Mesure EMG musculaire",
+        "description": "Électromyographie des muscles temporalis et masseter pour objectiver la surcharge et l'asymétrie."
+      },
+      {
+        "title": "Occlusion & scan posturale",
+        "description": "Analyse combinée de votre relation d'occlusion et de la posture cervicale pour évaluer la chaîne biomécanique complète."
+      }
+    ]
+  },
+  "behandeling": {
+    "title": "Options de traitement pour les maux de tête",
+    "description": "Lorsque la dysfonction mandibulaire est la cause de vos maux de tête, un traitement ciblé de l'occlusion et des muscles masticateurs offre souvent un soulagement rapide et durable.",
+    "phases": [
+      {
+        "phase": "Phase 1",
+        "title": "Détente",
+        "description": "Réduction directe de la tension musculaire et de la fréquence des crises de maux de tête.",
+        "features": [
+          "Splint de déprogrammation pour la relaxation musculaire",
+          "Thérapie TENS pour un soulagement de la douleur direct",
+          "Traitement des points déclencheurs des muscles masticateurs"
+        ]
+      },
+      {
+        "phase": "Phase 2",
+        "title": "Correction de l'occlusion",
+        "description": "Restauration structurelle de la relation d'occlusion pour une réduction durable des symptômes.",
+        "featured": true,
+        "badge": "Le plus choisi",
+        "features": [
+          "Orthèse neuromusculaire sur mesure",
+          "Optimisation de l'occlusion et équilibre de l'occlusion",
+          "Physiothérapie combinée cou-mâchoire"
+        ]
+      },
+      {
+        "phase": "Phase 3",
+        "title": "Prévention",
+        "description": "Prévention du retour des symptômes de maux de tête par des ajustements structurels.",
+        "features": [
+          "Réhabilitation dentaire définitive",
+          "Journal de maux de tête et monitoring",
+          "Gestion du stress et conseils de mode de vie"
+        ]
+      }
+    ]
+  },
+  "faq": {
+    "title": "FAQ sur les maux de tête & migraine",
+    "items": [
+      {
+        "question": "Ma mâchoire peut-elle vraiment être la cause de ma migraine ?",
+        "answer": "Oui, la recherche scientifique montre que la dysfonction craniomandibulaire (CMD) est un déclencheur important à la fois pour les maux de tête de tension et la migraine. Le nerf trigéminal, qui innerve à la fois l'articulation temporo-mandibulaire et de grandes parties de la tête, forme le pont neurologique entre les problèmes de mâchoire et les maux de tête. On estime que 70% des patients CMD ont également des symptômes de maux de tête."
+      },
+      {
+        "question": "Combien de temps dois-je attendre pour voir une amélioration ?",
+        "answer": "Beaucoup de patients ressentent déjà une réduction claire de la fréquence et de l'intensité des maux de tête dans les premières semaines de la phase de stabilisation. La splint de déprogrammation donne aux muscles masticateurs la chance de se détendre, réduisant ainsi l'action déclenchante sur le système trigéminal. La résolution complète des symptômes se produit généralement dans les 3 à 6 mois de traitement."
+      },
+      {
+        "question": "Dois-je arrêter ma médication actuelle pour les maux de tête ?",
+        "answer": "Non, nous conseillons jamais d'arrêter la médication de votre propre initiative. Notre traitement fonctionne en complément de vos soins médicaux existants. À mesure que la cause d'origine mandibulaire est traitée, beaucoup de patients constatent qu'ils ont besoin de moins de médication. Tout changement dans l'utilisation de la médication doit toujours se faire en consultation avec votre médecin traitant."
+      },
+      {
+        "question": "Comment Vincor distingue-t-elle les maux de tête d'origine mandibulaire des autres formes ?",
+        "answer": "Notre diagnostique 4D combine des mesures EMG des muscles masticateurs, une analyse d'occlusion et des scans posturaux pour objectiver s'il existe une relation entre votre fonction mandibulaire et les maux de tête. Lorsque nous mesurons pendant l'examen une tension musculaire qui corrèle avec votre modèle de maux de tête, il y a une forte indication d'un composant d'origine mandibulaire."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Prenez rendez-vous pour votre scan gratuit",
+    "description": "Découvrez si vos maux de tête ont une cause d'origine mandibulaire. Notre diagnostique 4D vous donne rapidement des réponses, entièrement sans engagement.",
+    "buttonText": "Prendre rendez-vous",
+    "buttonHref": "/contact"
+  }
+}

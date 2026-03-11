@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "title": "Douleur nerveuse (Neuralgie du trijumeau) | Vincor",
+    "description": "Souffrez-vous de douleurs faciales ou de neuralgie du trijumeau ? Découvrez comment la dysfonction mandibulaire peut causer des douleurs nerveuses. Vincor offre une diagnostic avancé 4D et un traitement."
+  },
+  "hero": {
+    "breadcrumb": ["Accueil", "Problèmes de santé", "Douleur nerveuse"],
+    "title": "Douleur nerveuse & Neuralgie du trijumeau",
+    "description": "Une douleur faciale aiguë et piquante peut indiquer une neuralgie du trijumeau ou une douleur référée provenant de l'articulation de la mâchoire. Chez Vincor, nous examinons le rôle de la mâchoire dans les douleurs nerveuses chroniques du visage."
+  },
+  "watIsHet": {
+    "label": "Qu'est-ce que c'est",
+    "title": "Qu'est-ce que la neuralgie du trijumeau ?",
+    "paragraphs": [
+      "Le nerf trijumeau (nerf trijumeau) est le cinquième nerf crânien et le nerf sensoriel principal du visage. Ce nerf se divise en trois branches principales : la branche oculaire (V1), la branche maxillaire supérieure (V2) et la branche mandibulaire (V3). La neuralgie du trijumeau est une affection où ce nerf devient douloureux de manière paroxystique.",
+      "La douleur est souvent décrite comme une décharge électrique, une sensation de brûlure ou une piqûre aiguë dans le visage. Les crises peuvent être déclenchées par des activités quotidiennes comme parler, mâcher, se brosser les dents ou même une bourrasque de vent. Ce que beaucoup de patients et médecins ne savent pas, c'est que la branche mandibulaire (V3) innerve également l'articulation de la mâchoire et les muscles masticateurs, ce qui peut en faire une source importante de douleurs faciales."
+    ],
+    "image": "/images/zenuwpijn.jpg"
+  },
+  "symptomen": {
+    "title": "Reconnaissez-vous ces symptômes ?",
+    "description": "La douleur nerveuse faciale peut se manifester de nombreuses façons. Les symptômes suivants peuvent indiquer une composante liée à la mâchoire.",
+    "items": [
+      "Douleur aiguë, piquante ou brûlante dans la joue, la mâchoire ou le temple",
+      "Douleur paroxystique qui dure de quelques secondes à quelques minutes",
+      "Douleur déclenchée par la mastication, la parole ou le toucher",
+      "Douleur faciale unilatérale faussement diagnostiquée comme une douleur dentaire",
+      "Engourdissement ou fourmillements dans le visage ou les lèvres",
+      "Douleur sourde et continue alternant avec des crises aiguës",
+      "Douleur aggravée par les mouvements de la mâchoire ou par la pression sur l'articulation de la mâchoire",
+      "Comportement d'évitement : ne plus oser mâcher du côté douloureux"
+    ]
+  },
+  "oorzaken": {
+    "label": "Causes",
+    "title": "Le lien entre la mâchoire et la douleur nerveuse",
+    "paragraphs": [
+      "Le nerf trijumeau joue un double rôle : il assure à la fois la perception sensorielle du visage et le contrôle des muscles masticateurs. Lorsque l'articulation de la mâchoire est dysfonctionnelle ou que les muscles masticateurs sont chroniquement surchargés, cela peut irriter et sensibiliser le nerf trijumeau.",
+      "En cas d'occlusion perturbée, les muscles masticateurs sont sollicités de manière asymétrique. Les points déclencheurs résultants dans le muscle ptérygoïdien latéral et médial peuvent référer la douleur vers des zones innervées par le nerf trijumeau. Ce phénomène s'appelle la \"douleur référée\" et explique pourquoi les patients ressentent une douleur dans la joue, l'oreille ou même l'œil alors que la source se trouve dans l'articulation de la mâchoire.",
+      "De plus, un disque articulaire déplacé dans l'articulation de la mâchoire peut exercer une pression directe sur le nerf auriculotemporal — une branche du nerf trijumeau — qui passe directement derrière l'articulation de la mâchoire. La correction de la position de la mâchoire soulage cette pression et peut réduire significativement l'irritation nerveuse."
+    ],
+    "image": "/images/formetric-evaluation.jpg"
+  },
+  "diagnostiek": {
+    "title": "Comment nous examinons la douleur nerveuse",
+    "description": "Notre diagnostic 4D identifie avec précision si et comment votre fonction mandibulaire contribue aux douleurs faciales.",
+    "cards": [
+      {
+        "title": "Scan 3D de l'articulation",
+        "description": "Imagerie détaillée de l'articulation de la mâchoire pour évaluer la compression des structures nerveuses."
+      },
+      {
+        "title": "Cartographie des points déclencheurs",
+        "description": "Palpation systématique et analyse EMG pour localiser les points déclencheurs myofasciaux qui causent la douleur référée."
+      },
+      {
+        "title": "Blocage diagnostique",
+        "description": "Test d'anesthésie ciblé pour confirmer que la région de l'articulation de la mâchoire est la source de la douleur référée."
+      }
+    ]
+  },
+  "behandeling": {
+    "title": "Options de traitement pour la douleur nerveuse",
+    "description": "Lorsque l'articulation de la mâchoire est impliquée dans votre douleur nerveuse, un traitement ciblé de la morsure et de la position de la mâchoire peut apporter un soulagement significatif.",
+    "phases": [
+      {
+        "phase": "Phase 1",
+        "title": "Soulagement de la douleur",
+        "description": "Réduction directe de l'irritation nerveuse par la décompression de l'articulation de la mâchoire.",
+        "features": [
+          "Splint de stabilisation pour la décompression articulaire",
+          "Thérapie TENS pour la désensibilisation nerveuse",
+          "Inactivation des points déclencheurs des muscles masticateurs"
+        ]
+      },
+      {
+        "phase": "Phase 2",
+        "title": "Correction de position",
+        "description": "Restauration structurelle de la position de la mâchoire pour soulager la compression nerveuse.",
+        "featured": true,
+        "badge": "Choix le plus populaire",
+        "features": [
+          "Thérapie orthotique neuromusculaire",
+          "Optimisation de l'occlusion et décompression",
+          "Suivi de la douleur multidisciplinaire"
+        ]
+      },
+      {
+        "phase": "Phase 3",
+        "title": "Stabilisation",
+        "description": "Maintien à long terme du soulagement de la douleur et prévention de la réapparition de l'irritation nerveuse.",
+        "features": [
+          "Réhabilitation définitive de la morsure",
+          "Contrôle périodique et surveillance de la douleur",
+          "Programme d'autogestion"
+        ]
+      }
+    ]
+  },
+  "faq": {
+    "title": "FAQ sur la douleur nerveuse",
+    "items": [
+      {
+        "question": "Quelle est la différence entre la neuralgie du trijumeau et la douleur de la mâchoire ?",
+        "answer": "La neuralgie du trijumeau classique se caractérise par des décharges de douleur électriques soudaines et intenses qui durent quelques secondes. La douleur de la mâchoire (CMD) est généralement une douleur plus continue, sourde ou écrasante. Dans la pratique, ces affections se chevauchent souvent : la dysfonction mandibulaire peut irriter le nerf trijumeau et ainsi déclencher des crises de douleur nerveuse. Notre diagnostic fait la distinction et identifie la contribution précise de l'articulation de la mâchoire."
+      },
+      {
+        "question": "Je prends déjà des médicaments pour ma douleur nerveuse. Vincor peut-il quand même aider ?",
+        "answer": "Absolument. Notre traitement est complémentaire à la thérapie médicamenteuse. Lorsque la mâchoire est un facteur contributif, l'élimination de cette source peut réduire l'irritation nerveuse. Beaucoup de patients remarquent qu'ils ont besoin de moins de médicaments après le traitement. Tout changement de médicaments doit toujours se faire en consultation avec votre neurologue ou médecin traitant."
+      },
+      {
+        "question": "Comment un problème de morsure peut-il causer une douleur nerveuse ?",
+        "answer": "Le nerf trijumeau assure à la fois la sensation du visage et le contrôle des muscles masticateurs. Une mauvaise morsure entraîne une surcharge chronique de ces muscles, créant des points déclencheurs qui réfèrent la douleur via les voies nerveuses trijumeales. De plus, un disque articulaire déplacé dans l'articulation de la mâchoire peut exercer une pression directe sur une branche du nerf trijumeau. Les deux mécanismes sont documentés scientifiquement."
+      },
+      {
+        "question": "Le traitement est-il douloureux ?",
+        "answer": "Non, notre traitement vise à soulager la douleur, pas à la causer. La phase de diagnostic est non invasive et indolore. La thérapie par splint et l'orthotique neuromusculaire sont confortables et sont ajustés progressivement. Beaucoup de patients ressentent déjà un soulagement dès le premier port de la splint car la pression sur l'articulation de la mâchoire et les structures nerveuses diminue."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Prenez rendez-vous pour votre scan gratuit",
+    "description": "Découvrez si votre douleur nerveuse a une cause liée à la mâchoire. Notre diagnostic 4D vous apporte rapidement des réponses claires.",
+    "buttonText": "Prendre rendez-vous",
+    "buttonHref": "/contact"
+  }
+}

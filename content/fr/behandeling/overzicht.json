@@ -1,0 +1,119 @@
+{
+  "meta": {
+    "title": "Traitement — Vincor | Modèle de traitement en 3 étapes",
+    "description": "Le modèle de traitement en 3 étapes de Vincor : de l'attelle de relaxation à la reconstruction complète. Découvrez comment nous traitons les troubles de la mâchoire et de la posture étape par étape.",
+    "slug": "traitement"
+  },
+  "hero": {
+    "breadcrumb": ["Accueil", "Traitement"],
+    "title": "Notre modèle de traitement en 3 étapes",
+    "titleHighlight": "Modèle de traitement",
+    "description": "Une approche progressive qui commence par la relaxation et se termine par une guérison durable. Chaque phase s'appuie sur la précédente, permettant à votre corps le temps de s'adapter structurellement."
+  },
+  "introduction": {
+    "sectionLabel": "Notre Méthode",
+    "title": "Une approche par phases pour des résultats durables",
+    "description": "Chez Vincor, nous croyons que les troubles structurels ne peuvent être résolus par une seule intervention. Notre modèle en 3 phases combine une diagnostic avancé avec une thérapie par attelle éprouvée et, si nécessaire, une reconstruction définitive. Ainsi, nous traitons la cause, pas seulement le symptôme."
+  },
+  "overviewSteps": [
+    {
+      "number": 1,
+      "title": "Relaxation",
+      "description": "Relaxation de la musculature de la mâchoire et du dos et premier diagnostic chez Vincor."
+    },
+    {
+      "number": 2,
+      "title": "Repositionnement",
+      "description": "Correction de la morsure et de l'équilibre postural avec une attelle sur mesure chez Vincor."
+    },
+    {
+      "number": 3,
+      "title": "Reconstruction",
+      "description": "Restauration définitive par orthodontie, implantologie ou prothétique au centre partenaire PDA."
+    }
+  ],
+  "phaseCards": {
+    "sectionLabel": "Les Trois Phases",
+    "title": "Votre parcours de traitement en détail",
+    "description": "Chaque phase a un objectif clair et ne commence qu'une fois que la phase précédente a produit le résultat souhaité.",
+    "phases": [
+      {
+        "phase": "Phase 1",
+        "title": "Attelle de relaxation",
+        "price": "195",
+        "currency": "EUR",
+        "description": "La première étape vise à détendre la musculature de la mâchoire, du cou et du dos. En même temps, nous réalisons un scan diagnostique approfondi pour cartographier la relation entre votre morsure et votre posture.",
+        "features": [
+          "Scan 4D de l'occlusion et de la posture (DIERS Formetric)",
+          "Analyse de l'articulation temporo-mandibulaire et du tonus musculaire",
+          "Attelle de relaxation sur mesure",
+          "Réduction de la tension musculaire et des douleurs",
+          "Première évaluation des options de traitement"
+        ],
+        "location": "Vincor, Eindhoven",
+        "featured": false
+      },
+      {
+        "phase": "Phase 2",
+        "title": "Attelle de repositionnement",
+        "price": "595",
+        "currency": "EUR",
+        "badge": "Le plus choisi",
+        "description": "Sur la base du diagnostic de la phase 1, nous fabriquons une attelle de repositionnement. Celle-ci corrige l'occlusion (morsure) et restaure l'équilibre postural entre la mâchoire, la colonne vertébrale et le bassin.",
+        "features": [
+          "Analyse détaillée de l'occlusion et enregistrement de la morsure",
+          "Repositionnement de la mâchoire inférieure vers une position optimale",
+          "Restauration de l'équilibre postural (dos, cou, bassin)",
+          "Contrôle intermédiaire avec scan 4D",
+          "Réduction significative des symptômes",
+          "Plan de traitement personnalisé avec rapport de progression"
+        ],
+        "location": "Vincor, Eindhoven",
+        "featured": true
+      },
+      {
+        "phase": "Phase 3",
+        "title": "Reconstruction",
+        "price": "3.000 – 7.000",
+        "currency": "EUR",
+        "description": "Lorsque la thérapie par attelle s'avère insuffisante ou qu'une solution définitive est souhaitée, nous vous référons à notre centre partenaire PDA pour l'orthodontie, l'implantologie ou la reconstruction complète des dents.",
+        "features": [
+          "Correction orthodontique de la morsure",
+          "Implantologie en cas d'éléments manquants",
+          "Reconstruction complète des dents si nécessaire",
+          "Restauration prothétique pour un résultat durable",
+          "Suivi et contrôle en collaboration avec Vincor"
+        ],
+        "location": "PDA (centre partenaire)",
+        "featured": false
+      }
+    ]
+  },
+  "bodySplint": {
+    "sectionLabel": "Vincor BodySplint",
+    "title": "L'attelle qui traite votre corps dans son ensemble",
+    "image": "behandeling-hero.jpg",
+    "imageAlt": "Traitement Vincor BodySplint",
+    "paragraphs": [
+      "La Vincor BodySplint n'est pas une simple attelle dentaire. Sur la base de votre scan 4D personnel, l'attelle est conçue pour ne pas seulement décharger les articulations temporo-mandibulaires, mais aussi placer la colonne vertébrale et le bassin dans une meilleure position.",
+      "En corrigeant l'interaction entre l'occlusion (morsure) et la posture, les patients constatent souvent une amélioration de symptômes qu'ils n'auraient jamais reliés à leur mâchoire : douleurs dorsales, troubles du cou, maux de tête et même des problèmes de sommeil."
+    ],
+    "features": [
+      "Fabriquée individuellement sur la base d'un diagnostic 4D",
+      "Corrige la relation entre morsure et posture",
+      "Confortable et discrète à porter",
+      "Résultat mesurable via des mesures avant et après"
+    ]
+  },
+  "trustBar": [
+    "Diagnostic sans rayonnement",
+    "Résultats en quelques semaines",
+    "Collaboration multidisciplinaire"
+  ],
+  "cta": {
+    "title": "Prêt à faire le premier pas ?",
+    "description": "Prenez rendez-vous pour votre premier scan et découvrez quelle phase de traitement vous convient.",
+    "buttonText": "Prendre rendez-vous",
+    "buttonLink": "/contact"
+  }
+}

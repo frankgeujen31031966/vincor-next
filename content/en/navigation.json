@@ -1,48 +1,42 @@
 {
-  "logo": {
-    "src": "images/vincor-logo.webp",
-    "alt": "Vincor",
-    "href": "/"
-  },
-  "links": [
-    { "text": "Complaints", "href": "klachten/", "hasDropdown": true },
-    { "text": "Diagnosis", "href": "diagnostiek/" },
-    { "text": "Treatment", "href": "behandeling/", "hasDropdown": true },
-    { "text": "About Us", "href": "over-ons/" },
-    { "text": "FAQ", "href": "faq.html" },
-    { "text": "Knowledge Base", "href": "kennisbank.html" }
+  "nav": [
+    {
+      "label": "Complaints",
+      "href": "/klachten",
+      "children": [
+        { "label": "Jaw Pain", "href": "/klachten/kaakpijn" },
+        { "label": "Headache & Migraine", "href": "/klachten/hoofdpijn-migraine" },
+        { "label": "Tinnitus", "href": "/klachten/tinnitus" },
+        { "label": "Nerve Pain", "href": "/klachten/zenuwpijn" },
+        { "label": "Teeth Grinding", "href": "/klachten/tandenknarsen" },
+        { "label": "Stiff Neck", "href": "/klachten/stijve-nek" },
+        { "label": "Back & Neck Pain", "href": "/klachten/rug-nekklachten" },
+        { "label": "Apnea & Snoring", "href": "/klachten/apneu-snurken" }
+      ]
+    },
+    { "label": "Diagnostics", "href": "/diagnostiek" },
+    { "label": "Treatment", "href": "/behandeling" },
+    { "label": "About Us", "href": "/over-ons" },
+    { "label": "FAQ", "href": "/faq" },
+    { "label": "Knowledge Base", "href": "/kennisbank" }
   ],
-  "dropdowns": {
-    "klachten": [
-      { "text": "Jaw Pain", "href": "klachten/kaakpijn.html" },
-      { "text": "Headache & Migraine", "href": "klachten/hoofdpijn-migraine.html" },
-      { "text": "Tinnitus", "href": "klachten/tinnitus.html" },
-      { "text": "Nerve Pain", "href": "klachten/zenuwpijn.html" },
-      { "text": "Teeth Grinding & Bruxism", "href": "klachten/tandenknarsen.html" },
-      { "text": "Stiff Neck & Shoulders", "href": "klachten/stijve-nek.html" },
-      { "text": "Back and Neck Complaints", "href": "klachten/rug-nekklachten.html" }
+  "cta": "Book Free Scan",
+  "footer": {
+    "description": "Vincor (Vinculum Corporis — the bond of the body). Specialized in occlusion & posture diagnostics.",
+    "klachtenTitle": "Complaints",
+    "behandelingTitle": "Treatment",
+    "contactTitle": "Contact",
+    "behandelingLinks": [
+      { "label": "Phase 1 — Relaxation Splint", "href": "/behandeling/fase-1-relaxatiesplint" },
+      { "label": "Phase 2 — Repositioning Splint", "href": "/behandeling/fase-2-repositioneringssplint" },
+      { "label": "Phase 3 — Reconstruction", "href": "/behandeling/fase-3-reconstructie" }
     ],
-    "behandeling": [
-      { "text": "Phase 1 — Relaxation Splint", "href": "behandeling/fase-1-relaxatiesplint.html" },
-      { "text": "Phase 2 — Repositioning Splint", "href": "behandeling/fase-2-repositioneringssplint.html" },
-      { "text": "Phase 3 — Reconstruction", "href": "behandeling/fase-3-reconstructie.html" }
-    ]
+    "privacy": "Privacy",
+    "terms": "Terms"
   },
-  "mobileLinks": [
-    { "text": "Complaints", "href": "klachten/" },
-    { "text": "Diagnosis", "href": "diagnostiek/" },
-    { "text": "Treatment", "href": "behandeling/" },
-    { "text": "About Us", "href": "over-ons/" },
-    { "text": "FAQ", "href": "faq.html" },
-    { "text": "Knowledge Base", "href": "kennisbank.html" },
-    { "text": "Book Free Scan", "href": "contact.html", "highlighted": true }
-  ],
-  "langSwitcher": {
-    "current": "EN",
-    "options": ["EN", "NL"]
-  },
-  "cta": {
-    "text": "Book Free Scan",
-    "href": "contact.html"
+  "cookie": {
+    "text": "We use cookies to enhance your experience. By continuing to browse, you agree to our use of cookies.",
+    "accept": "Accept",
+    "decline": "Decline"
   }
 }

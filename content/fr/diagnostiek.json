@@ -1,0 +1,105 @@
+{
+  "meta": {
+    "title": "Diagnostic — Vincor | 4D Occlusion & Posture Scan",
+    "description": "La DIERS Formetric 4D Spinescan : diagnostic sans radiation, sans contact et ultra-rapide de la colonne vertébrale, de la posture et de l'occlusion chez Vincor.",
+    "slug": "diagnostiek"
+  },
+  "hero": {
+    "breadcrumb": ["Accueil", "Diagnostic"],
+    "title": "4D Occlusion & Posture Scan",
+    "titleHighlight": "Posture Scan",
+    "description": "En quelques secondes, nous cartographions votre posture complète, votre colonne vertébrale et l'influence de votre morsure. Sans radiation, sans contact, avec un résultat immédiat."
+  },
+  "technology": {
+    "sectionLabel": "DIERS® Formetric 4D",
+    "title": "Stéréographie à grille vidéo : la référence",
+    "image": "spine-model.gif",
+    "imageAlt": "DIERS Formetric 4D Spinescan",
+    "paragraphs": [
+      "La DIERS Formetric 4D Spinescan utilise la stéréographie à grille vidéo (VRS) : un motif lumineux est projeté sur votre dos et enregistré par plusieurs caméras. En quelques secondes, un modèle tridimensionnel de votre colonne vertébrale, de vos épaules et de votre bassin est créé.",
+      "Cette technologie est utilisée dans le monde entier dans les hôpitaux, les centres de rééducation et les cliniques orthopédiques. Chez Vincor, nous combinons de manière unique cette analyse avec une analyse de l'occlusion pour rendre visible la relation entre la morsure et la posture."
+    ]
+  },
+  "benefits": {
+    "sectionLabel": "Avantages",
+    "title": "Pourquoi la scan 4D ?",
+    "description": "Un diagnostic avancé n'a pas à être contraignant. La scan DIERS combine rapidité, précision et sécurité.",
+    "items": [
+      {
+        "title": "Sans radiation",
+        "description": "Aucun rayonnement X, aucun champ magnétique IRM. La scan fonctionne exclusivement avec de la lumière visible et est donc entièrement sûre, même pour les enfants et les femmes enceintes."
+      },
+      {
+        "title": "Sans contact",
+        "description": "Vous vous tenez simplement devant l'appareil. Rien n'est placé sur votre corps. Aucune marque, aucune pression, aucune gêne."
+      },
+      {
+        "title": "Ultra-rapide",
+        "description": "La mesure complète ne prend que quelques secondes. Y compris la discussion des résultats, vous êtes prêt en moins de 30 minutes."
+      },
+      {
+        "title": "Résultat immédiat",
+        "description": "Vous voyez le résultat immédiatement sur l'écran. Ensemble, nous discutons de ce que la scan montre et de ce que cela signifie pour votre traitement."
+      }
+    ]
+  },
+  "howItWorks": {
+    "sectionLabel": "Votre Première Visite",
+    "title": "Que pouvez-vous attendre ?",
+    "description": "De l'arrivée au plan de traitement en quatre étapes claires.",
+    "steps": [
+      {
+        "title": "1. Intake",
+        "description": "Nous discutons de vos plaintes, de votre antécédents médicaux et de vos attentes. Cette discussion dure environ 10 minutes."
+      },
+      {
+        "title": "2. Scan 4D",
+        "description": "Vous vous tenez détendu devant le scanner DIERS. En quelques secondes, la mesure est terminée. Ensuite, une scan avec et sans attelle (le cas échéant) suit."
+      },
+      {
+        "title": "3. Analyse",
+        "description": "Les résultats sont affichés directement sur l'écran. Nous expliquons ce que les images signifient : colonne vertébrale, asymétrie, position du bassin et l'influence de votre morsure."
+      },
+      {
+        "title": "4. Plan de traitement",
+        "description": "Sur la base de la scan, nous établissons un plan de traitement personnalisé. Vous recevez un aperçu clair des possibilités, des coûts et du calendrier attendu."
+      }
+    ]
+  },
+  "measurements": {
+    "sectionLabel": "Résultats de mesure",
+    "title": "Que mesure précisément la scan ?",
+    "image": "formetric-evaluation.jpg",
+    "imageAlt": "Résultats de scan Formetric",
+    "description": "La scan 4D fournit une vue complète de votre posture et de votre appareil locomoteur. Les paramètres suivants sont enregistrés avec précision :",
+    "parameters": [
+      {
+        "title": "Analyse de la colonne vertébrale",
+        "description": "lordose, cyphose, scoliose et déviations de rotation"
+      },
+      {
+        "title": "Asymétrie corporelle",
+        "description": "hauteur d'épaule, inclinaison du bassin, décalage latéral"
+      },
+      {
+        "title": "Équilibre postural",
+        "description": "répartition du centre de gravité et indice de stabilité"
+      },
+      {
+        "title": "Relation mâchoire-dos",
+        "description": "l'effet direct de votre morsure sur la colonne vertébrale et la posture"
+      }
+    ]
+  },
+  "stats": [
+    { "value": "6 sec", "label": "Temps de scan moyen" },
+    { "value": "0 mSv", "label": "Charge de radiation" },
+    { "value": "98%", "label": "Précision" }
+  ],
+  "cta": {
+    "title": "Curieux de savoir ce que la scan peut signifier pour vous ?",
+    "description": "Planifiez votre première scan 4D occlusion et posture et obtenez immédiatement une compréhension de la relation entre votre morsure et votre posture.",
+    "buttonText": "Demander une scan",
+    "buttonLink": "/contact"
+  }
+}

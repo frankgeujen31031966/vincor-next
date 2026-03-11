@@ -1,0 +1,153 @@
+{
+  "meta": {
+    "title": "Vincor — Diagnostic occlusal et postural",
+    "description": "Découvrez la cause de vos douleurs de mâchoire, cou ou migraine avec un scan 4D gratuit. DIERS 4D Spinescan chez Vincor Eindhoven."
+  },
+  "hero": {
+    "badge": "Scan 4D Gratuit",
+    "title": "Découvrez la ",
+    "titleHighlight": "cause",
+    "titleAfter": " de vos douleurs de mâchoire, cou ou migraine",
+    "subtitle": "Avec la DIERS 4D Spinescan, nous rendons objective la connexion entre la mâchoire et la colonne vertébrale — sans rayonnement et en quelques minutes.",
+    "ctaPrimary": { "text": "Réserver un Scan Gratuit", "href": "/contact" },
+    "ctaSecondary": { "text": "Plus d'Informations", "href": "#hoe-werkt-het" },
+    "stats": [
+      { "number": "82%", "label": "Moins de douleur" },
+      { "number": "500+", "label": "Scans effectués" },
+      { "number": "85%", "label": "Moins de tension" }
+    ],
+    "scrollIndicator": "Scroll"
+  },
+  "trustBar": [
+    "Sans rayonnement",
+    "Aucun engagement",
+    "Mesure objective",
+    "Compréhension immédiate"
+  ],
+  "klachten": {
+    "label": "Symptômes",
+    "title": "Souffrez-vous de ces symptômes ?",
+    "description": "De nombreux symptômes chroniques dans la région de la tête, du cou et des épaules ont une cause commune : une position de mâchoire perturbée.",
+    "items": [
+      { "title": "Douleur mâchoire", "image": "kaakpijn.jpg", "slug": "kaakpijn" },
+      { "title": "Maux de tête & Migraine", "image": "migraine.jpg", "slug": "hoofdpijn-migraine" },
+      { "title": "Acouphènes", "image": "Tinnitus-2.jpg", "slug": "tinnitus" },
+      { "title": "Douleur nerveuse", "image": "zenuwpijn.jpg", "slug": "zenuwpijn" },
+      { "title": "Grincement de dents & Bruxisme", "image": "Tandenknarsen.jpg", "slug": "tandenknarsen" },
+      { "title": "Cou & Épaules raides", "image": "stijve-nek.jpg", "slug": "stijve-nek" },
+      { "title": "Douleurs dos & cou", "image": "rug-nek.jpg", "slug": "rug-nekklachten" }
+    ]
+  },
+  "howItWorks": {
+    "label": "Méthodologie",
+    "title": "Comment ça marche ?",
+    "description": "En trois étapes claires de symptôme à solution — entièrement adaptées à votre situation.",
+    "steps": [
+      { "title": "Scan 4D Gratuit", "description": "En quelques minutes, le scanner DIERS rend objective votre posture et position de mâchoire — entièrement sans rayonnement." },
+      { "title": "Diagnostic & Conseil", "description": "Notre spécialiste analyse les résultats et discute avec vous d'un plan de traitement personnalisé." },
+      { "title": "Traitement Sur Mesure", "description": "Un parcours en phases de relaxation à reconstruction, adapté à la gravité de vos symptômes." }
+    ]
+  },
+  "diagnostiek": {
+    "label": "Diagnostic",
+    "title": "Technologie DIERS 4D Spinescan",
+    "description": "La DIERS 4D Spinescan est un système diagnostique avancé qui analyse la colonne vertébrale, la posture et le mouvement en temps réel. Sans rayonnement ni contact physique, vous obtenez immédiatement une compréhension de la relation entre votre position de mâchoire et votre posture corporelle.",
+    "image": "spine-model.gif",
+    "imageAlt": "DIERS 4D Spinescan",
+    "features": [
+      "Analyse de surface 3D sans rayonnement",
+      "Mesure posturale dynamique en mouvement",
+      "Mesure objective avant et après",
+      "La mesure ne dure que quelques minutes"
+    ],
+    "ctaText": "Plus sur notre diagnostic",
+    "ctaHref": "/diagnostiek"
+  },
+  "behandeling": {
+    "label": "Traitement",
+    "title": "De la compréhension à la guérison",
+    "description": "Notre parcours de traitement comprend trois phases. Chaque phase s'appuie sur la précédente et est adaptée à votre situation spécifique.",
+    "phases": [
+      {
+        "phase": "Phase 1",
+        "title": "Splint de relaxation",
+        "price": "€195",
+        "description": "La première étape vers la relaxation de la musculature de la mâchoire et la réduction des symptômes aigus.",
+        "features": ["Splint sur mesure", "Soulagement en 2-4 semaines", "Visite de contrôle incluse"],
+        "slug": "fase-1-relaxatiesplint",
+        "location": "Chez Vincor, Eindhoven",
+        "featured": false,
+        "ctaText": "Plus sur la Phase 1"
+      },
+      {
+        "phase": "Phase 2",
+        "title": "Splint de repositionnement",
+        "price": "€595",
+        "badge": "Le plus choisi",
+        "description": "Correction de la position de la mâchoire pour une amélioration structurelle de l'équilibre mâchoire-colonne vertébrale.",
+        "features": ["Splint conçu numériquement", "Correction structurelle de la mâchoire", "Mesures 4D intermédiaires", "Suivi personnalisé"],
+        "slug": "fase-2-repositioneringssplint",
+        "location": "Chez Vincor, Eindhoven",
+        "featured": true,
+        "ctaText": "Plus sur la Phase 2"
+      },
+      {
+        "phase": "Phase 3",
+        "title": "Reconstruction",
+        "price": "€3.000–7.000",
+        "description": "Reconstruction définitive de la dentition pour un résultat durable et une fonction optimale.",
+        "features": ["Reconstruction dentaire complète", "Résultat durable", "Exécuté par un dentiste PDA"],
+        "slug": "fase-3-reconstructie",
+        "location": "Chez PDA, site partenaire",
+        "featured": false,
+        "ctaText": "Plus sur la Phase 3"
+      }
+    ]
+  },
+  "resultaten": {
+    "label": "Résultats",
+    "title": "Vrais résultats, amélioration durable",
+    "description": "Notre approche produit une amélioration mesurable — confirmée par des mesures 4D objectives et les expériences de centaines de patients.",
+    "stats": [
+      { "target": 82, "suffix": "%", "label": "Moins de douleur après traitement" },
+      { "target": 85, "suffix": "%", "label": "Moins de tension dans mâchoire & cou" },
+      { "target": 72, "suffix": "%", "label": "Meilleure qualité de sommeil" }
+    ]
+  },
+  "partners": {
+    "label": "Collaboration",
+    "title": "Partenariat avec Balans Rugcentrum Eindhoven",
+    "paragraphs": [
+      "Vincor collabore étroitement avec Balans Rugcentrum Eindhoven. Ensemble, nous combinons l'expertise en occlusion et thérapie posturale pour une approche intégrale de vos symptômes.",
+      "Notre DIERS 4D Spinescan est disponible chez Balans Rugcentrum, où vous pouvez obtenir votre scan gratuit et une consultation personnalisée."
+    ],
+    "image": "balans-clinic.png",
+    "imageAlt": "Balans Rugcentrum Eindhoven"
+  },
+  "googleReviews": {
+    "label": "Avis",
+    "title": "Ce que disent nos patients",
+    "overallRating": 4.8,
+    "totalReviews": "32 avis sur Google",
+    "items": [
+      { "stars": 5, "timeAgo": "Il y a 3 semaines", "text": "Après des années de maux de tête, enfin un diagnostic clair. Le scan 4D a montré exactement ce qui se passait. Très content du résultat du splint.", "author": "Mark V.", "initial": "M" },
+      { "stars": 5, "timeAgo": "Il y a 1 mois", "text": "Équipe professionnelle et sympathique. L'explication sur la relation entre ma mâchoire et mes douleurs au cou était très éclairante. À recommander !", "author": "Sandra K.", "initial": "S" },
+      { "stars": 5, "timeAgo": "Il y a 2 mois", "text": "Le splint de repositionnement a changé ma vie. Plus de migraine depuis 4 mois. Je ne peux pas recommander Vincor assez.", "author": "Peter de J.", "initial": "P" },
+      { "stars": 4, "timeAgo": "Il y a 3 semaines", "text": "Bonne expérience. Le scan était rapide et indolore. Malheureusement, tout n'est pas remboursé par l'assurance, mais les coûts sont transparents.", "author": "Lisa M.", "initial": "L" }
+    ]
+  },
+  "testimonials": {
+    "label": "Expériences",
+    "title": "Témoignages de patients",
+    "items": [
+      { "text": "Après des années de maux de tête et de douleurs à la mâchoire, j'ai enfin compris la cause. Le scan 4D a clairement montré comment ma position de mâchoire influençait toute ma posture. Après le traitement avec le splint de repositionnement, les maux de tête ont presque complètement disparu.", "name": "Annelies, 43", "role": "Patiente depuis 2024", "avatar": "testimonial-annelies.jpg" },
+      { "text": "J'avais des douleurs au cou et des tensions dans mes épaules depuis des mois. Mon physiothérapeute ne pouvait pas trouver la cause. Chez Vincor, ma position de mâchoire s'est révélée être la coupable. Le traitement par splint a énormément amélioré ma vie — je dors mieux et je n'ai presque plus de douleurs au cou.", "name": "Tom, 39", "role": "Patient depuis 2025", "avatar": "testimonial-tom.jpg" }
+    ]
+  },
+  "cta": {
+    "title": "Réservez votre scan 4D gratuit",
+    "description": "Découvrez par vous-même comment la DIERS 4D Spinescan rend la cause de vos symptômes visible — entièrement sans engagement et sans rayonnement.",
+    "buttonText": "Prendre rendez-vous",
+    "buttonLink": "/contact"
+  }
+}

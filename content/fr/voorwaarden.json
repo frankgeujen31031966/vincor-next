@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "title": "Conditions Générales — Vincor",
+    "description": "Conditions générales de Vincor. Lisez nos conditions relatives aux accords, traitements, tarifs et responsabilité.",
+    "slug": "voorwaarden"
+  },
+  "hero": {
+    "breadcrumb": ["Accueil", "Conditions Générales"],
+    "title": "Conditions Générales",
+    "titleHighlight": "Conditions",
+    "description": "Les conditions applicables à notre prestation de services et traitements."
+  },
+  "lastUpdated": "mars 2026",
+  "articles": [
+    {
+      "number": 1,
+      "title": "Champ d'application",
+      "content": "Les présentes conditions générales s'appliquent à tous les services, traitements et contrats de Vincor, établi au Dokter Cuyperslaan 76, 5623 BB Eindhoven. En faisant une réservation ou en suivant un traitement chez Vincor, vous acceptez ces conditions. Vincor se réserve le droit de modifier ces conditions. La version la plus récente est toujours disponible sur notre site web."
+    },
+    {
+      "number": 2,
+      "title": "Réservations et annulation",
+      "content": "Les réservations peuvent être effectuées par téléphone, par e-mail ou via le formulaire de contact sur notre site web. Pour les annulations, les règles suivantes s'appliquent :",
+      "list": [
+        "L'annulation jusqu'à 24 heures avant la réservation est gratuite.",
+        "En cas d'annulation dans les 24 heures précédant la réservation ou en cas de non-présentation sans avis, nous nous réservons le droit de facturer 50€.",
+        "Nous vous prions de bien vouloir annuler le plus tôt possible, afin que nous puissions proposer le temps libéré à d'autres patients."
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Traitements et tarifs",
+      "content": "Vincor utilise un modèle de traitement en phases. Les tarifs actuels sont les suivants :",
+      "list": [
+        "Phase 1 — Attelle de relaxation avec scan de position 4D : 195€",
+        "Phase 2 — Attelle de repositionnement avec analyse approfondie : 595€",
+        "Phase 3 — Reconstruction pour PDA (Applications Dentaires Prothétiques) : 3.000€ – 7.000€, selon la complexité"
+      ],
+      "additionalContent": "Tous les patients ne suivent pas les trois phases. Le plan de traitement est toujours établi en concertation avec vous. Les tarifs peuvent être ajustés ; le tarif en vigueur au moment de votre réservation s'applique. Toute modification de prix sera communiquée à l'avance."
+    },
+    {
+      "number": 4,
+      "title": "Paiement",
+      "content": "Le paiement doit être effectué dans les 14 jours suivant la date de facturation, sauf accord écrit contraire. Le paiement peut être effectué par carte, virement bancaire ou par tout autre moyen de paiement proposé par Vincor. En cas de non-paiement, nous nous réservons le droit de facturer des frais de rappel et de confier le recouvrement à un bureau de recouvrement. Les coûts associés incombent au patient."
+    },
+    {
+      "number": 5,
+      "title": "Responsabilité",
+      "content": "Vincor s'efforce de fournir les meilleurs soins possibles. Notre responsabilité est limitée au montant versé par notre assurance responsabilité professionnelle dans le cas concerné. Vincor n'est pas responsable des dommages résultant du non-respect des conseils, de la fourniture d'informations incorrectes ou incomplètes par le patient, ou de circonstances hors de notre contrôle. Les résultats du diagnostic et du traitement peuvent varier d'une personne à l'autre et ne sont pas garantis."
+    },
+    {
+      "number": 6,
+      "title": "Réclamations",
+      "content": "Nous visons la plus haute qualité de soins et de prestation de services. Si vous n'êtes pas satisfait de notre prestation, nous aimerions en être informés. Vous pouvez déposer votre réclamation par e-mail via info@vincorscan.nl ou par courrier. Nous traitons votre réclamation de manière confidentielle et visons à répondre substantiellement dans un délai de deux semaines. Si nous ne parvenons pas à un accord, vous pouvez vous tourner vers une commission indépendante de règlement des litiges."
+    },
+    {
+      "number": 7,
+      "title": "Droit applicable",
+      "content": "Le droit néerlandais s'applique à tous les contrats entre Vincor et le patient. Les litiges découlant de ou liés à notre prestation de services seront exclusivement soumis au juge compétent du tribunal d'arrondissement d'Ost-Brabant."
+    }
+  ]
+}

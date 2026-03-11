@@ -1,0 +1,119 @@
+{
+  "meta": {
+    "title": "La relation entre la mâchoire et le dos — Base de connaissances Vincor",
+    "description": "Découvrez comment une occlusion perturbée via la chaîne descendante peut influencer votre posture, votre cou et votre dos. La relation cachée entre la mâchoire et la colonne vertébrale expliquée.",
+    "slug": "kennisbank/kaak-en-rug",
+    "readingTime": "6 minutes",
+    "publishDate": "mars 2026",
+    "category": "Diagnostic"
+  },
+  "hero": {
+    "breadcrumb": ["Accueil", "Base de connaissances", "Mâchoire et dos"],
+    "title": "La relation cachée entre la mâchoire et le dos",
+    "titleHighlight": "mâchoire",
+    "description": "Comment votre occlusion influence votre posture"
+  },
+  "featuredImage": {
+    "src": "rug-nek.jpg",
+    "alt": "Douleurs du dos et du cou dues à la position de la mâchoire"
+  },
+  "body": [
+    {
+      "type": "intro",
+      "text": "Vous souffrez de douleurs dorsales depuis des années. Vous avez consulté votre médecin généraliste, un kinésithérapeute, peut-être même un chiropraticien. Les traitements aident temporairement, mais les symptômes reviennent toujours. Et si la cause ne se trouvait pas dans votre dos, mais dans votre mâchoire ?"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "La chaîne descendante : de la mâchoire au bassin"
+    },
+    {
+      "type": "paragraph",
+      "text": "En médecine, nous parlons de la descending chain — la chaîne descendante. Ce concept décrit comment une perturbation en haut du corps, par exemple dans l'articulation temporo-mandibulaire, se transmet comme un effet domino vers le bas. Votre mâchoire inférieure est directement connectée à votre cou via des muscles et des fascias. Le cou influence le haut du dos, le haut du dos le bas du dos, et le bas du dos le bassin. Un léger désalignement de la mâchoire peut ainsi entraîner un désalignement mesurable du bassin — des centimètres plus bas dans le corps."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Comment cela fonctionne-t-il précisément ?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Lorsque votre occlusion n'est pas symétrique — par exemple due à une dent manquante, une couronne mal ajustée ou un bruxisme sur plusieurs années — les muscles masticateurs doivent travailler plus dur pour stabiliser l'articulation temporo-mandibulaire. Cela entraîne une tension accrue dans les muscles de la mâchoire, qui se prolonge vers les muscles du cou et des épaules."
+    },
+    {
+      "type": "paragraph",
+      "text": "Votre corps réagit en compensant. La tête penche légèrement, les épaules deviennent inégales, la colonne vertébrale se courbe et le bassin penche également. Cela ne se produit pas d'un jour à l'autre, mais progressivement, sur des mois ou des années. Vous ne le remarquez pas — jusqu'à ce que la douleur commence."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "De la douleur cervicale au désalignement du bassin"
+    },
+    {
+      "type": "paragraph",
+      "text": "Les symptômes qui en découlent sont divers et sont rarement associés à la mâchoire :"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Cervical (cou) : douleurs chroniques du cou, raideur, maux de tête de tension",
+        "Thoracique (haut du dos) : douleurs entre les omoplates, problèmes respiratoires",
+        "Lombaire (bas du dos) : douleurs lombaires, symptômes herniaires",
+        "Bassin : désalignement, différence de longueur de jambe, douleurs de hanche"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Scientifiquement étayé"
+    },
+    {
+      "type": "paragraph",
+      "text": "La relation entre l'occlusion (la morsure) et la posture n'est plus une théorie. La recherche scientifique montre qu'une occlusion modifiée a des effets mesurables sur la posture de la colonne vertébrale. Des études utilisant l'analyse de posture optique — comme la DIERS Formetric 4D — montrent que lorsque l'occlusion est corrigée avec une splinte, la posture s'améliore significativement. Ce changement est souvent mesurable en quelques minutes."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Histoires reconnaissables de la pratique"
+    },
+    {
+      "type": "paragraph",
+      "text": "Dans notre pratique, nous voyons régulièrement des patients avec un récit similaire. Quelqu'un de 45 ans avec des douleurs dorsales depuis dix ans, qui a consulté chaque spécialiste. Ou une jeune femme avec des douleurs cervicales qui reviennent après chaque séance de kinésithérapie. Ce n'est que lorsque la position de la mâchoire est objectivement mesurée que le déclic se produit : l'occlusion est le maillon manquant."
+    },
+    {
+      "type": "paragraph",
+      "text": "Cela ne signifie pas que chaque douleur dorsale est un problème de mâchoire. Mais lorsque les symptômes ne répondent pas aux traitements standards, il est prudent d'examiner la mâchoire comme une cause possible."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Comment la scan 4D rend cette relation visible"
+    },
+    {
+      "type": "paragraph",
+      "text": "Chez Vincor, nous mesurons votre posture avec la DIERS 4D Spinescan. Ce qui est particulier, c'est que nous effectuons deux mesures : une dans votre situation actuelle et une avec une occlusion thérapeutique de test. En comparant ces deux scans, il devient objectivement visible si et dans quelle mesure votre occlusion influence votre posture. Les résultats sont directement visibles sur l'écran — en couleur, avec une précision millimétrique."
+    },
+    {
+      "type": "paragraph",
+      "text": "Vous voulez en savoir plus sur le diagnostic ? Consultez notre page de diagnostic. Ou lisez comment le traitement se déroule dans notre modèle de traitement en 3 phases."
+    }
+  ],
+  "relatedArticles": [
+    {
+      "title": "Comment reconnaître la CMD ?",
+      "slug": "kennisbank/cmd-herkennen",
+      "image": "kaakpijn.jpg"
+    },
+    {
+      "title": "Qu'est-ce qu'une scan d'occlusion ?",
+      "slug": "kennisbank/occlusiescan",
+      "image": "formetric-evaluation.jpg"
+    }
+  ],
+  "cta": {
+    "title": "Douleurs dorsales sans cause claire ?",
+    "description": "Faites mesurer objectivement votre posture et votre occlusion. Découvrez si la mâchoire joue un rôle dans vos symptômes.",
+    "buttonText": "Prendre rendez-vous",
+    "buttonLink": "/contact"
+  }
+}
