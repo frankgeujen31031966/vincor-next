@@ -81,7 +81,7 @@ export default function Navigation({ items, cta }: NavigationProps) {
                 {item.label}
               </Link>
               {item.children && (
-                <div className="absolute top-full left-0 opacity-0 invisible group-hover:opacity-100 group-hover:visible bg-white rounded-xl shadow-xl p-3 min-w-[220px] transition-all z-[250]">
+                <div className="absolute top-full left-0 opacity-0 invisible group-hover:opacity-100 group-hover:visible bg-white rounded-xl shadow-xl p-3 min-w-[280px] whitespace-nowrap transition-all z-[250]">
                   {item.children.map((child, childIndex) => (
                     <Link
                       key={childIndex}
