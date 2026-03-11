@@ -1,3 +1,4 @@
+import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -5,12 +6,20 @@ import PageHero from '@/components/PageHero'
 import ScrollReveal from '@/components/ScrollReveal'
 import CtaBanner from '@/components/CtaBanner'
 import { getContent } from '@/lib/content'
+import { buildMetadata } from '@/lib/seo'
 
 /* eslint-disable @typescript-eslint/no-explicit-any */
 const validSlugs = ['cmd-herkennen', 'kaak-en-rug', 'occlusiescan', 'kaaksplint-nodig']
 
 export async function generateStaticParams() {
   return validSlugs.map((slug) => ({ slug }))
+}
+
+export async function generateMetadata({ params }: { params: Promise<{ locale: string; slug: string }> }): Promise<Metadata> {
+  const { locale, slug } = await params
+  if (!validSlugs.includes(slug)) return {}
+  const content = getContent(locale, `kennisbank/${slug}`)
+  return buildMetadata({ locale, path: `/kennisbank/${slug}`, title: `${content.hero.title} — Vincor`, description: content.hero.description })
 }
 
 function BodyBlock({ block }: { block: any }) {

@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "title": "What is an occlusal scan? — Vincor Knowledge Base",
+    "description": "Everything about the DIERS 4D Spinescan: how the occlusal scan works, what it measures, and why it is safer and more accurate than traditional diagnostics.",
+    "slug": "kennisbank/occlusiescan",
+    "readingTime": "4 minutes",
+    "publishDate": "maart 2026",
+    "category": "Diagnostics"
+  },
+  "hero": {
+    "breadcrumb": ["Home", "Knowledge Base", "Occlusal Scan"],
+    "title": "What is an occlusal scan?",
+    "titleHighlight": "occlusal scan",
+    "description": "Everything about the DIERS 4D Spinescan"
+  },
+  "featuredImage": {
+    "src": "formetric-evaluation.jpg",
+    "alt": "DIERS 4D Spinescan evaluation"
+  },
+  "body": [
+    {
+      "type": "intro",
+      "text": "At Vincor, the occlusal scan forms the starting point of every treatment. But what exactly is such a scan? What is measured? And how does it differ from an X-ray? In this article, we explain everything clearly."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What does the scan measure?"
+    },
+    {
+      "type": "paragraph",
+      "text": "The DIERS Formetric 4D Spinescan maps your full posture. Specifically, the system measures:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "The position of the spine: curvature, rotation, and any scoliosis",
+        "The position of the pelvis: tilt, rotation, and lateral deviation",
+        "Muscle balance: symmetry of the core musculature on the left and right",
+        "Body statics: the overall balance of your body in three dimensions"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "With an occlusal scan, we perform this measurement twice: once in your current situation and once with a therapeutic test bite. By analyzing the difference, it becomes immediately visible whether and how much your bite affects your posture."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "How does it work? Video-Raster-Stereography explained"
+    },
+    {
+      "type": "paragraph",
+      "text": "The technology behind the scan is called Video-Raster-Stereography (VRS). The principle is surprisingly elegant: a projector casts a grid of light lines onto your back. Two cameras record how this light pattern is distorted by the contours of your body. A computer calculates from this a three-dimensional model of your back surface in fractions of a second."
+    },
+    {
+      "type": "paragraph",
+      "text": "Because the system works in 4D (three dimensions plus time), multiple images are captured per second. Thus, not only your posture is measured, but also the dynamics — how your body moves and sways."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Why no X-ray?"
+    },
+    {
+      "type": "paragraph",
+      "text": "The DIERS scan differs fundamentally from traditional diagnostics:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "No radiation: the scan works exclusively with visible light. There is no X-ray radiation, no electromagnetic radiation, and no contact with the body.",
+        "Contactless: no sensors, markers, or stickers are placed on your skin.",
+        "Super fast: the measurement literally takes seconds. Including preparation, you are ready within a quarter of an hour.",
+        "Repeatable: because the scan is completely safe, it can be repeated as often as needed to measure progress."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "The accuracy of the measurement is comparable to that of X-ray images — but without the disadvantages. This also makes the scan suitable for children, pregnant women, and patients who need to be monitored regularly."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What can you expect during the scan?"
+    },
+    {
+      "type": "paragraph",
+      "text": "The process is simple and comfortable. You are asked to expose your upper body (women may wear an open-back shirt) and stand relaxed in front of the device. The system projects a pattern of light lines onto your back — you feel nothing of it."
+    },
+    {
+      "type": "paragraph",
+      "text": "After a few seconds, the first measurement is complete. Next, you receive a therapeutic test bite (a wax roll or silicone build-up) and the measurement is repeated. The results are immediately available and are discussed with you on the screen."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "From scan results to treatment plan"
+    },
+    {
+      "type": "paragraph",
+      "text": "The scan results form the basis for your personal treatment plan. The color maps show at a glance where your body is out of balance and how large the difference is with and without the test bite. Based on this, we determine which treatment is most suitable — often starting with a therapeutic occlusal splint."
+    },
+    {
+      "type": "paragraph",
+      "text": "Want to know more about the technology and diagnostics? Visit our comprehensive diagnostics page."
+    }
+  ],
+  "relatedArticles": [
+    {
+      "title": "The relationship between jaw and back",
+      "slug": "kennisbank/kaak-en-rug",
+      "image": "rug-nek.jpg"
+    },
+    {
+      "title": "How do you recognize CMD?",
+      "slug": "kennisbank/cmd-herkennen",
+      "image": "kaakpijn.jpg"
+    }
+  ],
+  "cta": {
+    "title": "Curious what the scan reveals about your posture?",
+    "description": "Make an appointment for an occlusal scan. Radiation-free, contactless, and immediate results.",
+    "buttonText": "Make an appointment",
+    "buttonLink": "/contact"
+  }
+}

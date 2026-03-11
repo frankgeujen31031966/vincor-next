@@ -1,0 +1,143 @@
+{
+  "meta": {
+    "title": "When do you need a jaw splint? — Vincor Knowledge Base",
+    "description": "When is a jaw splint worthwhile? Learn the difference between a standard bite plate and a therapeutic splint, and discover when splint therapy is the right choice.",
+    "slug": "kennisbank/kaaksplint-nodig",
+    "readingTime": "5 minutes",
+    "publishDate": "maart 2026",
+    "category": "Behandeling"
+  },
+  "hero": {
+    "breadcrumb": ["Home", "Kennisbank", "Kaaksplint"],
+    "title": "When do you need a jaw splint?",
+    "titleHighlight": "kaaksplint",
+    "description": "A clear overview"
+  },
+  "featuredImage": {
+    "src": "behandeling-hero.jpg",
+    "alt": "Kaaksplint behandeling bij Vincor"
+  },
+  "body": [
+    {
+      "type": "intro",
+      "text": "A jaw splint — you may have heard of it before. Perhaps your dentist has already mentioned it, or you have read online that it can help with jaw problems. But when is such a splint really needed? And is every splint the same? In this article, we set it out clearly for you."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "When is a jaw splint considered?"
+    },
+    {
+      "type": "paragraph",
+      "text": "A therapeutic jaw splint can be worthwhile for various complaints. The most common indications are:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Teeth grinding (bruxism): you grind or clench your teeth at night, resulting in jaw pain, tooth wear, and headaches upon waking.",
+        "CMD (Craniomandibular Dysfunction): jaw joint complaints such as pain, clicking, limited mouth opening, or radiating pain to the ear and temple.",
+        "Chronic jaw pain: persistent pain in the jaw muscles or jaw joint that does not respond to painkillers or physiotherapy.",
+        "Posture complaints: neck, back, or shoulder complaints related to a disturbed bite."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Standard bite plate vs. therapeutic splint"
+    },
+    {
+      "type": "paragraph",
+      "text": "Not every jaw splint is the same. There is a fundamental difference between the standard night guard you can get from your dentist and a custom therapeutic splint."
+    },
+    {
+      "type": "paragraph",
+      "text": "A standard bite plate (also called a grinding plate) is a flat plastic plate placed over your teeth. The goal is primarily protection: it prevents your teeth from wearing down further due to grinding. However, it does not change the position of your jaw and therefore does not address the cause of the complaints."
+    },
+    {
+      "type": "paragraph",
+      "text": "A therapeutic splint goes further. This is designed based on a thorough analysis of your bite and posture. The splint brings your lower jaw into a position that relaxes the jaw muscles and unloads the jaw joint. The goal is not only protection, but restoration of the balance in the entire system of jaw, neck, and spine."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Relaxation splint or repositioning splint?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Within therapeutic splint therapy, we distinguish two main types:"
+    },
+    {
+      "type": "paragraph",
+      "text": "The relaxation splint is the first step in treatment (Phase 1). This splint is designed to relax the jaw muscles and unload the jaw joint. You wear this mainly at night. The relaxation splint gives your body the space to come to rest and shows how your complaints respond to a changed jaw position. This is also a diagnostic tool: if your complaints improve, this confirms that the bite plays a role."
+    },
+    {
+      "type": "paragraph",
+      "text": "The repositioning splint is the next step (Phase 2). This splint actively brings your lower jaw into a new, optimal position. The repositioning splint is precisely adjusted based on extensive diagnostics, including the 4D spinescan. You wear this splint day and night, allowing your body to learn to function in the corrected position."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "How does Vincor determine which splint you need?"
+    },
+    {
+      "type": "paragraph",
+      "text": "At Vincor, every treatment begins with a thorough analysis. Using the DIERS 4D Spinescan, we objectively map how your bite affects your posture. By measuring your posture with and without a test bite, it becomes immediately visible whether a splint is worthwhile and which type is most suitable."
+    },
+    {
+      "type": "paragraph",
+      "text": "We almost always start with a relaxation splint. This is a low-threshold and reversible first step. Only when the results confirm that your complaints respond to the changed jaw position, do we discuss whether a repositioning splint is the logical next step. Not every patient needs Phase 2 — many people experience sufficient improvement with the relaxation splint alone."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What can you expect from the treatment?"
+    },
+    {
+      "type": "paragraph",
+      "text": "The first days with a new splint can be somewhat of an adjustment. Your jaw and teeth must adapt to the new position. This is normal and usually disappears within a week. Many patients notice a difference after just a few days: less jaw pain upon waking, less headaches, a relaxed feeling in the neck and shoulders."
+    },
+    {
+      "type": "paragraph",
+      "text": "After 4 to 6 weeks, we conduct an interim evaluation. We repeat the 4D scan to objectively measure whether your posture has improved. This comparison forms the basis for the follow-up: continue with the current splint, switch to a repositioning splint, or in some cases refer to another specialist."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The 3-phase treatment model"
+    },
+    {
+      "type": "paragraph",
+      "text": "Splint therapy is part of the Vincor 3-phase treatment model:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Phase 1 — Relaxation splint: relaxation of jaw muscles, diagnostic confirmation",
+        "Phase 2 — Repositioning splint: active correction of jaw position",
+        "Phase 3 — Reconstruction: definitive correction of the teeth (only if necessary)"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Want to know more about our treatment model? View the full explanation on our treatment page."
+    }
+  ],
+  "relatedArticles": [
+    {
+      "title": "How do you recognize CMD?",
+      "slug": "kennisbank/cmd-herkennen",
+      "image": "kaakpijn.jpg"
+    },
+    {
+      "title": "What is an occlusal scan?",
+      "slug": "kennisbank/occlusiescan",
+      "image": "formetric-evaluation.jpg"
+    }
+  ],
+  "cta": {
+    "title": "Do you want to know if a splint is right for you?",
+    "description": "Make an appointment for a free consultation and an objective 4D scan of your posture.",
+    "buttonText": "Make an appointment",
+    "buttonLink": "/contact"
+  }
+}

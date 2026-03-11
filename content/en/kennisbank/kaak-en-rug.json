@@ -1,0 +1,119 @@
+{
+  "meta": {
+    "title": "The relationship between jaw and back — Vincor Knowledge Base",
+    "description": "Discover how a disturbed bite via the descending chain can affect your posture, neck and back. The hidden relationship between jaw and spine explained.",
+    "slug": "kennisbank/kaak-en-rug",
+    "readingTime": "6 minutes",
+    "publishDate": "maart 2026",
+    "category": "Diagnostiek"
+  },
+  "hero": {
+    "breadcrumb": ["Home", "Kennisbank", "Kaak en rug"],
+    "title": "The hidden relationship between jaw and back",
+    "titleHighlight": "jaw",
+    "description": "How your bite affects your posture"
+  },
+  "featuredImage": {
+    "src": "rug-nek.jpg",
+    "alt": "Back and neck complaints due to jaw position"
+  },
+  "body": [
+    {
+      "type": "intro",
+      "text": "You have had back pain for years. You have been to the GP, to the physiotherapist, perhaps even to a chiropractor. The treatments help temporarily, but the complaints keep coming back. What if the cause is not in your back, but in your jaw?"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The descending chain: from jaw to pelvis"
+    },
+    {
+      "type": "paragraph",
+      "text": "In medicine we speak about the descending chain. This concept describes how a disturbance at the top of the body, for example in the jaw joint, works its way down as a domino effect. Your lower jaw is directly connected to your neck via muscles and fascia. The neck affects the upper back, the upper back the lower back, and the lower back the pelvis. A small misalignment in the jaw can thus lead to a measurable misalignment of the pelvis — centimeters lower in the body."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "How does that work exactly?"
+    },
+    {
+      "type": "paragraph",
+      "text": "When your bite is not symmetrical — for example due to a missing molar, a poorly fitting crown, or years of grinding — the chewing muscles have to work harder to stabilize the jaw joint. This leads to increased tension in the jaw muscles, which continues to the muscles of the neck and shoulders."
+    },
+    {
+      "type": "paragraph",
+      "text": "Your body responds to this by compensating. The head tilts slightly, the shoulders become uneven, the spine curves and the pelvis tilts along. This does not happen overnight, but gradually, over months or years. You don't notice it — until the pain starts."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "From neck pain to pelvic misalignment"
+    },
+    {
+      "type": "paragraph",
+      "text": "The complaints that arise from this are diverse and are rarely associated with the jaw:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Cervical (neck): chronic neck pain, stiffness, tension headaches",
+        "Thoracic (upper back): pain between shoulder blades, breathing problems",
+        "Lumbar (lower back): lower back pain, hernia-like complaints",
+        "Pelvis: misalignment, leg length difference, hip complaints"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Scientifically supported"
+    },
+    {
+      "type": "paragraph",
+      "text": "The relationship between occlusion (bite) and posture is no longer theory. Scientific research shows that a changed bite position has measurable effects on the posture of the spine. Studies with optical posture analysis — such as the DIERS Formetric 4D — show that when the bite is corrected with a splint, the posture improves significantly. This change is often measurable within a few minutes."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Recognizable stories from practice"
+    },
+    {
+      "type": "paragraph",
+      "text": "In our practice we regularly see patients with a similar story. Someone aged 45 with back complaints for ten years, who has been to every specialist. Or a young woman with neck pain that returns after every physiotherapy treatment. Only when the jaw position is objectively measured does it become clear: the bite is the missing link."
+    },
+    {
+      "type": "paragraph",
+      "text": "This does not mean that every back complaint is a jaw problem. But when complaints do not respond to standard treatments, it is wise to investigate the jaw as a possible cause."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "How the 4D scan makes this connection visible"
+    },
+    {
+      "type": "paragraph",
+      "text": "At Vincor we measure your posture with the DIERS 4D Spinescan. The special thing is that we perform two measurements: one in your current situation and one with a therapeutic test bite. By comparing these two scans, it becomes objectively visible whether and how much your bite affects your posture. The results are directly visible on the screen — in color, with millimeter precision."
+    },
+    {
+      "type": "paragraph",
+      "text": "Want to know more about the diagnostics? View our diagnostics page. Or read how the treatment looks in our 3-phase treatment model."
+    }
+  ],
+  "relatedArticles": [
+    {
+      "title": "How do you recognize CMD?",
+      "slug": "kennisbank/cmd-herkennen",
+      "image": "kaakpijn.jpg"
+    },
+    {
+      "title": "What is an occlusion scan?",
+      "slug": "kennisbank/occlusiescan",
+      "image": "formetric-evaluation.jpg"
+    }
+  ],
+  "cta": {
+    "title": "Back complaints without a clear cause?",
+    "description": "Have your posture and bite measured objectively. Discover if the jaw plays a role in your complaints.",
+    "buttonText": "Make an appointment",
+    "buttonLink": "/contact"
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "meta": {
+    "title": "Treatment — Vincor | 3-Phase Treatment Model",
+    "description": "The Vincor 3-Phase Treatment Model: from relaxation splint to full reconstruction. Discover how we treat jaw and posture complaints step by step.",
+    "slug": "behandeling"
+  },
+  "hero": {
+    "breadcrumb": ["Home", "Treatment"],
+    "title": "Our 3-Phase Treatment Model",
+    "titleHighlight": "Treatment Model",
+    "description": "A step-by-step approach that starts with relaxation and ends with lasting recovery. Each phase builds on the previous one, so your body has time to adapt structurally."
+  },
+  "introduction": {
+    "sectionLabel": "Our Method",
+    "title": "A phased approach for lasting results",
+    "description": "At Vincor, we believe that structural complaints cannot be resolved with a single intervention. Our 3-phase model combines advanced diagnostics with proven splint therapy and, if necessary, definitive reconstruction. This way, we treat the cause, not just the symptom."
+  },
+  "overviewSteps": [
+    {
+      "number": 1,
+      "title": "Relaxation",
+      "description": "Relaxation of the jaw and back musculature and initial diagnostics at Vincor."
+    },
+    {
+      "number": 2,
+      "title": "Repositioning",
+      "description": "Correction of the bite and posture balance with a custom-made splint at Vincor."
+    },
+    {
+      "number": 3,
+      "title": "Reconstruction",
+      "description": "Definitive restoration through orthodontics, implantology, or prosthodontics at PDA."
+    }
+  ],
+  "phaseCards": {
+    "sectionLabel": "The Three Phases",
+    "title": "Your treatment journey in detail",
+    "description": "Each phase has a clear goal and is only started when the previous phase has delivered the desired result.",
+    "phases": [
+      {
+        "phase": "Phase 1",
+        "title": "Relaxation Splint",
+        "price": "195",
+        "currency": "EUR",
+        "description": "The first step focuses on relaxing the jaw, neck, and back musculature. Simultaneously, we perform an extensive diagnostic scan to map the relationship between your bite and posture.",
+        "features": [
+          "4D occlusion and posture scan (DIERS Formetric)",
+          "Analysis of jaw joint and muscle tone",
+          "Custom-made relaxation splint",
+          "Reduction of muscle tension and pain complaints",
+          "Initial assessment of treatment options"
+        ],
+        "location": "Vincor, Eindhoven",
+        "featured": false
+      },
+      {
+        "phase": "Phase 2",
+        "title": "Repositioning Splint",
+        "price": "595",
+        "currency": "EUR",
+        "badge": "Most chosen",
+        "description": "Based on the diagnostics from phase 1, we manufacture a repositioning splint. This corrects the occlusion (bite) and restores the postural balance between jaw, spine, and pelvis.",
+        "features": [
+          "Detailed occlusion analysis and bite registration",
+          "Repositioning of the lower jaw to optimal position",
+          "Restoration of postural balance (back, neck, pelvis)",
+          "Interim control with 4D scan",
+          "Significant reduction of complaints",
+          "Personalized treatment plan with progress reporting"
+        ],
+        "location": "Vincor, Eindhoven",
+        "featured": true
+      },
+      {
+        "phase": "Phase 3",
+        "title": "Reconstruction",
+        "price": "3.000 – 7.000",
+        "currency": "EUR",
+        "description": "When splint therapy proves insufficient or a definitive solution is desired, we refer you to our partner center PDA for orthodontics, implantology, or full denture reconstruction.",
+        "features": [
+          "Orthodontic correction of the bite",
+          "Implantology for missing elements",
+          "Full denture reconstruction if needed",
+          "Prosthetic restoration for long-term results",
+          "Follow-up and control in collaboration with Vincor"
+        ],
+        "location": "PDA (partner center)",
+        "featured": false
+      }
+    ]
+  },
+  "bodySplint": {
+    "sectionLabel": "Vincor BodySplint",
+    "title": "The splint that treats your body as a whole",
+    "image": "behandeling-hero.jpg",
+    "imageAlt": "Vincor BodySplint treatment",
+    "paragraphs": [
+      "The Vincor BodySplint is not an ordinary dental splint. Based on your personal 4D scan, the splint is designed so that it not only relieves the jaw joints but also brings the spine and pelvis into a better position.",
+      "By correcting the interaction between occlusion (bite) and posture, patients often experience improvement of complaints they never associated with their jaw: back pain, neck complaints, headaches, and even sleep problems."
+    ],
+    "features": [
+      "Individually manufactured based on 4D diagnostics",
+      "Corrects the relationship between bite and posture",
+      "Comfortable and invisible to wear",
+      "Measurable result through before and after measurements"
+    ]
+  },
+  "trustBar": [
+    "Radiation-free diagnostics",
+    "Results within a few weeks",
+    "Multidisciplinary collaboration"
+  ],
+  "cta": {
+    "title": "Ready to take the first step?",
+    "description": "Make an appointment for your first scan and discover which treatment phase suits you.",
+    "buttonText": "Make an appointment",
+    "buttonLink": "/contact"
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "title": "Apnea & Snoring | Vincor",
+    "description": "Suffering from snoring or sleep apnea? Vincor treats obstructive sleep apnea with a custom-made MRA (Mandibular Repositioning Appliance) combined with 4D diagnostics."
+  },
+  "hero": {
+    "breadcrumb": ["Home", "Conditions", "Apnea & Snoring"],
+    "title": "Apnea & Snoring",
+    "description": "Obstructive sleep apnea (OSA) and chronic snoring affect not only your sleep but your overall health. At Vincor, we treat the cause with a custom-made MRA — a proven alternative to CPAP."
+  },
+  "watIsHet": {
+    "label": "What is it",
+    "title": "What is sleep apnea?",
+    "paragraphs": [
+      "Obstructive sleep apnea (OSA) is a sleep disorder where the upper airways become partially or completely blocked during sleep. This causes breathing to stop temporarily — sometimes dozens of times per night — after which the body resumes breathing with a startle response.",
+      "Snoring is often the first and most noticeable symptom of OSA. But the consequences go far beyond nighttime noise. Chronic sleep apnea leads to daytime fatigue, concentration problems, increased blood pressure, and a significantly higher risk of heart and vascular diseases. It is estimated that 80% of people with moderate to severe sleep apnea are not diagnosed."
+    ],
+    "image": "/images/kaakpijn.jpg"
+  },
+  "symptomen": {
+    "title": "Do you recognize these symptoms?",
+    "description": "Sleep apnea manifests in many more ways than just snoring. Many patients recognize themselves in several of the following symptoms.",
+    "items": [
+      "Loud and irregular snoring",
+      "Breathing pauses during sleep (observed by partner)",
+      "Restless sleep and frequent waking",
+      "Excessive daytime fatigue and drowsiness",
+      "Morning headaches and dry mouth upon waking",
+      "Concentration problems and forgetfulness",
+      "Irritability and mood swings",
+      "Nighttime teeth grinding (bruxism)"
+    ]
+  },
+  "oorzaken": {
+    "label": "Causes",
+    "title": "The jaw as the key to open airways",
+    "paragraphs": [
+      "In obstructive sleep apnea, the tongue and soft palate fall backward during sleep, causing the airway to narrow or become completely blocked. The position of the lower jaw plays a crucial role here: a recessed lower jaw (retrognathia) significantly increases the risk of airway obstruction.",
+      "At Vincor, we understand that jaw position not only affects posture but also the airway. Our expertise in occlusion and mandibular repositioning makes it possible to effectively treat sleep apnea using the same principles we apply in our other treatments.",
+      "A Mandibular Repositioning Appliance (MRA) — also known as a snoring appliance or MAS (Mandibular Advancement Splint) — moves the lower jaw forward during sleep. This keeps the airway open and eliminates snoring and breathing pauses."
+    ],
+    "image": "/images/4d-posturelab.jpg"
+  },
+  "diagnostiek": {
+    "title": "How we diagnose sleep apnea",
+    "description": "An accurate diagnosis is essential for effective treatment. We combine our 4D diagnostics with specific sleep apnea analysis.",
+    "cards": [
+      {
+        "title": "4D Posture Analysis",
+        "description": "The DIERS 4D scan maps the relationship between your jaw position, airway, and posture. A recessed lower jaw and forward head position are often signs of compensation for a narrowed airway."
+      },
+      {
+        "title": "Jaw Position Analysis",
+        "description": "We analyze the position of your lower jaw relative to the upper jaw and airway. This analysis determines how much the lower jaw needs to be moved forward for optimal results."
+      },
+      {
+        "title": "Sleep Recording",
+        "description": "In collaboration with your GP or sleep center, a home sleep test (polygraphy) can be performed to objectively determine the severity of apnea (AHI score)."
+      }
+    ]
+  },
+  "behandeling": {
+    "title": "Treatment with MRA",
+    "description": "The Mandibular Repositioning Appliance is a custom-made device that keeps the lower jaw in a forward position during sleep, keeping the airway open.",
+    "phases": [
+      {
+        "phase": "Step 1",
+        "title": "Diagnosis & Scan",
+        "description": "Comprehensive intake with 4D scan and jaw position analysis. Optionally supplemented with home sleep test.",
+        "features": [
+          "4D posture scan and jaw analysis",
+          "Assessment of MRA therapy suitability",
+          "Coordination with GP/sleep center"
+        ]
+      },
+      {
+        "phase": "Step 2",
+        "title": "Custom MRA",
+        "description": "Manufacturing and placement of your personal MRA, designed with Shining 3D intraoral scanning technology.",
+        "featured": true,
+        "badge": "Core Treatment",
+        "features": [
+          "Digital dental impression (no putty)",
+          "Custom-made with CAD/CAM",
+          "Titreerbaar: step-by-step forward adjustment",
+          "Comfortable and discreet"
+        ]
+      },
+      {
+        "phase": "Step 3",
+        "title": "Follow-up & Optimization",
+        "description": "Regular check-ups and fine-tuning for maximum results.",
+        "features": [
+          "Control scan after 6-8 weeks",
+          "Titration for optimal effect",
+          "Long-term monitoring"
+        ]
+      }
+    ]
+  },
+  "faq": {
+    "title": "FAQ on sleep apnea treatment",
+    "items": [
+      {
+        "question": "Is an MRA a good alternative to CPAP?",
+        "answer": "Yes, for mild to moderate obstructive sleep apnea (AHI 5-30), an MRA is a scientifically proven and NVALT-recognized alternative to CPAP. In severe sleep apnea, an MRA can be considered when CPAP is not tolerated. Studies show that compliance with an MRA is significantly higher than with CPAP, as the device is more comfortable and practical."
+      },
+      {
+        "question": "Is snoring always sleep apnea?",
+        "answer": "No, not everyone who snores has sleep apnea. Social snoring (without breathing pauses) is common and usually harmless. However, when snoring is accompanied by breathing pauses, excessive daytime fatigue, or morning headaches, there may be obstructive sleep apnea. A sleep recording can make this distinction."
+      },
+      {
+        "question": "Is the MRA covered?",
+        "answer": "An MRA is covered in many cases through basic insurance when a diagnosis of sleep apnea is made by a sleep center or pulmonologist. The referral and diagnostic pathway determine coverage options. We are happy to help you explore your specific situation."
+      },
+      {
+        "question": "Can I sleep normally with an MRA?",
+        "answer": "Yes, the MRA is designed for maximum sleep comfort. You can open and close your mouth normally, and most patients adapt within a week. The MRA is significantly less burdensome than a CPAP mask and ideal for travel."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Suffering from snoring or fatigue?",
+    "description": "Make an appointment for a scan and discover if an MRA is the solution to your sleep problem.",
+    "buttonText": "Make an appointment",
+    "buttonHref": "/contact"
+  }
+}

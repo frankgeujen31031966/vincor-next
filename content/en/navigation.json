@@ -1,0 +1,48 @@
+{
+  "logo": {
+    "src": "images/vincor-logo.webp",
+    "alt": "Vincor",
+    "href": "/"
+  },
+  "links": [
+    { "text": "Complaints", "href": "klachten/", "hasDropdown": true },
+    { "text": "Diagnosis", "href": "diagnostiek/" },
+    { "text": "Treatment", "href": "behandeling/", "hasDropdown": true },
+    { "text": "About Us", "href": "over-ons/" },
+    { "text": "FAQ", "href": "faq.html" },
+    { "text": "Knowledge Base", "href": "kennisbank.html" }
+  ],
+  "dropdowns": {
+    "klachten": [
+      { "text": "Jaw Pain", "href": "klachten/kaakpijn.html" },
+      { "text": "Headache & Migraine", "href": "klachten/hoofdpijn-migraine.html" },
+      { "text": "Tinnitus", "href": "klachten/tinnitus.html" },
+      { "text": "Nerve Pain", "href": "klachten/zenuwpijn.html" },
+      { "text": "Teeth Grinding & Bruxism", "href": "klachten/tandenknarsen.html" },
+      { "text": "Stiff Neck & Shoulders", "href": "klachten/stijve-nek.html" },
+      { "text": "Back and Neck Complaints", "href": "klachten/rug-nekklachten.html" }
+    ],
+    "behandeling": [
+      { "text": "Phase 1 — Relaxation Splint", "href": "behandeling/fase-1-relaxatiesplint.html" },
+      { "text": "Phase 2 — Repositioning Splint", "href": "behandeling/fase-2-repositioneringssplint.html" },
+      { "text": "Phase 3 — Reconstruction", "href": "behandeling/fase-3-reconstructie.html" }
+    ]
+  },
+  "mobileLinks": [
+    { "text": "Complaints", "href": "klachten/" },
+    { "text": "Diagnosis", "href": "diagnostiek/" },
+    { "text": "Treatment", "href": "behandeling/" },
+    { "text": "About Us", "href": "over-ons/" },
+    { "text": "FAQ", "href": "faq.html" },
+    { "text": "Knowledge Base", "href": "kennisbank.html" },
+    { "text": "Book Free Scan", "href": "contact.html", "highlighted": true }
+  ],
+  "langSwitcher": {
+    "current": "EN",
+    "options": ["EN", "NL"]
+  },
+  "cta": {
+    "text": "Book Free Scan",
+    "href": "contact.html"
+  }
+}

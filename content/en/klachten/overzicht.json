@@ -1,0 +1,92 @@
+{
+  "meta": {
+    "title": "Complaints | Vincor — Occlusion & Posture Diagnostics",
+    "description": "Discover which complaints Vincor treats: jaw pain, migraine, tinnitus, teeth grinding, nerve pain, neck complaints and more. All from the jaw-spine connection."
+  },
+  "hero": {
+    "breadcrumb": ["Home", "Complaints"],
+    "title": "Which complaints does Vincor treat?",
+    "description": "Many chronic complaints in the head, neck and shoulder area have a common cause: a disturbed jaw position that affects posture. Our diagnostics make this connection visible."
+  },
+  "intro": {
+    "label": "Our Expertise",
+    "title": "The connection between jaw and body",
+    "titleHighlight": "jaw and body",
+    "description": "A disturbed occlusion (jaw position) can cause complaints that seemingly have nothing to do with the jaw — from migraine to back pain. At Vincor we bring these connections into objective view with the DIERS 4D Spinescan."
+  },
+  "conditionCards": [
+    {
+      "title": "Jaw Pain & CMD",
+      "href": "/klachten/kaakpijn",
+      "image": "/images/kaakpijn.jpg",
+      "alt": "Jaw pain treatment"
+    },
+    {
+      "title": "Headache & Migraine",
+      "href": "/klachten/hoofdpijn-migraine",
+      "image": "/images/migraine.jpg",
+      "alt": "Headache and migraine treatment"
+    },
+    {
+      "title": "Tinnitus",
+      "href": "/klachten/tinnitus",
+      "image": "/images/Tinnitus-2.jpg",
+      "alt": "Tinnitus treatment"
+    },
+    {
+      "title": "Teeth Grinding & Bruxism",
+      "href": "/klachten/tandenknarsen",
+      "image": "/images/Tandenknarsen.jpg",
+      "alt": "Teeth grinding and bruxism treatment"
+    },
+    {
+      "title": "Nerve Pain",
+      "href": "/klachten/zenuwpijn",
+      "image": "/images/zenuwpijn.jpg",
+      "alt": "Nerve pain treatment"
+    },
+    {
+      "title": "Stiff Neck & Shoulders",
+      "href": "/klachten/stijve-nek",
+      "image": "/images/stijve-nek.jpg",
+      "alt": "Stiff neck and shoulders treatment"
+    },
+    {
+      "title": "Back and Neck Complaints",
+      "href": "/klachten/rug-nekklachten",
+      "image": "/images/rug-nek.jpg",
+      "alt": "Back and neck complaints treatment"
+    },
+    {
+      "title": "Apnea & Snoring",
+      "href": "/klachten/apneu-snurken",
+      "image": "/images/kaakpijn.jpg",
+      "alt": "Sleep apnea and snoring treatment"
+    }
+  ],
+  "approach": {
+    "label": "Our Approach",
+    "title": "From complaint to cause",
+    "description": "At Vincor we treat not only the symptoms, but search for the underlying cause. With the DIERS 4D Spinescan we bring the relationship between jaw, spine and posture into objective view.",
+    "items": [
+      "Radiation-free 4D analysis of the spine",
+      "Measurement of the influence of jaw position on posture",
+      "Personal treatment plan based on objective data"
+    ],
+    "image": "/images/spine-model.gif",
+    "buttonText": "More about our diagnostics",
+    "buttonHref": "/diagnostiek"
+  },
+  "nietGevonden": {
+    "title": "Your complaint is not listed?",
+    "description": "There are more complaints that are related to a disturbed jaw position. Feel free to contact us — we'd be happy to think along with you.",
+    "buttonText": "Contact us",
+    "buttonHref": "/contact"
+  },
+  "cta": {
+    "title": "Book your free 4D scan",
+    "description": "Discover in a few minutes if your complaints have a common cause — completely without obligation.",
+    "buttonText": "Book Free Scan",
+    "buttonHref": "/contact"
+  }
+}

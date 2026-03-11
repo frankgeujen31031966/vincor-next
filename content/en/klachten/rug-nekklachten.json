@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "title": "Back & Neck Pain | Vincor",
+    "description": "Chronic back pain and posture issues? The cause may lie in your jaw. Vincor investigates the connection between occlusion and the spine with 4D diagnostics."
+  },
+  "hero": {
+    "breadcrumb": ["Home", "Conditions", "Back & Neck Pain"],
+    "title": "Back & Neck Pain",
+    "description": "Chronic back pain and posture issues are the most common complaints. When standard treatments fail, a disturbed occlusion may be the missing link. At Vincor, we examine the relationship between jaw and spine."
+  },
+  "watIsHet": {
+    "label": "What is it",
+    "title": "Back pain and the jaw connection",
+    "paragraphs": [
+      "Back pain is one of the most common complaints worldwide and a major cause of sick leave. It encompasses complaints throughout the entire spine: from the cervical (neck), thoracic (upper back) to lumbar (lower back) regions. Many patients experience their complaints as chronic and therapy-resistant.",
+      "The spine functions as a kinematic chain: a change at one level has consequences for all other levels. Less well known is that this chain begins with the jaw. The position of the lower jaw affects the position of the head via the hyoid bone and cervical muscles, and thereby the entire spinal curve. This principle — the descending pathway — explains how a bite problem can ultimately cause back complaints."
+    ],
+    "image": "/images/rug-nek.jpg"
+  },
+  "symptomen": {
+    "title": "Do you recognize these complaints?",
+    "description": "Back and neck complaints with an occlusal component are characterized by specific patterns.",
+    "items": [
+      "Chronic back or neck pain that does not respond to standard treatment",
+      "Posture deviations: forward head position, rounded shoulders",
+      "Asymmetrical shoulder height or pelvic tilt",
+      "Pain between the shoulder blades (thoracic region)",
+      "Lower back pain that correlates with periods of jaw clenching",
+      "Complaints that started after dental procedures or changed bite",
+      "Muscle tension in the back that keeps returning despite treatment",
+      "Combined complaints: back pain together with jaw pain or headaches"
+    ]
+  },
+  "oorzaken": {
+    "label": "Causes",
+    "title": "The descending chain: from jaw to back",
+    "paragraphs": [
+      "The human body functions as a chain of segments that influence each other. The jaw is at the top of this chain. The position of the lower jaw determines the position of the head on the cervical spine (the craniocervical angle) via the hyoid bone.",
+      "When the bite changes — due to wear, tooth loss, or an incorrect restoration — the center of gravity of the head shifts. To keep the gaze horizontal, the cervical spine compensates. This compensation propagates to the thoracic and lumbar spine: the shoulders rotate, the pelvis tilts, and the lumbar lordosis changes.",
+      "This cascade effect, described in professional literature as the \"descending postural pattern\", explains why patients with bite problems often develop complaints at multiple levels of the spine. It also clarifies why purely local treatment of the back is often insufficient: the controlling factor at the top of the chain — the jaw — must be corrected."
+    ],
+    "image": "/images/4d-posturelab.jpg"
+  },
+  "diagnostiek": {
+    "title": "How we investigate the cause of your back complaints",
+    "description": "Our 4D diagnostics map the full postural chain, from occlusion to pelvic position.",
+    "cards": [
+      {
+        "title": "Posturography",
+        "description": "Dynamic posture measurement that records the full spinal curve in 3D and quantifies asymmetries."
+      },
+      {
+        "title": "Occlusion-posture test",
+        "description": "Measurement of the direct effect of bite changes on spinal posture, with pre- and post-registration."
+      },
+      {
+        "title": "Force distribution analysis",
+        "description": "Stabilometry that measures pressure distribution under the feet as a reflection of total body balance."
+      }
+    ]
+  },
+  "behandeling": {
+    "title": "Treatment options for back & neck complaints",
+    "description": "Our integral approach combines bite correction with posture therapy for a lasting result at all levels of the spine.",
+    "phases": [
+      {
+        "phase": "Phase 1",
+        "title": "Stabilization",
+        "description": "Direct release of the postural chain through optimization of jaw position.",
+        "features": [
+          "Neuromuscular stabilization splint",
+          "TENS therapy for muscle relaxation",
+          "Ergonomic advice for workplace and sleeping position"
+        ]
+      },
+      {
+        "phase": "Phase 2",
+        "title": "Integral correction",
+        "description": "Simultaneous optimization of bite and posture for maximum improvement.",
+        "featured": true,
+        "badge": "Most chosen",
+        "features": [
+          "Neuromuscular orthotic therapy",
+          "Multidisciplinary posture rehabilitation",
+          "Integrated physiotherapy jaw-spine-pelvis"
+        ]
+      },
+      {
+        "phase": "Phase 3",
+        "title": "Maintenance",
+        "description": "Long-term stability of the improved posture and bite relationship.",
+        "features": [
+          "Definitive dental rehabilitation",
+          "Periodic posturographic control",
+          "Exercise program for posture and core stability"
+        ]
+      }
+    ]
+  },
+  "faq": {
+    "title": "FAQ about back & neck complaints",
+    "items": [
+      {
+        "question": "How can my bite affect my back?",
+        "answer": "The body functions as a kinematic chain. The position of the lower jaw affects the position of the head via the hyoid bone and cervical muscles. To keep the gaze horizontal, the spine compensates from top to bottom: the cervical curve changes, the thoracic kyphosis adapts, and the pelvis tilts. Scientific studies confirm that even small bite changes cause measurable posture changes."
+      },
+      {
+        "question": "Does Vincor work with my physiotherapist or orthopedist?",
+        "answer": "Absolutely. For back and neck complaints, a multidisciplinary approach is most effective. We are happy to work together with your physiotherapist, osteopath, or orthopedist. Vincor focuses on the jaw-related component, while your existing practitioners address the local complaints. This combination delivers the best results."
+      },
+      {
+        "question": "I have a hernia. Can Vincor still help?",
+        "answer": "A hernia is a structural problem that should be treated medically. However, the posture deviation caused by a bite problem can increase the load on the spine and thus contribute to the onset or worsening of a hernia. By optimizing posture through bite correction, the load can be better distributed. This is complementary to your orthopedic treatment."
+      },
+      {
+        "question": "How long does it take before I notice improvement in my back?",
+        "answer": "Improvement in neck and shoulder tension often occurs quickly: within 2-4 weeks after wearing the stabilization splint. Changes in the lumbar region require more time, because postural adjustments propagate from top to bottom through the chain. On average, patients notice improvement in the lower back after 6-12 weeks. The full treatment cycle lasts 4-8 months."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Book your free scan",
+    "description": "Discover if your back complaints have a jaw-related cause. Our 4D diagnostics map the full postural chain.",
+    "buttonText": "Make an appointment",
+    "buttonHref": "/contact"
+  }
+}

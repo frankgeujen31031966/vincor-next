@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "title": "Results & Patient Experience — Vincor",
+    "description": "View measurable treatment results and patient experiences at Vincor. Discover how our 4D diagnostics and splint therapy change lives.",
+    "slug": "resultaten"
+  },
+  "hero": {
+    "breadcrumb": ["Home", "Results"],
+    "title": "Results & Patient Experience",
+    "titleHighlight": "Patient Experience",
+    "description": "Measurable improvement, experienced by our patients"
+  },
+  "stats": {
+    "sectionLabel": "Figures",
+    "title": "Our results in figures",
+    "items": [
+      { "value": "500+", "label": "Scans performed" },
+      { "value": "93%", "label": "Experience reduction of complaints" },
+      { "value": "4.8", "label": "Average Google rating" }
+    ]
+  },
+  "caseStudies": {
+    "sectionLabel": "Patient Journeys",
+    "title": "Patient Journeys",
+    "description": "Three anonymized case studies showing how a disturbed bite can cause various complaints — and how we bring change.",
+    "cases": [
+      {
+        "title": "From chronic migraine to a life without headaches",
+        "image": "migraine.jpg",
+        "imageAlt": "Female patient with chronic migraine successfully treated at Vincor",
+        "patient": "Female, 38 years, marketing manager",
+        "complaint": "Migraine 3-4 times per week, for 8 years. No medication helped structurally.",
+        "diagnosis": "The 4D scan showed clear asymmetry in jaw position and compensation in the cervical spine.",
+        "treatment": "Phase 1 (relaxation splint) → Phase 2 (repositioning splint)",
+        "result": "After 3 months: migraine reduced from 3-4 times per week to 1 time per month. After 6 months: almost migraine-free."
+      },
+      {
+        "title": "Back pain that no one could explain",
+        "image": "rug-nek.jpg",
+        "imageAlt": "Male patient with chronic back pain successfully treated at Vincor",
+        "patient": "Male, 52 years, IT professional",
+        "complaint": "Chronic lower back pain and stiff neck, for 5 years. Physiotherapy offered only temporary relief.",
+        "diagnosis": "The DIERS 4D scan showed that a disturbed jaw position caused compensation in the thoracic and lumbar spine.",
+        "treatment": "Phase 1 → Phase 2, combined with posture therapy at Balans Rugcentrum.",
+        "result": "70% reduction in back pain after 4 months. Can sport again without complaints."
+      },
+      {
+        "title": "Teeth grinding and the consequences I didn't see",
+        "image": "Tandenknarsen.jpg",
+        "imageAlt": "Female patient with teeth grinding and tinnitus successfully treated at Vincor",
+        "patient": "Female, 45 years, lecturer",
+        "complaint": "Severe teeth grinding, jaw pain when getting up, tinnitus and neck stiffness.",
+        "diagnosis": "Combined occlusion analysis and 4D scan showed severe wear and postural imbalance.",
+        "treatment": "Phase 1 → Phase 2 → Phase 3 (partial reconstruction at PDA)",
+        "result": "Grinding stopped, tinnitus significantly reduced. New dental build-up provides stable bite and posture."
+      }
+    ]
+  },
+  "measurements": {
+    "sectionLabel": "Measurable difference",
+    "title": "Measurable difference",
+    "description": "At Vincor we use objective 4D measurements to make your progress visible. By comparing the scan at intake with the scan after treatment, we see exactly what has changed.",
+    "image": "formetric-evaluation.jpg",
+    "imageAlt": "DIERS Formetric 4D scan comparison: intake versus after treatment",
+    "subtitle": "What do we measure?",
+    "text": "The DIERS Formetric 4D scan maps your full posture. By comparing the measurement before and after treatment, we can objectively determine which improvements have been achieved.",
+    "parameters": [
+      {
+        "name": "Spinal symmetry",
+        "description": "deviations in the position of the spine"
+      },
+      {
+        "name": "Pelvic position",
+        "description": "tilt and rotation of the pelvis"
+      },
+      {
+        "name": "Shoulder height",
+        "description": "difference in height between left and right shoulder"
+      },
+      {
+        "name": "Muscle balance",
+        "description": "asymmetry in muscle activity and tension"
+      }
+    ]
+  },
+  "testimonials": {
+    "sectionLabel": "Experiences",
+    "title": "What our patients say",
+    "items": [
+      {
+        "quote": "The 4D scan was an eye-opener. Finally I understood why I had headaches for all those years.",
+        "author": "Annelies",
+        "age": 42
+      },
+      {
+        "quote": "Professional, thorough and human. At Vincor I felt heard for the first time.",
+        "author": "Tom",
+        "age": 55
+      },
+      {
+        "quote": "My physiotherapist should have sent me to Vincor years ago. This was the solution.",
+        "author": "Marieke",
+        "age": 36
+      }
+    ]
+  },
+  "cta": {
+    "title": "Curious what we can do for you?",
+    "description": "Contact us for a no-obligation conversation or make an appointment directly.",
+    "buttonText": "Contact us",
+    "buttonLink": "/contact"
+  }
+}

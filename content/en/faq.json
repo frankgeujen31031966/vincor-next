@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "title": "Frequently Asked Questions — Vincor",
+    "description": "Answers to frequently asked questions about Vincor occlusion and posture scan, treatment, costs, and technology.",
+    "slug": "faq"
+  },
+  "hero": {
+    "breadcrumb": ["Home", "FAQ"],
+    "title": "Frequently Asked Questions",
+    "titleHighlight": "Questions",
+    "description": "Here you will find answers to the most frequently asked questions about our diagnostics, treatment, and workflow."
+  },
+  "categories": [
+    {
+      "sectionLabel": "General",
+      "title": "General questions",
+      "items": [
+        {
+          "question": "What is an occlusion scan?",
+          "answer": "An occlusion scan maps the relationship between your bite (occlusion) and your body posture. At Vincor, we combine an analysis of the jaw joint with a 4D posture scan of the spine. This makes it visible how your bite affects your posture."
+        },
+        {
+          "question": "How long does a scan take?",
+          "answer": "The measurement itself takes only a few seconds. Including intake, explanation, and discussion of results, you are typically ready within 30 to 45 minutes."
+        },
+        {
+          "question": "Is the scan painless?",
+          "answer": "Yes, completely. The DIERS Formetric 4D scan is contactless and works with visible light. Nothing is placed on your body and there is no form of radiation. You simply stand relaxed in front of the device."
+        },
+        {
+          "question": "Do I need a referral?",
+          "answer": "No, you can directly make an appointment at Vincor. A referral from your GP, dentist, or physiotherapist is not needed, but is of course welcome if you have one."
+        }
+      ]
+    },
+    {
+      "sectionLabel": "Complaints",
+      "title": "Questions about complaints",
+      "items": [
+        {
+          "question": "Which complaints does Vincor treat?",
+          "answer": "Vincor focuses on complaints related to the relationship between bite and posture. Think of jaw pain, headaches, neck complaints, back pain, tinnitus, dizziness, shoulder pain, and sleep disorders. Many of these complaints have a common origin in a disturbed occlusion."
+        },
+        {
+          "question": "Can my jaw position really cause headaches?",
+          "answer": "Yes, that is a common connection. When the bite is not correct, the jaw muscles are overloaded. This tension spreads through the neck muscles to the head and can lead to tension headaches, migraine-like complaints, and even facial pain."
+        },
+        {
+          "question": "Can a disturbed bite cause back pain?",
+          "answer": "Absolutely. The mandible is connected via muscles and fascia to the neck, shoulders, and spine. A deviating bite position can lead to asymmetric muscle loading, pelvic tilt, and ultimately chronic back complaints. This connection is called the cranio-mandibular-cervical chain."
+        },
+        {
+          "question": "I have already had many treatments without results. Can Vincor help?",
+          "answer": "Many of our patients have a long track record behind them with physiotherapists, chiropractors, or other specialists. When complaints keep recurring, the cause may lie in the occlusion. Our 4D scan can demonstrate or rule out this connection. This way you finally know where it comes from."
+        }
+      ]
+    },
+    {
+      "sectionLabel": "Treatment",
+      "title": "Questions about the treatment",
+      "items": [
+        {
+          "question": "How much does the treatment cost?",
+          "answer": "Phase 1 (relaxation splint including 4D scan) costs €195. Phase 2 (repositioning splint with extensive analysis) costs €595. Phase 3 (reconstruction for PDA) varies from €3,000 to €7,000 depending on complexity. Not every patient needs all three phases."
+        },
+        {
+          "question": "How long does the entire treatment course take?",
+          "answer": "This varies per patient. Phase 1 typically takes 4 to 6 weeks. Phase 2 takes 2 to 4 months. Phase 3, if needed, can take 6 to 12 months. We always discuss the expected timeline with you in advance."
+        },
+        {
+          "question": "Is the treatment covered by my health insurer?",
+          "answer": "The reimbursement depends on your supplementary insurance. Some insurers cover (partially) splint therapy under the heading gnathology or orofacial physiotherapy. We recommend contacting your health insurer in advance. We gladly provide you with the necessary information for an application."
+        },
+        {
+          "question": "Do I need to go through all three phases?",
+          "answer": "No, not necessarily. Many patients already experience sufficient improvement after phase 1 or 2. Phase 3 (reconstruction) is only relevant when a definitive correction of the teeth is desired or necessary. We always discuss this in consultation with you."
+        },
+        {
+          "question": "How quickly do I notice results?",
+          "answer": "Many patients already notice improvement after a few days to weeks when wearing the relaxation splint. The extent and speed of improvement depend on the nature and severity of the complaints. During the interim 4D scan, we can objectively measure the progress."
+        }
+      ]
+    },
+    {
+      "sectionLabel": "Technology",
+      "title": "Questions about the technology",
+      "items": [
+        {
+          "question": "What is DIERS Formetric?",
+          "answer": "DIERS Formetric 4D is a medical diagnostic system from Germany that uses Video-Raster-Stereography. A light pattern is projected on the back and recorded by cameras, after which a precise 3D model of the spine is calculated. The system is used worldwide in hospitals and clinics."
+        },
+        {
+          "question": "Is the scan safe?",
+          "answer": "Yes, the scan is completely safe. No X-ray or electromagnetic radiation is used. The system works exclusively with visible light (comparable to a projector). The scan is therefore also suitable for children, pregnant women, and patients who need to be scanned regularly."
+        },
+        {
+          "question": "How accurate is the measurement?",
+          "answer": "The DIERS Formetric scan has a measurement accuracy comparable to X-rays, without the associated radiation. The system detects deviations in the spine down to the millimeter and can accurately track changes in posture over time."
+        },
+        {
+          "question": "Can the scan be repeated to measure progress?",
+          "answer": "Yes, and that is actually one of the great advantages. Since the scan is completely radiation-free, it can be repeated as often as needed. We use interim scans to objectively measure the effect of splint therapy and adjust the treatment plan where necessary."
+        }
+      ]
+    }
+  ],
+  "cta": {
+    "title": "Your question is not listed?",
+    "description": "Please feel free to contact us. We would be happy to answer your question personally.",
+    "buttonText": "Ask your question",
+    "buttonLink": "/contact"
+  }
+}

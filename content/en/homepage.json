@@ -1,0 +1,153 @@
+{
+  "meta": {
+    "title": "Vincor — Occlusion & Posture Diagnosis",
+    "description": "Discover the cause of your jaw, neck, or migraine complaints with a free 4D scan. DIERS 4D Spinescan at Vincor Eindhoven."
+  },
+  "hero": {
+    "badge": "Free 4D Scan",
+    "title": "Discover the ",
+    "titleHighlight": "cause",
+    "titleAfter": " of your jaw, neck, or migraine complaints",
+    "subtitle": "With the DIERS 4D Spinescan, we objectively visualize the connection between jaw and spine — radiation-free and within minutes.",
+    "ctaPrimary": { "text": "Book Free Scan", "href": "/contact" },
+    "ctaSecondary": { "text": "More Information", "href": "#hoe-werkt-het" },
+    "stats": [
+      { "number": "82%", "label": "Less pain" },
+      { "number": "500+", "label": "Scans performed" },
+      { "number": "85%", "label": "Less tension" }
+    ],
+    "scrollIndicator": "Scroll"
+  },
+  "trustBar": [
+    "Radiation-free",
+    "No obligation",
+    "Objective measurement",
+    "Immediate insight"
+  ],
+  "klachten": {
+    "label": "Complaints",
+    "title": "Suffering from these complaints?",
+    "description": "Many chronic complaints in the head, neck, and shoulder area have a common cause: a disturbed jaw position.",
+    "items": [
+      { "title": "Jaw Pain", "image": "kaakpijn.jpg", "slug": "kaakpijn" },
+      { "title": "Headache & Migraine", "image": "migraine.jpg", "slug": "hoofdpijn-migraine" },
+      { "title": "Tinnitus", "image": "Tinnitus-2.jpg", "slug": "tinnitus" },
+      { "title": "Nerve Pain", "image": "zenuwpijn.jpg", "slug": "zenuwpijn" },
+      { "title": "Teeth Grinding & Bruxism", "image": "Tandenknarsen.jpg", "slug": "tandenknarsen" },
+      { "title": "Stiff Neck & Shoulders", "image": "stijve-nek.jpg", "slug": "stijve-nek" },
+      { "title": "Back & Neck Complaints", "image": "rug-nek.jpg", "slug": "rug-nekklachten" }
+    ]
+  },
+  "howItWorks": {
+    "label": "Method",
+    "title": "How does it work?",
+    "description": "In three clear steps from complaint to solution — fully tailored to your situation.",
+    "steps": [
+      { "title": "Free 4D Scan", "description": "Within minutes, the DIERS scanner objectively visualizes your posture and jaw position — completely radiation-free." },
+      { "title": "Diagnosis & Advice", "description": "Our specialist analyzes the results and discusses a personalized treatment plan with you." },
+      { "title": "Customized Treatment", "description": "A phased approach from relaxation to reconstruction, tailored to the severity of your complaints." }
+    ]
+  },
+  "diagnostiek": {
+    "label": "Diagnosis",
+    "title": "DIERS 4D Spinescan technology",
+    "description": "The DIERS 4D Spinescan is an advanced diagnostic system that analyzes the spine, posture, and movement in real-time. Without radiation or physical contact, you get immediate insight into the relationship between your jaw position and body posture.",
+    "image": "spine-model.gif",
+    "imageAlt": "DIERS 4D Spinescan",
+    "features": [
+      "Radiation-free 3D surface analysis",
+      "Dynamic posture measurement in motion",
+      "Objective pre- and post-measurement",
+      "Measurement takes only a few minutes"
+    ],
+    "ctaText": "More about our diagnosis",
+    "ctaHref": "/diagnostiek"
+  },
+  "behandeling": {
+    "label": "Treatment",
+    "title": "From insight to recovery",
+    "description": "Our treatment approach consists of three phases. Each phase builds on the previous one and is tailored to your specific situation.",
+    "phases": [
+      {
+        "phase": "Phase 1",
+        "title": "Relaxation Splint",
+        "price": "€195",
+        "description": "The first step toward relaxation of the jaw muscles and reduction of acute complaints.",
+        "features": ["Custom-made splint", "Relief within 2-4 weeks", "Includes control visit"],
+        "slug": "fase-1-relaxatiesplint",
+        "location": "At Vincor, Eindhoven",
+        "featured": false,
+        "ctaText": "More about Phase 1"
+      },
+      {
+        "phase": "Phase 2",
+        "title": "Repositioning Splint",
+        "price": "€595",
+        "badge": "Most chosen",
+        "description": "Correction of jaw position for structural improvement of the jaw-spine balance.",
+        "features": ["Digitally designed splint", "Structural jaw correction", "Interim 4D measurements", "Personal guidance"],
+        "slug": "fase-2-repositioneringssplint",
+        "location": "At Vincor, Eindhoven",
+        "featured": true,
+        "ctaText": "More about Phase 2"
+      },
+      {
+        "phase": "Phase 3",
+        "title": "Reconstruction",
+        "price": "€3,000–7,000",
+        "description": "Definitive reconstruction of the dentition for lasting results and optimal function.",
+        "features": ["Complete dentition reconstruction", "Lasting results", "Performed by PDA dentist"],
+        "slug": "fase-3-reconstructie",
+        "location": "At PDA, partner location",
+        "featured": false,
+        "ctaText": "More about Phase 3"
+      }
+    ]
+  },
+  "resultaten": {
+    "label": "Results",
+    "title": "Real results, lasting improvement",
+    "description": "Our approach delivers measurable improvement — confirmed by objective 4D measurements and the experiences of hundreds of patients.",
+    "stats": [
+      { "target": 82, "suffix": "%", "label": "Less pain after treatment" },
+      { "target": 85, "suffix": "%", "label": "Less tension in jaw & neck" },
+      { "target": 72, "suffix": "%", "label": "Better sleep quality" }
+    ]
+  },
+  "partners": {
+    "label": "Collaboration",
+    "title": "Partnership with Balans Rugcentrum Eindhoven",
+    "paragraphs": [
+      "Vincor works closely with Balans Rugcentrum Eindhoven. Together we combine expertise in occlusion and posture therapy for an integral approach to your complaints.",
+      "Our DIERS 4D Spinescan is at Balans Rugcentrum, where you can go for your free scan and personal advice session."
+    ],
+    "image": "balans-clinic.png",
+    "imageAlt": "Balans Rugcentrum Eindhoven"
+  },
+  "googleReviews": {
+    "label": "Reviews",
+    "title": "What our patients say",
+    "overallRating": 4.8,
+    "totalReviews": "32 reviews on Google",
+    "items": [
+      { "stars": 5, "timeAgo": "3 weeks ago", "text": "After years of headaches, finally a clear diagnosis. The 4D scan showed exactly what was wrong. Very happy with the result of the splint.", "author": "Mark V.", "initial": "M" },
+      { "stars": 5, "timeAgo": "1 month ago", "text": "Professional and friendly team. The explanation about the relationship between my jaw and neck complaints was very enlightening. Highly recommended!", "author": "Sandra K.", "initial": "S" },
+      { "stars": 5, "timeAgo": "2 months ago", "text": "The repositioning splint has changed my life. No more migraine since 4 months. Cannot recommend Vincor enough.", "author": "Peter de J.", "initial": "P" },
+      { "stars": 4, "timeAgo": "3 weeks ago", "text": "Good experience. Scan was fast and painless. Unfortunately not everything is covered by insurance, but the costs are transparent.", "author": "Lisa M.", "initial": "L" }
+    ]
+  },
+  "testimonials": {
+    "label": "Experiences",
+    "title": "Patient stories",
+    "items": [
+      { "text": "After years of headaches and jaw complaints, I finally gained insight into the cause. The 4D scan clearly showed how my jaw position affected my entire posture. After treatment with the repositioning splint, the headache has almost completely disappeared.", "name": "Annelies, 43", "role": "Patient since 2024", "avatar": "testimonial-annelies.jpg" },
+      { "text": "I had been suffering from neck pain and tension in my shoulders for months. My physiotherapist couldn't find the cause. At Vincor, it turned out my jaw position was the culprit. The splint treatment has improved my life enormously — I sleep better and have hardly any neck pain anymore.", "name": "Tom, 39", "role": "Patient since 2025", "avatar": "testimonial-tom.jpg" }
+    ]
+  },
+  "cta": {
+    "title": "Book your free 4D scan",
+    "description": "Experience for yourself how the DIERS 4D Spinescan brings the cause of your complaints into view — completely free of charge and radiation-free.",
+    "buttonText": "Make an appointment",
+    "buttonLink": "/contact"
+  }
+}

@@ -1,6 +1,14 @@
+import type { Metadata } from 'next'
 import PageHero from '@/components/PageHero'
 import ScrollReveal from '@/components/ScrollReveal'
 import { getContent } from '@/lib/content'
+import { buildMetadata } from '@/lib/seo'
+
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
+  const { locale } = await params
+  const content = getContent(locale, 'voorwaarden')
+  return buildMetadata({ locale, path: '/voorwaarden', title: `${content.hero.title} — Vincor`, description: content.hero.description })
+}
 
 export default async function VoorwaardenPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params

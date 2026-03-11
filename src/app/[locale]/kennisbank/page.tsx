@@ -1,3 +1,4 @@
+import type { Metadata } from 'next'
 import Link from 'next/link'
 import Image from 'next/image'
 import PageHero from '@/components/PageHero'
@@ -5,6 +6,13 @@ import SectionHeader from '@/components/SectionHeader'
 import ScrollReveal from '@/components/ScrollReveal'
 import CtaBanner from '@/components/CtaBanner'
 import { getContent } from '@/lib/content'
+import { buildMetadata } from '@/lib/seo'
+
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
+  const { locale } = await params
+  const content = getContent(locale, 'kennisbank/overzicht')
+  return buildMetadata({ locale, path: '/kennisbank', title: `${content.hero.title} — Vincor`, description: content.hero.description })
+}
 
 export default async function KennisbankPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params

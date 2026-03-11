@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "title": "Teeth Grinding (Bruxism) | Vincor",
+    "description": "Suffering from teeth grinding or jaw clenching? Bruxism can lead to serious jaw, head, and neck complaints. Vincor offers advanced diagnostics and treatment."
+  },
+  "hero": {
+    "breadcrumb": ["Home", "Complaints", "Teeth Grinding"],
+    "title": "Teeth Grinding & Bruxism",
+    "description": "Teeth grinding and jaw clenching are more than just a bad habit. Bruxism can lead to serious tooth wear, jaw pain, and chronic headaches. At Vincor, we treat the underlying cause."
+  },
+  "watIsHet": {
+    "label": "What is it",
+    "title": "What is bruxism?",
+    "paragraphs": [
+      "Bruxism is the unconscious grinding of teeth or clenching of the jaw, mainly during sleep (sleep bruxism) but also during the day (awake bruxism). The forces released are enormous: up to 600 Newton, many times stronger than normal chewing.",
+      "Sleep bruxism is a movement disorder related to sleep that occurs in an estimated 8-13% of the adult population. Many people are not aware of their bruxism until a partner hears grinding sounds or a dentist notices tooth wear. The consequences go beyond the teeth: chronic overloading of the chewing muscles leads to jaw pain, headaches, ear complaints, and neck and shoulder complaints."
+    ],
+    "image": "/images/Tandenknarsen.jpg"
+  },
+  "symptomen": {
+    "title": "Do you recognize these complaints?",
+    "description": "Bruxism causes a wide range of complaints that are not always directly linked to teeth grinding.",
+    "items": [
+      "Worn, broken, or sensitive teeth and molars",
+      "Jaw pain and stiffness upon waking",
+      "Tired or swollen chewing muscles",
+      "Partner hears grinding sounds during your sleep",
+      "Headaches in the temples, especially in the morning",
+      "Indentations or impressions on the side of the tongue",
+      "Enlargement of the chewing muscles (hypertrophy of masseter muscle)",
+      "Disturbed sleep and daytime fatigue"
+    ]
+  },
+  "oorzaken": {
+    "label": "Causes",
+    "title": "Why do you grind your teeth?",
+    "paragraphs": [
+      "Teeth grinding rarely has a single cause. At Vincor, we see a complex interplay of factors, where the occlusion — the way your teeth fit together — plays a central role.",
+      "When the bite is not optimal, the neuromuscular system tries to compensate for this. During sleep, when conscious control is absent, this manifests as grinding and clenching. The brain essentially tries to \"correct\" the bite by sliding the teeth over each other.",
+      "Stress and anxiety increase the tendency for bruxism, but are rarely the only cause. A disturbed occlusion combined with psychological tension creates a vicious circle: grinding leads to muscle pain, muscle pain leads to tension, tension leads to more grinding. Without treatment of the underlying bite problem, this cycle continues."
+    ],
+    "image": "/images/4d-posturelab-small.png"
+  },
+  "diagnostiek": {
+    "title": "How we diagnose bruxism",
+    "description": "Our 4D diagnostics accurately map both the cause and consequences of your teeth grinding.",
+    "cards": [
+      {
+        "title": "Digital bite analysis",
+        "description": "Precise measurement of pressure distribution across the teeth to identify contact disorders and interferences."
+      },
+      {
+        "title": "EMG sleep analysis",
+        "description": "Electromyography of the chewing muscles to objectively measure the degree of nighttime muscle activity and grinding patterns."
+      },
+      {
+        "title": "Wear pattern analysis",
+        "description": "3D scan of the teeth to analyze wear patterns that reveal the direction and intensity of grinding."
+      }
+    ]
+  },
+  "behandeling": {
+    "title": "Treatment options for bruxism",
+    "description": "Our approach goes beyond just protection: we treat the cause of grinding for lasting results.",
+    "phases": [
+      {
+        "phase": "Phase 1",
+        "title": "Protection",
+        "description": "Direct protection of the teeth and reduction of muscle overload.",
+        "features": [
+          "Custom precision grinding splint",
+          "Muscle-relaxing TENS therapy",
+          "Sleep hygiene and stress reduction"
+        ]
+      },
+      {
+        "phase": "Phase 2",
+        "title": "Bite correction",
+        "description": "Eliminating the occlusal cause of grinding for lasting results.",
+        "featured": true,
+        "badge": "Most chosen",
+        "features": [
+          "Neuromuscular orthotic therapy",
+          "Occlusal balance adjustment",
+          "Biofeedback training"
+        ]
+      },
+      {
+        "phase": "Phase 3",
+        "title": "Recovery",
+        "description": "Restoration of teeth damaged by grinding and long-term stabilization.",
+        "features": [
+          "Dental rehabilitation and crown technique",
+          "Periodic EMG control",
+          "Preventive maintenance program"
+        ]
+      }
+    ]
+  },
+  "faq": {
+    "title": "FAQ about teeth grinding",
+    "items": [
+      {
+        "question": "How do I know if I grind at night?",
+        "answer": "Typical signs are: morning jaw stiffness, headaches upon waking, wear spots on your teeth, indentations on the side of the tongue, or a partner who hears grinding sounds. Our diagnostics can objectively determine with EMG measurements whether and to what extent you grind, even if you are not aware of it."
+      },
+      {
+        "question": "Isn't a regular bite plate from the dentist not enough?",
+        "answer": "A standard bite plate protects the teeth from further wear, but does not treat the cause of grinding. Compare it to wearing a helmet while you keep walking against the same wall: the protection helps, but the solution is to stop walking against the wall. Our neuromuscular orthotic is specifically designed to address the occlusal cause, reducing or stopping the grinding itself."
+      },
+      {
+        "question": "Can stress be the only cause of my teeth grinding?",
+        "answer": "Stress is an important trigger, but rarely the only cause. Research shows that most bruxism patients also have a degree of occlusal disharmony. Stress lowers the threshold above which grinding occurs. Without a bite problem, the same stress would more likely manifest as muscle tension elsewhere in the body. Our diagnostics distinguish between these factors."
+      },
+      {
+        "question": "Can the damage to my teeth be restored?",
+        "answer": "Yes, in phase 3 of our treatment, we restore the teeth damaged by grinding with modern restorative techniques such as composite build-up, crowns, or veneers. Important is that this only happens after the cause of grinding has been treated, so the restorations are not damaged again. This way we achieve a lasting result."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Book your free scan",
+    "description": "Stop the damage to your teeth. Discover the cause of your teeth grinding with our advanced 4D diagnostics.",
+    "buttonText": "Make an appointment",
+    "buttonHref": "/contact"
+  }
+}

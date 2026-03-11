@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "title": "Dr. Arash Zarrinpour — Dentist & Occlusion Specialist | Vincor",
+    "description": "Dr. Arash Zarrinpour is a dentist and occlusion specialist in Paris. Specialized in functional occlusion, gnathology, and jaw joint rehabilitation. Partner of Vincor.",
+    "slug": "over-ons/dr-arash-zarrinpour"
+  },
+  "hero": {
+    "breadcrumb": ["Home", "About Us", "Dr. Arash Zarrinpour"],
+    "title": "Dr. Arash Zarrinpour",
+    "titleHighlight": "Arash Zarrinpour",
+    "description": "Dentist & Occlusion Specialist — Paris"
+  },
+  "intro": {
+    "sectionLabel": "Profile",
+    "title": "International expertise in occlusion and jaw joint rehabilitation",
+    "image": "patient.jpg",
+    "imageAlt": "Dr. Arash Zarrinpour — Dentist and Occlusion Specialist",
+    "paragraphs": [
+      "Dr. Arash Zarrinpour is a dentist and occlusion specialist based in Paris, France. With more than 15 years of experience in functional dentistry, he has specialized in the treatment of complex occlusion-related complaints and jaw joint disorders.",
+      "As a partner of Vincor, he bridges the Dutch-speaking and French-speaking worlds in the field of occlusion and posture diagnostics. His practice in Paris offers the same diagnostic and therapeutic approach as Vincor in Eindhoven, supplemented with his own expertise in gnathology and neuromuscular dentistry.",
+      "Dr. Zarrinpour combines a scientific background with an empathetic approach. He believes, like the Vincor team, that the jaw plays a key role in the functioning of the entire body."
+    ]
+  },
+  "expertise": {
+    "sectionLabel": "Expertise",
+    "title": "Specialization Areas",
+    "items": [
+      {
+        "title": "Functional Occlusion",
+        "description": "Analysis and correction of how the upper and lower jaw interact with each other. Focused on restoring a balanced bite that supports the entire posture system."
+      },
+      {
+        "title": "Gnathology",
+        "description": "The science of the masticatory system in all its aspects: jaw joints, masticatory muscles, dentition, and their interrelationships. An integral approach to jaw function."
+      },
+      {
+        "title": "Jaw Joint Rehabilitation",
+        "description": "Treatment of CMD (TMD), jaw joint complaints, and related pain syndromes. From splint therapy to neuromuscular rehabilitation."
+      },
+      {
+        "title": "Neuromuscular Dentistry",
+        "description": "An approach where the position of the jaw is determined by the optimal relaxation of the masticatory and neck musculature, not just by the position of the teeth."
+      }
+    ]
+  },
+  "approach": {
+    "sectionLabel": "Approach",
+    "title": "A French-speaking point of contact",
+    "paragraphs": [
+      "For French-speaking patients, Dr. Zarrinpour offers the possibility to go through the entire Vincor treatment path in French. From intake and diagnostics to splint therapy and follow-up — everything in your own language, in the heart of Paris.",
+      "The collaboration between Vincor Eindhoven and Dr. Zarrinpour's practice in Paris is fully integrated. Diagnostic data, treatment protocols, and progress reports are securely shared, ensuring the quality and continuity of care."
+    ],
+    "features": [
+      "Fully French-speaking treatment path",
+      "Shared diagnostic protocol with Vincor Eindhoven",
+      "DIERS 4D Spinescan and Shining 3D technology",
+      "Direct coordination with the Dutch team"
+    ]
+  },
+  "credentials": {
+    "sectionLabel": "Education & Registration",
+    "title": "Background",
+    "items": [
+      "Doctorat en Chirurgie Dentaire — Université Paris Descartes",
+      "Diplôme Universitaire en Occlusodontie et Prothèse",
+      "Postgraduate training in gnathology and neuromuscular dentistry",
+      "Registered dentist with the Ordre National des Chirurgiens-Dentistes",
+      "Member of the Société Française d'Occlusodontie"
+    ]
+  },
+  "contact": {
+    "sectionLabel": "Contact",
+    "title": "Make an appointment with Dr. Zarrinpour",
+    "description": "You can contact Dr. Zarrinpour's practice in Paris directly, or receive a referral via Vincor Eindhoven.",
+    "location": "Paris, France",
+    "languages": ["French", "English", "Persian"]
+  },
+  "cta": {
+    "title": "Get in touch",
+    "description": "Contact Vincor for more information about treatment with Dr. Zarrinpour in Paris.",
+    "buttonText": "Get in touch",
+    "buttonLink": "/contact"
+  }
+}

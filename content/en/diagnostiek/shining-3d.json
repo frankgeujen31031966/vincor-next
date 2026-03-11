@@ -1,0 +1,101 @@
+{
+  "meta": {
+    "title": "Shining 3D Intraoral Scanner | Vincor Diagnostics",
+    "description": "The Shining 3D Aoralscan 3 intraoral scanner: digital dental impressions in color and high resolution. More accurate, faster and more comfortable than traditional impressions.",
+    "slug": "diagnostiek/shining-3d"
+  },
+  "hero": {
+    "breadcrumb": ["Home", "Diagnostics", "Shining 3D Scanner"],
+    "title": "Shining 3D Intraoral Scanner",
+    "titleHighlight": "Shining 3D",
+    "description": "Digital precision for your treatment. The Aoralscan 3 creates dental impressions in full color and high resolution — faster, more accurate and much more comfortable than traditional methods."
+  },
+  "technology": {
+    "sectionLabel": "The Technology",
+    "title": "Aoralscan 3: the next generation",
+    "image": "spine-model.gif",
+    "imageAlt": "Shining 3D Aoralscan intraoral scanner",
+    "paragraphs": [
+      "The Shining 3D Aoralscan 3 is one of the most advanced intraoral scanners on the market. With structured light and AI-driven image processing, the scanner creates a fully digital 3D model of your teeth in just a few minutes — in lifelike colors and with an accuracy up to 7 microns.",
+      "At Vincor, we use the Aoralscan for manufacturing all our splint products: relaxation splints, repositioning splints and MRA's for sleep apnea. The digital workflow replaces the traditional putty impression entirely, which is not only more comfortable for you as a patient, but also results in a more accurate final product."
+    ]
+  },
+  "benefits": {
+    "sectionLabel": "Benefits",
+    "title": "Why digital scanning?",
+    "description": "The transition from traditional dental impressions to digital scanning offers benefits for both patient and practitioner.",
+    "items": [
+      {
+        "title": "No more putty",
+        "description": "No unpleasant impression paste in your mouth. The scanner is small, lightweight and contactless. Ideal for patients with a gag reflex."
+      },
+      {
+        "title": "Higher accuracy",
+        "description": "Digital scans are demonstrably more accurate than traditional impressions. This results in splints that fit better and work more effectively."
+      },
+      {
+        "title": "Immediate results",
+        "description": "You see the 3D model directly on the screen. Together we examine your teeth and discuss treatment options."
+      },
+      {
+        "title": "Faster process",
+        "description": "The digital workflow shortens the timeline from scan to finished product. No shipping of physical impressions — everything goes digitally to the laboratory."
+      }
+    ]
+  },
+  "howItWorks": {
+    "sectionLabel": "Your Scan",
+    "title": "How does the intraoral scan work?",
+    "description": "A scan with the Aoralscan 3 is fast, painless and fully digital.",
+    "steps": [
+      {
+        "title": "Preparation",
+        "description": "The scanner is activated and your mouth is briefly dried. No further preparation needed."
+      },
+      {
+        "title": "Scanning",
+        "description": "The compact scan wand is moved along your teeth. In 2-3 minutes, the complete upper and lower teeth are captured in 3D color."
+      },
+      {
+        "title": "Bite registration",
+        "description": "A short additional scan records how your upper and lower jaw bite together. This is essential for the design of your splint."
+      },
+      {
+        "title": "Design & production",
+        "description": "The digital model is sent to the laboratory where your splint is custom-made using CAD/CAM technology."
+      }
+    ]
+  },
+  "specs": {
+    "sectionLabel": "Specifications",
+    "title": "Technical details",
+    "items": [
+      { "label": "Accuracy", "value": "≤7 μm" },
+      { "label": "Scan time full teeth", "value": "2-3 minutes" },
+      { "label": "Color display", "value": "Full color (True Color)" },
+      { "label": "Scan field", "value": "16 × 14 mm" },
+      { "label": "Scan wand weight", "value": "175 grams" },
+      { "label": "AI support", "value": "Automatic recognition and filtering" }
+    ]
+  },
+  "metismile": {
+    "sectionLabel": "MetiSmile Platform",
+    "title": "Cloud-based treatment planning",
+    "paragraphs": [
+      "The Aoralscan 3 is connected to the MetiSmile cloud platform — a digital ecosystem for treatment planning and communication with the dental laboratory.",
+      "Via MetiSmile, we can analyze your digital dental model, evaluate the splint design and communicate directly with the production team. This speeds up the process and increases the quality of the final result."
+    ],
+    "features": [
+      "Cloud-based storage and analysis of scan data",
+      "Direct digital communication with the laboratory",
+      "3D visualization of treatment results",
+      "Secure data storage compliant with GDPR"
+    ]
+  },
+  "cta": {
+    "title": "Experience digital scanning",
+    "description": "Make an appointment and experience for yourself how comfortable and fast a digital dental impression is.",
+    "buttonText": "Make an appointment",
+    "buttonLink": "/contact"
+  }
+}

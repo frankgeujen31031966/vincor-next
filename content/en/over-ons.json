@@ -1,0 +1,96 @@
+{
+  "meta": {
+    "title": "About Us — Vincor | Vinculum Corporis",
+    "description": "Vincor stands for Vinculum Corporis: the bond of the body. Discover our story, our team, and our partners.",
+    "slug": "over-ons"
+  },
+  "hero": {
+    "breadcrumb": ["Home", "About Us"],
+    "title": "About Vincor",
+    "titleHighlight": "Vincor",
+    "description": "Vinculum Corporis — the bond of the body. We believe the human body is an interconnected system where everything is connected."
+  },
+  "story": {
+    "sectionLabel": "Our Story",
+    "title": "The bond of the body",
+    "image": "about-hero.jpg",
+    "imageAlt": "About Vincor - Vinculum Corporis",
+    "paragraphs": [
+      "The name Vincor is derived from the Latin Vinculum Corporis, which literally means \"the bond of the body.\" This name reflects our core belief: the human body is not a collection of separate parts, but a closely connected system.",
+      "When the bite is off, it has consequences for the jaw joints, neck muscles, spine, and ultimately the entire musculoskeletal system. Yet these complaints are traditionally treated separately. At Vincor, we approach it differently: we look for the cause, not the symptom.",
+      "By combining advanced 4D diagnostics with splint therapy, we treat the relationship between occlusion and posture. This way, we offer patients a solution that starts at the root."
+    ]
+  },
+  "philosophy": {
+    "sectionLabel": "Our Philosophy",
+    "title": "Treat the cause, not the symptom",
+    "description": "Many patients with back, neck, or headache complaints have undergone a long series of treatments without lasting results. This is because the actual cause often remains undetected.",
+    "pillars": [
+      {
+        "title": "Diagnosis first",
+        "description": "We always start with a thorough 4D scan. Only when we know the cause do we formulate a treatment plan. No guessing, but measurable data."
+      },
+      {
+        "title": "Holistic perspective",
+        "description": "We do not treat only the jaw or only the back. We view the body as an interconnected system and look for the interrelationships."
+      },
+      {
+        "title": "Proven results",
+        "description": "Our approach is based on scientifically substantiated methods. The DIERS technology is used worldwide in clinics and hospitals."
+      }
+    ]
+  },
+  "team": {
+    "sectionLabel": "Our Team",
+    "title": "The people behind Vincor",
+    "description": "A multidisciplinary team with a passion for connecting diagnostics and treatment.",
+    "members": [
+      {
+        "name": "Dirk van der Linden",
+        "role": "Founder & Occlusion Specialist",
+        "bio": "As the founder of Vincor, Dirk combines years of experience in dentistry with a passion for posture diagnostics. He developed the 3-phase treatment model and introduced the DIERS Formetric technology in occlusion analysis.",
+        "image": "patient.jpg"
+      },
+      {
+        "name": "Dr. Sophie Mertens",
+        "role": "Posture Specialist",
+        "bio": "Sophie is specialized in the relationship between the spine and occlusion. With her background in manual therapy, she brings a unique clinical perspective to the diagnostic process.",
+        "image": "balans-clinic.png"
+      },
+      {
+        "name": "Mark de Groot",
+        "role": "Technical Specialist",
+        "bio": "Mark operates the DIERS Formetric 4D scanner and analyzes the scan results. His technical expertise ensures accurate diagnostics and reliable measurement data.",
+        "image": "4d-posturelab.jpg"
+      },
+      {
+        "name": "Dr. Arash Zarrinpour",
+        "role": "Dentist & Occlusion Specialist — Paris",
+        "bio": "Dr. Arash Zarrinpour is a dentist and occlusion specialist based in Paris. With a specialization in functional occlusion, gnathology, and jaw joint rehabilitation, he brings international expertise to the Vincor network. As a partner of Vincor, he treats French-speaking patients and contributes to the development of the treatment protocol.",
+        "image": "patient.jpg",
+        "slug": "dr-arash-zarrinpour"
+      }
+    ]
+  },
+  "partners": {
+    "sectionLabel": "Our Partners",
+    "title": "Collaboration for the best result",
+    "description": "Vincor works closely with specialized partners to provide you with the most comprehensive care.",
+    "items": [
+      {
+        "name": "Balans Spine Center Eindhoven",
+        "description": "Our partnership with Balans Spine Center enables us to optimally utilize the DIERS Formetric 4D technology. Together, we combine spine diagnostics with occlusion analysis for a complete picture of the relationship between jaw and posture. Patients with complex back complaints benefit from this multidisciplinary approach."
+      },
+      {
+        "name": "PDA — Phase 3 Partner",
+        "description": "For patients who benefit from a definitive reconstruction after phase 1 and 2, we work together with PDA. This specialized center offers orthodontics, implantology, and full denture reconstruction. Thanks to our diagnostic data, the transfer proceeds seamlessly."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Want to know more?",
+    "description": "Contact us for a no-obligation conversation or make an appointment directly for your first scan.",
+    "buttonText": "Contact Us",
+    "buttonLink": "/contact"
+  }
+}

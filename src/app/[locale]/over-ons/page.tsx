@@ -1,9 +1,17 @@
+import type { Metadata } from 'next'
 import Image from 'next/image'
 import PageHero from '@/components/PageHero'
 import SectionHeader from '@/components/SectionHeader'
 import ScrollReveal from '@/components/ScrollReveal'
 import CtaBanner from '@/components/CtaBanner'
 import { getContent } from '@/lib/content'
+import { buildMetadata } from '@/lib/seo'
+
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
+  const { locale } = await params
+  const content = getContent(locale, 'over-ons')
+  return buildMetadata({ locale, path: '/over-ons', title: `${content.hero.title} — Vincor`, description: content.hero.description })
+}
 
 export default async function OverOnsPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params

@@ -1,0 +1,105 @@
+{
+  "meta": {
+    "title": "Diagnosis — Vincor | 4D Occlusion & Posture Scan",
+    "description": "The DIERS Formetric 4D Spinescan: radiation-free, contactless, and ultra-fast diagnosis of spine, posture, and occlusion at Vincor.",
+    "slug": "diagnostiek"
+  },
+  "hero": {
+    "breadcrumb": ["Home", "Diagnosis"],
+    "title": "4D Occlusion & Posture Scan",
+    "titleHighlight": "Posture Scan",
+    "description": "In seconds, we map your full posture, spine, and the influence of your bite. No radiation, no contact, with immediate results."
+  },
+  "technology": {
+    "sectionLabel": "DIERS® Formetric 4D",
+    "title": "Video-Raster-Stereography: the gold standard",
+    "image": "spine-model.gif",
+    "imageAlt": "DIERS Formetric 4D Spinescan",
+    "paragraphs": [
+      "The DIERS Formetric 4D Spinescan uses Video-Raster-Stereography (VRS): a light pattern is projected onto your back and captured by multiple cameras. Within seconds, a three-dimensional model of your spine, shoulders, and pelvis is created.",
+      "This technology is used worldwide in hospitals, rehabilitation centers, and orthopedic clinics. At Vincor, we uniquely combine this scan with an occlusion analysis to make the relationship between bite and posture visible."
+    ]
+  },
+  "benefits": {
+    "sectionLabel": "Advantages",
+    "title": "Why the 4D scan?",
+    "description": "Advanced diagnosis does not have to be burdensome. The DIERS scan combines speed, accuracy, and safety.",
+    "items": [
+      {
+        "title": "Radiation-free",
+        "description": "No X-rays, no MRI magnetic field. The scan works exclusively with visible light and is therefore completely safe, including for children and pregnant women."
+      },
+      {
+        "title": "Contactless",
+        "description": "You simply stand in front of the device. Nothing is placed on your body. No markings, no pressure, no discomfort."
+      },
+      {
+        "title": "Ultra-fast",
+        "description": "The complete measurement takes only a few seconds. Including discussion of the results, you are ready within 30 minutes."
+      },
+      {
+        "title": "Immediate results",
+        "description": "You see the outcome immediately on the screen. Together we discuss what the scan shows and what this means for your treatment."
+      }
+    ]
+  },
+  "howItWorks": {
+    "sectionLabel": "Your First Visit",
+    "title": "What can you expect?",
+    "description": "From arrival to treatment plan in four clear steps.",
+    "steps": [
+      {
+        "title": "1. Intake",
+        "description": "We discuss your complaints, medical history, and expectations. This conversation takes about 10 minutes."
+      },
+      {
+        "title": "2. 4D Scan",
+        "description": "You stand relaxed in front of the DIERS scanner. Within seconds, the measurement is complete. This is followed by a scan with and without splint (if applicable)."
+      },
+      {
+        "title": "3. Analysis",
+        "description": "The results are shown directly on the screen. We explain what the images mean: spine, asymmetry, pelvic position, and the influence of your bite."
+      },
+      {
+        "title": "4. Treatment Plan",
+        "description": "Based on the scan, we create a personalized treatment plan. You receive a clear overview of the options, costs, and expected timeline."
+      }
+    ]
+  },
+  "measurements": {
+    "sectionLabel": "Measurement Results",
+    "title": "What exactly does the scan measure?",
+    "image": "formetric-evaluation.jpg",
+    "imageAlt": "Formetric scan measurement results",
+    "description": "The 4D scan provides a complete picture of your posture and musculoskeletal system. The following parameters are accurately recorded:",
+    "parameters": [
+      {
+        "title": "Spine Analysis",
+        "description": "lordosis, kyphosis, scoliosis, and rotation deviations"
+      },
+      {
+        "title": "Body Asymmetry",
+        "description": "shoulder height, pelvic tilt, lateral shift"
+      },
+      {
+        "title": "Posture Balance",
+        "description": "center of gravity distribution and stability index"
+      },
+      {
+        "title": "Jaw-Back Relationship",
+        "description": "the direct effect of your bite on the spine and posture"
+      }
+    ]
+  },
+  "stats": [
+    { "value": "6 sec", "label": "Average scan time" },
+    { "value": "0 mSv", "label": "Radiation exposure" },
+    { "value": "98%", "label": "Accuracy" }
+  ],
+  "cta": {
+    "title": "Curious what the scan can mean for you?",
+    "description": "Schedule your first 4D occlusion and posture scan and get immediate insight into the relationship between your bite and posture.",
+    "buttonText": "Request Scan",
+    "buttonLink": "/contact"
+  }
+}

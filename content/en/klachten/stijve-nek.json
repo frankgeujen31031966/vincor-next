@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "title": "Stiff Neck | Vincor",
+    "description": "Chronic neck stiffness and shoulder tension? An incorrect jaw position could be the cause. Vincor investigates the connection with advanced 4D diagnostics."
+  },
+  "hero": {
+    "breadcrumb": ["Home", "Complaints", "Stiff Neck"],
+    "title": "Stiff Neck & Shoulder Tension",
+    "description": "Chronic neck stiffness and shoulder tension are often treated as an isolated problem. At Vincor, we investigate how an incorrect jaw position affects the cervical spine and perpetuates your neck complaints."
+  },
+  "watIsHet": {
+    "label": "What is it",
+    "title": "Neck stiffness from the jaw",
+    "paragraphs": [
+      "Chronic neck stiffness is characterized by limited mobility of the cervical spine, often accompanied by pain and a constant feeling of tension in the neck and shoulder musculature. Many patients have already tried various treatments — from physiotherapy to chiropractic — without lasting results.",
+      "The reason for this is that the neck does not stand alone. The craniomandibular system (jaw, teeth, and skull) and the cervical system (cervical vertebrae, neck muscles, and nerves) form a functional unit. The suprahyoid and infrahyoid muscles — the muscles above and below the hyoid bone — form a direct biomechanical coupling between the lower jaw and the cervical spine. When the jaw position is not optimal, the neck adapts with compensatory tension."
+    ],
+    "image": "/images/stijve-nek.jpg"
+  },
+  "symptomen": {
+    "title": "Do you recognize these symptoms?",
+    "description": "Neck stiffness with a jaw-related component has characteristic features that you can recognize.",
+    "items": [
+      "Chronic stiffness and tension in the neck and shoulder musculature",
+      "Limited rotation and flexion movement of the neck",
+      "Neck complaints that keep recurring despite physiotherapy",
+      "Tension in the trapezius muscle (shoulder blade to skull base)",
+      "Pain at the skull base that radiates to the back of the head",
+      "Combination of neck stiffness with jaw clicking or jaw pain",
+      "Crepitus or cracking sounds when turning the head",
+      "Fatigue complaints due to continuous posture compensation"
+    ]
+  },
+  "oorzaken": {
+    "label": "Causes",
+    "title": "The jaw-neck connection",
+    "paragraphs": [
+      "The lower jaw is biomechanically connected to the cervical spine via the hyoid bone. The hyoid bone is the only bone in the human body that is not directly attached to another bone — it \"floats\" in a network of muscles that connect the jaw to the neck.",
+      "When the jaw position changes — due to a disturbed bite, missing teeth, or a retrognathic lower jaw — the hyoid muscles must compensate. This has a direct effect on the position of the head and the tension in the neck muscles. The head can tilt forward (forward head posture), causing the cervical lordosis to change and the neck muscles to become chronically overloaded.",
+      "Studies show that a change of just 1 millimeter in the vertical bite dimension causes measurable changes in cervical muscle activity. This explains why neck complaints often recur after treatment: if the jaw position is not corrected, the cause remains."
+    ],
+    "image": "/images/spine-model.gif"
+  },
+  "diagnostiek": {
+    "title": "How we investigate neck stiffness",
+    "description": "Our 4D diagnostics investigate the complete craniocervical system: from the bite to the cervical spine.",
+    "cards": [
+      {
+        "title": "Cervical posture analysis",
+        "description": "3D measurement of the position of head, neck, and shoulders to objectify posture deviations."
+      },
+      {
+        "title": "EMG jaw & neck",
+        "description": "Combined electromyography of masticatory and neck muscles to measure the correlation between jaw function and neck tension."
+      },
+      {
+        "title": "Occlusion position test",
+        "description": "Analysis of the effect of bite changes on cervical mobility and muscle tone, with direct pre- and post-measurement."
+      }
+    ]
+  },
+  "behandeling": {
+    "title": "Treatment options for neck stiffness",
+    "description": "By treating both the jaw position and cervical posture, we achieve a lasting result that pure neck treatment cannot offer.",
+    "phases": [
+      {
+        "phase": "Phase 1",
+        "title": "Relaxation",
+        "description": "Direct reduction of tension in both masticatory and neck muscles.",
+        "features": [
+          "Deprogramming splint for jaw relaxation",
+          "TENS therapy for jaw and neck musculature",
+          "Ergonomic and posture advice"
+        ]
+      },
+      {
+        "phase": "Phase 2",
+        "title": "Correction",
+        "description": "Restoration of the optimal jaw-neck relationship for structural improvement.",
+        "featured": true,
+        "badge": "Most chosen",
+        "features": [
+          "Neuromuscular orthotic therapy",
+          "Combined jaw and neck physiotherapy",
+          "Cervical posture correction"
+        ]
+      },
+      {
+        "phase": "Phase 3",
+        "title": "Stabilization",
+        "description": "Sustainable maintenance of improved neck-jaw function and posture.",
+        "features": [
+          "Definitive bite rehabilitation",
+          "Home exercise program for neck and posture",
+          "Periodic check-ups and monitoring"
+        ]
+      }
+    ]
+  },
+  "faq": {
+    "title": "FAQ about stiff neck",
+    "items": [
+      {
+        "question": "Can my jaw really be the cause of my neck complaints?",
+        "answer": "Yes, the biomechanical coupling between jaw and neck is extensively documented in scientific literature. Via the hyoid bone and surrounding muscles, the jaw position directly affects tension in the neck musculature and the position of the cervical spine. In patients with therapy-resistant neck complaints, an underlying jaw dysfunction is regularly found."
+      },
+      {
+        "question": "I have already had physiotherapy without results. What does Vincor do differently?",
+        "answer": "Physiotherapy treats the neck muscles directly, but if the cause lies in the jaw, the complaints keep recurring. Vincor investigates the complete craniocervical system: from bite to spine. By correcting the jaw position, we remove the source that perpetuates neck tension. We often combine this with targeted physiotherapy for the best result."
+      },
+      {
+        "question": "How quickly can I expect improvement?",
+        "answer": "Many patients already notice improvement during the diagnostic phase: when we temporarily optimize the bite during the investigation, many experience increased neck mobility directly. With the stabilization splint, improvement typically occurs within 2-4 weeks. Complete structural correction takes an average of 3-6 months."
+      },
+      {
+        "question": "Does a stiff neck always have a jaw-related cause?",
+        "answer": "No, not all neck complaints are jaw-related. Hernias, arthritis, traumatic injury, and other cervical conditions can also cause neck stiffness. Our diagnostics objectively determine if there is a jaw component. When this is the case, targeted treatment can offer significant improvement. When there is no relationship, we refer you to the appropriate specialist."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Book your free scan",
+    "description": "Discover if your neck stiffness has a jaw-related cause. Our 4D diagnostics maps the connection.",
+    "buttonText": "Make an appointment",
+    "buttonHref": "/contact"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "title": "General Terms and Conditions — Vincor",
+    "description": "Vincor's general terms and conditions. Read our terms regarding agreements, treatment, fees, and liability.",
+    "slug": "voorwaarden"
+  },
+  "hero": {
+    "breadcrumb": ["Home", "General Terms and Conditions"],
+    "title": "General Terms and Conditions",
+    "titleHighlight": "Terms and Conditions",
+    "description": "The terms and conditions that apply to our services and treatments."
+  },
+  "lastUpdated": "March 2026",
+  "articles": [
+    {
+      "number": 1,
+      "title": "Applicability",
+      "content": "These general terms and conditions apply to all services, treatments, and agreements of Vincor, located at Dokter Cuyperslaan 76, 5623 BB Eindhoven. By making an appointment or undergoing treatment at Vincor, you agree to these terms and conditions. Vincor reserves the right to modify these terms and conditions. The most current version is always available on our website."
+    },
+    {
+      "number": 2,
+      "title": "Appointments and Cancellation",
+      "content": "Appointments can be made by phone, via email, or through the contact form on our website. The following rules apply for cancellations:",
+      "list": [
+        "Cancellation up to 24 hours before the appointment is free of charge.",
+        "In case of cancellation within 24 hours before the appointment or no-show without notice, we reserve the right to charge €50.",
+        "We kindly ask you to cancel as early as possible, so we can offer the freed-up time to other patients."
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Treatment and Fees",
+      "content": "Vincor works with a phased treatment model. The current fees are as follows:",
+      "list": [
+        "Phase 1 — Relaxation splint including 4D posture scan: €195",
+        "Phase 2 — Repositioning splint with extended analysis: €595",
+        "Phase 3 — Reconstruction for PDA (Prosthetic Dental Applications): €3,000 – €7,000, depending on complexity"
+      ],
+      "additionalContent": "Not every patient goes through all three phases. The treatment plan is always developed in consultation with you. Fees may be adjusted; the fee applicable at the time of your appointment will apply. Any price changes will be communicated in advance."
+    },
+    {
+      "number": 4,
+      "title": "Payment",
+      "content": "Payment must be made within 14 days after the invoice date, unless otherwise agreed in writing. Payment can be made by card, bank transfer, or another payment method offered by Vincor. In case of non-payment, we reserve the right to charge reminder costs and hand over the claim to a collection agency. Costs associated with this are for the patient's account."
+    },
+    {
+      "number": 5,
+      "title": "Liability",
+      "content": "Vincor strives to provide the best possible care. Our liability is limited to the amount paid out by our professional liability insurance in the respective case. Vincor is not liable for damage resulting from failure to follow advice, provision of incorrect or incomplete information by the patient, or circumstances beyond our control. The results of diagnostics and treatment may vary per person and are not guaranteed."
+    },
+    {
+      "number": 6,
+      "title": "Complaints",
+      "content": "We strive for the highest quality of care and service. If you are dissatisfied with our service, we would like to hear about it. You can submit your complaint via email at info@vincorscan.nl or in writing by post. We will handle your complaint confidentially and strive to respond substantively within two weeks. If we cannot reach an agreement together, you can turn to an independent dispute resolution committee."
+    },
+    {
+      "number": 7,
+      "title": "Applicable Law",
+      "content": "Dutch law applies to all agreements between Vincor and the patient. Disputes arising from or related to our services will, to the exclusion of any other jurisdiction, be submitted to the competent court in the district of Oost-Brabant."
+    }
+  ]
+}

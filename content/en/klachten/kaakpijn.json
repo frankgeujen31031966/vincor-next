@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "title": "Jaw Pain (CMD/TMJ) | Vincor",
+    "description": "Suffering from jaw pain, clicking jaw, or limited mouth opening? Vincor treats CMD and jaw joint disorders with advanced 4D diagnostics."
+  },
+  "hero": {
+    "breadcrumb": ["Home", "Conditions", "Jaw Pain"],
+    "title": "Jaw Pain & CMD",
+    "description": "Craniomandibular dysfunction (CMD) is a common condition that causes pain, clicking, and limited movement of the jaw joint. At Vincor, we address the root cause, not just the symptoms."
+  },
+  "watIsHet": {
+    "label": "What is it",
+    "title": "What is jaw pain (CMD)?",
+    "paragraphs": [
+      "Craniomandibular dysfunction (CMD), internationally known as TMJ/TMD, is a collective term for complaints related to the jaw joint and surrounding masticatory muscles. The jaw joint is one of the most complex joints in the human body and is loaded thousands of times daily during chewing, speaking, and swallowing.",
+      "With CMD, the interaction between the jaw joint, masticatory muscles, and dental elements does not function optimally. This leads to pain, movement restrictions, and often also radiating complaints to the head, neck, and shoulders. Approximately 30% of the population experiences CMD-related complaints to some degree."
+    ],
+    "image": "/images/kaakpijn.jpg"
+  },
+  "symptomen": {
+    "title": "Do you recognize these symptoms?",
+    "description": "Jaw pain manifests in various ways. Many patients recognize themselves in several of the following symptoms.",
+    "items": [
+      "Pain or sensitivity around the jaw joint",
+      "Clicking, cracking, or popping when opening the mouth",
+      "Limited mouth opening or a \"locking\" jaw joint",
+      "Chewing pain that worsens when eating hard food",
+      "Pain that radiates to the ear, temple, or neck",
+      "Morning stiffness of the jaw after nighttime grinding",
+      "Changed bite or the feeling that teeth do not fit together properly",
+      "Tired or tense jaw muscles, especially in the morning"
+    ]
+  },
+  "oorzaken": {
+    "label": "Causes",
+    "title": "The jaw-spine connection",
+    "paragraphs": [
+      "Jaw pain rarely occurs in isolation. At Vincor, we see daily how a disturbed occlusion — the way your upper and lower jaws bite together — causes a chain reaction that affects the entire posture system.",
+      "When the bite is not symmetrical, the masticatory muscles compensate by tensing unevenly. This tension propagates to the neck muscles, shoulder area, and ultimately the entire spine. Conversely, a scoliosis of the spine or pelvis can affect jaw position.",
+      "Other factors that contribute to CMD are stress (causing unconscious clenching), teeth grinding (bruxism), trauma to the face or jaw, arthritis in the jaw joint, and wear of the joint disc (discus)."
+    ],
+    "image": "/images/4d-posturelab.jpg"
+  },
+  "diagnostiek": {
+    "title": "How we diagnose jaw pain",
+    "description": "Our advanced 4D scan maps the full interaction between jaw, teeth, and posture, so we can determine the actual cause of your complaints.",
+    "cards": [
+      {
+        "title": "4D Jaw Scan",
+        "description": "Three-dimensional imaging of the jaw joint in motion, so we can see exactly where the dysfunction occurs."
+      },
+      {
+        "title": "Occlusion analysis",
+        "description": "Digital bite registration that accurately measures pressure distribution over your teeth and detects asymmetries."
+      },
+      {
+        "title": "Muscle activity measurement",
+        "description": "Electromyography (EMG) of the jaw and neck muscles to measure overload and asymmetry in muscle tension."
+      }
+    ]
+  },
+  "behandeling": {
+    "title": "Treatment options for jaw pain",
+    "description": "Based on the diagnosis, we create a personalized treatment plan. Our approach combines direct pain relief with removing the underlying cause.",
+    "phases": [
+      {
+        "phase": "Phase 1",
+        "title": "Stabilization",
+        "description": "Immediate relief of acute jaw pain and protection of the jaw joint.",
+        "features": [
+          "Custom bite splint",
+          "Muscle-relaxing exercises",
+          "Lifestyle advice and stress reduction"
+        ]
+      },
+      {
+        "phase": "Phase 2",
+        "title": "Correction",
+        "description": "Restoration of the correct bite relationship and jaw joint position.",
+        "featured": true,
+        "badge": "Most chosen",
+        "features": [
+          "Neuromuscular orthotic therapy",
+          "Bite correction and occlusion optimization",
+          "Physiotherapeutic guidance"
+        ]
+      },
+      {
+        "phase": "Phase 3",
+        "title": "Maintenance",
+        "description": "Long-term stability and prevention of recurrence of complaints.",
+        "features": [
+          "Periodic check-ups and monitoring",
+          "Definitive dental rehabilitation",
+          "Preventive exercise program"
+        ]
+      }
+    ]
+  },
+  "faq": {
+    "title": "FAQ about jaw pain",
+    "items": [
+      {
+        "question": "How do I know if I have CMD?",
+        "answer": "CMD is characterized by pain or discomfort in the jaw joint, clicking when opening the mouth, limited mouth opening, and sometimes ear pain or headaches. If you regularly experience one or more of these symptoms, it is advisable to have a diagnostic examination performed. Our free scan will give you quick clarity."
+      },
+      {
+        "question": "Is a clicking jaw always a problem?",
+        "answer": "An occasional clicking sound without pain is often harmless and is caused by the joint disc that momentarily shifts. However, when clicking is accompanied by pain, limited mouth opening, or worsens over time, this can indicate progressive displacement of the disc. Early diagnosis prevents further damage to the jaw joint."
+      },
+      {
+        "question": "How long does a CMD treatment at Vincor take?",
+        "answer": "Treatment duration varies per patient and depends on the severity of the condition. Phase 1 (stabilization) typically provides relief within 2-4 weeks. The full treatment cycle, including correction and maintenance, takes an average of 3-6 months. During the first consultation, we will give you a realistic timeline based on your specific diagnosis."
+      },
+      {
+        "question": "Is the treatment covered by my health insurance?",
+        "answer": "Many parts of the CMD treatment fall under the dental or physiotherapeutic reimbursement of your supplementary insurance. The initial diagnostic scan is covered by most insurers. We advise you to contact your health insurer in advance. Our team will gladly help you with the required information for a reimbursement application."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Book your free scan",
+    "description": "Discover the cause of your jaw pain with our advanced 4D diagnostics. Completely without obligation and without referral.",
+    "buttonText": "Make an appointment",
+    "buttonHref": "/contact"
+  }
+}

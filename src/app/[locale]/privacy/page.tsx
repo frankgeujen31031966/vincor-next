@@ -1,6 +1,14 @@
+import type { Metadata } from 'next'
 import PageHero from '@/components/PageHero'
 import ScrollReveal from '@/components/ScrollReveal'
 import { getContent } from '@/lib/content'
+import { buildMetadata } from '@/lib/seo'
+
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
+  const { locale } = await params
+  const content = getContent(locale, 'privacy')
+  return buildMetadata({ locale, path: '/privacy', title: `${content.hero.title} — Vincor`, description: content.hero.description })
+}
 
 export default async function PrivacyPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params

@@ -1,0 +1,149 @@
+{
+  "meta": {
+    "title": "Phase 1 — Relaxation Splint | Vincor Treatment",
+    "description": "Phase 1 of the Vincor treatment model: the relaxation splint. Relaxation of jaw and back muscles, 4D diagnostics and first step toward recovery. From €195.",
+    "slug": "behandeling/fase-1-relaxatiesplint"
+  },
+  "hero": {
+    "breadcrumb": ["Home", "Treatment", "Phase 1 — Relaxation Splint"],
+    "title": "Phase 1 — Relaxation Splint",
+    "titleHighlight": "Relaxation Splint",
+    "description": "The first step toward relief. Where relaxation begins and insight emerges into what your body truly needs."
+  },
+  "intro": {
+    "sectionLabel": "The Starting Point",
+    "title": "You are not the first to search for answers for years",
+    "image": "fase1-relaxatie.jpg",
+    "imageAlt": "Phase 1 relaxation splint treatment at Vincor",
+    "paragraphs": [
+      "Many of our patients have a long journey behind them. From general practitioner to specialist, from physiotherapist to oral surgeon — without anyone being able to find the actual cause of their complaints. Recognizable? Then you are in the right place.",
+      "The relaxation splint is your first step. Not just any splint, but a carefully designed aid that brings the overburdened muscles in your jaw, neck and back to rest. Your body finally gets the space to recover. At the same time, this phase provides the first diagnostic insights: what is actually wrong, and which direction fits your situation?",
+      "Phase 1 is deliberately low-threshold. No invasive treatment, no major investment — but a concrete start and a clear answer."
+    ]
+  },
+  "whatYouGet": {
+    "sectionLabel": "What You Get",
+    "title": "What does this phase include?",
+    "description": "Phase 1 combines diagnostics and treatment in four clear components. So you know exactly where you stand.",
+    "cards": [
+      {
+        "title": "Comprehensive intake & anamnesis",
+        "description": "We take ample time to map out your complaints, medical history and daily functioning. No rush, but a thorough conversation that lays the foundation for your treatment."
+      },
+      {
+        "title": "DIERS 4D Spinescan",
+        "description": "A radiation-free, contactless analysis of your full body posture. In a few seconds, the scan objectively visualizes the relationship between your jaw position, spine and pelvis."
+      },
+      {
+        "title": "Custom-made relaxation splint",
+        "description": "Based on the diagnostic data, your splint is individually manufactured. No standard solution, but a personal aid that fits precisely to your situation and complaint pattern."
+      },
+      {
+        "title": "First evaluation & treatment plan",
+        "description": "After 4 to 6 weeks, we evaluate together the results. Have your complaints decreased? What does the check show? Based on that, we discuss whether and how the process continues."
+      }
+    ]
+  },
+  "howItWorks": {
+    "sectionLabel": "How It Works",
+    "title": "How does the relaxation splint work?",
+    "image": "splint-detail.jpg",
+    "imageAlt": "Detail of the Vincor relaxation splint",
+    "paragraphs": [
+      "The relaxation splint is not an ordinary grinding plate you buy at the pharmacy. It is a precision instrument designed based on your personal 4D posture data. The splint positions your lower jaw in a slightly adjusted position, allowing the overburdened jaw, neck and back muscles the chance to relax.",
+      "You wear the splint mainly at night. While you sleep, the splint works on breaking the tension cycle that keeps your complaints going. Where a standard bite guard only protects against wear, the relaxation splint addresses the problem at the source.",
+      "Many patients notice improvement already within the first few weeks: less jaw pain when getting up, less headache, and a neck that gradually becomes more flexible. These are not promises — these are the experiences we hear daily."
+    ],
+    "features": [
+      "Designed based on 4D posture diagnostics",
+      "Breaks the muscle tension cycle at the source",
+      "Comfortable to wear during the night",
+      "Noticeable improvement often within a few weeks"
+    ]
+  },
+  "timeline": {
+    "sectionLabel": "Your Journey",
+    "title": "What can you expect?",
+    "description": "Phase 1 is clear and predictable. At three moments you know where you stand.",
+    "steps": [
+      {
+        "number": 1,
+        "title": "Week 1 — Intake, scan & impression",
+        "description": "During your first visit, we conduct a comprehensive intake, perform the 4D posture scan and take a precise dental impression. Everything needed to manufacture your personal relaxation splint."
+      },
+      {
+        "number": 2,
+        "title": "Week 2–3 — Placement of relaxation splint",
+        "description": "Your custom-made splint is placed and precisely adjusted. You receive clear instructions on wearing and maintenance, so you can start immediately at home."
+      },
+      {
+        "number": 3,
+        "title": "Week 4–6 — Check-up & evaluation",
+        "description": "We evaluate together how your complaints have developed. Based on the results, we discuss whether phase 1 is sufficient, or that a follow-up with repositioning (phase 2) is meaningful."
+      }
+    ]
+  },
+  "stats": [
+    {
+      "value": "93%",
+      "label": "of patients experience reduction of complaints after phase 1"
+    },
+    {
+      "value": "4–6 wkn",
+      "label": "average treatment duration of this first phase"
+    },
+    {
+      "value": "1 scan",
+      "label": "is all that is needed for complete diagnostics"
+    }
+  ],
+  "pricing": {
+    "sectionLabel": "Investment",
+    "title": "Transparent costs, no surprises",
+    "description": "Phase 1 is a deliberately low-threshold first step. Everything is included — from intake to evaluation.",
+    "phase": "Phase 1",
+    "name": "Relaxation Splint",
+    "price": "195",
+    "currency": "EUR",
+    "priceDescription": "Everything you need for a solid start of your treatment journey, in one clear rate.",
+    "features": [
+      "4D occlusion and posture scan (DIERS Formetric)",
+      "Analysis of jaw joint and muscle tone",
+      "Custom-made relaxation splint",
+      "Reduction of muscle tension and pain complaints",
+      "First assessment of treatment options",
+      "Check-up appointment and evaluation after 4–6 weeks"
+    ],
+    "location": "Vincor, Eindhoven",
+    "buttonText": "Start your journey"
+  },
+  "faq": {
+    "sectionLabel": "Frequently Asked Questions",
+    "title": "Questions about phase 1",
+    "description": "We understand you have questions. Below we answer the most frequently asked questions about the relaxation splint.",
+    "items": [
+      {
+        "question": "Is the relaxation splint painful?",
+        "answer": "No, the splint is designed for comfort. Because it is custom-made, it fits accurately on your teeth. In the first 1 to 2 days you may experience a slight sensation as your muscles adjust to the new position, but this is mild and disappears quickly. Most patients find the splint comfortable already after the first night."
+      },
+      {
+        "question": "How long should I wear the splint?",
+        "answer": "The relaxation splint is worn mainly at night. This is the moment when many patients unconsciously grind or clench, and when the muscles benefit most from relaxation. In some cases, we also advise wearing the splint during the day, for example during stress moments or when working at a computer screen. We discuss this personally with you."
+      },
+      {
+        "question": "Is phase 1 covered by insurance?",
+        "answer": "That depends on your health insurance and policy conditions. Some supplementary insurances cover (part of) the costs for splint therapy. We are happy to help you with preparing the claim and can inform you in advance about the possibilities. Feel free to contact us so we can look together what applies to your situation."
+      },
+      {
+        "question": "What if my complaints do not improve after phase 1?",
+        "answer": "Phase 1 is not only a treatment, but also a diagnostic instrument. If your complaints do not improve sufficiently after the relaxation phase, that gives us valuable information. In that case, we assess whether a repositioning splint (phase 2) is needed to address the underlying cause — often a disturbed bite-posture relationship — more specifically. You are never left alone in this: we discuss every step together with you."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ready for the first step?",
+    "description": "You no longer need to hesitate. Make an appointment and discover what the relaxation splint can mean for you. We are ready to help you.",
+    "buttonText": "Make an appointment",
+    "buttonLink": "/contact"
+  }
+}

@@ -1,3 +1,4 @@
+import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -7,6 +8,7 @@ import ScrollReveal from '@/components/ScrollReveal'
 import FaqAccordion from '@/components/FaqAccordion'
 import CtaBanner from '@/components/CtaBanner'
 import { getContent } from '@/lib/content'
+import { buildMetadata, FaqJsonLd } from '@/lib/seo'
 
 /* eslint-disable @typescript-eslint/no-explicit-any */
 const validSlugs = [
@@ -18,6 +20,19 @@ function CheckIcon() {
   return (
     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M20 6L9 17l-5-5" /></svg>
   )
+}
+
+export async function generateMetadata({ params }: { params: Promise<{ locale: string; slug: string }> }): Promise<Metadata> {
+  const { locale, slug } = await params
+  if (!validSlugs.includes(slug)) return {}
+  const content = getContent(locale, `klachten/${slug}`)
+  return buildMetadata({
+    locale,
+    path: `/klachten/${slug}`,
+    title: `${content.hero.title} — Vincor`,
+    description: content.hero.description,
+    image: content.watIsHet?.image,
+  })
 }
 
 export async function generateStaticParams() {
@@ -169,6 +184,8 @@ export default async function KlachtPage({ params }: { params: Promise<{ locale:
         buttonText={content.cta.buttonText}
         buttonHref={content.cta.buttonHref}
       />
+
+      <FaqJsonLd items={content.faq.items} />
     </>
   )
 }

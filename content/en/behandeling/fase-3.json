@@ -1,0 +1,148 @@
+{
+  "meta": {
+    "title": "Phase 3 — Reconstruction — Vincor | Definitive Correction at PDA",
+    "description": "Phase 3 of the Vincor treatment model: definitive reconstruction at PDA partner center. Orthodontics, implantology, and full dentition reconstruction for lasting results.",
+    "slug": "behandeling/fase-3-reconstructie"
+  },
+  "hero": {
+    "breadcrumb": ["Home", "Treatment", "Phase 3 — Reconstruction"],
+    "title": "Phase 3 — Reconstruction",
+    "titleHighlight": "Reconstruction",
+    "description": "The definitive solution for lasting balance between bite, jaw, and posture. When splint therapy has laid the foundation, reconstruction offers the permanent result."
+  },
+  "intro": {
+    "sectionLabel": "Phase 3 — Definitive Correction",
+    "title": "From splint therapy to permanent solution",
+    "image": "fase3-reconstructie.jpg",
+    "imageAlt": "Phase 3 reconstruction at PDA partner center",
+    "paragraphs": [
+      "For many patients, phase 1 and 2 deliver everything they need. But when structural correction of the bite is necessary for a lasting result, phase 3 offers the definitive solution.",
+      "In close collaboration with PDA — a specialized center for dental reconstruction — we bring together everything we have learned about the unique biomechanics of your body. Together we create a permanent correction that not only restores your dentition but also stabilizes the postural improvements from phase 1 and 2.",
+      "This is not a standard treatment. It is the final piece of a journey we have started together with you — built on months of diagnostics, measurements, and targeted therapy."
+    ]
+  },
+  "indications": {
+    "sectionLabel": "Indications",
+    "title": "When is phase 3 needed?",
+    "description": "Not every patient needs phase 3. We advise reconstruction only when it offers clear added value compared to permanent splint therapy.",
+    "items": [
+      {
+        "title": "Severe bite deviations",
+        "description": "Bite problems that splint therapy cannot structurally correct and require an orthodontic or prosthetic solution."
+      },
+      {
+        "title": "Missing dentition elements",
+        "description": "Missing teeth or molars that disrupt occlusion and thereby permanently undermine postural balance."
+      },
+      {
+        "title": "Wear from grinding",
+        "description": "Long-term grinding (bruxism) can damage the dentition so severely that restoration is necessary to restore the bite."
+      },
+      {
+        "title": "Desire for permanent solution",
+        "description": "You experience results with the splint, but desire a definitive correction so the splint is no longer needed in the long term."
+      }
+    ]
+  },
+  "partnership": {
+    "sectionLabel": "Partnership",
+    "title": "Our collaboration with PDA",
+    "image": "smile-result.jpg",
+    "imageAlt": "Result after reconstruction at PDA",
+    "paragraphs": [
+      "PDA is our trusted partner center for complex dental reconstructions. When phase 3 is indicated, we do not simply hand over — we work together.",
+      "Vincor provides all diagnostic data to the PDA team: 4D scans, occlusion analyses, muscle tone measurements, and the complete treatment history from phase 1 and 2. Together we develop a reconstruction plan that addresses both the dental and postural aspects.",
+      "You do not start over. You build on everything we have already discovered together. That makes the difference between a standard dental procedure and a reconstruction that benefits your body as a whole."
+    ]
+  },
+  "treatmentOptions": {
+    "sectionLabel": "Treatment Options",
+    "title": "Options within phase 3",
+    "description": "Depending on your situation, we advise one or more of the following treatments. The reconstruction plan is always customized.",
+    "options": [
+      {
+        "title": "Orthodontics",
+        "description": "Correction of tooth position and bite using braces or aligners. Suitable for mild to moderate bite deviations where tooth positions need to be structurally corrected."
+      },
+      {
+        "title": "Implantology",
+        "description": "Replacement of missing dentition elements with titanium implants. Fully restores occlusion and prevents further shifting of the remaining elements."
+      },
+      {
+        "title": "Full reconstruction",
+        "description": "Extensive restoration of the dentition with crowns, bridges, and/or prostheses. For patients with severe wear or complex issues requiring an integral approach."
+      }
+    ]
+  },
+  "timeline": {
+    "sectionLabel": "The Journey",
+    "title": "What can you expect?",
+    "description": "From the first consultation to aftercare: every step is carefully planned so you know exactly what is coming.",
+    "steps": [
+      {
+        "number": 1,
+        "title": "Vincor & PDA Consultation",
+        "description": "Based on your complete diagnostic data — 4D scans, occlusion analysis, and treatment history — Vincor and PDA discuss the best approach for your situation."
+      },
+      {
+        "number": 2,
+        "title": "Personalized treatment plan",
+        "description": "You receive a detailed treatment plan with a clear cost estimate. No surprises — you know in advance exactly what the treatment entails and what it costs."
+      },
+      {
+        "number": 3,
+        "title": "Execution at PDA",
+        "description": "The reconstruction is performed by the specialized team at PDA. Duration varies per treatment: from several months for orthodontics to 6–12 months for full reconstruction."
+      },
+      {
+        "number": 4,
+        "title": "Aftercare & follow-up",
+        "description": "After completion, Vincor remains involved. With follow-up 4D scans, we check whether the reconstruction stabilizes the postural improvements from phase 1 and 2."
+      }
+    ]
+  },
+  "pricing": {
+    "sectionLabel": "Investment",
+    "title": "Transparent costs",
+    "phase": "Phase 3 — Reconstruction",
+    "price": "3,000 – 7,000",
+    "currency": "EUR",
+    "description": "Costs vary depending on the complexity of your treatment. A simple orthodontic correction is at the lower end of this range, while a full dentition reconstruction is at the upper end. After the consultation between Vincor and PDA, you always receive a precise cost estimate in advance — so you are not caught by surprises.",
+    "insuranceNote": "Part of the costs may be covered by your health insurance. We are happy to help you explore your reimbursement options.",
+    "location": "PDA (partner center)",
+    "buttonText": "Request a consultation"
+  },
+  "trustBar": [
+    "Multidisciplinary collaboration Vincor + PDA",
+    "All diagnostic data is included",
+    "Aftercare and follow-up by Vincor"
+  ],
+  "faq": {
+    "sectionLabel": "Frequently Asked Questions",
+    "title": "Your questions about phase 3",
+    "items": [
+      {
+        "question": "Do I need to go through all three phases?",
+        "answer": "No, that is not always necessary. Some patients have sufficient results from phase 1 or phase 2 to significantly reduce their complaints. Phase 3 is only advised when structural correction of the dentition is necessary for a lasting result, or when you personally desire to continue without a splint. We always discuss this extensively with you before making a recommendation."
+      },
+      {
+        "question": "How long does phase 3 take?",
+        "answer": "Duration varies greatly per treatment. An orthodontic correction typically takes several months, while a full dentition reconstruction can take 6 to 12 months. When developing your personalized treatment plan, PDA provides a detailed time indication, so you know exactly what to expect."
+      },
+      {
+        "question": "Is phase 3 covered?",
+        "answer": "Partially, depending on your health insurance. Orthodontic treatments can be covered from the basic insurance for patients up to 18 years old. Implantology and prosthetic restorations fall under separate reimbursement rules that vary by insurer. We are happy to help you assess your options and support you with the application."
+      },
+      {
+        "question": "Does Vincor remain involved after phase 3?",
+        "answer": "Absolutely. After completion of the reconstruction at PDA, Vincor remains involved in your aftercare journey. We perform follow-up 4D scans to check whether the reconstruction stabilizes the postural improvements from phase 1 and 2. If adjustments are needed, we coordinate this directly with PDA. You are never left alone."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Together towards lasting results",
+    "description": "Do you have questions about phase 3 or want to discuss whether reconstruction is the right step for you? We are happy to think along with you.",
+    "buttonText": "Contact us",
+    "buttonLink": "/contact"
+  }
+}

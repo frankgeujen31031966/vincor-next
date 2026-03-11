@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "title": "Knowledge Base — Vincor | Articles about jaw, posture and health",
+    "description": "Read articles and insights about jaw problems, posture issues, CMD and the relationship between bite and body. The Vincor Knowledge Base.",
+    "slug": "kennisbank"
+  },
+  "hero": {
+    "breadcrumb": ["Home", "Knowledge Base"],
+    "title": "Knowledge Base",
+    "titleHighlight": "bank",
+    "description": "Articles and insights about jaw, posture and health"
+  },
+  "articles": [
+    {
+      "title": "How to recognize CMD?",
+      "slug": "kennisbank/cmd-herkennen",
+      "category": "Complaints",
+      "excerpt": "Jaw pain, headaches, clicking in the jaw joint? These are common signs of CMD. Learn to recognize the 7 most important symptoms.",
+      "image": "kaakpijn.jpg",
+      "imageAlt": "Recognizing jaw pain and CMD",
+      "readingTime": "5 min read"
+    },
+    {
+      "title": "The relationship between jaw and back",
+      "slug": "kennisbank/kaak-en-rug",
+      "category": "Diagnostiek",
+      "excerpt": "Back pain without a clear cause? The link may lie in your jaw. Discover how a disturbed bite can affect your entire posture.",
+      "image": "rug-nek.jpg",
+      "imageAlt": "The relationship between jaw and back",
+      "readingTime": "6 min read"
+    },
+    {
+      "title": "What is an occlusal scan?",
+      "slug": "kennisbank/occlusiescan",
+      "category": "Diagnostiek",
+      "excerpt": "Everything about the DIERS 4D Spinescan: how it works, what it measures and why it is safer and faster than traditional diagnostics.",
+      "image": "formetric-evaluation.jpg",
+      "imageAlt": "DIERS 4D Spinescan occlusal scan",
+      "readingTime": "4 min read"
+    },
+    {
+      "title": "When do you need a jaw splint?",
+      "slug": "kennisbank/kaaksplint-nodig",
+      "category": "Behandeling",
+      "excerpt": "Not every jaw problem requires a splint. Learn when a therapeutic jaw splint is meaningful and what the difference is with a regular bite plate.",
+      "image": "behandeling-hero.jpg",
+      "imageAlt": "Jaw splint treatment",
+      "readingTime": "5 min read"
+    }
+  ],
+  "cta": {
+    "title": "Do you have a question that is not answered here?",
+    "description": "Feel free to contact us. We are happy to help you further.",
+    "buttonText": "Contact us",
+    "buttonLink": "/contact"
+  }
+}

@@ -6,6 +6,7 @@ import { routing } from '@/i18n/routing'
 import Navigation from '@/components/Navigation'
 import Footer from '@/components/Footer'
 import CookieBanner from '@/components/CookieBanner'
+import { OrganizationJsonLd } from '@/lib/seo'
 
 const geist = Geist({
   subsets: ['latin'],
@@ -29,6 +30,7 @@ export default async function LocaleLayout({
   return (
     <html lang={locale} className={geist.variable}>
       <body className="font-[family-name:var(--font-primary)] text-gray-700 bg-white overflow-x-hidden leading-relaxed">
+        <OrganizationJsonLd />
         <NextIntlClientProvider messages={messages}>
           <Navigation />
           <main>{children}</main>

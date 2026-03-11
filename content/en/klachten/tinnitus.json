@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "title": "Tinnitus | Vincor",
+    "description": "Suffering from ear ringing or buzzing? Tinnitus can be caused by jaw tension. Vincor investigates the connection with advanced 4D diagnostics."
+  },
+  "hero": {
+    "breadcrumb": ["Home", "Conditions", "Tinnitus"],
+    "title": "Tinnitus",
+    "description": "Ear ringing, buzzing, or humming can have a direct relationship with tension in the jaw muscles and jaw joint. At Vincor, we investigate this often overlooked cause."
+  },
+  "watIsHet": {
+    "label": "What is it",
+    "title": "What is tinnitus?",
+    "paragraphs": [
+      "Tinnitus is the perception of sound in the ears or head without an external sound source being present. It can manifest as ringing, buzzing, humming, roaring, or hissing and varies from mildly annoying to seriously disabling. It is estimated that 10-15% of the adult population experiences tinnitus to some degree.",
+      "There are different forms: subjective tinnitus (only perceivable by the patient) and objective tinnitus (also measurable by a doctor). The most common form is subjective and is often incorrectly attributed solely to hearing damage. In reality, the somatosensory system — particularly the jaw and neck — plays a crucial role in a significant portion of tinnitus patients."
+    ],
+    "image": "/images/Tinnitus-2.jpg"
+  },
+  "symptomen": {
+    "title": "Do you recognize these symptoms?",
+    "description": "Somatosensory tinnitus — tinnitus related to jaw and neck — is characterized by specific patterns.",
+    "items": [
+      "Ringing, buzzing, or humming sound in one or both ears",
+      "Tinnitus that worsens when clenching or moving the jaw",
+      "Ear ringing that varies in intensity throughout the day",
+      "Sense of fullness or pressure in the ear without detectable ear infection",
+      "Tinnitus that began after dental procedures or jaw trauma",
+      "Concurrent symptoms of jaw pain, clicking, or limited mouth opening",
+      "Ear ringing that worsens during periods of stress or tension",
+      "Concentration and sleep problems as a result of the persistent sound"
+    ]
+  },
+  "oorzaken": {
+    "label": "Causes",
+    "title": "How your jaw affects your ears",
+    "paragraphs": [
+      "The jaw joint (TMJ) is located directly next to the middle ear, separated by only a thin layer of bone. The musculus tensor tympani — a small muscle that tenses the eardrum — shares its innervation with the jaw muscles via the nervus trigeminus. When the jaw muscles are chronically tense, this can affect the tensor tympani and cause tinnitus.",
+      "Additionally, the ligamentum disco-malleolare, an anatomical connective tissue band, runs from the joint disc of the jaw joint to the ossicular chain in the middle ear. With a displaced disc or overloaded jaw joint, traction on this ligament can exert direct influence on sound transmission in the ear.",
+      "A disturbed occlusion causes asymmetric tension in the jaw muscles, which through these anatomical connections can lead to one-sided or bilateral tinnitus. This explains why tinnitus fluctuates in many patients with the degree of jaw tension."
+    ],
+    "image": "/images/spine-model.gif"
+  },
+  "diagnostiek": {
+    "title": "How we investigate tinnitus",
+    "description": "Our 4D diagnostics combine jaw joint analysis with muscle tension measurements to rule out or confirm a somatosensory cause of your tinnitus.",
+    "cards": [
+      {
+        "title": "TMJ Imaging",
+        "description": "Detailed 3D scan of the jaw joint and the position of the joint disc relative to the middle ear."
+      },
+      {
+        "title": "Muscle Tension Test",
+        "description": "EMG measurement of jaw and neck muscles, with specific attention to correlation between tension and tinnitus intensity."
+      },
+      {
+        "title": "Provocation Test",
+        "description": "Targeted jaw movements and pressure tests to determine if your tinnitus is modifiable via the somatosensory system."
+      }
+    ]
+  },
+  "behandeling": {
+    "title": "Treatment options for tinnitus",
+    "description": "When your tinnitus has a somatosensory component, targeted treatment of jaw function can significantly reduce the intensity.",
+    "phases": [
+      {
+        "phase": "Phase 1",
+        "title": "Relaxation",
+        "description": "Reduction of jaw muscle tension to reduce the impact on the hearing system.",
+        "features": [
+          "Stabilization splint for jaw relaxation",
+          "TENS treatment of jaw muscles",
+          "Relaxation exercises and stress reduction"
+        ]
+      },
+      {
+        "phase": "Phase 2",
+        "title": "Correction",
+        "description": "Restoration of optimal jaw position to relieve pressure on the hearing system.",
+        "featured": true,
+        "badge": "Most chosen",
+        "features": [
+          "Neuromuscular orthotic therapy",
+          "Occlusion optimization and bite balance",
+          "Manual therapy jaw and neck"
+        ]
+      },
+      {
+        "phase": "Phase 3",
+        "title": "Stabilization",
+        "description": "Long-term maintenance of results and prevention of tinnitus recurrence.",
+        "features": [
+          "Definitive bite rehabilitation",
+          "Periodic check-ups and monitoring",
+          "Preventive self-care program"
+        ]
+      }
+    ]
+  },
+  "faq": {
+    "title": "FAQ about tinnitus",
+    "items": [
+      {
+        "question": "Can my jaw really be the cause of my tinnitus?",
+        "answer": "Yes, research shows that in approximately 40-60% of tinnitus patients, a somatosensory component is present, where the jaw joint and jaw muscles play a role. The anatomical proximity of the jaw joint and middle ear, combined with shared nerve pathways, makes this relationship medically well-explained. A simple test: if you can influence your tinnitus by moving or clenching your jaw, there is likely a jaw-related component."
+      },
+      {
+        "question": "Will my tinnitus go away completely after treatment?",
+        "answer": "The result depends on the extent to which your tinnitus is jaw-related. In patients with predominantly somatosensory tinnitus, we often see a significant reduction or even complete disappearance of symptoms. With mixed causes (partially hearing damage, partially jaw), treatment typically leads to noticeable improvement. Our diagnostics give you a realistic picture of the expected result in advance."
+      },
+      {
+        "question": "I have already seen an ENT doctor. Why would Vincor find something different?",
+        "answer": "An ENT doctor correctly investigates the hearing and ear. When no abnormalities are found, tinnitus is often labeled as \"unexplained.\" Vincor specifically investigates somatosensory causes: the jaw joint, jaw muscles, bite, and posture relationship. This approach is complementary to the ENT assessment and brings to light a cause that is not evaluated in standard ear examinations."
+      },
+      {
+        "question": "How quickly can I expect improvement?",
+        "answer": "Some patients notice improvement within the first weeks of the stabilization phase, when the jaw muscles relax through splint therapy. For most patients, a clear reduction occurs within 4-8 weeks. The full treatment cycle takes an average of 3-6 months, depending on the complexity of your situation."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Book your free scan",
+    "description": "Discover if your tinnitus has a jaw-related cause. Our 4D diagnostics give you quick clarity.",
+    "buttonText": "Make an appointment",
+    "buttonHref": "/contact"
+  }
+}

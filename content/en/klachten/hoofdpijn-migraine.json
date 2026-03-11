@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "title": "Headache & Migraine | Vincor",
+    "description": "Chronic headache or migraine? Discover how jaw tension and a disturbed bite can be the cause. Vincor offers advanced 4D diagnostics."
+  },
+  "hero": {
+    "breadcrumb": ["Home", "Conditions", "Headache & Migraine"],
+    "title": "Headache & Migraine",
+    "description": "Tension headaches and migraines are often caused by a disturbed jaw function. At Vincor, we investigate the connection between your bite, jaw muscles, and chronic headaches."
+  },
+  "watIsHet": {
+    "label": "What is it",
+    "title": "Headache from the jaw",
+    "paragraphs": [
+      "Tension headaches are the most common form of headache and are characterized by a pressing, band-like sensation around the head. Migraine is a neurological condition with episodic, often one-sided, throbbing headaches that can be accompanied by nausea, light and sound sensitivity.",
+      "What many people don't know is that both tension headaches and migraines can be triggered or worsened by dysfunction of the temporomandibular joint and overloading of the chewing muscles. The musculus temporalis — the large temple muscle that controls the jaw joint — runs directly over the temple and can cause headaches when overloaded that cannot be distinguished from a primary headache."
+    ],
+    "image": "/images/migraine.jpg"
+  },
+  "symptomen": {
+    "title": "Do you recognize these symptoms?",
+    "description": "Headaches with a jaw-related cause have characteristic patterns that you can recognize.",
+    "items": [
+      "Pressing or squeezing headache on both sides of the head",
+      "Headache that is worst in the morning (due to nighttime grinding)",
+      "Migraine attacks that coincide with jaw tension",
+      "Pain in the temples that worsens when chewing or yawning",
+      "Chronic headache that does not respond to standard painkillers",
+      "Sensitivity when pressing on the chewing muscles or jaw joint",
+      "Combination of headache with neck stiffness and shoulder pain",
+      "Visual disturbances (aura) preceding migraine attacks"
+    ]
+  },
+  "oorzaken": {
+    "label": "Causes",
+    "title": "How jaw tension causes headaches",
+    "paragraphs": [
+      "The chewing muscles belong to the strongest muscles in the human body. When these muscles become chronically overloaded — due to an incorrect bite, teeth grinding, or stress — triggerpoints develop that refer pain to the head.",
+      "The musculus temporalis (temple muscle) and the musculus masseter (chewing muscle) are directly connected to the pain signals that trigger tension headaches and migraines. A disturbed occlusion ensures that these muscles work continuously harder than necessary, leading to chronic overstimulation of the trigeminal nerve system — the same nerve involved in migraines.",
+      "Furthermore, an incorrect jaw position affects the posture balance of the head and neck, irritating the cervical nerves and forming an additional source of headaches."
+    ],
+    "image": "/images/formetric-evaluation.jpg"
+  },
+  "diagnostiek": {
+    "title": "How we find the cause of your headache",
+    "description": "Our 4D scan reveals the hidden relationship between your jaw function and chronic headaches by mapping the complete craniomandibular system.",
+    "cards": [
+      {
+        "title": "Trigeminal analysis",
+        "description": "Measurement of trigeminal nerve function to determine to what extent jaw tension contributes to your headache pattern."
+      },
+      {
+        "title": "EMG muscle measurement",
+        "description": "Electromyography of the temporalis and masseter muscles to objectively determine overloading and asymmetry."
+      },
+      {
+        "title": "Occlusion & posture scan",
+        "description": "Combined analysis of your bite relationship and cervical posture to evaluate the complete biomechanical chain."
+      }
+    ]
+  },
+  "behandeling": {
+    "title": "Treatment options for headaches",
+    "description": "When jaw dysfunction is the cause of your headache, targeted treatment of the bite and chewing muscles often provides quick and lasting relief.",
+    "phases": [
+      {
+        "phase": "Phase 1",
+        "title": "Relaxation",
+        "description": "Direct reduction of muscle tension and frequency of headache attacks.",
+        "features": [
+          "Deprogramming splint for muscle relaxation",
+          "TENS therapy for immediate pain relief",
+          "Triggerpoint treatment of chewing muscles"
+        ]
+      },
+      {
+        "phase": "Phase 2",
+        "title": "Bite correction",
+        "description": "Structural restoration of the bite relationship for long-term symptom reduction.",
+        "featured": true,
+        "badge": "Most chosen",
+        "features": [
+          "Custom neuromuscular orthotic",
+          "Occlusal optimization and bite balance",
+          "Combined neck and jaw physiotherapy"
+        ]
+      },
+      {
+        "phase": "Phase 3",
+        "title": "Prevention",
+        "description": "Preventing return of headache symptoms through structural adjustments.",
+        "features": [
+          "Definitive dental rehabilitation",
+          "Headache diary and monitoring",
+          "Stress management and lifestyle advice"
+        ]
+      }
+    ]
+  },
+  "faq": {
+    "title": "FAQ about headache & migraine",
+    "items": [
+      {
+        "question": "Can my jaw really be the cause of my migraine?",
+        "answer": "Yes, scientific research shows that craniomandibular dysfunction (CMD) is an important trigger for both tension headaches and migraines. The trigeminal nerve, which innervates both the jaw joint and large parts of the head, forms the neurological bridge between jaw problems and headaches. It is estimated that 70% of CMD patients also have headache symptoms."
+      },
+      {
+        "question": "How quickly can I expect improvement?",
+        "answer": "Many patients already experience a clear reduction in headache frequency and intensity within the first few weeks of the stabilization phase. The deprogramming splint gives the chewing muscles the chance to relax, reducing the trigger action on the trigeminal system. Complete symptom resolution typically occurs within 3 to 6 months of treatment."
+      },
+      {
+        "question": "Do I need to stop my current headache medication?",
+        "answer": "No, we never advise stopping medication on your own initiative. Our treatment works as a supplement to your existing medical care. As the jaw-related cause is treated, many patients experience that they need less medication. Any change in medication use should always be done in consultation with your treating physician."
+      },
+      {
+        "question": "How does Vincor distinguish jaw-related headaches from other forms?",
+        "answer": "Our 4D diagnostics combine EMG measurements of the chewing muscles, occlusion analysis, and posture scans to objectively determine if there is a relationship between your jaw function and headaches. When we measure muscle tension during the examination that correlates with your headache pattern, there is a strong indication for a jaw-related component."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Book your free scan",
+    "description": "Discover if your headache has a jaw-related cause. Our 4D diagnostics will give you quick clarity, completely without obligation.",
+    "buttonText": "Make an appointment",
+    "buttonHref": "/contact"
+  }
+}

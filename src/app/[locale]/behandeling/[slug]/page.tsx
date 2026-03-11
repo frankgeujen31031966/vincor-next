@@ -1,3 +1,4 @@
+import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -7,6 +8,7 @@ import ScrollReveal from '@/components/ScrollReveal'
 import FaqAccordion from '@/components/FaqAccordion'
 import CtaBanner from '@/components/CtaBanner'
 import { getContent } from '@/lib/content'
+import { buildMetadata } from '@/lib/seo'
 
 /* eslint-disable @typescript-eslint/no-explicit-any */
 const slugToFile: Record<string, string> = {
@@ -19,6 +21,14 @@ function CheckIcon() {
   return (
     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M20 6L9 17l-5-5" /></svg>
   )
+}
+
+export async function generateMetadata({ params }: { params: Promise<{ locale: string; slug: string }> }): Promise<Metadata> {
+  const { locale, slug } = await params
+  const contentPath = slugToFile[slug]
+  if (!contentPath) return {}
+  const content = getContent(locale, contentPath) as any
+  return buildMetadata({ locale, path: `/behandeling/${slug}`, title: `${content.hero.title} — Vincor`, description: content.hero.description })
 }
 
 export async function generateStaticParams() {

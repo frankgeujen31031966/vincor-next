@@ -1,0 +1,180 @@
+{
+  "meta": {
+    "title": "Phase 2 — Repositioning Splint | Vincor",
+    "description": "Phase 2 of the Vincor treatment model: the repositioning splint corrects your bite and restores postural balance between jaw, spine, and pelvis. Most chosen treatment.",
+    "slug": "behandeling/fase-2-repositioneringssplint"
+  },
+  "hero": {
+    "breadcrumb": ["Home", "Treatment", "Phase 2 — Repositioning Splint"],
+    "title": "Phase 2 — Repositioning Splint",
+    "titleHighlight": "Repositioning Splint",
+    "badge": "Most chosen treatment",
+    "description": "The phase where structural changes take place. The repositioning splint doesn't just correct symptoms — it addresses the root cause by bringing your jaw, spine, and pelvis back into balance."
+  },
+  "intro": {
+    "sectionLabel": "The core of your treatment",
+    "title": "From relaxation to structural recovery",
+    "image": "fase2-repositionering.jpg",
+    "imageAlt": "Repositioning splint treatment at Vincor",
+    "paragraphs": [
+      "Phase 1 has brought your muscles to rest and provided initial insights into the relationship between your bite and your posture. Now we go deeper. The repositioning splint doesn't just calm symptoms — it addresses the root cause.",
+      "By accurately repositioning the lower jaw, we restore the natural balance between your bite and your full posture. This is the moment when many patients experience their \"aha moment\": the moment they realize how profoundly their jaw position has influenced their entire body.",
+      "The Vincor BodySplint is fully custom-made based on your personal diagnostic data from phase 1. The result: a splint that not only fits comfortably but actively guides your body toward its optimal position."
+    ]
+  },
+  "science": {
+    "sectionLabel": "The science",
+    "title": "The science behind repositioning",
+    "description": "A disturbed jaw position has consequences that extend far beyond your teeth. Scientific research confirms the link between occlusion and posture — and the possibility to restore the entire system via the jaw.",
+    "image": "scan-patient.jpg",
+    "imageAlt": "4D scan jaw-spine connection",
+    "subtitle": "The descending chain: from jaw to pelvis",
+    "paragraphs": [
+      "When the lower jaw is not in the correct position, the body must compensate. The chewing muscles contract unevenly, causing the cervical spine (neck) to experience asymmetric loading. This misalignment propagates as a descending chain: from the neck to the thoracic spine (upper back), the lumbar spine (lower back) and ultimately the pelvis.",
+      "The repositioning splint breaks this chain at the starting point. By guiding the lower jaw to its biomechanically optimal position, the compensation in the neck musculature is reduced. The spine has the space to heal and the pelvis finds its neutral position again.",
+      "This explains why patients with seemingly unrelated complaints — lower back pain, shoulder pain, even pelvic misalignment — experience improvement after jaw repositioning. The body is an interconnected system, and the jaw is one of the most influential links."
+    ]
+  },
+  "whatItIncludes": {
+    "sectionLabel": "Your treatment",
+    "title": "What does this phase include?",
+    "description": "Phase 2 involves a carefully structured journey where diagnostics, craftsmanship, and technology come together to structurally restore your body.",
+    "cards": [
+      {
+        "title": "Detailed occlusion analysis",
+        "description": "A precise analysis of how your upper and lower jaw interact. We measure pressure points, contact points, and asymmetries to map the exact deviation."
+      },
+      {
+        "title": "Digital bite registration",
+        "description": "Using advanced digital technology, we record the optimal jaw position. This registration forms the blueprint for your custom-made repositioning splint."
+      },
+      {
+        "title": "Custom-made Vincor BodySplint",
+        "description": "The repositioning splint is individually manufactured based on your unique diagnostic data. No standard solution, but a precision instrument tailored to your body."
+      },
+      {
+        "title": "Interim 4D control",
+        "description": "Midway through the journey, we conduct an extensive 4D scan to objectively measure progress. This way we see exactly what the splint does and whether adjustment is needed."
+      },
+      {
+        "title": "Personal progress report",
+        "description": "You receive a detailed report with before-and-after comparison of your scan. This way you see in black and white which improvement has taken place in posture and complaints."
+      }
+    ]
+  },
+  "timeline": {
+    "sectionLabel": "Timeline",
+    "title": "What can you expect?",
+    "description": "An overview of your treatment journey in phase 2. Each step is aimed at bringing you closer to structural recovery.",
+    "steps": [
+      {
+        "number": 1,
+        "title": "Week 1",
+        "description": "Extensive occlusion analysis and digital bite registration. Based on this, your personal Vincor BodySplint is manufactured."
+      },
+      {
+        "number": 2,
+        "title": "Week 2–3",
+        "description": "Placement of your Vincor BodySplint with detailed instructions for wearing and maintenance. Your body begins to adapt to the new jaw position."
+      },
+      {
+        "number": 3,
+        "title": "Week 6–8",
+        "description": "Interim control with 4D scan. We objectively measure progress and adjust the splint if needed. Many patients already experience significant improvement at this point."
+      },
+      {
+        "number": 4,
+        "title": "Week 10–12",
+        "description": "End evaluation and personal advice on possible follow-up. For some patients, phase 2 is sufficient; others choose phase 3 for definitive correction."
+      }
+    ]
+  },
+  "results": {
+    "sectionLabel": "Proven result",
+    "title": "Results that speak",
+    "description": "The effectiveness of the repositioning splint is confirmed by objective measurements and the experiences of our patients.",
+    "stats": [
+      {
+        "value": "87%",
+        "label": "Experience significant improvement"
+      },
+      {
+        "value": "60%",
+        "label": "Average reduction in pain complaints"
+      },
+      {
+        "value": "4–6 mnd",
+        "label": "Treatment duration phase 2"
+      }
+    ],
+    "testimonial": {
+      "quote": "After years of headaches and neck complaints, the repositioning splint was a turning point. Within six weeks I felt the difference — not just in my jaw, but in my entire posture.",
+      "author": "Annelies",
+      "age": 42
+    }
+  },
+  "beforeAfter": {
+    "sectionLabel": "Your transformation",
+    "title": "From complaint to insight",
+    "description": "What our patients typically experience before and after treatment with the repositioning splint.",
+    "before": [
+      "Chronic headaches that do not respond to medication",
+      "Stiff neck when getting up, every morning again",
+      "Jaw pain and unconscious teeth grinding",
+      "Unexplained back complaints without clear diagnosis"
+    ],
+    "after": [
+      "Reduction or disappearance of headaches",
+      "Smoother neck and shoulders, less morning stiffness",
+      "Relaxed jaw muscles, less grinding",
+      "Improved posture and significantly less back pain"
+    ]
+  },
+  "pricing": {
+    "sectionLabel": "Investment",
+    "title": "Invest in structural recovery",
+    "badge": "Most chosen",
+    "phase": "Phase 2",
+    "name": "Repositioning Splint",
+    "price": "595",
+    "currency": "EUR",
+    "description": "Complete phase 2 treatment including diagnostics, custom-made Vincor BodySplint and interim control.",
+    "features": [
+      "Detailed occlusion analysis and bite registration",
+      "Repositioning of the lower jaw to optimal position",
+      "Restoration of postural balance (back, neck, pelvis)",
+      "Interim control with 4D scan",
+      "Significant reduction of complaints",
+      "Personal treatment plan with progress reporting"
+    ],
+    "location": "Vincor, Eindhoven"
+  },
+  "faq": {
+    "sectionLabel": "Frequently asked questions",
+    "title": "Frequently asked questions about phase 2",
+    "items": [
+      {
+        "question": "Do I need to go through phase 1 first?",
+        "answer": "Yes, phase 1 is an essential part of the treatment journey. During this phase, we use our 4D diagnostics to accurately map the relationship between your bite and posture. These diagnostic data form the basis for designing your repositioning splint. Without this data, it is not possible to manufacture a splint that does exactly what your body needs."
+      },
+      {
+        "question": "How does the repositioning splint differ from the relaxation splint?",
+        "answer": "The relaxation splint from phase 1 is primarily focused on relaxing the jaw and neck muscles. It calms the muscles and reduces acute complaints. The repositioning splint goes a step further: it corrects the position of the lower jaw itself and thereby addresses the structural cause of your complaints. Where the relaxation splint relieves symptoms, the repositioning splint restores balance."
+      },
+      {
+        "question": "Are the results permanent?",
+        "answer": "The repositioning splint lets your body experience what the optimal jaw position is. Many patients achieve with phase 2 alone a permanent improvement of their complaints. For a definitive, permanent correction of the bite, phase 3 (reconstruction) may be needed. During the evaluation at the end of phase 2, we discuss together what the best next step is for your specific situation."
+      },
+      {
+        "question": "Can I eat and talk normally with the splint?",
+        "answer": "Yes, the Vincor BodySplint is designed with daily comfort as the starting point. You can speak and eat normally while wearing the splint. In the first days, a short adaptation period may be needed, but most patients experience the splint quickly as a natural part of their daily life. During placement, you receive extensive instructions for optimal use."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Experience the difference",
+    "description": "The repositioning splint is the most chosen treatment at Vincor — and that is no coincidence. Discover what structural recovery can mean for you.",
+    "buttonText": "Make an appointment",
+    "buttonLink": "/contact"
+  }
+}

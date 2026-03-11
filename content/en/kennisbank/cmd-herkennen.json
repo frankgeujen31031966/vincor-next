@@ -1,0 +1,147 @@
+{
+  "meta": {
+    "title": "How to Recognize CMD? The 7 Signs — Vincor Knowledge Base",
+    "description": "Jaw pain, headaches, clicking in the jaw joint? Learn to recognize the 7 most important signs of CMD (Craniomandibular Dysfunction) and discover when you should seek help.",
+    "slug": "kennisbank/cmd-herkennen",
+    "readingTime": "5 minutes",
+    "publishDate": "maart 2026",
+    "category": "Complaints"
+  },
+  "hero": {
+    "breadcrumb": ["Home", "Knowledge Base", "How to Recognize CMD?"],
+    "title": "How to Recognize CMD?",
+    "titleHighlight": "CMD",
+    "description": "The 7 signs you should not ignore"
+  },
+  "featuredImage": {
+    "src": "kaakpijn.jpg",
+    "alt": "Woman with jaw pain - CMD symptoms"
+  },
+  "body": [
+    {
+      "type": "intro",
+      "text": "You wake up in the morning with a stiff jaw. During the day you notice a sore pain around your ear. When yawning you hear a click. Recognizable? Then you may be dealing with CMD — Craniomandibular Dysfunction. A condition that occurs more often than you think, but is not always recognized."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What exactly is CMD?"
+    },
+    {
+      "type": "paragraph",
+      "text": "CMD is a collective term for complaints of the jaw joint, chewing muscles and surrounding structures. The abbreviation stands for Craniomandibular Dysfunction — literally: a disturbance in the cooperation between skull (cranium) and lower jaw (mandibula). The jaw joint is one of the most used joints in your body. You use it when talking, eating, swallowing and even when breathing. When this complex system becomes unbalanced, it can cause surprisingly many complaints."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The 7 Signs of CMD"
+    },
+    {
+      "type": "paragraph",
+      "text": "CMD manifests itself in many different ways. Below are the seven most common signs you should be alert to."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "1. Jaw Pain"
+    },
+    {
+      "type": "paragraph",
+      "text": "The most obvious symptom: pain in or around the jaw joint. This can be a sharp, stabbing pain, but also a dull, sore pressure that lasts all day. Often the pain is worse after waking up or after prolonged chewing."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "2. Clicking or Popping of the Jaw Joint"
+    },
+    {
+      "type": "paragraph",
+      "text": "Do you hear a click when you open your mouth? Or a popping sound when chewing? This indicates a shift of the joint disc (discus) in the jaw joint. Sometimes it is painless, but it can be an early sign of a bigger problem."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "3. Limited Mouth Opening"
+    },
+    {
+      "type": "paragraph",
+      "text": "Can you no longer open your mouth fully? Or does your jaw deviate to the side when opening? A healthy mouth opening is at least three fingers wide. If that is no longer possible, there may be a blockage or muscle spasm due to CMD."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "4. Headaches"
+    },
+    {
+      "type": "paragraph",
+      "text": "Many people with CMD suffer from recurring headaches, mainly at the temples or behind the eyes. These headaches are often confused with tension headaches or migraines. When the chewing muscles are overloaded, the tension radiates to the skull and forehead."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "5. Ear Pain and Tinnitus"
+    },
+    {
+      "type": "paragraph",
+      "text": "The jaw joint lies directly next to the ear. With CMD, pressure on the joint can lead to a feeling of fullness in the ear, ear pain without infection, or even tinnitus (ringing in the ears). Many patients first visit an ENT doctor before the jaw is considered as the cause."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "6. Neck Complaints"
+    },
+    {
+      "type": "paragraph",
+      "text": "The jaw muscles are connected via muscle chains to the neck muscles. A disturbed jaw position often leads to a compensatory posture of the head and neck. The result: chronic neck pain, stiffness and sometimes even dizziness."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "7. Tooth Wear"
+    },
+    {
+      "type": "paragraph",
+      "text": "Teeth grinding (bruxism) often goes together with CMD. You may not notice it consciously — it often happens at night — but your dentist can see the wear. Worn enamel, cracks in molars and sensitive teeth can all indicate nighttime grinding as a result of a disturbed bite."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "When should you seek help?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Do you recognize two or more of the above signs? And do the complaints last longer than two weeks? Then it is wise to have your situation assessed. CMD rarely disappears on its own and can worsen without treatment. The sooner the cause is identified, the more effective the treatment."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "How does Vincor diagnose CMD?"
+    },
+    {
+      "type": "paragraph",
+      "text": "At Vincor we use the DIERS 4D Spinescan to objectively map how your jaw position affects your posture. The scan is contactless, radiation-free and takes only a few seconds. By measuring your posture with and without a test bite, it becomes immediately visible whether your bite plays a role in your complaints. Based on this analysis we create a personalized treatment plan — often starting with a therapeutic jaw splint."
+    },
+    {
+      "type": "paragraph",
+      "text": "Want to know more about our approach? View our diagnostics or the 3-phase treatment model."
+    }
+  ],
+  "relatedArticles": [
+    {
+      "title": "The relationship between jaw and back",
+      "slug": "kennisbank/kaak-en-rug",
+      "image": "rug-nek.jpg"
+    },
+    {
+      "title": "When do you need a jaw splint?",
+      "slug": "kennisbank/kaaksplint-nodig",
+      "image": "behandeling-hero.jpg"
+    }
+  ],
+  "cta": {
+    "title": "Do you recognize these complaints?",
+    "description": "Make an appointment for a free scan and discover if CMD is the cause of your complaints.",
+    "buttonText": "Make an appointment",
+    "buttonLink": "/contact"
+  }
+}

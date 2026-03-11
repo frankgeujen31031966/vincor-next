@@ -1,7 +1,15 @@
+import type { Metadata } from 'next'
 import PageHero from '@/components/PageHero'
 import ScrollReveal from '@/components/ScrollReveal'
 import { getContent } from '@/lib/content'
+import { buildMetadata } from '@/lib/seo'
 import ContactForm from './ContactForm'
+
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
+  const { locale } = await params
+  const content = getContent(locale, 'contact')
+  return buildMetadata({ locale, path: '/contact', title: `${content.hero.title} — Vincor`, description: content.hero.description })
+}
 
 /* eslint-disable @typescript-eslint/no-explicit-any */
 

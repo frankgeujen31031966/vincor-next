@@ -1,0 +1,79 @@
+{
+  "meta": {
+    "title": "Privacy Policy — Vincor",
+    "description": "Vincor's Privacy Policy. Read how we handle your personal data in compliance with GDPR.",
+    "slug": "privacy"
+  },
+  "hero": {
+    "breadcrumb": ["Home", "Privacy"],
+    "title": "Privacy Policy",
+    "titleHighlight": "policy",
+    "description": "How Vincor handles your personal data, in compliance with the General Data Protection Regulation (GDPR)."
+  },
+  "lastUpdated": "March 2026",
+  "sections": [
+    {
+      "title": "Who we are",
+      "content": "Vincor is located at Dokter Cuyperslaan 76, 5623 BB Eindhoven. We are responsible for the processing of your personal data as described in this privacy policy. You can reach us at info@vincorscan.nl."
+    },
+    {
+      "title": "What data we collect",
+      "content": "We process the following personal data when you use our services:",
+      "list": [
+        "First name and last name",
+        "Email address",
+        "Phone number",
+        "Information about your complaints and medical history",
+        "Scan data (4D posture scans and occlusion analyses)"
+      ]
+    },
+    {
+      "title": "Why we collect this data",
+      "content": "We use your data exclusively for the following purposes:",
+      "list": [
+        "Making and managing appointments",
+        "Performing diagnostics and treatment",
+        "Contacting you by phone or email if necessary",
+        "Complying with legal obligations"
+      ]
+    },
+    {
+      "title": "Retention period",
+      "content": "We do not store your personal data for longer than strictly necessary for the purposes for which they are collected. For medical data, we apply the statutory retention period of 20 years, in compliance with the Dutch Medical Treatment Contracts Act (WGBO). Other data will be deleted once they are no longer needed."
+    },
+    {
+      "title": "Sharing with third parties",
+      "content": "Vincor does not sell your data to third parties. We share your data exclusively with third parties when this is necessary for the execution of our agreement with you or to comply with a legal obligation. With companies that process your data on our behalf, we conclude a data processing agreement. Concretely, we share data with:",
+      "list": [
+        "PDA (Prosthetic Dental Applications) — exclusively at phase 3 (reconstruction), when you choose this option",
+        "Balans Rugcentrum — for performing the 4D posture scans"
+      ]
+    },
+    {
+      "title": "Your rights",
+      "content": "Under GDPR, you have the following rights regarding your personal data:",
+      "list": [
+        "Right of access — you can request which data we process from you",
+        "Right to correction — you can have incorrect data adjusted",
+        "Right to erasure — you can request your data to be deleted, to the extent allowed by law",
+        "Right to object — you can object to the processing of your data"
+      ],
+      "additionalContent": "To exercise your rights, you can contact us at info@vincorscan.nl. We will respond as soon as possible, but no later than four weeks, to your request. Additionally, you have the right to file a complaint with the Dutch Data Protection Authority."
+    },
+    {
+      "title": "Cookies",
+      "content": "Our website uses functional cookies that are necessary for the correct functioning of the website. Additionally, we use analytical cookies to analyze and improve the use of the website. These cookies do not collect personal data with which you can be directly identified. You can disable cookies via your browser settings, but this may affect the functionality of the website."
+    },
+    {
+      "title": "Contact for privacy questions",
+      "content": "Do you have questions about this privacy policy or about the processing of your personal data? Then contact us:",
+      "contactDetails": {
+        "name": "Vincor",
+        "street": "Dokter Cuyperslaan 76",
+        "postcode": "5623 BB Eindhoven",
+        "email": "info@vincorscan.nl",
+        "phone": "+31 40 245 00 23"
+      }
+    }
+  ]
+}
