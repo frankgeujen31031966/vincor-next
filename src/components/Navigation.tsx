@@ -76,7 +76,7 @@ export default function Navigation({ items, cta }: NavigationProps) {
             <div key={index} className="relative group">
               <Link
                 href={l(item.href)}
-                className="text-white hover:text-teal-400 transition-colors font-medium"
+                className={`hover:text-teal transition-colors font-medium ${isScrolled ? 'text-gray-700' : 'text-white'}`}
               >
                 {item.label}
               </Link>
@@ -101,8 +101,8 @@ export default function Navigation({ items, cta }: NavigationProps) {
           <div className="flex items-center gap-3 ml-4">
             {['nl', 'en', 'fr'].map((loc, i) => (
               <React.Fragment key={loc}>
-                {i > 0 && <span className="text-white/60 text-sm">|</span>}
-                <Link href={switchLocale(loc)} className={`text-sm font-medium transition-colors ${locale === loc ? 'text-teal' : 'text-white hover:text-teal-400'}`}>
+                {i > 0 && <span className={`text-sm ${isScrolled ? 'text-gray-400' : 'text-white/60'}`}>|</span>}
+                <Link href={switchLocale(loc)} className={`text-sm font-medium transition-colors ${locale === loc ? 'text-teal' : isScrolled ? 'text-gray-600 hover:text-teal' : 'text-white hover:text-teal'}`}>
                   {loc.toUpperCase()}
                 </Link>
               </React.Fragment>
@@ -121,21 +121,21 @@ export default function Navigation({ items, cta }: NavigationProps) {
         {/* Mobile Burger Button */}
         <button
           onClick={() => setIsMobileOpen(!isMobileOpen)}
-          className="lg:hidden text-white flex flex-col gap-1.5 p-2 hover:bg-white/10 rounded-lg transition-colors"
+          className={`lg:hidden flex flex-col gap-1.5 p-2 rounded-lg transition-colors ${isScrolled ? 'text-gray-700 hover:bg-gray-100' : 'text-white hover:bg-white/10'}`}
           aria-label="Toggle navigation menu"
         >
           <span
-            className={`block w-6 h-0.5 bg-white transition-all duration-300 ${
+            className={`block w-6 h-0.5 transition-all duration-300 ${isScrolled ? 'bg-gray-700' : 'bg-white'} ${
               isMobileOpen ? 'rotate-45 translate-y-2.5' : ''
             }`}
           />
           <span
-            className={`block w-6 h-0.5 bg-white transition-all duration-300 ${
+            className={`block w-6 h-0.5 transition-all duration-300 ${isScrolled ? 'bg-gray-700' : 'bg-white'} ${
               isMobileOpen ? 'opacity-0' : ''
             }`}
           />
           <span
-            className={`block w-6 h-0.5 bg-white transition-all duration-300 ${
+            className={`block w-6 h-0.5 transition-all duration-300 ${isScrolled ? 'bg-gray-700' : 'bg-white'} ${
               isMobileOpen ? '-rotate-45 -translate-y-2.5' : ''
             }`}
           />
@@ -144,6 +144,22 @@ export default function Navigation({ items, cta }: NavigationProps) {
         {/* Mobile Overlay */}
         {isMobileOpen && (
           <div className="fixed inset-0 bg-[#0e0e0e] z-[300] flex flex-col items-center justify-center gap-6 text-white text-xl">
+            {/* Close button */}
+            <button
+              onClick={handleMobileClose}
+              className="absolute top-6 right-6 text-white hover:text-teal transition-colors p-2"
+              aria-label="Close menu"
+            >
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M18 6L6 18M6 6l12 12" /></svg>
+            </button>
+            {/* Home link */}
+            <Link
+              href={l('/')}
+              className="block py-2 hover:text-teal transition-colors"
+              onClick={handleMobileClose}
+            >
+              Home
+            </Link>
             {items.map((item, index) => (
               <div key={index} className="relative">
                 <Link
