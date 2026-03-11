@@ -1,0 +1,149 @@
+{
+  "meta": {
+    "title": "Fase 1 — Relaxatiesplint | Vincor Behandeling",
+    "description": "Fase 1 van het Vincor behandelmodel: de relaxatiesplint. Ontspanning van kaak- en rugmusculatuur, 4D diagnostiek en eerste stap naar herstel. Vanaf \u20ac195.",
+    "slug": "behandeling/fase-1-relaxatiesplint"
+  },
+  "hero": {
+    "breadcrumb": ["Home", "Behandeling", "Fase 1 \u2014 Relaxatiesplint"],
+    "title": "Fase 1 \u2014 Relaxatiesplint",
+    "titleHighlight": "Relaxatiesplint",
+    "description": "De eerste stap naar verlichting. Waar ontspanning begint en inzicht ontstaat in wat uw lichaam werkelijk nodig heeft."
+  },
+  "intro": {
+    "sectionLabel": "Het Beginpunt",
+    "title": "U bent niet de eerste die al jaren zoekt naar antwoorden",
+    "image": "fase1-relaxatie.jpg",
+    "imageAlt": "Fase 1 relaxatiesplint behandeling bij Vincor",
+    "paragraphs": [
+      "Veel van onze pati\u00ebnten hebben een lang traject achter de rug. Van huisarts naar specialist, van fysiotherapeut naar kaakchirurg \u2014 zonder dat iemand de werkelijke oorzaak van hun klachten kon vinden. Herkenbaar? Dan bent u hier op de juiste plek.",
+      "De relaxatiesplint is uw eerste stap. Niet zomaar een splint, maar een zorgvuldig ontworpen hulpmiddel dat de overbelaste spieren in uw kaak, nek en rug tot rust brengt. Uw lichaam krijgt eindelijk de ruimte om te herstellen. Tegelijkertijd levert deze fase de eerste diagnostische inzichten op: wat is er werkelijk aan de hand, en welke richting past bij uw situatie?",
+      "Fase 1 is bewust laagdrempelig. Geen ingrijpende behandeling, geen grote investering \u2014 wel een concreet begin en een helder antwoord."
+    ]
+  },
+  "whatYouGet": {
+    "sectionLabel": "Wat U Krijgt",
+    "title": "Wat houdt deze fase in?",
+    "description": "Fase 1 combineert diagnostiek en behandeling in vier heldere onderdelen. Zo weet u precies waar u aan toe bent.",
+    "cards": [
+      {
+        "title": "Uitgebreide intake & anamnese",
+        "description": "Wij nemen uitgebreid de tijd om uw klachten, medische voorgeschiedenis en dagelijks functioneren in kaart te brengen. Geen haastwerk, maar een grondig gesprek dat de basis legt voor uw behandeling."
+      },
+      {
+        "title": "DIERS 4D Spinescan",
+        "description": "Een stralingsvrije, contactloze analyse van uw volledige lichaamshouding. In enkele seconden brengt de scan de relatie tussen uw kaakpositie, wervelkolom en bekken objectief in beeld."
+      },
+      {
+        "title": "Op maat gemaakte relaxatiesplint",
+        "description": "Op basis van de diagnostische gegevens wordt uw splint individueel vervaardigd. Geen standaardoplossing, maar een persoonlijk hulpmiddel dat precies past bij uw situatie en klachtenpatroon."
+      },
+      {
+        "title": "Eerste evaluatie & behandelplan",
+        "description": "Na 4 tot 6 weken evalueren wij samen de resultaten. Zijn uw klachten verminderd? Wat laat de controle zien? Op basis daarvan bespreken wij of en hoe het traject wordt vervolgd."
+      }
+    ]
+  },
+  "howItWorks": {
+    "sectionLabel": "De Werking",
+    "title": "Hoe werkt de relaxatiesplint?",
+    "image": "splint-detail.jpg",
+    "imageAlt": "Detail van de Vincor relaxatiesplint",
+    "paragraphs": [
+      "De relaxatiesplint is geen gewone knarsbitplaat die u bij de drogist koopt. Het is een precisie-instrument dat op basis van uw persoonlijke 4D houdingsdata wordt ontworpen. De splint brengt uw onderkaak in een licht aangepaste positie, waardoor de overbelaste kaak-, nek- en rugspieren de kans krijgen om te ontspannen.",
+      "U draagt de splint voornamelijk 's nachts. Terwijl u slaapt, werkt de splint aan het doorbreken van de spanningscyclus die uw klachten in stand houdt. Waar een standaard bitje alleen beschermt tegen slijtage, pakt de relaxatiesplint het probleem bij de bron aan.",
+      "Veel pati\u00ebnten merken al binnen de eerste weken verbetering: minder kaakpijn bij het opstaan, minder hoofdpijn, en een nek die geleidelijk soepeler wordt. Dat zijn geen beloftes \u2014 dat zijn de ervaringen die wij dagelijks horen."
+    ],
+    "features": [
+      "Ontworpen op basis van 4D houdingsdiagnostiek",
+      "Doorbreekt de spierspanningscyclus bij de bron",
+      "Comfortabel te dragen tijdens de nacht",
+      "Merkbare verbetering vaak al binnen enkele weken"
+    ]
+  },
+  "timeline": {
+    "sectionLabel": "Uw Traject",
+    "title": "Wat kunt u verwachten?",
+    "description": "Fase 1 is overzichtelijk en voorspelbaar. In drie momenten weet u waar u staat.",
+    "steps": [
+      {
+        "number": 1,
+        "title": "Week 1 \u2014 Intake, scan & impressie",
+        "description": "Tijdens uw eerste bezoek voeren wij een uitgebreide intake uit, maken wij de 4D houdingsscan en nemen wij een nauwkeurige gebitsafdruk. Alles wat nodig is om uw persoonlijke relaxatiesplint te vervaardigen."
+      },
+      {
+        "number": 2,
+        "title": "Week 2\u20133 \u2014 Plaatsing relaxatiesplint",
+        "description": "Uw op maat gemaakte splint wordt geplaatst en nauwkeurig afgesteld. U ontvangt heldere instructies over het dragen en onderhoud, zodat u direct thuis aan de slag kunt."
+      },
+      {
+        "number": 3,
+        "title": "Week 4\u20136 \u2014 Controle & evaluatie",
+        "description": "Wij evalueren samen hoe uw klachten zich hebben ontwikkeld. Op basis van de resultaten bespreken wij of fase 1 voldoende is, of dat een vervolg met repositionering (fase 2) zinvol is."
+      }
+    ]
+  },
+  "stats": [
+    {
+      "value": "93%",
+      "label": "van pati\u00ebnten ervaart vermindering van klachten na fase 1"
+    },
+    {
+      "value": "4\u20136 wkn",
+      "label": "gemiddelde behandelduur van deze eerste fase"
+    },
+    {
+      "value": "1 scan",
+      "label": "is alles wat nodig is voor volledige diagnostiek"
+    }
+  ],
+  "pricing": {
+    "sectionLabel": "Investering",
+    "title": "Transparante kosten, geen verrassingen",
+    "description": "Fase 1 is een bewust laagdrempelige eerste stap. Alles is inbegrepen \u2014 van intake tot evaluatie.",
+    "phase": "Fase 1",
+    "name": "Relaxatiesplint",
+    "price": "195",
+    "currency": "EUR",
+    "priceDescription": "Alles wat u nodig heeft voor een gedegen start van uw behandeltraject, in \u00e9\u00e9n helder tarief.",
+    "features": [
+      "4D occlusie- en houdingsscan (DIERS Formetric)",
+      "Analyse van kaakgewricht en spiertonus",
+      "Op maat gemaakte relaxatiesplint",
+      "Vermindering van spierspanning en pijnklachten",
+      "Eerste beoordeling van behandelopties",
+      "Controleafspraak en evaluatie na 4\u20136 weken"
+    ],
+    "location": "Vincor, Eindhoven",
+    "buttonText": "Start uw traject"
+  },
+  "faq": {
+    "sectionLabel": "Veelgestelde Vragen",
+    "title": "Vragen over fase 1",
+    "description": "Wij begrijpen dat u vragen heeft. Hieronder beantwoorden wij de meest gestelde vragen over de relaxatiesplint.",
+    "items": [
+      {
+        "question": "Is de relaxatiesplint pijnlijk?",
+        "answer": "Nee, de splint is ontworpen voor comfort. Omdat deze op maat wordt gemaakt, past hij nauwkeurig op uw gebit. In de eerste 1 tot 2 dagen kunt u een lichte gewaarwording ervaren doordat uw spieren wennen aan de nieuwe positie, maar dit is mild en verdwijnt snel. De meeste pati\u00ebnten ervaren de splint al na de eerste nacht als prettig."
+      },
+      {
+        "question": "Hoe lang moet ik de splint dragen?",
+        "answer": "De relaxatiesplint wordt voornamelijk 's nachts gedragen. Dit is het moment waarop veel pati\u00ebnten onbewust knarsen of klemmen, en waarop de spieren het meest baat hebben bij ontspanning. In sommige gevallen adviseren wij de splint ook overdag te dragen, bijvoorbeeld tijdens stressmomenten of bij het werken achter een beeldscherm. Wij bespreken dit persoonlijk met u."
+      },
+      {
+        "question": "Wordt fase 1 vergoed door de verzekering?",
+        "answer": "Dat hangt af van uw zorgverzekering en polisvoorwaarden. Sommige aanvullende verzekeringen vergoeden (een deel van) de kosten voor splinttherapie. Wij helpen u graag bij het opstellen van de declaratie en kunnen u vooraf informeren over de mogelijkheden. Neem gerust contact met ons op zodat wij samen kunnen kijken wat voor uw situatie geldt."
+      },
+      {
+        "question": "Wat als mijn klachten na fase 1 niet verbeteren?",
+        "answer": "Fase 1 is niet alleen een behandeling, maar ook een diagnostisch instrument. Als uw klachten na de relaxatiefase onvoldoende verbeteren, geeft dat ons waardevolle informatie. In dat geval beoordelen wij of een repositioneringssplint (fase 2) nodig is om de onderliggende oorzaak \u2014 vaak een verstoorde beet-houdingsrelatie \u2014 gerichter aan te pakken. U wordt hierin nooit alleen gelaten: wij bespreken elke stap samen met u."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Klaar voor de eerste stap?",
+    "description": "U hoeft niet langer te twijfelen. Maak een afspraak en ontdek wat de relaxatiesplint voor u kan betekenen. Wij staan klaar om u te helpen.",
+    "buttonText": "Afspraak maken",
+    "buttonLink": "/contact"
+  }
+}

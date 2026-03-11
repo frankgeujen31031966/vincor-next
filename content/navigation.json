@@ -1,0 +1,48 @@
+{
+  "logo": {
+    "src": "images/vincor-logo.webp",
+    "alt": "Vincor",
+    "href": "/"
+  },
+  "links": [
+    { "text": "Klachten", "href": "klachten/", "hasDropdown": true },
+    { "text": "Diagnostiek", "href": "diagnostiek/" },
+    { "text": "Behandeling", "href": "behandeling/", "hasDropdown": true },
+    { "text": "Over Ons", "href": "over-ons/" },
+    { "text": "FAQ", "href": "faq.html" },
+    { "text": "Kennisbank", "href": "kennisbank.html" }
+  ],
+  "dropdowns": {
+    "klachten": [
+      { "text": "Kaakpijn", "href": "klachten/kaakpijn.html" },
+      { "text": "Hoofdpijn & Migraine", "href": "klachten/hoofdpijn-migraine.html" },
+      { "text": "Tinnitus", "href": "klachten/tinnitus.html" },
+      { "text": "Zenuwpijn", "href": "klachten/zenuwpijn.html" },
+      { "text": "Tandenknarsen & Bruxisme", "href": "klachten/tandenknarsen.html" },
+      { "text": "Stijve Nek & Schouders", "href": "klachten/stijve-nek.html" },
+      { "text": "Rug- en Nekklachten", "href": "klachten/rug-nekklachten.html" }
+    ],
+    "behandeling": [
+      { "text": "Fase 1 — Relaxatiesplint", "href": "behandeling/fase-1-relaxatiesplint.html" },
+      { "text": "Fase 2 — Repositioneringssplint", "href": "behandeling/fase-2-repositioneringssplint.html" },
+      { "text": "Fase 3 — Reconstructie", "href": "behandeling/fase-3-reconstructie.html" }
+    ]
+  },
+  "mobileLinks": [
+    { "text": "Klachten", "href": "klachten/" },
+    { "text": "Diagnostiek", "href": "diagnostiek/" },
+    { "text": "Behandeling", "href": "behandeling/" },
+    { "text": "Over Ons", "href": "over-ons/" },
+    { "text": "FAQ", "href": "faq.html" },
+    { "text": "Kennisbank", "href": "kennisbank.html" },
+    { "text": "Boek Gratis Scan", "href": "contact.html", "highlighted": true }
+  ],
+  "langSwitcher": {
+    "current": "NL",
+    "options": ["NL", "EN"]
+  },
+  "cta": {
+    "text": "Boek Gratis Scan",
+    "href": "contact.html"
+  }
+}

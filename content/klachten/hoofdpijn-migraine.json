@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "title": "Hoofdpijn & Migraine | Vincor",
+    "description": "Chronische hoofdpijn of migraine? Ontdek hoe spanning in de kaak en een verstoorde beet de oorzaak kunnen zijn. Vincor biedt geavanceerde 4D-diagnostiek."
+  },
+  "hero": {
+    "breadcrumb": ["Home", "Klachten", "Hoofdpijn & Migraine"],
+    "title": "Hoofdpijn & Migraine",
+    "description": "Spanningshoofdpijn en migraine worden vaak veroorzaakt door een verstoorde kaakfunctie. Bij Vincor onderzoeken we het verband tussen uw beet, kaakspieren en chronische hoofdpijn."
+  },
+  "watIsHet": {
+    "label": "Wat is het",
+    "title": "Hoofdpijn vanuit de kaak",
+    "paragraphs": [
+      "Spanningshoofdpijn is de meest voorkomende vorm van hoofdpijn en wordt gekenmerkt door een drukkend, bandvormig gevoel rondom het hoofd. Migraine is een neurologische aandoening met aanvalsgewijze, vaak eenzijdige, kloppende hoofdpijn die gepaard kan gaan met misselijkheid, licht- en geluidsgevoeligheid.",
+      "Wat veel mensen niet weten, is dat zowel spanningshoofdpijn als migraine kunnen worden uitgelokt of verergerd door een disfunctie van het kaakgewricht en overbelasting van de kauwspieren. De musculus temporalis — de grote slaapspier die het kaakgewricht aanstuurt — loopt direct over de slaap en kan bij overbelasting hoofdpijn veroorzaken die niet van een primaire hoofdpijn te onderscheiden is."
+    ],
+    "image": "/images/migraine.jpg"
+  },
+  "symptomen": {
+    "title": "Herkent u deze klachten?",
+    "description": "Hoofdpijn met een kaak-gerelateerde oorzaak heeft kenmerkende patronen die u kunt herkennen.",
+    "items": [
+      "Drukkende of klemmende hoofdpijn aan weerszijden van het hoofd",
+      "Hoofdpijn die \u2019s ochtends het ergst is (door nachtelijk knarsen)",
+      "Migraine-aanvallen die samenvallen met kaakspanning",
+      "Pijn in de slapen die verergert bij kauwen of geeuwen",
+      "Chronische hoofdpijn die niet reageert op standaard pijnstillers",
+      "Gevoeligheid bij druk op de kauwspieren of het kaakgewricht",
+      "Combinatie van hoofdpijn met nekstijfheid en schouderpijn",
+      "Visuele verstoringen (aura) voorafgaand aan migraine-aanvallen"
+    ]
+  },
+  "oorzaken": {
+    "label": "Oorzaken",
+    "title": "Hoe kaakspanning hoofdpijn veroorzaakt",
+    "paragraphs": [
+      "De kauwspieren behoren tot de sterkste spieren in het menselijk lichaam. Wanneer deze spieren chronisch overbelast raken — door een onjuiste beet, tandenknarsen of stress — ontstaan triggerpoints die pijn doorverwijzen naar het hoofd.",
+      "De musculus temporalis (slaapspier) en de musculus masseter (kauwspier) zijn direct verbonden met de pijnsignalen die spanningshoofdpijn en migraine triggeren. Een verstoorde occlusie zorgt ervoor dat deze spieren continu harder werken dan nodig, wat leidt tot chronische overprikkeling van het trigeminale zenuwstelsel — dezelfde zenuw die betrokken is bij migraine.",
+      "Bovendien beïnvloedt een verkeerde kaakpositie de houdingsbalans van hoofd en nek, wat de cervicale zenuwen irriteert en een extra bron van hoofdpijn vormt."
+    ],
+    "image": "/images/formetric-evaluation.jpg"
+  },
+  "diagnostiek": {
+    "title": "Hoe wij de oorzaak van uw hoofdpijn vinden",
+    "description": "Onze 4D-scan onthult de verborgen relatie tussen uw kaakfunctie en chronische hoofdpijn door het volledige craniomandibulaire systeem in kaart te brengen.",
+    "cards": [
+      {
+        "title": "Trigeminale analyse",
+        "description": "Meting van de trigeminale zenuwfunctie om te bepalen in hoeverre kaakspanning bijdraagt aan uw hoofdpijnpatroon."
+      },
+      {
+        "title": "EMG-spiermeting",
+        "description": "Elektromyografie van de temporalis- en masseterspieren om overbelasting en asymmetrie objectief vast te stellen."
+      },
+      {
+        "title": "Occlusie & houdingscan",
+        "description": "Gecombineerde analyse van uw beetrelatie en cervicale houding om de complete biomechanische keten te evalueren."
+      }
+    ]
+  },
+  "behandeling": {
+    "title": "Behandelmogelijkheden bij hoofdpijn",
+    "description": "Wanneer kaakdisfunctie de oorzaak is van uw hoofdpijn, biedt een gerichte behandeling van de beet en kauwspieren vaak snelle en blijvende verlichting.",
+    "phases": [
+      {
+        "phase": "Fase 1",
+        "title": "Ontspanning",
+        "description": "Directe vermindering van spierspanning en frequentie van hoofdpijnaanvallen.",
+        "features": [
+          "Deprogrammeringssplint voor spierontspanning",
+          "TENS-therapie voor directe pijnverlichting",
+          "Triggerpoint-behandeling kauwspieren"
+        ]
+      },
+      {
+        "phase": "Fase 2",
+        "title": "Beetcorrectie",
+        "description": "Structureel herstel van de beetrelatie voor langdurige klachtenvermindering.",
+        "featured": true,
+        "badge": "Meest gekozen",
+        "features": [
+          "Neuromusculaire orthotic op maat",
+          "Occlusie-optimalisatie en beetbalans",
+          "Gecombineerde nek- en kaakfysiotherapie"
+        ]
+      },
+      {
+        "phase": "Fase 3",
+        "title": "Preventie",
+        "description": "Voorkomen van terugkeer van hoofdpijnklachten door structurele aanpassingen.",
+        "features": [
+          "Definitieve gebitsrehabilitatie",
+          "Hoofdpijndagboek en monitoring",
+          "Stressmanagement en leefstijladviezen"
+        ]
+      }
+    ]
+  },
+  "faq": {
+    "title": "FAQ over hoofdpijn & migraine",
+    "items": [
+      {
+        "question": "Kan mijn kaak echt de oorzaak zijn van mijn migraine?",
+        "answer": "Ja, wetenschappelijk onderzoek toont aan dat craniomandibulaire dysfunctie (CMD) een belangrijke trigger is voor zowel spanningshoofdpijn als migraine. De trigeminuszenuw, die zowel het kaakgewricht als grote delen van het hoofd innerveert, vormt de neurologische brug tussen kaakproblemen en hoofdpijn. Naar schatting heeft 70% van de CMD-patiënten ook hoofdpijnklachten."
+      },
+      {
+        "question": "Hoe snel kan ik verbetering verwachten?",
+        "answer": "Veel patiënten ervaren al binnen de eerste weken van de stabilisatiefase een duidelijke vermindering van hoofdpijnfrequentie en -intensiteit. De deprogrammeringssplint geeft de kauwspieren de kans om te ontspannen, waardoor de triggeractie op het trigeminale systeem afneemt. Volledige klachtenresolutie treedt doorgaans op binnen 3 tot 6 maanden behandeling."
+      },
+      {
+        "question": "Moet ik stoppen met mijn huidige hoofdpijnmedicatie?",
+        "answer": "Nee, wij adviseren nooit om op eigen initiatief met medicatie te stoppen. Onze behandeling werkt aanvullend op uw bestaande medische zorg. Naarmate de kaakgerelateerde oorzaak wordt behandeld, ervaren veel patiënten dat zij minder medicatie nodig hebben. Elke wijziging in medicatiegebruik dient altijd in overleg met uw behandelend arts te gebeuren."
+      },
+      {
+        "question": "Hoe onderscheidt Vincor kaak-gerelateerde hoofdpijn van andere vormen?",
+        "answer": "Onze 4D-diagnostiek combineert EMG-metingen van de kauwspieren, occlusie-analyse en houdingsscans om objectief vast te stellen of er een relatie bestaat tussen uw kaakfunctie en hoofdpijn. Wanneer we tijdens het onderzoek spierspanning meten die correleert met uw hoofdpijnpatroon, is er een sterke indicatie voor een kaak-gerelateerde component."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Boek uw gratis scan",
+    "description": "Ontdek of uw hoofdpijn een kaak-gerelateerde oorzaak heeft. Onze 4D-diagnostiek geeft u snel duidelijkheid, geheel vrijblijvend.",
+    "buttonText": "Maak een afspraak",
+    "buttonHref": "/contact"
+  }
+}
