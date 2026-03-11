@@ -34,7 +34,7 @@ export default function CookieBanner({ text, accept, decline }: CookieBannerProp
   if (!visible) return null;
 
   return (
-    <div className="fixed bottom-4 left-4 right-4 md:left-auto md:right-4 md:max-w-md z-[500]">
+    <div className="fixed bottom-4 left-4 right-4 md:left-auto md:right-4 md:max-w-[28rem] z-[500]">
       <div className="dark:bg-dark-card rounded-xl p-6 shadow-xl text-white">
         <p className="mb-4">{text}</p>
         <div className="flex justify-end gap-3">

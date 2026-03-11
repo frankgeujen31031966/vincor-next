@@ -81,7 +81,7 @@ export default async function DiagnostiekPage({ params }: { params: Promise<{ lo
           <ScrollReveal>
             <SectionHeader centered label={content.howItWorks.sectionLabel} title={content.howItWorks.title} description={content.howItWorks.description} />
           </ScrollReveal>
-          <div className="max-w-2xl mx-auto mt-10 space-y-0">
+          <div className="max-w-[42rem] mx-auto mt-10 space-y-0">
             {content.howItWorks.steps.map((step: any, i: number) => (
               <ScrollReveal key={step.title}>
                 <div className="flex gap-6 pb-8 relative">

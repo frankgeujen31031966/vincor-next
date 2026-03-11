@@ -65,7 +65,7 @@ export const PageHero: React.FC<PageHeroProps> = ({
           {highlightedTitle}
         </h1>
         
-        <p className="page-hero__desc text-lg md:text-xl text-gray-300 max-w-3xl">
+        <p className="page-hero__desc text-lg md:text-xl text-gray-300 max-w-[48rem]">
           {description}
         </p>
       </div>

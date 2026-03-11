@@ -22,7 +22,7 @@ export default function SectionHeader({
       )}
       <h2 className="text-4xl font-bold text-dark tracking-tight">{title}</h2>
       {description && (
-        <p className={`mt-4 text-gray-500 max-w-2xl text-lg ${centered ? 'mx-auto' : ''}`}>
+        <p className={`mt-4 text-gray-500 max-w-[42rem] text-lg ${centered ? 'mx-auto' : ''}`}>
           {description}
         </p>
       )}

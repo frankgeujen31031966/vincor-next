@@ -137,7 +137,7 @@ export default async function BehandelingDetailPage({ params }: { params: Promis
             <ScrollReveal>
               <SectionHeader centered label={content.timeline.sectionLabel} title={content.timeline.title} description={content.timeline.description} />
             </ScrollReveal>
-            <div className="max-w-2xl mx-auto mt-10 space-y-0">
+            <div className="max-w-[42rem] mx-auto mt-10 space-y-0">
               {content.timeline.steps.map((step: { number: number; title: string; description: string }) => (
                 <ScrollReveal key={step.number}>
                   <div className="flex gap-6 pb-8 relative">
@@ -189,7 +189,7 @@ export default async function BehandelingDetailPage({ params }: { params: Promis
               ))}
             </div>
             {content.results.testimonial && (
-              <div className="max-w-2xl mx-auto mt-10 bg-white rounded-xl p-8 shadow-sm text-center">
+              <div className="max-w-[42rem] mx-auto mt-10 bg-white rounded-xl p-8 shadow-sm text-center">
                 <p className="text-gray-600 italic mb-4">&ldquo;{content.results.testimonial.quote}&rdquo;</p>
                 <p className="font-semibold">{content.results.testimonial.author}, {content.results.testimonial.age}</p>
               </div>

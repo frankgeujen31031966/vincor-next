@@ -81,7 +81,7 @@ export default async function Shining3DPage({ params }: { params: Promise<{ loca
           <ScrollReveal>
             <SectionHeader centered label={content.howItWorks.sectionLabel} title={content.howItWorks.title} description={content.howItWorks.description} />
           </ScrollReveal>
-          <div className="max-w-2xl mx-auto mt-10 space-y-0">
+          <div className="max-w-[42rem] mx-auto mt-10 space-y-0">
             {content.howItWorks.steps.map((step: any, i: number) => (
               <ScrollReveal key={step.title}>
                 <div className="flex gap-6 pb-8 relative">
@@ -122,12 +122,12 @@ export default async function Shining3DPage({ params }: { params: Promise<{ loca
         <div className="max-w-[1200px] mx-auto px-8">
           <ScrollReveal>
             <SectionHeader centered label={content.metismile.sectionLabel} title={content.metismile.title} />
-            <div className="max-w-2xl mx-auto mt-4 space-y-4">
+            <div className="max-w-[42rem] mx-auto mt-4 space-y-4">
               {content.metismile.paragraphs.map((p: any, i: number) => (
                 <p key={i} className="text-gray-500 text-center">{p}</p>
               ))}
             </div>
-            <ul className="max-w-xl mx-auto mt-6 space-y-3">
+            <ul className="max-w-[36rem] mx-auto mt-6 space-y-3">
               {content.metismile.features.map((f: any) => (
                 <li key={f} className="flex items-center gap-3 text-gray-600">
                   <span className="text-teal"><CheckIcon /></span> {f}

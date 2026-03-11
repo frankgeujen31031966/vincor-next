@@ -19,7 +19,7 @@ export default function FaqAccordion({ items }: FaqAccordionProps) {
   };
 
   return (
-    <div className="w-full max-w-3xl mx-auto">
+    <div className="w-full max-w-[48rem] mx-auto">
       {items.map((item, index) => (
         <div key={index} className="border-b border-gray-200">
           <button

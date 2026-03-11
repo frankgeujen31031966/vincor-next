@@ -53,7 +53,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
           <div className="absolute inset-0 bg-gradient-to-b from-dark/60 via-dark/40 to-dark" />
         </div>
         <div className="relative z-10 max-w-[1400px] mx-auto px-8 w-full py-32">
-          <div className="max-w-3xl">
+          <div className="max-w-[48rem]">
             <div className="inline-flex items-center gap-2 bg-teal/10 border border-teal/20 rounded-full px-4 py-1.5 text-sm text-teal-light mb-6">
               <span className="w-2 h-2 bg-teal rounded-full animate-pulse-dot" />
               {c.hero.badge}
@@ -61,7 +61,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
             <h1 className="text-5xl font-bold text-white leading-tight mb-6">
               {c.hero.title}<span className="highlight">{c.hero.titleHighlight}</span>{c.hero.titleAfter}
             </h1>
-            <p className="text-lg text-gray-300 mb-8 max-w-2xl">
+            <p className="text-lg text-gray-300 mb-8 max-w-[42rem]">
               {c.hero.subtitle}
             </p>
             <div className="flex flex-wrap gap-4">

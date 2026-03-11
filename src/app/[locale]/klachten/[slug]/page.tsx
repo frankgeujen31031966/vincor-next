@@ -79,7 +79,7 @@ export default async function KlachtPage({ params }: { params: Promise<{ locale:
           <ScrollReveal>
             <SectionHeader centered title={content.symptomen.title} description={content.symptomen.description} />
           </ScrollReveal>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-10 max-w-3xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-10 max-w-[48rem] mx-auto">
             {content.symptomen.items.map((item: string) => (
               <ScrollReveal key={item}>
                 <div className="flex items-start gap-3 bg-white rounded-lg p-4 shadow-sm">
