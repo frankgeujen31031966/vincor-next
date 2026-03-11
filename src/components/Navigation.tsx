@@ -81,12 +81,12 @@ export default function Navigation({ items, cta }: NavigationProps) {
                 {item.label}
               </Link>
               {item.children && (
-                <div className="absolute top-full left-0 opacity-0 invisible group-hover:opacity-100 group-hover:visible bg-white rounded-xl shadow-xl p-3 min-w-[280px] whitespace-nowrap transition-all z-[250]">
+                <div className="absolute top-full left-0 opacity-0 invisible group-hover:opacity-100 group-hover:visible bg-white rounded-xl shadow-xl p-3 w-max transition-all z-[250]">
                   {item.children.map((child, childIndex) => (
                     <Link
                       key={childIndex}
                       href={l(child.href)}
-                      className="block px-4 py-2 text-gray-800 hover:bg-teal-50 rounded-lg transition-colors"
+                      className="block px-4 py-2 text-gray-800 hover:bg-teal-50 rounded-lg transition-colors whitespace-nowrap"
                       onClick={handleMobileClose}
                     >
                       {child.label}
