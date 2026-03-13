@@ -1,3 +1,4 @@
+import Script from 'next/script'
 import { NextIntlClientProvider, hasLocale } from 'next-intl'
 import { getMessages } from 'next-intl/server'
 import { notFound } from 'next/navigation'
@@ -27,7 +28,7 @@ export default async function LocaleLayout({
   }
 
   const messages = await getMessages()
-  const nav = getContent(locale, 'navigation')
+  const nav = await getContent(locale, 'navigation')
 
   return (
     <html lang={locale} className={geist.variable}>
@@ -39,6 +40,11 @@ export default async function LocaleLayout({
           <Footer />
           <CookieBanner text={nav.cookie.text} accept={nav.cookie.accept} decline={nav.cookie.decline} />
         </NextIntlClientProvider>
+        <Script
+          src="https://static.cloudflareinsights.com/beacon.min.js"
+          data-cf-beacon='{"token":"03ac6e8d302a43a0b5f1be3e418d80bc"}'
+          strategy="afterInteractive"
+        />
       </body>
     </html>
   )

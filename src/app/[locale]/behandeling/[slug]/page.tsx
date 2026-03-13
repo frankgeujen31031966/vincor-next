@@ -27,7 +27,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const { locale, slug } = await params
   const contentPath = slugToFile[slug]
   if (!contentPath) return {}
-  const content = getContent(locale, contentPath) as any
+  const content = await getContent(locale, contentPath) as any
   return buildMetadata({ locale, path: `/behandeling/${slug}`, title: `${content.hero.title} — Vincor`, description: content.hero.description })
 }
 
@@ -36,7 +36,7 @@ export default async function BehandelingDetailPage({ params }: { params: Promis
   const contentPath = slugToFile[slug]
   if (!contentPath) notFound()
 
-  const content = getContent(locale, contentPath) as any
+  const content = await getContent(locale, contentPath) as any
 
   return (
     <>
@@ -212,6 +212,7 @@ export default async function BehandelingDetailPage({ params }: { params: Promis
                 <h3 className="text-xl font-bold mb-1">{content.pricing.name}</h3>
                 <div className="text-4xl font-bold mb-4">€{content.pricing.price}</div>
                 {content.pricing.description && <p className="text-gray-500 text-sm mb-6">{content.pricing.description || content.pricing.priceDescription}</p>}
+                {content.pricing.features && (
                 <ul className="space-y-2 text-left mb-6">
                   {content.pricing.features.map((f: string) => (
                     <li key={f} className="flex items-center gap-2 text-sm text-gray-600">
@@ -219,6 +220,7 @@ export default async function BehandelingDetailPage({ params }: { params: Promis
                     </li>
                   ))}
                 </ul>
+                )}
                 <p className="text-xs text-gray-400 mb-4">{content.pricing.location}</p>
                 <Link href={`/${locale}/contact`} className="inline-flex items-center gap-2 bg-teal text-white px-6 py-3 rounded-full font-semibold hover:brightness-110 transition w-full justify-center">
                   {content.pricing.buttonText || 'Afspraak maken'}

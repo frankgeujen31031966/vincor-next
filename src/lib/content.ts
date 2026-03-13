@@ -1,12 +1,10 @@
-import fs from 'fs'
-import path from 'path'
+import { contentRegistry } from './content-registry'
 
-export function getContent<T = any>(locale: string, contentPath: string): T {
-  const filePath = path.join(process.cwd(), 'content', locale, `${contentPath}.json`)
-
-  // Fallback to NL if translation doesn't exist
-  const fallbackPath = path.join(process.cwd(), 'content', 'nl', `${contentPath}.json`)
-
-  const resolvedPath = fs.existsSync(filePath) ? filePath : fallbackPath
-  return JSON.parse(fs.readFileSync(resolvedPath, 'utf-8')) as T
+export async function getContent<T = any>(locale: string, contentPath: string): Promise<T> {
+  const localeContent = contentRegistry[locale]
+  if (localeContent && localeContent[contentPath]) {
+    return localeContent[contentPath] as T
+  }
+  // Fallback to NL
+  return contentRegistry.nl[contentPath] as T
 }

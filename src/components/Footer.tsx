@@ -5,7 +5,7 @@ import { getContent } from '@/lib/content'
 
 export default async function Footer() {
   const locale = await getLocale()
-  const nav = getContent(locale, 'navigation')
+  const nav = await getContent(locale, 'navigation')
   const f = nav.footer
 
   // Reuse klachten links from nav items

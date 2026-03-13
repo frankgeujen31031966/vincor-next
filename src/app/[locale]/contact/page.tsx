@@ -7,7 +7,7 @@ import ContactForm from './ContactForm'
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params
-  const content = getContent(locale, 'contact')
+  const content = await getContent(locale, 'contact')
   return buildMetadata({ locale, path: '/contact', title: `${content.hero.title} — Vincor`, description: content.hero.description })
 }
 
@@ -15,7 +15,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 
 export default async function ContactPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params
-  const content = getContent(locale, 'contact')
+  const content = await getContent(locale, 'contact')
 
   return (
     <>

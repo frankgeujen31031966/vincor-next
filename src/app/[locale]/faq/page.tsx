@@ -9,13 +9,13 @@ import { buildMetadata, FaqJsonLd } from '@/lib/seo'
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params
-  const content = getContent(locale, 'faq')
+  const content = await getContent(locale, 'faq')
   return buildMetadata({ locale, path: '/faq', title: `${content.hero.title} — Vincor`, description: content.hero.description })
 }
 
 export default async function FaqPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params
-  const content = getContent(locale, 'faq')
+  const content = await getContent(locale, 'faq')
 
   const allFaqItems = content.categories.flatMap((cat: any) => cat.items)
 

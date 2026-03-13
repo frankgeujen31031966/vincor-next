@@ -9,7 +9,7 @@ import { buildMetadata } from '@/lib/seo'
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params
-  const content = getContent(locale, 'team/dr-arash-zarrinpour')
+  const content = await getContent(locale, 'team/dr-arash-zarrinpour')
   return buildMetadata({ locale, path: '/over-ons/dr-arash-zarrinpour', title: `${content.hero.title} — Vincor`, description: content.hero.description })
 }
 
@@ -21,7 +21,7 @@ function CheckIcon() {
 
 export default async function DrArashPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params
-  const content = getContent(locale, 'team/dr-arash-zarrinpour')
+  const content = await getContent(locale, 'team/dr-arash-zarrinpour')
 
   return (
     <>

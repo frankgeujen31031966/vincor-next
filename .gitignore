@@ -1,7 +1,20 @@
 node_modules/
 .next/
+.open-next/
 plans/
 .waycode/
 .env
 .env.local
 .env.production
+tsconfig.tsbuildinfo
+
+# OAuth worker (bevat secrets — deploy apart via wrangler)
+oauth-worker/
+
+# Ontwikkelscripts (lokale paden)
+scripts/
+
+# Niet-publieke documenten
+MIGRATIEPLAN.*
+OVERDRACHT.*
+vincor-next.tar

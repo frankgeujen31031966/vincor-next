@@ -2,6 +2,8 @@ backend:
   name: github
   repo: frankgeujen31031966/vincor-next
   branch: master
+  base_url: https://vincor-oauth.vincor.workers.dev
+  auth_endpoint: auth
 
 media_folder: public/images
 public_folder: /images
@@ -203,6 +205,262 @@ collections:
     identifier_field: hero.title
     fields: *kennisbank-fields
 
+  # ── Homepage ──
+  - name: homepage
+    label: "Homepage"
+    files:
+      - name: homepage-nl
+        label: "Homepage (NL)"
+        file: content/nl/homepage.json
+        fields: &homepage-fields
+          - { name: meta, label: Meta, widget: object, fields: [
+              { name: title, label: Titel, widget: string },
+              { name: description, label: Beschrijving, widget: text }
+            ]}
+          - { name: hero, label: Hero, widget: object, fields: [
+              { name: badge, label: Badge, widget: string },
+              { name: title, label: Titel, widget: string },
+              { name: titleHighlight, label: Highlight, widget: string },
+              { name: titleAfter, label: Titel na highlight, widget: string },
+              { name: subtitle, label: Ondertitel, widget: text },
+              { name: ctaPrimary, label: Primaire CTA, widget: object, fields: [
+                { name: text, label: Tekst, widget: string },
+                { name: href, label: Link, widget: string }
+              ]},
+              { name: ctaSecondary, label: Secundaire CTA, widget: object, fields: [
+                { name: text, label: Tekst, widget: string },
+                { name: href, label: Link, widget: string }
+              ]},
+              { name: stats, label: Statistieken, widget: list, fields: [
+                { name: number, label: Nummer, widget: string },
+                { name: label, label: Label, widget: string }
+              ]},
+              { name: scrollIndicator, label: Scroll tekst, widget: string }
+            ]}
+          - { name: trustBar, label: Trust bar, widget: list, field: { name: item, label: Item, widget: string } }
+          - { name: klachten, label: Klachten sectie, widget: object, fields: [
+              { name: label, label: Label, widget: string },
+              { name: title, label: Titel, widget: string },
+              { name: description, label: Beschrijving, widget: text },
+              { name: items, label: Items, widget: list, fields: [
+                { name: title, label: Titel, widget: string },
+                { name: image, label: Afbeelding, widget: string },
+                { name: slug, label: Slug, widget: string }
+              ]}
+            ]}
+          - { name: howItWorks, label: Hoe werkt het, widget: object, fields: [
+              { name: label, label: Label, widget: string },
+              { name: title, label: Titel, widget: string },
+              { name: description, label: Beschrijving, widget: text },
+              { name: steps, label: Stappen, widget: list, fields: [
+                { name: title, label: Titel, widget: string },
+                { name: description, label: Beschrijving, widget: text }
+              ]}
+            ]}
+          - { name: diagnostiek, label: Diagnostiek sectie, widget: object, fields: [
+              { name: label, label: Label, widget: string },
+              { name: title, label: Titel, widget: string },
+              { name: description, label: Beschrijving, widget: text },
+              { name: image, label: Afbeelding, widget: string },
+              { name: imageAlt, label: Alt tekst, widget: string },
+              { name: features, label: Features, widget: list, field: { name: feature, label: Feature, widget: string } },
+              { name: ctaText, label: CTA tekst, widget: string },
+              { name: ctaHref, label: CTA link, widget: string }
+            ]}
+          - { name: behandeling, label: Behandeling sectie, widget: object, fields: [
+              { name: label, label: Label, widget: string },
+              { name: title, label: Titel, widget: string },
+              { name: description, label: Beschrijving, widget: text },
+              { name: phases, label: Fasen, widget: list, fields: [
+                { name: phase, label: Fase, widget: string },
+                { name: title, label: Titel, widget: string },
+                { name: price, label: Prijs, widget: string },
+                { name: description, label: Beschrijving, widget: text },
+                { name: features, label: Features, widget: list, field: { name: feature, label: Feature, widget: string } },
+                { name: slug, label: Slug, widget: string },
+                { name: location, label: Locatie, widget: string },
+                { name: featured, label: Uitgelicht, widget: boolean, default: false },
+                { name: badge, label: Badge, widget: string, required: false },
+                { name: ctaText, label: CTA tekst, widget: string }
+              ]}
+            ]}
+          - { name: resultaten, label: Resultaten sectie, widget: object, fields: [
+              { name: label, label: Label, widget: string },
+              { name: title, label: Titel, widget: string },
+              { name: description, label: Beschrijving, widget: text },
+              { name: stats, label: Statistieken, widget: list, fields: [
+                { name: target, label: Doel, widget: number },
+                { name: suffix, label: Suffix, widget: string },
+                { name: label, label: Label, widget: string }
+              ]}
+            ]}
+          - { name: partners, label: Partners sectie, widget: object, fields: [
+              { name: label, label: Label, widget: string },
+              { name: title, label: Titel, widget: string },
+              { name: paragraphs, label: Paragrafen, widget: list, field: { name: text, label: Tekst, widget: text } },
+              { name: image, label: Afbeelding, widget: string },
+              { name: imageAlt, label: Alt tekst, widget: string }
+            ]}
+          - { name: googleReviews, label: Google Reviews, widget: object, fields: [
+              { name: label, label: Label, widget: string },
+              { name: title, label: Titel, widget: string },
+              { name: overallRating, label: Gemiddelde score, widget: number, value_type: float },
+              { name: totalReviews, label: Totaal reviews tekst, widget: string },
+              { name: items, label: Reviews, widget: list, fields: [
+                { name: stars, label: Sterren, widget: number },
+                { name: timeAgo, label: Tijd geleden, widget: string },
+                { name: text, label: Tekst, widget: text },
+                { name: author, label: Auteur, widget: string },
+                { name: initial, label: Initiaal, widget: string }
+              ]}
+            ]}
+          - { name: testimonials, label: Testimonials, widget: object, fields: [
+              { name: label, label: Label, widget: string },
+              { name: title, label: Titel, widget: string },
+              { name: items, label: Verhalen, widget: list, fields: [
+                { name: text, label: Tekst, widget: text },
+                { name: name, label: Naam, widget: string },
+                { name: role, label: Rol, widget: string },
+                { name: avatar, label: Avatar, widget: string }
+              ]}
+            ]}
+          - { name: cta, label: CTA, widget: object, fields: [
+              { name: title, label: Titel, widget: string },
+              { name: description, label: Beschrijving, widget: text },
+              { name: buttonText, label: Button tekst, widget: string },
+              { name: buttonLink, label: Button link, widget: string }
+            ]}
+
+      - name: homepage-en
+        label: "Homepage (EN)"
+        file: content/en/homepage.json
+        fields: *homepage-fields
+
+      - name: homepage-fr
+        label: "Homepage (FR)"
+        file: content/fr/homepage.json
+        fields: *homepage-fields
+
+  # ── Navigation ──
+  - name: navigation
+    label: "Navigatie"
+    files:
+      - name: navigation-nl
+        label: "Navigatie (NL)"
+        file: content/nl/navigation.json
+        fields: &navigation-fields
+          - { name: nav, label: Menu items, widget: list, fields: [
+              { name: label, label: Label, widget: string },
+              { name: href, label: Link, widget: string },
+              { name: children, label: Submenu, widget: list, required: false, fields: [
+                { name: label, label: Label, widget: string },
+                { name: href, label: Link, widget: string }
+              ]}
+            ]}
+          - { name: cta, label: CTA knop tekst, widget: string }
+          - { name: footer, label: Footer, widget: object, fields: [
+              { name: description, label: Beschrijving, widget: text },
+              { name: klachtenTitle, label: Klachten titel, widget: string },
+              { name: behandelingTitle, label: Behandeling titel, widget: string },
+              { name: contactTitle, label: Contact titel, widget: string },
+              { name: behandelingLinks, label: Behandeling links, widget: list, fields: [
+                { name: label, label: Label, widget: string },
+                { name: href, label: Link, widget: string }
+              ]},
+              { name: privacy, label: Privacy tekst, widget: string },
+              { name: terms, label: Voorwaarden tekst, widget: string }
+            ]}
+          - { name: cookie, label: Cookie banner, widget: object, fields: [
+              { name: text, label: Tekst, widget: text },
+              { name: accept, label: Accepteren knop, widget: string },
+              { name: decline, label: Weigeren knop, widget: string }
+            ]}
+
+      - name: navigation-en
+        label: "Navigatie (EN)"
+        file: content/en/navigation.json
+        fields: *navigation-fields
+
+      - name: navigation-fr
+        label: "Navigatie (FR)"
+        file: content/fr/navigation.json
+        fields: *navigation-fields
+
+  # ── Team ──
+  - name: team-nl
+    label: "Team (NL)"
+    folder: content/nl/team
+    format: json
+    create: false
+    identifier_field: hero.title
+    fields: &team-fields
+      - { name: meta, label: Meta, widget: object, fields: [
+          { name: title, label: Titel, widget: string },
+          { name: description, label: Beschrijving, widget: text },
+          { name: slug, label: Slug, widget: string }
+        ]}
+      - { name: hero, label: Hero, widget: object, fields: [
+          { name: breadcrumb, label: Breadcrumb, widget: list, field: { name: item, label: Item, widget: string } },
+          { name: title, label: Titel, widget: string },
+          { name: titleHighlight, label: Highlight, widget: string, required: false },
+          { name: description, label: Beschrijving, widget: text }
+        ]}
+      - { name: intro, label: Introductie, widget: object, fields: [
+          { name: sectionLabel, label: Label, widget: string },
+          { name: title, label: Titel, widget: string },
+          { name: image, label: Afbeelding, widget: string },
+          { name: imageAlt, label: Alt tekst, widget: string },
+          { name: paragraphs, label: Paragrafen, widget: list, field: { name: text, label: Tekst, widget: text } }
+        ]}
+      - { name: expertise, label: Expertise, widget: object, fields: [
+          { name: sectionLabel, label: Label, widget: string },
+          { name: title, label: Titel, widget: string },
+          { name: items, label: Items, widget: list, fields: [
+            { name: title, label: Titel, widget: string },
+            { name: description, label: Beschrijving, widget: text }
+          ]}
+        ]}
+      - { name: approach, label: Werkwijze, widget: object, fields: [
+          { name: sectionLabel, label: Label, widget: string },
+          { name: title, label: Titel, widget: string },
+          { name: paragraphs, label: Paragrafen, widget: list, field: { name: text, label: Tekst, widget: text } },
+          { name: features, label: Features, widget: list, field: { name: feature, label: Feature, widget: string } }
+        ]}
+      - { name: credentials, label: Opleiding, widget: object, fields: [
+          { name: sectionLabel, label: Label, widget: string },
+          { name: title, label: Titel, widget: string },
+          { name: items, label: Items, widget: list, field: { name: item, label: Item, widget: string } }
+        ]}
+      - { name: contact, label: Contact, widget: object, fields: [
+          { name: sectionLabel, label: Label, widget: string },
+          { name: title, label: Titel, widget: string },
+          { name: description, label: Beschrijving, widget: text },
+          { name: location, label: Locatie, widget: string },
+          { name: languages, label: Talen, widget: list, field: { name: lang, label: Taal, widget: string } }
+        ]}
+      - { name: cta, label: CTA, widget: object, fields: [
+          { name: title, label: Titel, widget: string },
+          { name: description, label: Beschrijving, widget: text },
+          { name: buttonText, label: Button tekst, widget: string },
+          { name: buttonLink, label: Button link, widget: string }
+        ]}
+
+  - name: team-en
+    label: "Team (EN)"
+    folder: content/en/team
+    format: json
+    create: false
+    identifier_field: hero.title
+    fields: *team-fields
+
+  - name: team-fr
+    label: "Team (FR)"
+    folder: content/fr/team
+    format: json
+    create: false
+    identifier_field: hero.title
+    fields: *team-fields
+
   # ── Single pages ──
   - name: pages-nl
     label: "Pagina's (NL)"
@@ -235,7 +493,7 @@ collections:
       - name: diagnostiek
         label: Diagnostiek
         file: content/nl/diagnostiek.json
-        fields: &page-hero-cta
+        fields: &diagnostiek-page-fields
           - { name: hero, label: Hero, widget: object, fields: [
               { name: breadcrumb, label: Breadcrumb, widget: list, field: { name: item, label: Item, widget: string } },
               { name: title, label: Titel, widget: string },
@@ -243,10 +501,71 @@ collections:
               { name: description, label: Beschrijving, widget: text }
             ]}
 
+      - name: diagnostiek-shining3d
+        label: "Diagnostiek — Shining 3D"
+        file: content/nl/diagnostiek/shining-3d.json
+        fields: &shining3d-fields
+          - { name: meta, label: Meta, widget: object, fields: [
+              { name: title, label: Titel, widget: string },
+              { name: description, label: Beschrijving, widget: text },
+              { name: slug, label: Slug, widget: string }
+            ]}
+          - { name: hero, label: Hero, widget: object, fields: [
+              { name: breadcrumb, label: Breadcrumb, widget: list, field: { name: item, label: Item, widget: string } },
+              { name: title, label: Titel, widget: string },
+              { name: titleHighlight, label: Highlight, widget: string, required: false },
+              { name: description, label: Beschrijving, widget: text }
+            ]}
+          - { name: technology, label: Technologie, widget: object, fields: [
+              { name: sectionLabel, label: Label, widget: string },
+              { name: title, label: Titel, widget: string },
+              { name: image, label: Afbeelding, widget: string },
+              { name: imageAlt, label: Alt tekst, widget: string },
+              { name: paragraphs, label: Paragrafen, widget: list, field: { name: text, label: Tekst, widget: text } }
+            ]}
+          - { name: benefits, label: Voordelen, widget: object, fields: [
+              { name: sectionLabel, label: Label, widget: string },
+              { name: title, label: Titel, widget: string },
+              { name: description, label: Beschrijving, widget: text },
+              { name: items, label: Items, widget: list, fields: [
+                { name: title, label: Titel, widget: string },
+                { name: description, label: Beschrijving, widget: text }
+              ]}
+            ]}
+          - { name: howItWorks, label: Hoe werkt het, widget: object, fields: [
+              { name: sectionLabel, label: Label, widget: string },
+              { name: title, label: Titel, widget: string },
+              { name: description, label: Beschrijving, widget: text },
+              { name: steps, label: Stappen, widget: list, fields: [
+                { name: title, label: Titel, widget: string },
+                { name: description, label: Beschrijving, widget: text }
+              ]}
+            ]}
+          - { name: specs, label: Specificaties, widget: object, fields: [
+              { name: sectionLabel, label: Label, widget: string },
+              { name: title, label: Titel, widget: string },
+              { name: items, label: Items, widget: list, fields: [
+                { name: label, label: Label, widget: string },
+                { name: value, label: Waarde, widget: string }
+              ]}
+            ]}
+          - { name: metismile, label: MetiSmile, widget: object, fields: [
+              { name: sectionLabel, label: Label, widget: string },
+              { name: title, label: Titel, widget: string },
+              { name: paragraphs, label: Paragrafen, widget: list, field: { name: text, label: Tekst, widget: text } },
+              { name: features, label: Features, widget: list, field: { name: feature, label: Feature, widget: string } }
+            ]}
+          - { name: cta, label: CTA, widget: object, fields: [
+              { name: title, label: Titel, widget: string },
+              { name: description, label: Beschrijving, widget: text },
+              { name: buttonText, label: Button tekst, widget: string },
+              { name: buttonLink, label: Button link, widget: string }
+            ]}
+
       - name: faq
         label: FAQ
         file: content/nl/faq.json
-        fields:
+        fields: &faq-fields
           - { name: hero, label: Hero, widget: object, fields: [
               { name: breadcrumb, label: Breadcrumb, widget: list, field: { name: item, label: Item, widget: string } },
               { name: title, label: Titel, widget: string },
@@ -264,22 +583,94 @@ collections:
       - name: over-ons
         label: Over Ons
         file: content/nl/over-ons.json
-        fields: *page-hero-cta
+        fields: &over-ons-fields
+          - { name: meta, label: Meta, widget: object, fields: [
+              { name: title, label: Titel, widget: string },
+              { name: description, label: Beschrijving, widget: text },
+              { name: slug, label: Slug, widget: string }
+            ]}
+          - { name: hero, label: Hero, widget: object, fields: [
+              { name: breadcrumb, label: Breadcrumb, widget: list, field: { name: item, label: Item, widget: string } },
+              { name: title, label: Titel, widget: string },
+              { name: titleHighlight, label: Highlight, widget: string, required: false },
+              { name: description, label: Beschrijving, widget: text }
+            ]}
+          - { name: story, label: Ons Verhaal, widget: object, fields: [
+              { name: sectionLabel, label: Label, widget: string },
+              { name: title, label: Titel, widget: string },
+              { name: image, label: Afbeelding, widget: string },
+              { name: imageAlt, label: Alt tekst, widget: string },
+              { name: paragraphs, label: Paragrafen, widget: list, field: { name: text, label: Tekst, widget: text } }
+            ]}
+          - { name: philosophy, label: Filosofie, widget: object, fields: [
+              { name: sectionLabel, label: Label, widget: string },
+              { name: title, label: Titel, widget: string },
+              { name: description, label: Beschrijving, widget: text },
+              { name: pillars, label: Pijlers, widget: list, fields: [
+                { name: title, label: Titel, widget: string },
+                { name: description, label: Beschrijving, widget: text }
+              ]}
+            ]}
+          - { name: team, label: Team, widget: object, fields: [
+              { name: sectionLabel, label: Label, widget: string },
+              { name: title, label: Titel, widget: string },
+              { name: description, label: Beschrijving, widget: text },
+              { name: members, label: Leden, widget: list, fields: [
+                { name: name, label: Naam, widget: string },
+                { name: role, label: Rol, widget: string },
+                { name: bio, label: Bio, widget: text },
+                { name: image, label: Afbeelding, widget: string },
+                { name: slug, label: Slug, widget: string, required: false }
+              ]}
+            ]}
+          - { name: partners, label: Partners, widget: object, fields: [
+              { name: sectionLabel, label: Label, widget: string },
+              { name: title, label: Titel, widget: string },
+              { name: description, label: Beschrijving, widget: text },
+              { name: items, label: Partners, widget: list, fields: [
+                { name: name, label: Naam, widget: string },
+                { name: description, label: Beschrijving, widget: text }
+              ]}
+            ]}
+          - { name: cta, label: CTA, widget: object, fields: [
+              { name: title, label: Titel, widget: string },
+              { name: description, label: Beschrijving, widget: text },
+              { name: buttonText, label: Button tekst, widget: string },
+              { name: buttonLink, label: Button link, widget: string }
+            ]}
 
       - name: resultaten
         label: Resultaten
         file: content/nl/resultaten.json
-        fields: *page-hero-cta
+        fields: &resultaten-fields
+          - { name: hero, label: Hero, widget: object, fields: [
+              { name: breadcrumb, label: Breadcrumb, widget: list, field: { name: item, label: Item, widget: string } },
+              { name: title, label: Titel, widget: string },
+              { name: titleHighlight, label: Highlight, widget: string, required: false },
+              { name: description, label: Beschrijving, widget: text }
+            ]}
 
       - name: privacy
         label: Privacy
         file: content/nl/privacy.json
-        fields: *page-hero-cta
+        fields: &privacy-fields
+          - { name: hero, label: Hero, widget: object, fields: [
+              { name: breadcrumb, label: Breadcrumb, widget: list, field: { name: item, label: Item, widget: string } },
+              { name: title, label: Titel, widget: string },
+              { name: titleHighlight, label: Highlight, widget: string, required: false },
+              { name: description, label: Beschrijving, widget: text }
+            ]}
 
       - name: voorwaarden
         label: Voorwaarden
         file: content/nl/voorwaarden.json
-        fields: *page-hero-cta
+        fields: &voorwaarden-fields
+          - { name: hero, label: Hero, widget: object, fields: [
+              { name: breadcrumb, label: Breadcrumb, widget: list, field: { name: item, label: Item, widget: string } },
+              { name: title, label: Titel, widget: string },
+              { name: titleHighlight, label: Highlight, widget: string, required: false },
+              { name: description, label: Beschrijving, widget: text }
+            ]}
 
   - name: pages-en
     label: "Pages (EN)"
@@ -289,10 +680,40 @@ collections:
         file: content/en/contact.json
         fields: *contact-fields
 
+      - name: diagnostiek-en
+        label: Diagnostics
+        file: content/en/diagnostiek.json
+        fields: *diagnostiek-page-fields
+
+      - name: diagnostiek-shining3d-en
+        label: "Diagnostics — Shining 3D"
+        file: content/en/diagnostiek/shining-3d.json
+        fields: *shining3d-fields
+
       - name: faq-en
         label: FAQ
         file: content/en/faq.json
-        fields: *page-hero-cta
+        fields: *faq-fields
+
+      - name: over-ons-en
+        label: About Us
+        file: content/en/over-ons.json
+        fields: *over-ons-fields
+
+      - name: resultaten-en
+        label: Results
+        file: content/en/resultaten.json
+        fields: *resultaten-fields
+
+      - name: privacy-en
+        label: Privacy
+        file: content/en/privacy.json
+        fields: *privacy-fields
+
+      - name: voorwaarden-en
+        label: Terms
+        file: content/en/voorwaarden.json
+        fields: *voorwaarden-fields
 
   - name: pages-fr
     label: "Pages (FR)"
@@ -302,7 +723,37 @@ collections:
         file: content/fr/contact.json
         fields: *contact-fields
 
+      - name: diagnostiek-fr
+        label: Diagnostique
+        file: content/fr/diagnostiek.json
+        fields: *diagnostiek-page-fields
+
+      - name: diagnostiek-shining3d-fr
+        label: "Diagnostique — Shining 3D"
+        file: content/fr/diagnostiek/shining-3d.json
+        fields: *shining3d-fields
+
       - name: faq-fr
         label: FAQ
         file: content/fr/faq.json
-        fields: *page-hero-cta
+        fields: *faq-fields
+
+      - name: over-ons-fr
+        label: "À propos"
+        file: content/fr/over-ons.json
+        fields: *over-ons-fields
+
+      - name: resultaten-fr
+        label: Résultats
+        file: content/fr/resultaten.json
+        fields: *resultaten-fields
+
+      - name: privacy-fr
+        label: Confidentialité
+        file: content/fr/privacy.json
+        fields: *privacy-fields
+
+      - name: voorwaarden-fr
+        label: Conditions
+        file: content/fr/voorwaarden.json
+        fields: *voorwaarden-fields

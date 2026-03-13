@@ -9,7 +9,7 @@ import { buildMetadata } from '@/lib/seo'
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params
-  const content = getContent(locale, 'diagnostiek')
+  const content = await getContent(locale, 'diagnostiek')
   return buildMetadata({ locale, path: '/diagnostiek', title: `${content.hero.title} — Vincor`, description: content.hero.description })
 }
 
@@ -21,7 +21,7 @@ function CheckIcon() {
 
 export default async function DiagnostiekPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params
-  const content = getContent(locale, 'diagnostiek')
+  const content = await getContent(locale, 'diagnostiek')
 
   return (
     <>

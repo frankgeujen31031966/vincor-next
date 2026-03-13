@@ -14,7 +14,7 @@ const validSlugs = ['cmd-herkennen', 'kaak-en-rug', 'occlusiescan', 'kaaksplint-
 export async function generateMetadata({ params }: { params: Promise<{ locale: string; slug: string }> }): Promise<Metadata> {
   const { locale, slug } = await params
   if (!validSlugs.includes(slug)) return {}
-  const content = getContent(locale, `kennisbank/${slug}`)
+  const content = await getContent(locale, `kennisbank/${slug}`)
   return buildMetadata({ locale, path: `/kennisbank/${slug}`, title: `${content.hero.title} — Vincor`, description: content.hero.description })
 }
 
@@ -48,7 +48,7 @@ export default async function KennisbankArticlePage({ params }: { params: Promis
   const { locale, slug } = await params
   if (!validSlugs.includes(slug)) notFound()
 
-  const content = getContent(locale, `kennisbank/${slug}`)
+  const content = await getContent(locale, `kennisbank/${slug}`)
 
   return (
     <>

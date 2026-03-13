@@ -12,7 +12,7 @@ import { buildMetadata } from '@/lib/seo'
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params
-  const content = getContent(locale, 'homepage')
+  const content = await getContent(locale, 'homepage')
   return buildMetadata({
     locale,
     path: '',
@@ -42,7 +42,7 @@ function StarIcon({ filled = true }: { filled?: boolean }) {
 
 export default async function HomePage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params
-  const c = getContent(locale, 'homepage')
+  const c = await getContent(locale, 'homepage')
 
   return (
     <>

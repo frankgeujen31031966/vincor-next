@@ -10,13 +10,13 @@ import { buildMetadata } from '@/lib/seo'
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params
-  const content = getContent(locale, 'kennisbank/overzicht')
+  const content = await getContent(locale, 'kennisbank/overzicht')
   return buildMetadata({ locale, path: '/kennisbank', title: `${content.hero.title} — Vincor`, description: content.hero.description })
 }
 
 export default async function KennisbankPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params
-  const content = getContent(locale, 'kennisbank/overzicht')
+  const content = await getContent(locale, 'kennisbank/overzicht')
 
   return (
     <>

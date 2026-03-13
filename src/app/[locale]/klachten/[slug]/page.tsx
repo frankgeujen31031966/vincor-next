@@ -25,7 +25,7 @@ function CheckIcon() {
 export async function generateMetadata({ params }: { params: Promise<{ locale: string; slug: string }> }): Promise<Metadata> {
   const { locale, slug } = await params
   if (!validSlugs.includes(slug)) return {}
-  const content = getContent(locale, `klachten/${slug}`)
+  const content = await getContent(locale, `klachten/${slug}`)
   return buildMetadata({
     locale,
     path: `/klachten/${slug}`,
@@ -39,7 +39,7 @@ export default async function KlachtPage({ params }: { params: Promise<{ locale:
   const { locale, slug } = await params
   if (!validSlugs.includes(slug)) notFound()
 
-  const content = getContent(locale, `klachten/${slug}`)
+  const content = await getContent(locale, `klachten/${slug}`)
 
   return (
     <>
