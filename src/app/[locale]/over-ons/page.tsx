@@ -43,7 +43,7 @@ export default async function OverOnsPage({ params }: { params: Promise<{ locale
                 </div>
               </div>
               <div className="relative rounded-xl overflow-hidden aspect-[4/3]">
-                <Image src={`/images/${content.story.image}`} alt={content.story.imageAlt} fill className="object-cover" />
+                <Image src={content.story.image} alt={content.story.imageAlt} fill className="object-cover" />
               </div>
             </div>
           </ScrollReveal>
@@ -80,7 +80,7 @@ export default async function OverOnsPage({ params }: { params: Promise<{ locale
               <ScrollReveal key={member.name}>
                 <div className="text-center">
                   <div className="relative w-32 h-32 mx-auto rounded-full overflow-hidden mb-4">
-                    <Image src={`/images/${member.image}`} alt={member.name} fill className="object-cover" />
+                    <Image src={member.image} alt={member.name} fill className="object-cover" />
                   </div>
                   <h3 className="text-lg font-bold">{member.name}</h3>
                   <p className="text-teal text-sm font-medium mb-2">{member.role}</p>

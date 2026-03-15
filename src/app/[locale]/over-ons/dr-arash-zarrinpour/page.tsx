@@ -49,7 +49,7 @@ export default async function DrArashPage({ params }: { params: Promise<{ locale
                 </div>
               </div>
               <div className="relative rounded-xl overflow-hidden aspect-[3/4]">
-                <Image src={`/images/${content.intro.image}`} alt={content.intro.imageAlt} fill className="object-cover" />
+                <Image src={content.intro.image} alt={content.intro.imageAlt} fill className="object-cover" />
               </div>
             </div>
           </ScrollReveal>

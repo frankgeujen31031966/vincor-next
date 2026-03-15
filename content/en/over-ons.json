@@ -13,7 +13,7 @@
   "story": {
     "sectionLabel": "Our Story",
     "title": "The bond of the body",
-    "image": "about-hero.jpg",
+    "image": "/images/about-hero.jpg",
     "imageAlt": "About Vincor - Vinculum Corporis",
     "paragraphs": [
       "The name Vincor is derived from the Latin Vinculum Corporis, which literally means \"the bond of the body.\" This name reflects our core belief: the human body is not a collection of separate parts, but a closely connected system.",
@@ -49,25 +49,25 @@
         "name": "Dirk Verstraete",
         "role": "Founder & Occlusion Specialist",
         "bio": "As the founder of Vincor, Dirk combines years of experience in dentistry with a passion for posture diagnostics. He developed the 3-phase treatment model and introduced the DIERS Formetric technology in occlusion analysis.",
-        "image": "dirk-van-der-linden.jpg"
+        "image": "/images/dirk-van-der-linden.jpg"
       },
       {
         "name": "Dr. Sophie Mertens",
         "role": "Posture Specialist",
         "bio": "Sophie is specialized in the relationship between the spine and occlusion. With her background in manual therapy, she brings a unique clinical perspective to the diagnostic process.",
-        "image": "balans-clinic.png"
+        "image": "/images/balans-clinic.png"
       },
       {
         "name": "Mark de Groot",
         "role": "Technical Specialist",
         "bio": "Mark operates the DIERS Formetric 4D scanner and analyzes the scan results. His technical expertise ensures accurate diagnostics and reliable measurement data.",
-        "image": "4d-posturelab.jpg"
+        "image": "/images/4d-posturelab.jpg"
       },
       {
         "name": "Dr. Arash Zarrinpour",
         "role": "Dentist & Occlusion Specialist — Paris",
         "bio": "Dr. Arash Zarrinpour is a dentist and occlusion specialist based in Paris. With a specialization in functional occlusion, gnathology, and jaw joint rehabilitation, he brings international expertise to the Vincor network. As a partner of Vincor, he treats French-speaking patients and contributes to the development of the treatment protocol.",
-        "image": "patient.jpg",
+        "image": "/images/patient.jpg",
         "slug": "dr-arash-zarrinpour"
       }
     ]

@@ -408,7 +408,7 @@ collections:
       - { name: intro, label: Introductie, widget: object, fields: [
           { name: sectionLabel, label: Label, widget: string },
           { name: title, label: Titel, widget: string },
-          { name: image, label: Afbeelding, widget: string },
+          { name: image, label: Afbeelding, widget: image },
           { name: imageAlt, label: Alt tekst, widget: string },
           { name: paragraphs, label: Paragrafen, widget: list, field: { name: text, label: Tekst, widget: text } }
         ]}
@@ -598,7 +598,7 @@ collections:
           - { name: story, label: Ons Verhaal, widget: object, fields: [
               { name: sectionLabel, label: Label, widget: string },
               { name: title, label: Titel, widget: string },
-              { name: image, label: Afbeelding, widget: string },
+              { name: image, label: Afbeelding, widget: image },
               { name: imageAlt, label: Alt tekst, widget: string },
               { name: paragraphs, label: Paragrafen, widget: list, field: { name: text, label: Tekst, widget: text } }
             ]}
@@ -619,7 +619,7 @@ collections:
                 { name: name, label: Naam, widget: string },
                 { name: role, label: Rol, widget: string },
                 { name: bio, label: Bio, widget: text },
-                { name: image, label: Afbeelding, widget: string },
+                { name: image, label: Afbeelding, widget: image },
                 { name: slug, label: Slug, widget: string, required: false }
               ]}
             ]}
