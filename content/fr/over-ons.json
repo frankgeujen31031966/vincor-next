@@ -5,7 +5,10 @@
     "slug": "over-ons"
   },
   "hero": {
-    "breadcrumb": ["Accueil", "À Propos"],
+    "breadcrumb": [
+      "Accueil",
+      "À Propos"
+    ],
     "title": "À Propos de Vincor",
     "titleHighlight": "Vincor",
     "description": "Vinculum Corporis — le lien du corps. Nous croyons que le corps humain est un système cohérent où tout est interconnecté."
@@ -49,13 +52,15 @@
         "name": "Dirk Verstraete",
         "role": "Fondateur & Spécialiste en Occlusion",
         "bio": "En tant que fondateur de Vincor, Dirk combine une expérience décennale en dentisterie avec une passion pour la diagnostique posturale. Il a développé le modèle de traitement en trois phases et introduit la technologie DIERS Formetric dans l'analyse occlusale.",
-        "image": "/images/dirk-van-der-linden.jpg"
+        "image": "/images/dirk-van-der-linden.jpg",
+        "slug": ""
       },
       {
         "name": "Dr. Sophie Mertens",
         "role": "Spécialiste en Posture",
         "bio": "Sophie est spécialisée dans la relation entre la colonne vertébrale et l'occlusion. Avec son background en thérapie manuelle, elle apporte un regard clinique unique au processus diagnostique.",
-        "image": "/images/balans-clinic.png"
+        "image": "/images/CE4DD4FE-E652-419D-B30C-FE2CAA534249.jpeg",
+        "slug": ""
       },
       {
         "name": "Mark de Groot",
