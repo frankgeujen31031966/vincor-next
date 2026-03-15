@@ -5,7 +5,11 @@
     "slug": "over-ons/dr-arash-zarrinpour"
   },
   "hero": {
-    "breadcrumb": ["Home", "Over Ons", "Dr. Arash Zarrinpour"],
+    "breadcrumb": [
+      "Home",
+      "Over Ons",
+      "Dr. Arash Zarrinpour"
+    ],
     "title": "Dr. Arash Zarrinpour",
     "titleHighlight": "Arash Zarrinpour",
     "description": "Tandarts & Occlusiespecialist — Parijs"
@@ -13,7 +17,7 @@
   "intro": {
     "sectionLabel": "Profiel",
     "title": "Internationale expertise in occlusie en kaakgewrichtsrehabilitatie",
-    "image": "/images/professional-dentist-male.jpg",
+    "image": "/images/Arash Zarrinpour.jpeg",
     "imageAlt": "Dr. Arash Zarrinpour — Tandarts en Occlusiespecialist",
     "paragraphs": [
       "Dr. Arash Zarrinpour is tandarts en occlusiespecialist gevestigd in Parijs, Frankrijk. Met meer dan 15 jaar ervaring in de functionele tandheelkunde heeft hij zich gespecialiseerd in de behandeling van complexe occlusie-gerelateerde klachten en kaakgewrichtsaandoeningen.",
@@ -73,7 +77,11 @@
     "title": "Een afspraak maken met Dr. Zarrinpour",
     "description": "U kunt rechtstreeks contact opnemen met de praktijk van Dr. Zarrinpour in Parijs, of via Vincor Eindhoven een verwijzing ontvangen.",
     "location": "Parijs, Frankrijk",
-    "languages": ["Frans", "Engels", "Perzisch"]
+    "languages": [
+      "Frans",
+      "Engels",
+      "Perzisch"
+    ]
   },
   "cta": {
     "title": "Contact opnemen",
