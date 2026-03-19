@@ -11,7 +11,8 @@
         { "label": "Bruxisme", "href": "/klachten/tandenknarsen" },
         { "label": "Cou raide", "href": "/klachten/stijve-nek" },
         { "label": "Douleurs du dos & de la nuque", "href": "/klachten/rug-nekklachten" },
-        { "label": "Apnée & Ronflement", "href": "/klachten/apneu-snurken" }
+        { "label": "Apnée & Ronflement", "href": "/klachten/apneu-snurken" },
+        { "label": "Malocclusion", "href": "/klachten/malocclusie" }
       ]
     },
     { "label": "Diagnostic", "href": "/diagnostiek" },

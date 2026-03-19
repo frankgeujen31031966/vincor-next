@@ -11,7 +11,8 @@
         { "label": "Teeth Grinding", "href": "/klachten/tandenknarsen" },
         { "label": "Stiff Neck", "href": "/klachten/stijve-nek" },
         { "label": "Back & Neck Pain", "href": "/klachten/rug-nekklachten" },
-        { "label": "Apnea & Snoring", "href": "/klachten/apneu-snurken" }
+        { "label": "Apnea & Snoring", "href": "/klachten/apneu-snurken" },
+        { "label": "Malocclusion", "href": "/klachten/malocclusie" }
       ]
     },
     { "label": "Diagnostics", "href": "/diagnostiek" },

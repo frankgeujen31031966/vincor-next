@@ -11,7 +11,8 @@
         { "label": "Tandenknarsen", "href": "/klachten/tandenknarsen" },
         { "label": "Stijve Nek", "href": "/klachten/stijve-nek" },
         { "label": "Rug- & Nekklachten", "href": "/klachten/rug-nekklachten" },
-        { "label": "Apneu & Snurken", "href": "/klachten/apneu-snurken" }
+        { "label": "Apneu & Snurken", "href": "/klachten/apneu-snurken" },
+        { "label": "Malocclusie", "href": "/klachten/malocclusie" }
       ]
     },
     { "label": "Diagnostiek", "href": "/diagnostiek" },
