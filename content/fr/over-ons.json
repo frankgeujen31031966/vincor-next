@@ -5,10 +5,7 @@
     "slug": "over-ons"
   },
   "hero": {
-    "breadcrumb": [
-      "Accueil",
-      "À Propos"
-    ],
+    "breadcrumb": ["Accueil", "À Propos"],
     "title": "À Propos de Vincor",
     "titleHighlight": "Vincor",
     "description": "Vinculum Corporis — le lien du corps. Nous croyons que le corps humain est un système cohérent où tout est interconnecté."
@@ -52,27 +49,19 @@
         "name": "Dirk Verstraete",
         "role": "Fondateur & Spécialiste en Occlusion",
         "bio": "En tant que fondateur de Vincor, Dirk combine une expérience décennale en dentisterie avec une passion pour la diagnostique posturale. Il a développé le modèle de traitement en trois phases et introduit la technologie DIERS Formetric dans l'analyse occlusale.",
-        "image": "/images/dirk-van-der-linden.jpg",
-        "slug": ""
+        "image": "/images/dirk-van-der-linden.jpg"
       },
       {
         "name": "Dr. Sophie Mertens",
         "role": "Spécialiste en Posture",
         "bio": "Sophie est spécialisée dans la relation entre la colonne vertébrale et l'occlusion. Avec son background en thérapie manuelle, elle apporte un regard clinique unique au processus diagnostique.",
-        "image": "/images/CE4DD4FE-E652-419D-B30C-FE2CAA534249.jpeg",
-        "slug": ""
-      },
-      {
-        "name": "Mark de Groot",
-        "role": "Spécialiste Technique",
-        "bio": "Mark opère le scanner 4D DIERS Formetric et analyse les résultats de scan. Son expertise technique garantit une diagnostique précise et des données de mesure fiables.",
-        "image": "/images/4d-posturelab.jpg"
+        "image": "/images/balans-clinic.png"
       },
       {
         "name": "Dr. Arash Zarrinpour",
         "role": "Dentiste & Spécialiste en Occlusion — Paris",
         "bio": "Dr. Arash Zarrinpour est dentiste et spécialiste en occlusion basé à Paris. Avec une spécialisation en occlusion fonctionnelle, gnathologie et réhabilitation des articulations de la mâchoire, il apporte une expertise internationale au réseau Vincor. En tant que partenaire de Vincor, il traite des patients francophones et contribue au développement du protocole de traitement.",
-        "image": "/images/patient.jpg",
+        "image": "/images/Arash Zarrinpour.jpeg",
         "slug": "dr-arash-zarrinpour"
       }
     ]

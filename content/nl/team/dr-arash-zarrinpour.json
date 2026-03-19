@@ -5,11 +5,7 @@
     "slug": "over-ons/dr-arash-zarrinpour"
   },
   "hero": {
-    "breadcrumb": [
-      "Home",
-      "Over Ons",
-      "Dr. Arash Zarrinpour"
-    ],
+    "breadcrumb": ["Home", "Over Ons", "Dr. Arash Zarrinpour"],
     "title": "Dr. Arash Zarrinpour",
     "titleHighlight": "Arash Zarrinpour",
     "description": "Tandarts & Occlusiespecialist — Parijs"
@@ -77,11 +73,7 @@
     "title": "Een afspraak maken met Dr. Zarrinpour",
     "description": "U kunt rechtstreeks contact opnemen met de praktijk van Dr. Zarrinpour in Parijs, of via Vincor Eindhoven een verwijzing ontvangen.",
     "location": "Parijs, Frankrijk",
-    "languages": [
-      "Frans",
-      "Engels",
-      "Perzisch"
-    ]
+    "languages": ["Frans", "Engels", "Perzisch"]
   },
   "cta": {
     "title": "Contact opnemen",

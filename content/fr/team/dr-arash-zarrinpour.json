@@ -5,11 +5,7 @@
     "slug": "over-ons/dr-arash-zarrinpour"
   },
   "hero": {
-    "breadcrumb": [
-      "Accueil",
-      "À Propos",
-      "Dr. Arash Zarrinpour"
-    ],
+    "breadcrumb": ["Accueil", "À Propos", "Dr. Arash Zarrinpour"],
     "title": "Dr. Arash Zarrinpour",
     "titleHighlight": "Arash Zarrinpour",
     "description": "Dentiste & Spécialiste en Occlusion — Paris"
@@ -77,11 +73,7 @@
     "title": "Prendre rendez-vous avec Dr. Zarrinpour",
     "description": "Vous pouvez contacter directement le cabinet de Dr. Zarrinpour à Paris, ou recevoir une référence via Vincor Eindhoven.",
     "location": "Paris, France",
-    "languages": [
-      "Français",
-      "Anglais",
-      "Persan"
-    ]
+    "languages": ["Français", "Anglais", "Persan"]
   },
   "cta": {
     "title": "Prendre contact",

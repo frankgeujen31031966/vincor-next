@@ -1,17 +1,14 @@
 {
   "meta": {
-    "title": "Over Ons — Vincor | Vinculum Corporis",
+    "title": "Over Ons \u2014 Vincor | Vinculum Corporis",
     "description": "Vincor staat voor Vinculum Corporis: de band van het lichaam. Ontdek ons verhaal, ons team en onze partners.",
     "slug": "over-ons"
   },
   "hero": {
-    "breadcrumb": [
-      "Home",
-      "Over Ons"
-    ],
+    "breadcrumb": ["Home", "Over Ons"],
     "title": "Over Vincor",
     "titleHighlight": "Vincor",
-    "description": "Vinculum Corporis — de band van het lichaam. Wij geloven dat het menselijk lichaam een samenhangend systeem is waarin alles met elkaar verbonden is."
+    "description": "Vinculum Corporis \u2014 de band van het lichaam. Wij geloven dat het menselijk lichaam een samenhangend systeem is waarin alles met elkaar verbonden is."
   },
   "story": {
     "sectionLabel": "Ons Verhaal",
@@ -52,28 +49,19 @@
         "name": "Dirk Verstraete",
         "role": "Oprichter & Occlusiespecialist",
         "bio": "Als grondlegger van Vincor combineert Dirk jarenlange ervaring in de tandheelkunde met een passie voor houdingsdiagnostiek. Hij ontwikkelde het 3-fasen behandelmodel en introduceerde de DIERS Formetric technologie in de occlusie-analyse.",
-        "image": "/images/dirk-van-der-linden.jpg",
-        "slug": ""
+        "image": "/images/dirk-van-der-linden.jpg"
       },
       {
         "name": "Dr. Sophie Mertens",
         "role": "Houdingsspecialist",
         "bio": "Sophie is gespecialiseerd in de relatie tussen wervelkolom en occlusie. Met haar achtergrond in de manuele therapie brengt zij een unieke klinische blik in het diagnostisch proces.",
-        "image": "/images/CE4DD4FE-E652-419D-B30C-FE2CAA534249.jpeg",
-        "slug": ""
-      },
-      {
-        "name": "Mark de Groot",
-        "role": "Technisch Specialist",
-        "bio": "Mark bedient de DIERS Formetric 4D scanner en analyseert de scanresultaten. Zijn technische expertise garandeert nauwkeurige diagnostiek en betrouwbare meetdata.",
-        "image": "/images/4d-posturelab.jpg",
-        "slug": ""
+        "image": "/images/balans-clinic.png"
       },
       {
         "name": "Dr. Arash Zarrinpour",
         "role": "Tandarts & Occlusiespecialist — Parijs",
         "bio": "Dr. Arash Zarrinpour is tandarts en occlusiespecialist gevestigd in Parijs. Met een specialisatie in functionele occlusie, gnathologie en kaakgewrichtsrehabilitatie brengt hij internationale expertise in het Vincor netwerk. Als partner van Vincor behandelt hij Franstalige patiënten en draagt hij bij aan de doorontwikkeling van het behandelprotocol.",
-        "image": "/images/professional-dentist-male.jpg",
+        "image": "/images/Arash Zarrinpour.jpeg",
         "slug": "dr-arash-zarrinpour"
       }
     ]
@@ -88,7 +76,7 @@
         "description": "Ons partnerschap met Balans Rugcentrum stelt ons in staat om de DIERS Formetric 4D technologie optimaal in te zetten. Samen combineren wij rugdiagnostiek met occlusieanalyse voor een volledig beeld van de relatie tussen kaak en houding. Patienten met complexe rugklachten profiteren van deze multidisciplinaire aanpak."
       },
       {
-        "name": "PDA — Fase 3 Partner",
+        "name": "PDA \u2014 Fase 3 Partner",
         "description": "Voor patienten die na fase 1 en 2 baat hebben bij een definitieve reconstructie, werken wij samen met PDA. Dit gespecialiseerde centrum biedt orthodontie, implantologie en volledige gebitsreconstructie. Dankzij onze diagnostische data verloopt de overdracht naadloos."
       }
     ]
