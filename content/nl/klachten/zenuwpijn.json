@@ -1,10 +1,10 @@
 {
-  "meta": {
-    "title": "Zenuwpijn (Trigeminusneuralgie) | Vincor",
-    "description": "Last van aangezichtspijn of trigeminusneuralgie? Ontdek hoe kaakdisfunctie zenuwpijn kan veroorzaken. Vincor biedt geavanceerde 4D-diagnostiek en behandeling."
-  },
   "hero": {
-    "breadcrumb": ["Home", "Klachten", "Zenuwpijn"],
+    "breadcrumb": [
+      "Home",
+      "Klachten",
+      "Zenuwpijn"
+    ],
     "title": "Zenuwpijn & Trigeminusneuralgie",
     "description": "Scherpe, stekende aangezichtspijn kan wijzen op trigeminusneuralgie of doorverwezen pijn vanuit het kaakgewricht. Bij Vincor onderzoeken we de rol van de kaak bij chronische zenuwpijn in het gezicht."
   },
@@ -15,7 +15,7 @@
       "De nervus trigeminus (drielingzenuw) is de vijfde hersenzenuw en de belangrijkste gevoelszenuw van het gezicht. Deze zenuw vertakt zich in drie hoofdtakken: de oogtak (V1), de bovenkaaktak (V2) en de onderkaaktak (V3). Trigeminusneuralgie is een aandoening waarbij deze zenuw aanvalsgewijs hevig pijnlijk is.",
       "De pijn wordt vaak omschreven als een elektrische schok, een brandend gevoel of een messcherpe steek in het gezicht. Aanvallen kunnen worden uitgelokt door alledaagse activiteiten als spreken, kauwen, tandenpoetsen of zelfs een windvlaag. Wat veel patiënten en artsen niet weten, is dat de onderkaaktak (V3) ook het kaakgewricht en de kauwspieren innerveert, waardoor kaakdisfunctie een belangrijke bron van trigeminale pijnklachten kan zijn."
     ],
-    "image": "/images/zenuwpijn.jpg"
+    "image": "/images/trigeminus neuralgie.png"
   },
   "symptomen": {
     "title": "Herkent u deze klachten?",
@@ -36,7 +36,7 @@
     "title": "Het verband tussen kaak en zenuwpijn",
     "paragraphs": [
       "De nervus trigeminus speelt een dubbelrol: hij verzorgt zowel de gevoelswaarneming van het gezicht als de aansturing van de kauwspieren. Wanneer het kaakgewricht disfunctioneel is of de kauwspieren chronisch overbelast raken, kan dit de trigeminuszenuw prikkelen en sensibiliseren.",
-      "Bij een verstoorde occlusie worden de kauwspieren asymmetrisch belast. De resulterende triggerpoints in de musculus pterygoideus lateralis en medialis kunnen pijn doorverwijzen naar gebieden die door de trigeminuszenuw worden geïnnerveerd. Dit fenomeen heet \u201creferred pain\u201d en verklaart waarom patiënten pijn in de wang, het oor of zelfs het oog ervaren terwijl de bron in het kaakgewricht ligt.",
+      "Bij een verstoorde occlusie worden de kauwspieren asymmetrisch belast. De resulterende triggerpoints in de musculus pterygoideus lateralis en medialis kunnen pijn doorverwijzen naar gebieden die door de trigeminuszenuw worden geïnnerveerd. Dit fenomeen heet “referred pain” en verklaart waarom patiënten pijn in de wang, het oor of zelfs het oog ervaren terwijl de bron in het kaakgewricht ligt.",
       "Daarnaast kan een verplaatste gewrichtsschijf in het kaakgewricht direct druk uitoefenen op de auriculotemporale zenuw — een tak van de trigeminuszenuw — die direct achter het kaakgewricht verloopt. Correctie van de kaakpositie neemt deze druk weg en kan de zenuwprikkeling significant verminderen."
     ],
     "image": "/images/facial-nerve.jpg"
@@ -77,13 +77,13 @@
         "phase": "Fase 2",
         "title": "Positiecorrectie",
         "description": "Structureel herstel van de kaakpositie om zenuwcompressie op te heffen.",
-        "featured": true,
-        "badge": "Meest gekozen",
         "features": [
           "Neuromusculaire orthotic therapie",
           "Occlusie-optimalisatie en decompressie",
           "Multidisciplinaire pijnbegeleiding"
-        ]
+        ],
+        "featured": true,
+        "badge": "Meest gekozen"
       },
       {
         "phase": "Fase 3",
@@ -123,5 +123,9 @@
     "description": "Ontdek of uw zenuwpijn een kaak-gerelateerde oorzaak heeft. Onze 4D-diagnostiek biedt u snel duidelijkheid.",
     "buttonText": "Maak een afspraak",
     "buttonHref": "/contact"
+  },
+  "meta": {
+    "title": "Zenuwpijn (Trigeminusneuralgie) | Vincor",
+    "description": "Last van aangezichtspijn of trigeminusneuralgie? Ontdek hoe kaakdisfunctie zenuwpijn kan veroorzaken. Vincor biedt geavanceerde 4D-diagnostiek en behandeling."
   }
 }
