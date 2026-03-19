@@ -1,10 +1,10 @@
 {
-  "meta": {
-    "title": "Apnée & Ronflement | Vincor",
-    "description": "Souffrez de ronflement ou d'apnée du sommeil ? Vincor traite l'apnée obstructive du sommeil avec une MRA (Appareil de Repositionnement Mandibulaire) sur mesure combinée à la diagnostic 4D."
-  },
   "hero": {
-    "breadcrumb": ["Accueil", "Problèmes", "Apnée & Ronflement"],
+    "breadcrumb": [
+      "Accueil",
+      "Problèmes",
+      "Apnée & Ronflement"
+    ],
     "title": "Apnée & Ronflement",
     "description": "L'apnée obstructive du sommeil (OSA) et le ronflement chronique n'affectent pas seulement votre sommeil nocturne, mais toute votre santé. Chez Vincor, nous traitons la cause avec une MRA sur mesure — une alternative éprouvée à la CPAP."
   },
@@ -15,7 +15,7 @@
       "L'apnée obstructive du sommeil (OSA) est un trouble du sommeil où les voies aériennes supérieures sont partiellement ou complètement bloquées de manière répétée pendant le sommeil. Par conséquent, la respiration s'arrête temporairement — parfois des dizaines de fois par nuit — après quoi le corps recommence à respirer avec une réaction de surprise.",
       "Le ronflement est souvent le premier et le symptôme le plus évident de l'OSA. Mais les conséquences vont bien au-delà du bruit nocturne. L'apnée du sommeil chronique entraîne de la fatigue diurne, des problèmes de concentration, une hypertension et un risque significativement plus élevé de maladies cardiovasculaires. On estime que 80% des personnes souffrant d'une apnée du sommeil modérée à sévère ne sont pas diagnostiquées."
     ],
-    "image": "/images/sleep-apnea.jpg"
+    "image": "/images/foto snurken.jpg"
   },
   "symptomen": {
     "title": "Reconnaît-vous ces symptômes ?",
@@ -77,14 +77,14 @@
         "phase": "Étape 2",
         "title": "MRA sur mesure",
         "description": "Fabrication et pose de votre MRA personnelle, conçue avec la technologie de scan intraoral Shining 3D.",
-        "featured": true,
-        "badge": "Traitement principal",
         "features": [
           "Impression dentaire numérique (pas de putty)",
           "Fabriqué sur mesure avec CAD/CAM",
           "Ajustable : adaptation progressive vers l'avant",
           "Confortable et discret"
-        ]
+        ],
+        "featured": true,
+        "badge": "Traitement principal"
       },
       {
         "phase": "Étape 3",
@@ -124,5 +124,9 @@
     "description": "Prenez rendez-vous pour un scan et découvrez si une MRA est la solution à votre problème de sommeil.",
     "buttonText": "Prendre rendez-vous",
     "buttonHref": "/contact"
+  },
+  "meta": {
+    "title": "Apnée & Ronflement | Vincor",
+    "description": "Souffrez de ronflement ou d'apnée du sommeil ? Vincor traite l'apnée obstructive du sommeil avec une MRA (Appareil de Repositionnement Mandibulaire) sur mesure combinée à la diagnostic 4D."
   }
 }
