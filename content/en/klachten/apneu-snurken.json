@@ -1,10 +1,10 @@
 {
-  "meta": {
-    "title": "Apnea & Snoring | Vincor",
-    "description": "Suffering from snoring or sleep apnea? Vincor treats obstructive sleep apnea with a custom-made MRA (Mandibular Repositioning Appliance) combined with 4D diagnostics."
-  },
   "hero": {
-    "breadcrumb": ["Home", "Conditions", "Apnea & Snoring"],
+    "breadcrumb": [
+      "Home",
+      "Conditions",
+      "Apnea & Snoring"
+    ],
     "title": "Apnea & Snoring",
     "description": "Obstructive sleep apnea (OSA) and chronic snoring affect not only your sleep but your overall health. At Vincor, we treat the cause with a custom-made MRA — a proven alternative to CPAP."
   },
@@ -15,7 +15,7 @@
       "Obstructive sleep apnea (OSA) is a sleep disorder where the upper airways become partially or completely blocked during sleep. This causes breathing to stop temporarily — sometimes dozens of times per night — after which the body resumes breathing with a startle response.",
       "Snoring is often the first and most noticeable symptom of OSA. But the consequences go far beyond nighttime noise. Chronic sleep apnea leads to daytime fatigue, concentration problems, increased blood pressure, and a significantly higher risk of heart and vascular diseases. It is estimated that 80% of people with moderate to severe sleep apnea are not diagnosed."
     ],
-    "image": "/images/sleep-apnea.jpg"
+    "image": "/images/foto snurken.jpg"
   },
   "symptomen": {
     "title": "Do you recognize these symptoms?",
@@ -77,14 +77,14 @@
         "phase": "Step 2",
         "title": "Custom MRA",
         "description": "Manufacturing and placement of your personal MRA, designed with Shining 3D intraoral scanning technology.",
-        "featured": true,
-        "badge": "Core Treatment",
         "features": [
           "Digital dental impression (no putty)",
           "Custom-made with CAD/CAM",
           "Titreerbaar: step-by-step forward adjustment",
           "Comfortable and discreet"
-        ]
+        ],
+        "featured": true,
+        "badge": "Core Treatment"
       },
       {
         "phase": "Step 3",
@@ -124,5 +124,9 @@
     "description": "Make an appointment for a scan and discover if an MRA is the solution to your sleep problem.",
     "buttonText": "Make an appointment",
     "buttonHref": "/contact"
+  },
+  "meta": {
+    "title": "Apnea & Snoring | Vincor",
+    "description": "Suffering from snoring or sleep apnea? Vincor treats obstructive sleep apnea with a custom-made MRA (Mandibular Repositioning Appliance) combined with 4D diagnostics."
   }
 }
