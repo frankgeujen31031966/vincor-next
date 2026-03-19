@@ -71,7 +71,7 @@
       {
         "phase": "Phase 1",
         "title": "Relaxation Splint",
-        "price": "€195",
+        "price": "€209",
         "description": "The first step toward relaxation of the jaw muscles and reduction of acute complaints.",
         "features": ["Custom-made splint", "Relief within 2-4 weeks", "Includes control visit"],
         "slug": "fase-1-relaxatiesplint",
@@ -94,7 +94,7 @@
       {
         "phase": "Phase 3",
         "title": "Reconstruction",
-        "price": "€3,000–7,000",
+        "price": "€1,500–€7,000",
         "description": "Definitive reconstruction of the dentition for lasting results and optimal function.",
         "features": ["Complete dentition reconstruction", "Lasting results", "Performed by PDA dentist"],
         "slug": "fase-3-reconstructie",

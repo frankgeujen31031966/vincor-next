@@ -64,9 +64,9 @@ export default function Navigation({ items, cta }: NavigationProps) {
           <Image
             src="/images/vincor-logo.webp"
             alt="Vincor"
-            width={120}
-            height={40}
-            className="h-10 w-auto"
+            width={168}
+            height={56}
+            className="h-14 w-auto"
           />
         </Link>
 

@@ -22,9 +22,9 @@ export default async function Footer() {
               <Image
                 src="/images/vincor-logo.webp"
                 alt="Vincor Logo"
-                width={150}
-                height={50}
-                className="h-10 w-auto"
+                width={180}
+                height={60}
+                className="h-12 w-auto"
               />
             </div>
             <p className="text-gray-400 text-sm">

@@ -71,7 +71,7 @@
       {
         "phase": "Fase 1",
         "title": "Relaxatiesplint",
-        "price": "€195",
+        "price": "€209",
         "description": "De eerste stap naar ontspanning van de kaakmusculatuur en vermindering van acute klachten.",
         "features": ["Op maat gemaakte splint", "Verlichting binnen 2-4 weken", "Inclusief controlebezoek"],
         "slug": "fase-1-relaxatiesplint",
@@ -94,7 +94,7 @@
       {
         "phase": "Fase 3",
         "title": "Reconstructie",
-        "price": "€3.000–7.000",
+        "price": "€1.500–€7.000",
         "description": "Definitieve reconstructie van het gebit voor een blijvend resultaat en optimale functie.",
         "features": ["Volledige gebitreconstructie", "Blijvend resultaat", "Uitgevoerd door PDA-tandarts"],
         "slug": "fase-3-reconstructie",

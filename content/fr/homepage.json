@@ -71,7 +71,7 @@
       {
         "phase": "Phase 1",
         "title": "Splint de relaxation",
-        "price": "€195",
+        "price": "€209",
         "description": "La première étape vers la relaxation de la musculature de la mâchoire et la réduction des symptômes aigus.",
         "features": ["Splint sur mesure", "Soulagement en 2-4 semaines", "Visite de contrôle incluse"],
         "slug": "fase-1-relaxatiesplint",
@@ -94,7 +94,7 @@
       {
         "phase": "Phase 3",
         "title": "Reconstruction",
-        "price": "€3.000–7.000",
+        "price": "€1.500–€7.000",
         "description": "Reconstruction définitive de la dentition pour un résultat durable et une fonction optimale.",
         "features": ["Reconstruction dentaire complète", "Résultat durable", "Exécuté par un dentiste PDA"],
         "slug": "fase-3-reconstructie",

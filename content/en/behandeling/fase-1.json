@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Phase 1 — Relaxation Splint | Vincor Treatment",
-    "description": "Phase 1 of the Vincor treatment model: the relaxation splint. Relaxation of jaw and back muscles, 4D diagnostics and first step toward recovery. From €195.",
+    "description": "Phase 1 of the Vincor treatment model: the relaxation splint. Relaxation of jaw and back muscles, 4D diagnostics and first step toward recovery. From €209.",
     "slug": "behandeling/fase-1-relaxatiesplint"
   },
   "hero": {
@@ -103,7 +103,7 @@
     "description": "Phase 1 is a deliberately low-threshold first step. Everything is included — from intake to evaluation.",
     "phase": "Phase 1",
     "name": "Relaxation Splint",
-    "price": "195",
+    "price": "209",
     "currency": "EUR",
     "priceDescription": "Everything you need for a solid start of your treatment journey, in one clear rate.",
     "features": [
