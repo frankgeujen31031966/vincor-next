@@ -13,7 +13,7 @@ import { buildMetadata, FaqJsonLd } from '@/lib/seo'
 /* eslint-disable @typescript-eslint/no-explicit-any */
 const validSlugs = [
   'kaakpijn', 'hoofdpijn-migraine', 'tinnitus', 'zenuwpijn',
-  'tandenknarsen', 'stijve-nek', 'rug-nekklachten', 'apneu-snurken',
+  'tandenknarsen', 'stijve-nek', 'rug-nekklachten', 'apneu-snurken', 'malocclusie',
 ]
 
 function CheckIcon() {

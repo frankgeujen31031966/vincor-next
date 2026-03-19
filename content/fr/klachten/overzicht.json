@@ -62,6 +62,12 @@
       "href": "/klachten/apneu-snurken",
       "image": "/images/sleep-apnea.jpg",
       "alt": "Traitement de l'apnée du sommeil et ronflement"
+    },
+    {
+      "title": "Malocclusion & Troubles de l'Occlusion",
+      "href": "/klachten/malocclusie",
+      "image": "/images/malocclusie.jpg",
+      "alt": "Traitement de la malocclusion et troubles de l'occlusion"
     }
   ],
   "approach": {

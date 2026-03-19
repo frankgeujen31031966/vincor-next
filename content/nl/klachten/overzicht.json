@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Klachten | Vincor — Occlusie & Houdingsdiagnostiek",
-    "description": "Ontdek welke klachten Vincor behandelt: kaakpijn, migraine, tinnitus, tandenknarsen, zenuwpijn, nekklachten en meer. Allemaal vanuit de kaak-wervelkolom verbinding."
+    "description": "Ontdek welke klachten Vincor behandelt: kaakpijn, migraine, tinnitus, tandenknarsen, zenuwpijn, nekklachten, malocclusie en meer. Allemaal vanuit de kaak-wervelkolom verbinding."
   },
   "hero": {
     "breadcrumb": ["Home", "Klachten"],
@@ -62,6 +62,12 @@
       "href": "/klachten/apneu-snurken",
       "image": "/images/sleep-apnea.jpg",
       "alt": "Slaapapneu en snurken behandeling"
+    },
+    {
+      "title": "Malocclusie & Beetafwijkingen",
+      "href": "/klachten/malocclusie",
+      "image": "/images/malocclusie.jpg",
+      "alt": "Malocclusie en beetafwijkingen behandeling"
     }
   ],
   "approach": {

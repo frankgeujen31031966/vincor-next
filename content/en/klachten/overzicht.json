@@ -62,6 +62,12 @@
       "href": "/klachten/apneu-snurken",
       "image": "/images/sleep-apnea.jpg",
       "alt": "Sleep apnea and snoring treatment"
+    },
+    {
+      "title": "Malocclusion & Bite Disorders",
+      "href": "/klachten/malocclusie",
+      "image": "/images/malocclusie.jpg",
+      "alt": "Malocclusion and bite disorders treatment"
     }
   ],
   "approach": {

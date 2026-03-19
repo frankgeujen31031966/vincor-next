@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "title": "Malocclusion | Vincor — Diagnostic d'Occlusion & Posture",
+    "description": "Vous souffrez d'une mauvaise occlusion, d'un surplomb ou d'une occlusion croisée ? Vincor diagnostique et traite la malocclusion et ses effets sur votre posture avec un diagnostic 4D avancé."
+  },
+  "hero": {
+    "breadcrumb": ["Home", "Troubles", "Malocclusion"],
+    "title": "Malocclusion & Troubles de l'Occlusion",
+    "description": "Une position de morsure incorrecte (malocclusion) n'affecte pas seulement vos dents, mais tout votre corps. Chez Vincor, nous visualisons objectivement la relation entre votre occlusion, l'articulation de la mâchoire et votre posture — et nous traitons la cause."
+  },
+  "watIsHet": {
+    "label": "Qu'est-ce que c'est",
+    "title": "Qu'est-ce que la malocclusion ?",
+    "paragraphs": [
+      "La malocclusion est le terme médical pour une morsure mal alignée — une situation où les dents supérieures et inférieures ne se connectent pas correctement. Cela peut aller d'une légère déviation positionnelle à de graves problèmes d'occlusion tels qu'un surplomb (les dents supérieures dépassent loin vers l'avant), une sous-occlusion (la mâchoire inférieure fait saillie), une occlusion croisée (les dents mordent en croisé) ou une béance (les dents ne se ferment pas complètement).",
+      "Bien que la malocclusion soit souvent considérée comme un problème cosmétique, les conséquences fonctionnelles sont significatives. Une occlusion perturbée entraîne une charge inégale de l'articulation de la mâchoire et des muscles masticateurs, provoquant une réaction en chaîne qui peut s'étendre de la mâchoire via le cou jusqu'à la colonne vertébrale. Chez Vincor, nous voyons quotidiennement comment un dentition apparemment 'mal alignée' est la cause sous-jacente de plaintes complexes ailleurs dans le corps."
+    ],
+    "image": "/images/malocclusie-diagnostiek.jpg"
+  },
+  "symptomen": {
+    "title": "Reconnaissez-vous ces symptômes ?",
+    "description": "La malocclusion peut se manifester par un large éventail de symptômes, tant localement dans la région de la mâchoire que dans le reste du corps.",
+    "items": [
+      "Dents qui ne s'alignent pas correctement ou qui se sont déplacées",
+      "Douleur ou fatigue de la mâchoire lors de la mastication",
+      "Usure irrégulière des dents",
+      "Maux de tête ou migraine, surtout au réveil",
+      "Cliquetis ou craquement de l'articulation de la mâchoire",
+      "Tension du cou et des épaules sans cause claire",
+      "Difficulté à mâcher ou à mordre",
+      "Problèmes d'élocution ou zézaiement"
+    ]
+  },
+  "oorzaken": {
+    "label": "Causes",
+    "title": "Comment la malocclusion affecte tout votre corps",
+    "paragraphs": [
+      "L'occlusion est le fondement du système masticatoire. Lorsque l'occlusion est perturbée, les muscles masticateurs compensent en se tendant de manière inégale. Cette tension asymétrique se propage via les muscles du cou jusqu'à la ceinture scapulaire et finalement toute la colonne vertébrale. Le corps essaie continuellement de compenser, entraînant une cascade de symptômes.",
+      "La malocclusion peut être congénitale (croissance héréditaire de la mâchoire), mais peut aussi résulter de la perte prématurée des dents de lait, de la succion prolongée du pouce, de la perte de molaires à l'âge adulte, ou même de restaurations dentaires insuffisamment finies. Dans de nombreux cas, la déviation occlusale s'est développée si progressivement que le patient ne la remarque plus — tandis que le corps continue de compenser.",
+      "Chez Vincor, nous utilisons le DIERS 4D Spinescan pour visualiser objectivement comment votre position d'occlusion affecte votre posture. En modifiant la position de la mâchoire et en mesurant simultanément la posture, nous rendons la relation visible et mesurable."
+    ],
+    "image": "/images/malocclusie-scan.jpg"
+  },
+  "diagnostiek": {
+    "title": "Comment nous diagnostiquons la malocclusion",
+    "description": "Notre approche diagnostique combine l'analyse de l'occlusion dentaire avec un diagnostic postural avancé — afin de non seulement identifier la déviation occlusale, mais aussi ses conséquences sur votre corps.",
+    "cards": [
+      {
+        "title": "Analyse de l'occlusion",
+        "description": "Enregistrement numérique précis de votre occlusion avec le scanner intra-oral Shining 3D. Nous mesurons comment les dents supérieures et inférieures mordent ensemble et où la surcharge se produit."
+      },
+      {
+        "title": "Scan postural 4D",
+        "description": "Le DIERS 4D Spinescan cartographie votre posture complète : colonne vertébrale, bassin et épaules. Nous mesurons ensuite comment votre posture change lorsque nous ajustons la position de la mâchoire."
+      },
+      {
+        "title": "Analyse fonctionnelle de la mâchoire",
+        "description": "Analyse du mouvement de la mâchoire et de la tension musculaire pour déterminer comment la malocclusion charge l'articulation de la mâchoire et les muscles environnants."
+      }
+    ]
+  },
+  "behandeling": {
+    "title": "Options de traitement pour la malocclusion",
+    "description": "Sur la base du diagnostic, nous créons un plan de traitement personnalisé visant à restaurer une occlusion équilibrée et à soulager les conséquences sur votre posture.",
+    "phases": [
+      {
+        "phase": "Phase 1",
+        "title": "Diagnostic & Stabilisation",
+        "description": "Diagnostic complet suivi d'une stabilisation immédiate de l'occlusion pour soulager les symptômes.",
+        "features": [
+          "Scan 4D complet et analyse de l'occlusion",
+          "Gouttière diagnostique sur mesure",
+          "Soulagement de l'articulation et des muscles"
+        ]
+      },
+      {
+        "phase": "Phase 2",
+        "title": "Correction de l'Occlusion",
+        "description": "Correction ciblée de la position de l'occlusion pour restaurer un équilibre occlusal.",
+        "featured": true,
+        "badge": "Traitement Principal",
+        "features": [
+          "Thérapie orthétique neuromusculaire",
+          "Repositionnement progressif de la mâchoire",
+          "Suivi continu avec scan 4D",
+          "Collaboration avec orthodontiste si nécessaire"
+        ]
+      },
+      {
+        "phase": "Phase 3",
+        "title": "Réhabilitation Définitive",
+        "description": "Sécurisation du résultat du traitement pour une stabilité à long terme.",
+        "features": [
+          "Réhabilitation dentaire définitive",
+          "Rétention et stabilisation",
+          "Contrôles périodiques et suivi"
+        ]
+      }
+    ]
+  },
+  "faq": {
+    "title": "FAQ sur la malocclusion",
+    "items": [
+      {
+        "question": "La malocclusion peut-elle aussi causer des douleurs dorsales ?",
+        "answer": "Oui, une occlusion perturbée peut provoquer une réaction en chaîne via les muscles du cou et de la mastication qui affecte toute la colonne vertébrale. Chez Vincor, nous voyons régulièrement des patients souffrant de douleurs dorsales chroniques dont une déviation occlusale s'avère être la cause sous-jacente. Notre scan 4D rend cette connexion objectivement visible."
+      },
+      {
+        "question": "La malocclusion est-elle la même chose que des dents mal alignées ?",
+        "answer": "Pas exactement. Des dents mal alignées (déviation positionnelle de dents individuelles) est une forme de malocclusion, mais le terme englobe davantage. La malocclusion concerne la relation complète entre la mâchoire supérieure et inférieure : comment elles mordent ensemble, comment les articulations sont chargées et comment les muscles fonctionnent. Un dentition apparemment droite peut encore avoir une malocclusion."
+      },
+      {
+        "question": "Ai-je toujours besoin d'un appareil dentaire pour la malocclusion ?",
+        "answer": "Pas nécessairement. Chez Vincor, nous traitons souvent la malocclusion avec une orthèse — une gouttière sur mesure qui corrige l'occlusion sans traitement orthodontique. Dans certains cas, nous recommandons une orthodontie complémentaire, mais cela dépend de la nature et de la gravité de la déviation occlusale. Notre diagnostic détermine quelle est la meilleure approche pour vous."
+      },
+      {
+        "question": "Le traitement de la malocclusion est-il remboursé ?",
+        "answer": "Le diagnostic et le traitement de la malocclusion sont partiellement couverts par les remboursements dentaires de votre assurance complémentaire. Le degré de couverture dépend de votre police et du traitement spécifique. Notre équipe se fera un plaisir de vous aider avec les informations nécessaires pour votre assureur."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Des doutes sur votre occlusion ?",
+    "description": "Prenez rendez-vous pour un scan 4D gratuit et découvrez si votre position d'occlusion cause vos symptômes — entièrement sans engagement.",
+    "buttonText": "Prendre rendez-vous",
+    "buttonHref": "/contact"
+  }
+}

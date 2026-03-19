@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "title": "Malocclusion | Vincor — Occlusion & Posture Diagnostics",
+    "description": "Suffering from a misaligned bite, overbite or crossbite? Vincor diagnoses and treats malocclusion and its effects on your posture with advanced 4D diagnostics."
+  },
+  "hero": {
+    "breadcrumb": ["Home", "Complaints", "Malocclusion"],
+    "title": "Malocclusion & Bite Disorders",
+    "description": "An incorrect bite position (malocclusion) affects not only your teeth, but your entire body. At Vincor we objectively visualize the relationship between your bite, jaw joint and posture — and treat the cause."
+  },
+  "watIsHet": {
+    "label": "What is it",
+    "title": "What is malocclusion?",
+    "paragraphs": [
+      "Malocclusion is the medical term for a misaligned bite — a situation where the upper and lower teeth do not properly connect. This can range from a mild positional deviation to serious bite problems such as an overbite (upper teeth protrude far forward), underbite (lower jaw protrudes forward), crossbite (teeth bite in a crossed pattern) or open bite (teeth do not fully close).",
+      "Although malocclusion is often considered a cosmetic problem, the functional consequences are significant. A disturbed occlusion leads to uneven loading of the jaw joint and chewing muscles, causing a chain reaction that can extend from the jaw via the neck to the spine. At Vincor we see daily how an apparently 'crooked set of teeth' is the underlying cause of complex complaints elsewhere in the body."
+    ],
+    "image": "/images/malocclusie-diagnostiek.jpg"
+  },
+  "symptomen": {
+    "title": "Do you recognize these complaints?",
+    "description": "Malocclusion can manifest in a wide range of complaints, both locally in the jaw area and in the rest of the body.",
+    "items": [
+      "Teeth that do not align properly or have shifted",
+      "Jaw pain or fatigue when chewing",
+      "Irregular wear of the teeth",
+      "Headache or migraine, especially after waking up",
+      "Clicking or cracking of the jaw joint",
+      "Neck and shoulder tension without clear cause",
+      "Difficulty chewing or biting",
+      "Speech problems or lisping"
+    ]
+  },
+  "oorzaken": {
+    "label": "Causes",
+    "title": "How malocclusion affects your entire body",
+    "paragraphs": [
+      "The bite is the foundation of the chewing system. When the occlusion is disturbed, the chewing muscles compensate by tensing unevenly. This asymmetric tension propagates via the neck muscles to the shoulder girdle and ultimately the entire spine. The body continuously tries to compensate, leading to a cascade of complaints.",
+      "Malocclusion can be congenital (hereditary jaw growth), but can also arise from premature loss of baby teeth, prolonged thumb sucking, loss of molars in adulthood, or even inadequately finished dental restorations. In many cases, the bite deviation has developed so gradually that the patient no longer notices it — while the body continues to compensate.",
+      "At Vincor we use the DIERS 4D Spinescan to objectively visualize how your bite position affects your posture. By changing the jaw position and simultaneously measuring posture, we make the relationship visible and measurable."
+    ],
+    "image": "/images/malocclusie-scan.jpg"
+  },
+  "diagnostiek": {
+    "title": "How we diagnose malocclusion",
+    "description": "Our diagnostic approach combines dental bite analysis with advanced posture diagnostics — so we not only identify the bite deviation, but also its consequences for your body.",
+    "cards": [
+      {
+        "title": "Occlusion Analysis",
+        "description": "Precise digital registration of your bite with the Shining 3D intraoral scanner. We measure how the upper and lower teeth bite together and where overloading occurs."
+      },
+      {
+        "title": "4D Posture Scan",
+        "description": "The DIERS 4D Spinescan maps your complete posture: spine, pelvis and shoulders. We then measure how your posture changes when we adjust the jaw position."
+      },
+      {
+        "title": "Functional Jaw Analysis",
+        "description": "Analysis of jaw movement and muscle tension to determine how the malocclusion loads the jaw joint and surrounding muscles."
+      }
+    ]
+  },
+  "behandeling": {
+    "title": "Treatment options for malocclusion",
+    "description": "Based on the diagnosis, we create a personal treatment plan aimed at restoring a balanced bite and relieving the consequences for your posture.",
+    "phases": [
+      {
+        "phase": "Phase 1",
+        "title": "Diagnostics & Stabilization",
+        "description": "Comprehensive diagnostics followed by immediate stabilization of the bite to relieve complaints.",
+        "features": [
+          "Complete 4D scan and occlusion analysis",
+          "Custom diagnostic bite splint",
+          "Relief of jaw joint and muscles"
+        ]
+      },
+      {
+        "phase": "Phase 2",
+        "title": "Bite Correction",
+        "description": "Targeted correction of the bite position to restore a balanced occlusion.",
+        "featured": true,
+        "badge": "Core Treatment",
+        "features": [
+          "Neuromuscular orthotic therapy",
+          "Gradual repositioning of the jaw",
+          "Continuous monitoring with 4D scan",
+          "Collaboration with orthodontist if needed"
+        ]
+      },
+      {
+        "phase": "Phase 3",
+        "title": "Definitive Rehabilitation",
+        "description": "Securing the treatment result for long-term stability.",
+        "features": [
+          "Definitive dental rehabilitation",
+          "Retention and stabilization",
+          "Periodic check-ups and monitoring"
+        ]
+      }
+    ]
+  },
+  "faq": {
+    "title": "FAQ about malocclusion",
+    "items": [
+      {
+        "question": "Can malocclusion also cause back problems?",
+        "answer": "Yes, a disturbed bite can cause a chain reaction via the neck and chewing muscles that affects the entire spine. At Vincor we regularly see patients with chronic back complaints where a bite deviation turns out to be the underlying cause. Our 4D scan makes this connection objectively visible."
+      },
+      {
+        "question": "Is malocclusion the same as crooked teeth?",
+        "answer": "Not exactly. Crooked teeth (positional deviation of individual teeth) is one form of malocclusion, but the term encompasses more. Malocclusion concerns the complete relationship between upper and lower jaw: how they bite together, how the joints are loaded and how the muscles function. An apparently straight set of teeth can still have a malocclusion."
+      },
+      {
+        "question": "Do I always need braces for malocclusion?",
+        "answer": "Not necessarily. At Vincor we often treat malocclusion with an orthotic — a custom-made splint that corrects the bite without orthodontic treatment. In some cases we recommend additional orthodontics, but that depends on the nature and severity of the bite deviation. Our diagnostics determine what the best approach is for you."
+      },
+      {
+        "question": "Is malocclusion treatment covered by insurance?",
+        "answer": "The diagnostics and treatment of malocclusion are partially covered under dental reimbursements of your supplementary health insurance. The degree of coverage depends on your policy and the specific treatment. Our team is happy to help you with the necessary information for your health insurer."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Unsure about your bite?",
+    "description": "Make an appointment for a free 4D scan and discover whether your bite position is causing your complaints — completely without obligation.",
+    "buttonText": "Make an appointment",
+    "buttonHref": "/contact"
+  }
+}

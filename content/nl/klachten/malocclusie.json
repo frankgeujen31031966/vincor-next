@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "title": "Malocclusie | Vincor — Occlusie & Houdingsdiagnostiek",
+    "description": "Last van een scheef gebit, overbeet of kruisbeet? Vincor diagnosticeert en behandelt malocclusie en de gevolgen daarvan op uw houding met geavanceerde 4D-diagnostiek."
+  },
+  "hero": {
+    "breadcrumb": ["Home", "Klachten", "Malocclusie"],
+    "title": "Malocclusie & Beetafwijkingen",
+    "description": "Een verkeerde beetpositie (malocclusie) beïnvloedt niet alleen uw gebit, maar uw hele lichaam. Bij Vincor brengen we de relatie tussen uw beet, kaakgewricht en houding objectief in beeld — en behandelen we de oorzaak."
+  },
+  "watIsHet": {
+    "label": "Wat is het",
+    "title": "Wat is malocclusie?",
+    "paragraphs": [
+      "Malocclusie is de medische term voor een afwijkende beet — een situatie waarbij de boven- en ondertanden niet correct op elkaar aansluiten. Dit kan variëren van een milde standsafwijking tot ernstige beetproblemen zoals een overbeet (boventanden steken ver vooruit), onderbeet (onderkaak staat naar voren), kruisbeet (tanden bijten gekruist) of open beet (tanden sluiten niet volledig).",
+      "Hoewel malocclusie vaak als een cosmetisch probleem wordt beschouwd, zijn de functionele gevolgen aanzienlijk. Een verstoorde occlusie leidt tot een ongelijke belasting van het kaakgewricht en de kauwspieren, wat een kettingreactie veroorzaakt die zich kan uitstrekken van de kaak via de nek tot de wervelkolom. Bij Vincor zien we dagelijks hoe een ogenschijnlijk 'scheef gebit' de onderliggende oorzaak is van complexe klachten elders in het lichaam."
+    ],
+    "image": "/images/malocclusie-diagnostiek.jpg"
+  },
+  "symptomen": {
+    "title": "Herkent u deze klachten?",
+    "description": "Malocclusie kan zich uiten in een breed scala aan klachten, zowel lokaal in het kaakgebied als in de rest van het lichaam.",
+    "items": [
+      "Tanden die niet goed op elkaar aansluiten of verschoven staan",
+      "Kaakpijn of vermoeidheid bij het kauwen",
+      "Onregelmatige slijtage van het gebit",
+      "Hoofdpijn of migraine, vooral na het ontwaken",
+      "Klikken of kraken van het kaakgewricht",
+      "Nek- en schouderspanning zonder duidelijke oorzaak",
+      "Moeite met kauwen of bijten",
+      "Spraakproblemen of lispelen"
+    ]
+  },
+  "oorzaken": {
+    "label": "Oorzaken",
+    "title": "Hoe malocclusie uw hele lichaam beïnvloedt",
+    "paragraphs": [
+      "De beet is het fundament van het kauwsysteem. Wanneer de occlusie verstoord is, compenseren de kauwspieren door ongelijkmatig te spannen. Deze asymmetrische spanning plant zich voort via de nekspieren naar de schoudergordel en uiteindelijk de volledige wervelkolom. Het lichaam probeert voortdurend te compenseren, wat leidt tot een cascade van klachten.",
+      "Malocclusie kan aangeboren zijn (erfelijke kaakgroei), maar ook ontstaan door vroegtijdig verlies van melktanden, langdurig duimzuigen, verlies van kiezen op volwassen leeftijd, of zelfs door onvoldoende afgewerkte tandheelkundige restauraties. In veel gevallen is de beetafwijking zo geleidelijk ontstaan dat de patiënt het niet meer opmerkt — terwijl het lichaam wel compenseert.",
+      "Bij Vincor brengen we met de DIERS 4D Spinescan objectief in beeld hoe uw beetpositie uw houding beïnvloedt. Door de kaakpositie te wijzigen en tegelijkertijd de houding te meten, maken we de relatie zichtbaar en meetbaar."
+    ],
+    "image": "/images/malocclusie-scan.jpg"
+  },
+  "diagnostiek": {
+    "title": "Hoe wij malocclusie diagnosticeren",
+    "description": "Onze diagnostische aanpak combineert tandheelkundige beetanalyse met geavanceerde houdingsdiagnostiek — zodat we niet alleen de beetafwijking vaststellen, maar ook de gevolgen voor uw lichaam.",
+    "cards": [
+      {
+        "title": "Occlusie-analyse",
+        "description": "Nauwkeurige digitale registratie van uw beet met de Shining 3D intraoral scanner. We meten hoe de boven- en ondertanden op elkaar bijten en waar overbelasting optreedt."
+      },
+      {
+        "title": "4D Houdingsscan",
+        "description": "De DIERS 4D Spinescan brengt uw volledige houding in kaart: wervelkolom, bekken en schouders. Vervolgens meten we hoe uw houding verandert wanneer we de kaakpositie aanpassen."
+      },
+      {
+        "title": "Functionele kaakanalyse",
+        "description": "Analyse van de kaakbeweging en spierspanning om te bepalen hoe de malocclusie het kaakgewricht en de omliggende spieren belast."
+      }
+    ]
+  },
+  "behandeling": {
+    "title": "Behandelmogelijkheden bij malocclusie",
+    "description": "Op basis van de diagnose stellen wij een persoonlijk behandelplan op dat gericht is op het herstellen van een evenwichtige beet en het verlichten van de gevolgen voor uw houding.",
+    "phases": [
+      {
+        "phase": "Fase 1",
+        "title": "Diagnostiek & Stabilisatie",
+        "description": "Uitgebreide diagnostiek gevolgd door directe stabilisatie van de beet om klachten te verlichten.",
+        "features": [
+          "Volledige 4D scan en occlusie-analyse",
+          "Diagnostische opbijtsplint op maat",
+          "Ontlasting van kaakgewricht en spieren"
+        ]
+      },
+      {
+        "phase": "Fase 2",
+        "title": "Beetcorrectie",
+        "description": "Gerichte correctie van de beetpositie om een evenwichtige occlusie te herstellen.",
+        "featured": true,
+        "badge": "Kernbehandeling",
+        "features": [
+          "Neuromuscular orthotic therapie",
+          "Geleidelijke repositionering van de kaak",
+          "Continue monitoring met 4D-scan",
+          "Samenwerking met orthodontist indien nodig"
+        ]
+      },
+      {
+        "phase": "Fase 3",
+        "title": "Definitieve Rehabilitatie",
+        "description": "Borging van het behandelresultaat voor langdurige stabiliteit.",
+        "features": [
+          "Definitieve gebitsrehabilitatie",
+          "Retentie en stabilisatie",
+          "Periodieke controle en monitoring"
+        ]
+      }
+    ]
+  },
+  "faq": {
+    "title": "FAQ over malocclusie",
+    "items": [
+      {
+        "question": "Kan malocclusie ook rugklachten veroorzaken?",
+        "answer": "Ja, een verstoorde beet kan via de nek- en kauwspieren een kettingreactie veroorzaken die de hele wervelkolom beïnvloedt. Bij Vincor zien we regelmatig patiënten met chronische rugklachten waarbij een beetafwijking de onderliggende oorzaak blijkt te zijn. Onze 4D-scan maakt dit verband objectief zichtbaar."
+      },
+      {
+        "question": "Is malocclusie hetzelfde als een scheef gebit?",
+        "answer": "Niet helemaal. Een scheef gebit (standsafwijking van individuele tanden) is één vorm van malocclusie, maar de term omvat meer. Malocclusie betreft de complete relatie tussen boven- en onderkaak: hoe ze op elkaar bijten, hoe de gewrichten belast worden en hoe de spieren functioneren. Een ogenschijnlijk recht gebit kan nog steeds een malocclusie hebben."
+      },
+      {
+        "question": "Heb ik altijd een beugel nodig bij malocclusie?",
+        "answer": "Niet per se. Bij Vincor behandelen we malocclusie vaak met een orthotic — een op maat gemaakte splint die de beet corrigeert zonder orthodontische behandeling. In sommige gevallen adviseren we aanvullende orthodontie, maar dat hangt af van de aard en ernst van de beetafwijking. Onze diagnostiek wijst uit wat voor u de beste aanpak is."
+      },
+      {
+        "question": "Wordt de behandeling van malocclusie vergoed?",
+        "answer": "De diagnostiek en behandeling van malocclusie vallen gedeeltelijk onder tandheelkundige vergoedingen van uw aanvullende zorgverzekering. De mate van vergoeding hangt af van uw polis en de specifieke behandeling. Ons team helpt u graag met de benodigde informatie voor uw zorgverzekeraar."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Twijfelt u over uw beet?",
+    "description": "Maak een afspraak voor een gratis 4D-scan en ontdek of uw beetpositie uw klachten veroorzaakt — geheel vrijblijvend.",
+    "buttonText": "Maak een afspraak",
+    "buttonHref": "/contact"
+  }
+}
