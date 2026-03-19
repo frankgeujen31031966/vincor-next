@@ -24,6 +24,7 @@ import nl_klachten_rugnekklachten from '../../content/nl/klachten/rug-nekklachte
 import nl_klachten_stijvenek from '../../content/nl/klachten/stijve-nek.json'
 import nl_klachten_tandenknarsen from '../../content/nl/klachten/tandenknarsen.json'
 import nl_klachten_tinnitus from '../../content/nl/klachten/tinnitus.json'
+import nl_klachten_malocclusie from '../../content/nl/klachten/malocclusie.json'
 import nl_klachten_zenuwpijn from '../../content/nl/klachten/zenuwpijn.json'
 import nl_navigation from '../../content/nl/navigation.json'
 import nl_overons from '../../content/nl/over-ons.json'
@@ -55,6 +56,7 @@ import en_klachten_rugnekklachten from '../../content/en/klachten/rug-nekklachte
 import en_klachten_stijvenek from '../../content/en/klachten/stijve-nek.json'
 import en_klachten_tandenknarsen from '../../content/en/klachten/tandenknarsen.json'
 import en_klachten_tinnitus from '../../content/en/klachten/tinnitus.json'
+import en_klachten_malocclusie from '../../content/en/klachten/malocclusie.json'
 import en_klachten_zenuwpijn from '../../content/en/klachten/zenuwpijn.json'
 import en_navigation from '../../content/en/navigation.json'
 import en_overons from '../../content/en/over-ons.json'
@@ -86,6 +88,7 @@ import fr_klachten_rugnekklachten from '../../content/fr/klachten/rug-nekklachte
 import fr_klachten_stijvenek from '../../content/fr/klachten/stijve-nek.json'
 import fr_klachten_tandenknarsen from '../../content/fr/klachten/tandenknarsen.json'
 import fr_klachten_tinnitus from '../../content/fr/klachten/tinnitus.json'
+import fr_klachten_malocclusie from '../../content/fr/klachten/malocclusie.json'
 import fr_klachten_zenuwpijn from '../../content/fr/klachten/zenuwpijn.json'
 import fr_navigation from '../../content/fr/navigation.json'
 import fr_overons from '../../content/fr/over-ons.json'
@@ -115,6 +118,7 @@ export const contentRegistry: Record<string, ContentMap> = {
     'klachten/apneu-snurken': nl_klachten_apneu,
     'klachten/hoofdpijn-migraine': nl_klachten_hoofdpijn,
     'klachten/kaakpijn': nl_klachten_kaakpijn,
+    'klachten/malocclusie': nl_klachten_malocclusie,
     'klachten/overzicht': nl_klachten_overzicht,
     'klachten/rug-nekklachten': nl_klachten_rugnekklachten,
     'klachten/stijve-nek': nl_klachten_stijvenek,
@@ -146,6 +150,7 @@ export const contentRegistry: Record<string, ContentMap> = {
     'klachten/apneu-snurken': en_klachten_apneu,
     'klachten/hoofdpijn-migraine': en_klachten_hoofdpijn,
     'klachten/kaakpijn': en_klachten_kaakpijn,
+    'klachten/malocclusie': en_klachten_malocclusie,
     'klachten/overzicht': en_klachten_overzicht,
     'klachten/rug-nekklachten': en_klachten_rugnekklachten,
     'klachten/stijve-nek': en_klachten_stijvenek,
@@ -177,6 +182,7 @@ export const contentRegistry: Record<string, ContentMap> = {
     'klachten/apneu-snurken': fr_klachten_apneu,
     'klachten/hoofdpijn-migraine': fr_klachten_hoofdpijn,
     'klachten/kaakpijn': fr_klachten_kaakpijn,
+    'klachten/malocclusie': fr_klachten_malocclusie,
     'klachten/overzicht': fr_klachten_overzicht,
     'klachten/rug-nekklachten': fr_klachten_rugnekklachten,
     'klachten/stijve-nek': fr_klachten_stijvenek,
