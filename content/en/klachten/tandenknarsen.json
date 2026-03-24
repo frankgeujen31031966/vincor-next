@@ -1,10 +1,10 @@
 {
-  "meta": {
-    "title": "Teeth Grinding (Bruxism) | Vincor",
-    "description": "Suffering from teeth grinding or jaw clenching? Bruxism can lead to serious jaw, head, and neck complaints. Vincor offers advanced diagnostics and treatment."
-  },
   "hero": {
-    "breadcrumb": ["Home", "Complaints", "Teeth Grinding"],
+    "breadcrumb": [
+      "Home",
+      "Complaints",
+      "Teeth Grinding"
+    ],
     "title": "Teeth Grinding & Bruxism",
     "description": "Teeth grinding and jaw clenching are more than just a bad habit. Bruxism can lead to serious tooth wear, jaw pain, and chronic headaches. At Vincor, we treat the underlying cause."
   },
@@ -39,7 +39,7 @@
       "When the bite is not optimal, the neuromuscular system tries to compensate for this. During sleep, when conscious control is absent, this manifests as grinding and clenching. The brain essentially tries to \"correct\" the bite by sliding the teeth over each other.",
       "Stress and anxiety increase the tendency for bruxism, but are rarely the only cause. A disturbed occlusion combined with psychological tension creates a vicious circle: grinding leads to muscle pain, muscle pain leads to tension, tension leads to more grinding. Without treatment of the underlying bite problem, this cycle continues."
     ],
-    "image": "/images/4d-posturelab-small.png"
+    "image": "/images/gevolgen-van-tandenknarsen.webp"
   },
   "diagnostiek": {
     "title": "How we diagnose bruxism",
@@ -77,13 +77,13 @@
         "phase": "Phase 2",
         "title": "Bite correction",
         "description": "Eliminating the occlusal cause of grinding for lasting results.",
-        "featured": true,
-        "badge": "Most chosen",
         "features": [
           "Neuromuscular orthotic therapy",
           "Occlusal balance adjustment",
           "Biofeedback training"
-        ]
+        ],
+        "featured": true,
+        "badge": "Most chosen"
       },
       {
         "phase": "Phase 3",
@@ -123,5 +123,9 @@
     "description": "Stop the damage to your teeth. Discover the cause of your teeth grinding with our advanced 4D diagnostics.",
     "buttonText": "Make an appointment",
     "buttonHref": "/contact"
+  },
+  "meta": {
+    "title": "Teeth Grinding (Bruxism) | Vincor",
+    "description": "Suffering from teeth grinding or jaw clenching? Bruxism can lead to serious jaw, head, and neck complaints. Vincor offers advanced diagnostics and treatment."
   }
 }
