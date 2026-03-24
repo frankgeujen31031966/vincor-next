@@ -1,10 +1,10 @@
 {
-  "meta": {
-    "title": "Tandenknarsen (Bruxisme) | Vincor",
-    "description": "Last van tandenknarsen of kaakklemmen? Bruxisme kan leiden tot ernstige kaak-, hoofd- en nekklachten. Vincor biedt geavanceerde diagnostiek en behandeling."
-  },
   "hero": {
-    "breadcrumb": ["Home", "Klachten", "Tandenknarsen"],
+    "breadcrumb": [
+      "Home",
+      "Klachten",
+      "Tandenknarsen"
+    ],
     "title": "Tandenknarsen & Bruxisme",
     "description": "Tandenknarsen en kaakklemmen zijn meer dan een slechte gewoonte. Bruxisme kan leiden tot ernstige tandslijtage, kaakpijn en chronische hoofdpijn. Bij Vincor behandelen we de onderliggende oorzaak."
   },
@@ -25,7 +25,7 @@
       "Kaakpijn en stijfheid bij het wakker worden",
       "Vermoeide of gezwollen kauwspieren",
       "Partner hoort knarsgeluiden tijdens uw slaap",
-      "Hoofdpijn in de slapen, vooral \u2019s ochtends",
+      "Hoofdpijn in de slapen, vooral ’s ochtends",
       "Inkepingen of indrukken op de zijkant van de tong",
       "Verhoging van de kauwspieren (hypertrofie musculus masseter)",
       "Verstoorde nachtrust en vermoeidheid overdag"
@@ -36,10 +36,10 @@
     "title": "Waarom knarst u met uw tanden?",
     "paragraphs": [
       "Tandenknarsen heeft zelden een enkele oorzaak. Bij Vincor zien we een complex samenspel van factoren, waarbij de occlusie — de manier waarop uw tanden op elkaar passen — een centrale rol speelt.",
-      "Wanneer de beet niet optimaal is, probeert het neuromusculaire systeem dit te compenseren. Tijdens de slaap, wanneer bewuste controle wegvalt, uit dit zich als knarsen en klemmen. Het brein probeert als het ware de beet te \u201ccorrigeren\u201d door de tanden over elkaar te schuiven.",
+      "Wanneer de beet niet optimaal is, probeert het neuromusculaire systeem dit te compenseren. Tijdens de slaap, wanneer bewuste controle wegvalt, uit dit zich als knarsen en klemmen. Het brein probeert als het ware de beet te “corrigeren” door de tanden over elkaar te schuiven.",
       "Stress en angst verhogen de neiging tot bruxisme, maar zijn zelden de enige oorzaak. Een verstoorde occlusie in combinatie met psychische spanning creëert een vicieuze cirkel: knarsen leidt tot spierpijn, spierpijn leidt tot spanning, spanning leidt tot meer knarsen. Zonder behandeling van de onderliggende beetproblematiek blijft deze cyclus bestaan."
     ],
-    "image": "/images/4d-posturelab-small.png"
+    "image": "/images/gevolgen-van-tandenknarsen.webp"
   },
   "diagnostiek": {
     "title": "Hoe wij bruxisme diagnosticeren",
@@ -77,13 +77,13 @@
         "phase": "Fase 2",
         "title": "Beetcorrectie",
         "description": "Wegnemen van de occlusale oorzaak van het knarsen voor blijvend resultaat.",
-        "featured": true,
-        "badge": "Meest gekozen",
         "features": [
           "Neuromusculaire orthotic therapie",
           "Occlusale evenwichtsaanpassing",
           "Biofeedback-training"
-        ]
+        ],
+        "featured": true,
+        "badge": "Meest gekozen"
       },
       {
         "phase": "Fase 3",
@@ -101,7 +101,7 @@
     "title": "FAQ over tandenknarsen",
     "items": [
       {
-        "question": "Hoe weet ik of ik \u2019s nachts knars?",
+        "question": "Hoe weet ik of ik ’s nachts knars?",
         "answer": "Typische aanwijzingen zijn: ochtendstijfheid in de kaak, hoofdpijn bij het wakker worden, slijtplekken op uw tanden, inkepingen op de zijkant van de tong, of een partner die knarsgeluiden hoort. Onze diagnostiek kan met EMG-metingen objectief vaststellen of en in welke mate u knarst, ook als u zich er niet bewust van bent."
       },
       {
@@ -123,5 +123,9 @@
     "description": "Stop de schade aan uw gebit. Ontdek de oorzaak van uw tandenknarsen met onze geavanceerde 4D-diagnostiek.",
     "buttonText": "Maak een afspraak",
     "buttonHref": "/contact"
+  },
+  "meta": {
+    "title": "Tandenknarsen (Bruxisme) | Vincor",
+    "description": "Last van tandenknarsen of kaakklemmen? Bruxisme kan leiden tot ernstige kaak-, hoofd- en nekklachten. Vincor biedt geavanceerde diagnostiek en behandeling."
   }
 }
