@@ -1,10 +1,10 @@
 {
-  "meta": {
-    "title": "Bruxisme (Serrage de dents) | Vincor",
-    "description": "Souriez-vous des dents ou serrez-vous la mâchoire ? Le bruxisme peut entraîner des douleurs graves de la mâchoire, de la tête et du cou. Vincor offre une diagnostic et un traitement avancés."
-  },
   "hero": {
-    "breadcrumb": ["Accueil", "Problèmes", "Bruxisme"],
+    "breadcrumb": [
+      "Accueil",
+      "Problèmes",
+      "Bruxisme"
+    ],
     "title": "Bruxisme et Serrage de dents",
     "description": "Le bruxisme et le serrage de dents sont plus qu'une mauvaise habitude. Le bruxisme peut entraîner une usure dentaire grave, des douleurs de la mâchoire et des maux de tête chroniques. Chez Vincor, nous traitons la cause sous-jacente."
   },
@@ -39,7 +39,7 @@
       "Lorsque la morsure n'est pas optimale, le système neuromusculaire tente de compenser. Pendant le sommeil, lorsque le contrôle conscient disparaît, cela se manifeste par du grincement et du serrage. Le cerveau tente en quelque sorte de \"corriger\" la morsure en faisant glisser les dents les unes sur les autres.",
       "Le stress et l'anxiété augmentent la tendance au bruxisme, mais sont rarement la seule cause. Une occlusion perturbée combinée à une tension psychologique crée un cercle vicieux : le grincement entraîne des douleurs musculaires, les douleurs musculaires entraînent de la tension, la tension entraîne plus de grincement. Sans traitement du problème de morsure sous-jacent, ce cycle persiste."
     ],
-    "image": "/images/4d-posturelab-small.png"
+    "image": "/images/gevolgen-van-tandenknarsen.webp"
   },
   "diagnostiek": {
     "title": "Comment nous diagnostiquons le bruxisme",
@@ -77,13 +77,13 @@
         "phase": "Phase 2",
         "title": "Correction de la morsure",
         "description": "Élimination de la cause occlusale du grincement pour un résultat durable.",
-        "featured": true,
-        "badge": "Plus choisi",
         "features": [
           "Thérapie orthotique neuromusculaire",
           "Ajustement de l'équilibre occlusal",
           "Formation par biofeedback"
-        ]
+        ],
+        "featured": true,
+        "badge": "Plus choisi"
       },
       {
         "phase": "Phase 3",
@@ -123,5 +123,9 @@
     "description": "Arrêtez les dommages à votre dentition. Découvrez la cause de votre bruxisme avec notre diagnostic avancé 4D.",
     "buttonText": "Prendre rendez-vous",
     "buttonHref": "/contact"
+  },
+  "meta": {
+    "title": "Bruxisme (Serrage de dents) | Vincor",
+    "description": "Souriez-vous des dents ou serrez-vous la mâchoire ? Le bruxisme peut entraîner des douleurs graves de la mâchoire, de la tête et du cou. Vincor offre une diagnostic et un traitement avancés."
   }
 }
