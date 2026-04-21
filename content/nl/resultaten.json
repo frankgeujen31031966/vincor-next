@@ -23,6 +23,13 @@
     "sectionLabel": "Pati\u00ebntjourneys",
     "title": "Pati\u00ebntjourneys",
     "description": "Drie geanonimiseerde casussen die laten zien hoe een verstoorde beet uiteenlopende klachten kan veroorzaken \u2014 en hoe wij daar verandering in brengen.",
+    "labels": {
+      "patient": "Pati\u00ebnt",
+      "complaint": "Klacht",
+      "diagnosis": "Diagnose",
+      "treatment": "Behandeling",
+      "result": "Resultaat"
+    },
     "cases": [
       {
         "title": "Van chronische migraine naar een leven zonder hoofdpijn",

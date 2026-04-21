@@ -36,9 +36,11 @@
     "sectionLabel": "De Drie Fasen",
     "title": "Uw behandeltraject in detail",
     "description": "Elke fase heeft een duidelijk doel en wordt pas gestart wanneer de vorige fase het gewenste resultaat heeft opgeleverd.",
+    "learnMoreLabel": "Meer over",
     "phases": [
       {
         "phase": "Fase 1",
+        "slug": "fase-1-relaxatiesplint",
         "title": "Relaxatiesplint",
         "price": "209",
         "currency": "EUR",
@@ -55,6 +57,7 @@
       },
       {
         "phase": "Fase 2",
+        "slug": "fase-2-repositioneringssplint",
         "title": "Repositioneringssplint",
         "price": "595",
         "currency": "EUR",
@@ -73,6 +76,7 @@
       },
       {
         "phase": "Fase 3",
+        "slug": "fase-3-reconstructie",
         "title": "Reconstructie",
         "price": "1.500 – 7.000",
         "currency": "EUR",

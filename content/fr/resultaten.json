@@ -23,6 +23,13 @@
     "sectionLabel": "Histoires de patients",
     "title": "Histoires de patients",
     "description": "Trois cas anonymisés qui montrent comment une occlusion perturbée peut causer des symptômes variés — et comment nous y remédions.",
+    "labels": {
+      "patient": "Patient",
+      "complaint": "Plainte",
+      "diagnosis": "Diagnostic",
+      "treatment": "Traitement",
+      "result": "Résultat"
+    },
     "cases": [
       {
         "title": "De la migraine chronique à une vie sans maux de tête",

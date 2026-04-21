@@ -28,7 +28,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const contentPath = slugToFile[slug]
   if (!contentPath) return {}
   const content = await getContent(locale, contentPath) as any
-  return buildMetadata({ locale, path: `/behandeling/${slug}`, title: `${content.hero.title} — Vincor`, description: content.hero.description })
+  return buildMetadata({ locale, path: `/behandeling/${slug}`, title: content.meta.title, description: content.meta.description })
 }
 
 export default async function BehandelingDetailPage({ params }: { params: Promise<{ locale: string; slug: string }> }) {

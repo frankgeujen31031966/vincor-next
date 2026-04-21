@@ -29,8 +29,8 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   return buildMetadata({
     locale,
     path: `/klachten/${slug}`,
-    title: `${content.hero.title} — Vincor`,
-    description: content.hero.description,
+    title: content.meta.title,
+    description: content.meta.description,
     image: content.watIsHet?.image,
   })
 }

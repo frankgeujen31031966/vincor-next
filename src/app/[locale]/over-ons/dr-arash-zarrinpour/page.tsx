@@ -10,7 +10,7 @@ import { buildMetadata } from '@/lib/seo'
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params
   const content = await getContent(locale, 'team/dr-arash-zarrinpour')
-  return buildMetadata({ locale, path: '/over-ons/dr-arash-zarrinpour', title: `${content.hero.title} — Vincor`, description: content.hero.description })
+  return buildMetadata({ locale, path: '/over-ons/dr-arash-zarrinpour', title: content.meta.title, description: content.meta.description })
 }
 
 function CheckIcon() {

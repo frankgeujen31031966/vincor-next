@@ -15,7 +15,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const { locale, slug } = await params
   if (!validSlugs.includes(slug)) return {}
   const content = await getContent(locale, `kennisbank/${slug}`)
-  return buildMetadata({ locale, path: `/kennisbank/${slug}`, title: `${content.hero.title} — Vincor`, description: content.hero.description })
+  return buildMetadata({ locale, path: `/kennisbank/${slug}`, title: content.meta.title, description: content.meta.description })
 }
 
 function BodyBlock({ block }: { block: any }) {

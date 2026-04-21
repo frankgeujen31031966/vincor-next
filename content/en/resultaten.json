@@ -23,6 +23,13 @@
     "sectionLabel": "Patient Journeys",
     "title": "Patient Journeys",
     "description": "Three anonymized case studies showing how a disturbed bite can cause various complaints — and how we bring change.",
+    "labels": {
+      "patient": "Patient",
+      "complaint": "Complaint",
+      "diagnosis": "Diagnosis",
+      "treatment": "Treatment",
+      "result": "Result"
+    },
     "cases": [
       {
         "title": "From chronic migraine to a life without headaches",

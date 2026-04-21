@@ -10,7 +10,7 @@ import { buildMetadata } from '@/lib/seo'
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params
   const content = await getContent(locale, 'resultaten')
-  return buildMetadata({ locale, path: '/resultaten', title: `${content.hero.title} — Vincor`, description: content.hero.description })
+  return buildMetadata({ locale, path: '/resultaten', title: content.meta.title, description: content.meta.description })
 }
 
 function CheckIcon() {
@@ -68,12 +68,12 @@ export default async function ResultatenPage({ params }: { params: Promise<{ loc
                   <div>
                     <h3 className="text-2xl font-bold mb-4">{caseItem.title}</h3>
                     <div className="space-y-3">
-                      <div><span className="font-semibold text-gray-700">Patiënt:</span> <span className="text-gray-500">{caseItem.patient}</span></div>
-                      <div><span className="font-semibold text-gray-700">Klacht:</span> <span className="text-gray-500">{caseItem.complaint}</span></div>
-                      <div><span className="font-semibold text-gray-700">Diagnose:</span> <span className="text-gray-500">{caseItem.diagnosis}</span></div>
-                      <div><span className="font-semibold text-gray-700">Behandeling:</span> <span className="text-gray-500">{caseItem.treatment}</span></div>
+                      <div><span className="font-semibold text-gray-700">{content.caseStudies.labels.patient}:</span> <span className="text-gray-500">{caseItem.patient}</span></div>
+                      <div><span className="font-semibold text-gray-700">{content.caseStudies.labels.complaint}:</span> <span className="text-gray-500">{caseItem.complaint}</span></div>
+                      <div><span className="font-semibold text-gray-700">{content.caseStudies.labels.diagnosis}:</span> <span className="text-gray-500">{caseItem.diagnosis}</span></div>
+                      <div><span className="font-semibold text-gray-700">{content.caseStudies.labels.treatment}:</span> <span className="text-gray-500">{caseItem.treatment}</span></div>
                       <div className="bg-teal/5 border border-teal/20 rounded-lg p-4 mt-4">
-                        <span className="font-semibold text-teal">Resultaat:</span> <span className="text-gray-600">{caseItem.result}</span>
+                        <span className="font-semibold text-teal">{content.caseStudies.labels.result}:</span> <span className="text-gray-600">{caseItem.result}</span>
                       </div>
                     </div>
                   </div>

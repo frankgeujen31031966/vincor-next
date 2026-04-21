@@ -11,7 +11,7 @@ import { buildMetadata } from '@/lib/seo'
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params
   const content = await getContent(locale, 'behandeling/overzicht')
-  return buildMetadata({ locale, path: '/behandeling', title: `${content.hero.title} — Vincor`, description: content.hero.description })
+  return buildMetadata({ locale, path: '/behandeling', title: content.meta.title, description: content.meta.description })
 }
 
 function CheckIcon() {
@@ -91,10 +91,10 @@ export default async function BehandelingPage({ params }: { params: Promise<{ lo
                   </ul>
                   <div className="text-xs text-gray-500 mb-4">{p.location}</div>
                   <Link
-                    href={`/${locale}/behandeling/${p.phase === 'Fase 1' ? 'fase-1-relaxatiesplint' : p.phase === 'Fase 2' ? 'fase-2-repositioneringssplint' : 'fase-3-reconstructie'}`}
+                    href={`/${locale}/behandeling/${p.slug}`}
                     className={`text-center py-2.5 rounded-full font-semibold text-sm transition block ${p.featured ? 'bg-teal text-white hover:brightness-110' : 'border border-white/20 text-white hover:bg-white/5'}`}
                   >
-                    Meer over {p.phase}
+                    {content.phaseCards.learnMoreLabel} {p.phase}
                   </Link>
                 </div>
               </ScrollReveal>
