@@ -1,72 +1,133 @@
 {
   "meta": {
-    "title": "Privacybeleid \u2014 Vincor",
-    "description": "Privacybeleid van Vincor. Lees hoe wij omgaan met uw persoonsgegevens conform de AVG.",
+    "title": "Privacyverklaring \u2014 Vincor",
+    "description": "Privacyverklaring van Vincor. Hoe wij omgaan met uw persoonsgegevens en gezondheidsdata onder de AVG.",
     "slug": "privacy"
   },
   "hero": {
     "breadcrumb": ["Home", "Privacy"],
-    "title": "Privacybeleid",
-    "titleHighlight": "beleid",
-    "description": "Hoe Vincor omgaat met uw persoonsgegevens, conform de Algemene Verordening Gegevensbescherming (AVG)."
+    "title": "Privacyverklaring",
+    "titleHighlight": "verklaring",
+    "description": "Hoe Vincor omgaat met uw persoonsgegevens, in het bijzonder gezondheidsdata, conform de Algemene Verordening Gegevensbescherming (AVG)."
   },
-  "lastUpdated": "maart 2026",
+  "lastUpdated": "21 april 2026",
   "sections": [
     {
-      "title": "Wie zijn wij",
-      "content": "Vincor is gevestigd aan de Dokter Cuyperslaan 76, 5623 BB Eindhoven. Wij zijn verantwoordelijk voor de verwerking van uw persoonsgegevens zoals beschreven in dit privacybeleid. U kunt ons bereiken via info@vincorscan.nl."
-    },
-    {
-      "title": "Welke gegevens verzamelen wij",
-      "content": "Wij verwerken de volgende persoonsgegevens wanneer u gebruik maakt van onze diensten:",
+      "title": "1. Wie is verantwoordelijk?",
+      "content": "Vincor (Vinculum Corporis) is een kliniek voor occlusie- en houdingsdiagnostiek in Eindhoven. Wij zijn verwerkingsverantwoordelijke in de zin van de AVG voor de gegevens die wij van u verwerken.",
       "list": [
-        "Naam en achternaam",
-        "E-mailadres",
-        "Telefoonnummer",
-        "Informatie over uw klachten en medische voorgeschiedenis",
-        "Scandata (4D houdingsscans en occlusieanalyses)"
+        "Vestigingsadres: Dokter Cuyperslaan 76, 5623 BB Eindhoven",
+        "KvK-nummer: [KvK nr. in te vullen]",
+        "Contactpersoon privacy: Dirk [achternaam], eigenaar",
+        "E-mail voor privacyvragen: info@vincorscan.nl"
       ]
     },
     {
-      "title": "Waarom verzamelen wij deze gegevens",
-      "content": "Wij gebruiken uw gegevens uitsluitend voor de volgende doeleinden:",
+      "title": "2. Welke gegevens verwerken wij?",
+      "content": "Wij onderscheiden algemene persoonsgegevens en bijzondere gegevens (gezondheidsdata onder artikel 9 AVG).\n\nAlgemene persoonsgegevens (via de website):",
       "list": [
-        "Het maken en beheren van afspraken",
-        "Het uitvoeren van diagnostiek en behandeling",
-        "Het contact met u opnemen per telefoon of e-mail indien nodig",
-        "Het voldoen aan wettelijke verplichtingen"
-      ]
-    },
-    {
-      "title": "Bewaartermijn",
-      "content": "Wij bewaren uw persoonsgegevens niet langer dan strikt noodzakelijk is voor de doeleinden waarvoor zij worden verzameld. Voor medische gegevens hanteren wij de wettelijke bewaartermijn van 20 jaar, conform de Wet op de geneeskundige behandelingsovereenkomst (WGBO). Overige gegevens worden verwijderd zodra zij niet meer nodig zijn."
-    },
-    {
-      "title": "Delen met derden",
-      "content": "Vincor verkoopt uw gegevens niet aan derden. Wij delen uw gegevens uitsluitend met derden wanneer dit noodzakelijk is voor de uitvoering van onze overeenkomst met u of om te voldoen aan een wettelijke verplichting. Met bedrijven die uw gegevens verwerken in onze opdracht sluiten wij een verwerkersovereenkomst. Concreet delen wij gegevens met:",
-      "list": [
-        "PDA (Prothetische Dentale Applicaties) \u2014 uitsluitend bij fase 3 (reconstructie), wanneer u hiervoor kiest",
-        "Balans Rugcentrum \u2014 voor het uitvoeren van de 4D houdingsscans"
-      ]
-    },
-    {
-      "title": "Uw rechten",
-      "content": "Op grond van de AVG heeft u de volgende rechten met betrekking tot uw persoonsgegevens:",
-      "list": [
-        "Recht op inzage \u2014 u kunt opvragen welke gegevens wij van u verwerken",
-        "Recht op correctie \u2014 u kunt onjuiste gegevens laten aanpassen",
-        "Recht op verwijdering \u2014 u kunt verzoeken uw gegevens te laten verwijderen, voor zover de wet dit toestaat",
-        "Recht op bezwaar \u2014 u kunt bezwaar maken tegen de verwerking van uw gegevens"
+        "Naam, e-mailadres en telefoonnummer",
+        "Onderwerp en inhoud van uw bericht via het contactformulier",
+        "IP-adres (via Cloudflare, voor beveiliging)",
+        "Cookievoorkeuren (lokaal in uw browser opgeslagen)"
       ],
-      "additionalContent": "Om gebruik te maken van uw rechten kunt u contact opnemen via info@vincorscan.nl. Wij reageren zo snel mogelijk, maar uiterlijk binnen vier weken, op uw verzoek. Daarnaast heeft u het recht een klacht in te dienen bij de Autoriteit Persoonsgegevens."
+      "additionalContent": "Bijzondere gegevens \u2014 gezondheidsdata (artikel 9 AVG): klachten die u in het contactformulier beschrijft, plus diagnostische gegevens, behandelplannen, correspondentie met andere zorgverleners, Shining 3D-scans, foto's en verslagen \u2014 deze laatste uitsluitend in het patiëntdossier in de praktijk."
     },
     {
-      "title": "Cookies",
-      "content": "Onze website maakt gebruik van functionele cookies die noodzakelijk zijn voor het correct functioneren van de website. Daarnaast gebruiken wij analytische cookies om het gebruik van de website te analyseren en te verbeteren. Deze cookies verzamelen geen persoonsgegevens waarmee u direct ge\u00efdentificeerd kunt worden. U kunt cookies uitschakelen via uw browserinstellingen, maar dit kan de werking van de website be\u00efnvloeden."
+      "title": "3. Waarom verwerken wij deze gegevens?",
+      "content": "Wij gebruiken uw gegevens alleen voor duidelijk afgebakende doeleinden, steeds op basis van een specifieke rechtsgrond uit de AVG:",
+      "list": [
+        "Beantwoorden van algemene vragen via het contactformulier \u2014 artikel 6(1)(f) AVG (gerechtvaardigd belang)",
+        "Contactformulier met gezondheidscontext \u2014 artikel 9(2)(a) AVG (uw expliciete toestemming via het vinkje)",
+        "Behandelovereenkomst en patiëntdossier \u2014 artikel 6(1)(b) plus artikel 9(2)(h) AVG (zorgverlening)",
+        "Facturatie en administratie \u2014 artikel 6(1)(c) AVG (wettelijke plicht, fiscale bewaarplicht)",
+        "Beveiliging van de website \u2014 artikel 6(1)(f) AVG (gerechtvaardigd belang)",
+        "Analytics-cookies \u2014 artikel 6(1)(a) AVG (uw toestemming via cookiebanner)"
+      ]
     },
     {
-      "title": "Contact voor privacyvragen",
-      "content": "Heeft u vragen over dit privacybeleid of over de verwerking van uw persoonsgegevens? Neem dan contact met ons op:",
+      "title": "4. Hoe lang bewaren wij uw gegevens?",
+      "content": "Wij bewaren uw gegevens niet langer dan nodig. Per categorie hanteren wij een vaste bewaartermijn:",
+      "list": [
+        "Contactformulier-lead die geen patiënt wordt \u2014 6 maanden",
+        "Patiëntdossier \u2014 20 jaar na laatste behandeling (WGBO, artikel 7:454 BW)",
+        "Financiële administratie \u2014 7 jaar (artikel 52 AWR)",
+        "Cloudflare-logs met IP-adres \u2014 30 dagen",
+        "Cookievoorkeuren \u2014 12 maanden of tot u ze wist"
+      ]
+    },
+    {
+      "title": "5. Met wie delen wij uw gegevens?",
+      "content": "Wij delen uw gegevens uitsluitend met verwerkers die wij inschakelen om onze diensten te leveren. Met elke verwerker hebben wij een verwerkersovereenkomst op basis van artikel 28 AVG.",
+      "list": [
+        "Resend (Verenigde Staten, EU-region waar mogelijk) \u2014 verzending van e-mails vanuit het contactformulier",
+        "Cloudflare (Verenigde Staten, Europese edge-servers) \u2014 hosting, Workers, DNS, beveiliging en optionele analytics",
+        "GitHub (Verenigde Staten) \u2014 OAuth-authenticatie voor inhoudsbeheer via Decap CMS",
+        "Google (Verenigde Staten) \u2014 Google Maps-kaartweergave, uitsluitend na uw toestemming",
+        "PDA (EU) \u2014 alleen bij fase 3 (reconstructie), met uw toestemming",
+        "Balans Rugcentrum (EU) \u2014 voor uitvoering 4D houdingsscans"
+      ],
+      "additionalContent": "Gegevens uit het patiëntdossier worden niet gedeeld met hostingleveranciers of contactformulier-verwerkers. Delen met andere zorgverleners gebeurt alleen met uw toestemming of op grondslag van artikel 9(2)(h) AVG (zorgverlening)."
+    },
+    {
+      "title": "6. Doorgifte buiten de Europese Unie",
+      "content": "Resend, Cloudflare, GitHub en Google verwerken gegevens (ook) in de Verenigde Staten. Wij baseren deze doorgifte op: (a) het EU-US Data Privacy Framework waar de partij gecertificeerd is, of (b) Standard Contractual Clauses conform Uitvoeringsbesluit (EU) 2021/914. Onze samenwerkingspartners binnen de EU \u2014 waaronder Dr. Arash Zarrinpour in Parijs \u2014 vallen onder de AVG en vereisen geen aanvullende waarborgen."
+    },
+    {
+      "title": "7. Uw rechten",
+      "content": "De AVG geeft u een aantal concrete rechten met betrekking tot uw persoonsgegevens:",
+      "list": [
+        "Recht op inzage (artikel 15) \u2014 opvragen welke gegevens wij van u verwerken",
+        "Recht op rectificatie (artikel 16) \u2014 onjuiste gegevens laten corrigeren",
+        "Recht op wissing (artikel 17) \u2014 uw gegevens laten verwijderen, voor zover wij niet wettelijk verplicht zijn ze te bewaren",
+        "Recht op beperking van de verwerking (artikel 18)",
+        "Recht op bezwaar (artikel 21)",
+        "Recht op dataportabiliteit (artikel 20)",
+        "Recht om eerder gegeven toestemming in te trekken (artikel 7(3)) \u2014 zonder dat dit eerdere verwerking ongedaan maakt"
+      ],
+      "additionalContent": "Wilt u een van deze rechten uitoefenen? Stuur dan een e-mail naar info@vincorscan.nl. Wij reageren binnen 30 dagen (artikel 12(3) AVG). Om misbruik te voorkomen kunnen wij om aanvullende identificatie vragen voordat wij informatie verstrekken."
+    },
+    {
+      "title": "8. Klacht indienen",
+      "content": "Bent u niet tevreden over hoe wij met uw gegevens omgaan? Dan heeft u het recht een klacht in te dienen bij de Autoriteit Persoonsgegevens via autoriteitpersoonsgegevens.nl, Postbus 93374, 2509 AJ Den Haag. Patiënten uit Frankrijk kunnen zich eveneens wenden tot de CNIL (cnil.fr)."
+    },
+    {
+      "title": "9. Cookies",
+      "content": "Wij plaatsen alleen cookies die nodig zijn voor het correct functioneren van de website. Voor statistieken en Google Maps vragen wij uw toestemming vooraf via de cookiebanner.",
+      "list": [
+        "Essentieel (sessie, beveiliging, cookievoorkeuren zelf) \u2014 geen toestemming nodig",
+        "Statistieken (Cloudflare Web Analytics) \u2014 alleen na uw opt-in",
+        "Google Maps (kaart op contactpagina) \u2014 wordt pas geladen na uw toestemming"
+      ],
+      "additionalContent": "U beheert uw voorkeuren via de cookiebanner of via de link \"Cookievoorkeuren\" onderaan de pagina. U kunt toestemming even makkelijk intrekken als geven."
+    },
+    {
+      "title": "10. Datalekken",
+      "content": "Bij een datalek melden wij dit binnen 72 uur aan de Autoriteit Persoonsgegevens (artikel 33 AVG). Als het lek een hoog risico oplevert voor uw rechten en vrijheden, informeren wij u ook persoonlijk (artikel 34 AVG)."
+    },
+    {
+      "title": "11. Beveiligingsmaatregelen",
+      "content": "Wij nemen passende technische en organisatorische maatregelen om uw gegevens te beschermen (artikel 32 AVG):",
+      "list": [
+        "HTTPS (TLS 1.3) op de gehele website",
+        "Toegangsbeperking tot patiëntdossiers \u2014 alleen behandelaren",
+        "Tweefactor-authenticatie op beheerdersaccounts",
+        "Regelmatige back-ups op versleutelde opslag",
+        "Verwerkersovereenkomsten met alle leveranciers",
+        "Jaarlijkse review door de eigenaar"
+      ]
+    },
+    {
+      "title": "12. Geen Functionaris Gegevensbescherming (FG/DPO)",
+      "content": "Vincor is een kleine praktijk en verwerkt geen gezondheidsdata op grote schaal in de zin van artikel 37(1)(c) AVG. De EDPB-richtlijn WP243 stelt expliciet dat een individuele zorgverlener in een kleine praktijk niet als grootschalig geldt. Een DPO is voor ons daarom niet verplicht. Onze interne motivering is op verzoek beschikbaar via info@vincorscan.nl."
+    },
+    {
+      "title": "13. Wijzigingen",
+      "content": "Deze privacyverklaring kan worden bijgewerkt als onze werkwijze of wetgeving verandert. De actuele versie is altijd beschikbaar op de privacypagina van onze website. Bij ingrijpende wijzigingen informeren wij u proactief."
+    },
+    {
+      "title": "14. Contact voor privacyvragen",
+      "content": "Heeft u vragen over deze privacyverklaring of over de verwerking van uw persoonsgegevens? Neem dan contact met ons op:",
       "contactDetails": {
         "name": "Vincor",
         "street": "Dokter Cuyperslaan 76",

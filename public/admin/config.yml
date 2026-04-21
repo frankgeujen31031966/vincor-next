@@ -654,11 +654,30 @@ collections:
         label: Privacy
         file: content/nl/privacy.json
         fields: &privacy-fields
+          - { name: meta, label: "Meta (SEO)", widget: object, fields: [
+              { name: title, label: Titel, widget: string },
+              { name: description, label: Beschrijving, widget: text },
+              { name: slug, label: Slug, widget: string }
+            ]}
           - { name: hero, label: Hero, widget: object, fields: [
               { name: breadcrumb, label: Breadcrumb, widget: list, field: { name: item, label: Item, widget: string } },
               { name: title, label: Titel, widget: string },
               { name: titleHighlight, label: Highlight, widget: string, required: false },
               { name: description, label: Beschrijving, widget: text }
+            ]}
+          - { name: lastUpdated, label: "Laatst bijgewerkt", widget: string }
+          - { name: sections, label: Secties, widget: list, fields: [
+              { name: title, label: Titel, widget: string },
+              { name: content, label: Inhoud, widget: text },
+              { name: list, label: "Lijst (optioneel)", widget: list, required: false, field: { name: item, label: Item, widget: string } },
+              { name: additionalContent, label: "Extra tekst (optioneel)", widget: text, required: false },
+              { name: contactDetails, label: "Contactgegevens (optioneel)", widget: object, required: false, fields: [
+                { name: name, label: Naam, widget: string },
+                { name: street, label: Straat, widget: string },
+                { name: postcode, label: Postcode + plaats, widget: string },
+                { name: email, label: E-mail, widget: string },
+                { name: phone, label: Telefoon, widget: string }
+              ]}
             ]}
 
       - name: voorwaarden

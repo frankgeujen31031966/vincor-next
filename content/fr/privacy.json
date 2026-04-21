@@ -1,76 +1,137 @@
 {
   "meta": {
-    "title": "Politique de confidentialité — Vincor",
-    "description": "Politique de confidentialité de Vincor. Découvrez comment nous gérons vos données personnelles conformément au RGPD.",
+    "title": "Déclaration de confidentialité \u2014 Vincor",
+    "description": "Déclaration de confidentialité de Vincor. Comment nous traitons vos données personnelles et de santé conformément au RGPD.",
     "slug": "privacy"
   },
   "hero": {
-    "breadcrumb": ["Accueil", "Politique de confidentialité"],
-    "title": "Politique de confidentialité",
-    "titleHighlight": "politique",
-    "description": "Comment Vincor gère vos données personnelles, conformément au Règlement Général sur la Protection des Données (RGPD)."
+    "breadcrumb": ["Accueil", "Confidentialité"],
+    "title": "Déclaration de confidentialité",
+    "titleHighlight": "confidentialité",
+    "description": "Comment Vincor traite vos données personnelles, notamment les données de santé, conformément au Règlement général sur la protection des données (RGPD)."
   },
-  "lastUpdated": "mars 2026",
+  "lastUpdated": "21 avril 2026",
   "sections": [
     {
-      "title": "Qui sommes-nous",
-      "content": "Vincor est établi au 76, rue du Dr Cuypers, 5623 BB Eindhoven. Nous sommes responsables du traitement de vos données personnelles tel que décrit dans cette politique de confidentialité. Vous pouvez nous contacter via info@vincorscan.nl."
-    },
-    {
-      "title": "Quelles données collectons-nous",
-      "content": "Nous traitons les données personnelles suivantes lorsque vous utilisez nos services :",
+      "title": "1. Responsable du traitement",
+      "content": "Vincor (Vinculum Corporis) est un cabinet spécialisé en diagnostic de l'occlusion et de la posture, établi à Eindhoven. Nous sommes le responsable du traitement au sens du RGPD pour les données que nous traitons à votre sujet.",
       "list": [
-        "Nom et prénom",
-        "Adresse e-mail",
-        "Numéro de téléphone",
-        "Informations sur vos plaintes et antécédents médicaux",
-        "Données de scan (scans posturaux 4D et analyses occlusales)"
+        "Adresse : Dokter Cuyperslaan 76, 5623 BB Eindhoven, Pays-Bas",
+        "Numéro de chambre de commerce (KvK) : [numéro KvK à compléter]",
+        "Contact vie privée : Dirk [nom], propriétaire",
+        "E-mail pour les questions de confidentialité : info@vincorscan.nl"
       ]
     },
     {
-      "title": "Pourquoi collectons-nous ces données",
-      "content": "Nous utilisons vos données exclusivement pour les finalités suivantes :",
+      "title": "2. Quelles données traitons-nous ?",
+      "content": "Nous distinguons les données personnelles générales des données sensibles (données de santé au sens de l'article 9 RGPD).\n\nDonnées personnelles générales (collectées via le site) :",
       "list": [
-        "La prise de rendez-vous et leur gestion",
-        "L'exécution du diagnostic et du traitement",
-        "L'établissement de contact avec vous par téléphone ou e-mail si nécessaire",
-        "Le respect des obligations légales"
-      ]
-    },
-    {
-      "title": "Durée de conservation",
-      "content": "Nous ne conservons pas vos données personnelles plus longtemps que strictement nécessaire aux finalités pour lesquelles elles sont collectées. Pour les données médicales, nous appliquons la durée de conservation légale de 20 ans, conformément à la Loi sur les conventions de soins médicaux (WGBO). Les autres données sont supprimées dès qu'elles ne sont plus nécessaires."
-    },
-    {
-      "title": "Partage avec des tiers",
-      "content": "Vincor ne vend pas vos données à des tiers. Nous partageons vos données exclusivement avec des tiers lorsque cela est nécessaire pour l'exécution de notre contrat avec vous ou pour répondre à une obligation légale. Avec les entreprises qui traitent vos données pour notre compte, nous signons un contrat de traitement. Concrètement, nous partageons des données avec :",
-      "list": [
-        "PDA (Applications Dentaires Prothétiques) — uniquement lors de la phase 3 (reconstruction), lorsque vous choisissez cette option",
-        "Balans Rugcentrum — pour l'exécution des scans posturaux 4D"
-      ]
-    },
-    {
-      "title": "Vos droits",
-      "content": "En vertu du RGPD, vous disposez des droits suivants concernant vos données personnelles :",
-      "list": [
-        "Droit d'accès — vous pouvez demander quelles données nous traitons à votre sujet",
-        "Droit de rectification — vous pouvez demander la correction de données inexactes",
-        "Droit à l'effacement — vous pouvez demander la suppression de vos données, dans la mesure où la loi le permet",
-        "Droit d'opposition — vous pouvez vous opposer au traitement de vos données"
+        "Nom, adresse e-mail et numéro de téléphone",
+        "Sujet et contenu de votre message via le formulaire de contact",
+        "Adresse IP (via Cloudflare, pour la sécurité)",
+        "Préférences de cookies (stockées localement dans votre navigateur)"
       ],
-      "additionalContent": "Pour exercer vos droits, vous pouvez nous contacter via info@vincorscan.nl. Nous répondrons dans les meilleurs délais, mais dans tous les cas sous quatre semaines, à votre demande. De plus, vous avez le droit de déposer une plainte auprès de l'Autorité de protection des données."
+      "additionalContent": "Données sensibles \u2014 données de santé (article 9 RGPD) : plaintes décrites dans le formulaire de contact, ainsi que diagnostics, plans de traitement, correspondance avec d'autres praticiens, scans Shining 3D, photos et rapports \u2014 ces derniers conservés uniquement dans le dossier patient au cabinet."
     },
     {
-      "title": "Cookies",
-      "content": "Notre site web utilise des cookies fonctionnels nécessaires au bon fonctionnement du site. De plus, nous utilisons des cookies analytiques pour analyser et améliorer l'utilisation du site. Ces cookies ne collectent pas de données personnelles permettant d'identifier directement l'utilisateur. Vous pouvez désactiver les cookies via les paramètres de votre navigateur, mais cela peut affecter le fonctionnement du site."
+      "title": "3. Pourquoi traitons-nous ces données ?",
+      "content": "Nous utilisons vos données uniquement pour des finalités clairement définies, chacune fondée sur une base légale du RGPD :",
+      "list": [
+        "Répondre aux demandes générales via le formulaire \u2014 article 6(1)(f) (intérêt légitime)",
+        "Formulaire avec contexte médical \u2014 article 9(2)(a) (votre consentement explicite via la case à cocher)",
+        "Convention de soins et dossier patient \u2014 articles 6(1)(b) et 9(2)(h) (fourniture de soins)",
+        "Facturation et comptabilité \u2014 article 6(1)(c) (obligation légale, conservation fiscale)",
+        "Sécurité du site \u2014 article 6(1)(f) (intérêt légitime)",
+        "Cookies analytiques \u2014 article 6(1)(a) (votre consentement via la bannière cookies)"
+      ]
     },
     {
-      "title": "Contact pour les questions de confidentialité",
-      "content": "Avez-vous des questions sur cette politique de confidentialité ou sur le traitement de vos données personnelles ? Contactez-nous :",
+      "title": "4. Durées de conservation",
+      "content": "Nous ne conservons vos données pas plus longtemps que nécessaire. Durée par catégorie :",
+      "list": [
+        "Prospect formulaire (qui ne devient pas patient) \u2014 6 mois",
+        "Dossier patient \u2014 20 ans après le dernier traitement (loi néerlandaise WGBO, Code civil 7:454)",
+        "Comptabilité \u2014 7 ans (article 52 AWR, loi fiscale néerlandaise)",
+        "Logs Cloudflare avec IP \u2014 30 jours",
+        "Préférences de cookies \u2014 12 mois ou jusqu'à suppression par vous"
+      ]
+    },
+    {
+      "title": "5. Avec qui partageons-nous vos données ?",
+      "content": "Nous partageons vos données uniquement avec les sous-traitants sur lesquels nous nous appuyons pour fournir nos services. Un contrat de sous-traitance selon l'article 28 RGPD est en place avec chacun d'eux.",
+      "list": [
+        "Resend (États-Unis, région UE si disponible) \u2014 envoi d'e-mails depuis le formulaire",
+        "Cloudflare (États-Unis, serveurs edge européens) \u2014 hébergement, Workers, DNS, sécurité et analytics optionnelles",
+        "GitHub (États-Unis) \u2014 authentification OAuth pour l'édition via Decap CMS",
+        "Google (États-Unis) \u2014 affichage Google Maps, chargé uniquement après consentement",
+        "PDA (UE) \u2014 uniquement pour la phase 3 (reconstruction), avec votre consentement",
+        "Balans Rugcentrum (UE) \u2014 pour réaliser les scans posturaux 4D"
+      ],
+      "additionalContent": "Les données du dossier patient ne sont pas partagées avec les fournisseurs d'hébergement ou de formulaire. Le partage avec d'autres praticiens n'a lieu qu'avec votre consentement ou sur la base de l'article 9(2)(h) RGPD (fourniture de soins)."
+    },
+    {
+      "title": "6. Transferts hors Union européenne",
+      "content": "Resend, Cloudflare, GitHub et Google peuvent traiter des données aux États-Unis. Ces transferts reposent sur : (a) l'EU-US Data Privacy Framework lorsque la partie est certifiée, ou (b) les Clauses Contractuelles Types de la décision d'exécution (UE) 2021/914. Les partenaires au sein de l'UE \u2014 notamment le Dr Arash Zarrinpour à Paris \u2014 sont directement soumis au RGPD et ne nécessitent pas de garanties supplémentaires."
+    },
+    {
+      "title": "7. Vos droits",
+      "content": "Le RGPD vous confère les droits suivants sur vos données personnelles :",
+      "list": [
+        "Droit d'accès (article 15) \u2014 connaître les données que nous détenons",
+        "Droit de rectification (article 16) \u2014 faire corriger des données inexactes",
+        "Droit à l'effacement (article 17) \u2014 sous réserve de nos obligations légales de conservation",
+        "Droit à la limitation du traitement (article 18)",
+        "Droit d'opposition (article 21)",
+        "Droit à la portabilité (article 20)",
+        "Droit de retirer votre consentement (article 7(3)) \u2014 sans affecter la licéité du traitement antérieur"
+      ],
+      "additionalContent": "Pour exercer l'un de ces droits, envoyez un e-mail à info@vincorscan.nl. Nous répondons sous 30 jours (article 12(3) RGPD). Pour prévenir les abus nous pouvons demander une identification supplémentaire."
+    },
+    {
+      "title": "8. Droit de réclamation",
+      "content": "Si vous n'êtes pas satisfait de la manière dont nous traitons vos données, vous avez le droit d'introduire une plainte auprès de l'autorité néerlandaise de protection des données (Autoriteit Persoonsgegevens) via autoriteitpersoonsgegevens.nl, Postbus 93374, 2509 AJ La Haye. Les patients français peuvent également saisir la CNIL (cnil.fr)."
+    },
+    {
+      "title": "9. Cookies",
+      "content": "Nous n'utilisons que les cookies nécessaires au bon fonctionnement du site. Pour les statistiques et Google Maps, nous demandons votre consentement préalable via la bannière cookies.",
+      "list": [
+        "Essentiels (session, sécurité, préférences cookies) \u2014 pas de consentement requis",
+        "Statistiques (Cloudflare Web Analytics) \u2014 uniquement après votre opt-in",
+        "Google Maps (carte sur la page contact) \u2014 chargé uniquement après consentement"
+      ],
+      "additionalContent": "Vous gérez vos préférences via la bannière cookies ou le lien « Préférences cookies » en bas de page. Retirer votre consentement est aussi simple que de le donner."
+    },
+    {
+      "title": "10. Violations de données",
+      "content": "En cas de violation de données, nous la notifions à l'autorité néerlandaise de protection des données dans les 72 heures (article 33 RGPD). Si la violation présente un risque élevé pour vos droits et libertés, nous vous en informons également directement (article 34 RGPD)."
+    },
+    {
+      "title": "11. Mesures de sécurité",
+      "content": "Nous prenons des mesures techniques et organisationnelles appropriées pour protéger vos données (article 32 RGPD) :",
+      "list": [
+        "HTTPS (TLS 1.3) sur l'ensemble du site",
+        "Contrôle d'accès aux dossiers patients \u2014 praticiens uniquement",
+        "Authentification à deux facteurs sur les comptes administrateur",
+        "Sauvegardes régulières sur stockage chiffré",
+        "Contrats de sous-traitance avec tous les fournisseurs",
+        "Revue annuelle par le propriétaire"
+      ]
+    },
+    {
+      "title": "12. Pas de Délégué à la Protection des Données (DPO)",
+      "content": "Vincor est un petit cabinet qui ne traite pas de données de santé à grande échelle au sens de l'article 37(1)(c) RGPD. La ligne directrice EDPB WP243 précise qu'un praticien individuel dans un petit cabinet ne constitue pas un traitement à grande échelle. Un DPO n'est donc pas requis. Notre mémo interne est disponible sur demande via info@vincorscan.nl."
+    },
+    {
+      "title": "13. Modifications",
+      "content": "Cette déclaration peut être mise à jour si notre pratique ou la législation évolue. La version actuelle est toujours disponible sur la page confidentialité de notre site. Nous vous informerons proactivement de toute modification importante."
+    },
+    {
+      "title": "14. Contact vie privée",
+      "content": "Des questions sur cette déclaration ou sur le traitement de vos données personnelles ? Contactez-nous :",
       "contactDetails": {
         "name": "Vincor",
-        "street": "76, rue du Dr Cuypers",
-        "postcode": "5623 BB Eindhoven",
+        "street": "Dokter Cuyperslaan 76",
+        "postcode": "5623 BB Eindhoven, Pays-Bas",
         "email": "info@vincorscan.nl",
         "phone": "+31 40 245 00 23"
       }
