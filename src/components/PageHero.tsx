@@ -39,7 +39,7 @@ export const PageHero: React.FC<PageHeroProps> = ({
     );
   });
 
-  const highlightedTitle = titleHighlight
+  const titleContent = titleHighlight
     ? title.split(titleHighlight).map((part, index) =>
         index === 0 ? part : (
           <React.Fragment key={index}>
@@ -48,23 +48,23 @@ export const PageHero: React.FC<PageHeroProps> = ({
           </React.Fragment>
         )
       )
-    : <h1 className="text-4xl md:text-5xl font-bold text-white">{title}</h1>;
+    : title;
 
   return (
     <section className="page-hero bg-dark py-24 md:py-32 relative overflow-hidden">
       {/* Background pattern with radial gradient dots */}
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-gray-900 via-gray-950 to-black opacity-100" />
       <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGNpcmNsZSBjeD0iMSIgY3k9IjEiIHI9IjEiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsMC4xKSIvPjwvc3ZnPg==')] opacity-30" />
-      
+
       <div className="container relative z-10 px-4 md:px-6">
         <nav className="page-hero__breadcrumb mb-6 md:mb-8" aria-label="Breadcrumb">
           {breadcrumbItems}
         </nav>
-        
-        <h1 className="page-hero__title mb-4 md:mb-6">
-          {highlightedTitle}
+
+        <h1 className="page-hero__title text-4xl md:text-5xl font-bold text-white mb-4 md:mb-6">
+          {titleContent}
         </h1>
-        
+
         <p className="page-hero__desc text-lg md:text-xl text-gray-300 max-w-[48rem]">
           {description}
         </p>

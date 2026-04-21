@@ -5,7 +5,7 @@ import SectionHeader from '@/components/SectionHeader'
 import ScrollReveal from '@/components/ScrollReveal'
 import CtaBanner from '@/components/CtaBanner'
 import { getContent } from '@/lib/content'
-import { buildMetadata } from '@/lib/seo'
+import { buildMetadata, BreadcrumbJsonLd, SITE_URL } from '@/lib/seo'
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params
@@ -25,6 +25,11 @@ export default async function Shining3DPage({ params }: { params: Promise<{ loca
 
   return (
     <>
+      <BreadcrumbJsonLd items={[
+        { name: content.hero.breadcrumb[0], url: `${SITE_URL}/${locale}` },
+        { name: content.hero.breadcrumb[1], url: `${SITE_URL}/${locale}/diagnostiek` },
+        { name: content.hero.breadcrumb[2], url: `${SITE_URL}/${locale}/diagnostiek/shining-3d` },
+      ]} />
       <PageHero
         breadcrumb={content.hero.breadcrumb.map((label: any, i: number) => ({
           label,

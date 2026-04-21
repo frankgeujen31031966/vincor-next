@@ -34,7 +34,7 @@ export default async function LocaleLayout({
   return (
     <html lang={locale} className={geist.variable}>
       <body className="font-[family-name:var(--font-primary)] text-gray-700 bg-white overflow-x-hidden leading-relaxed">
-        <OrganizationJsonLd />
+        <OrganizationJsonLd locale={locale} />
         <NextIntlClientProvider messages={messages}>
           <ConsentProvider>
             <Navigation items={nav.nav} cta={nav.cta} />

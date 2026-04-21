@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://vincorscan.nl'
+export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://vincorscan.nl'
 const SITE_NAME = 'Vincor — Occlusie & Houdingsdiagnostiek'
 
 interface PageSeoOptions {
@@ -48,23 +48,29 @@ export function buildMetadata({ locale, path, title, description, image }: PageS
 
 // ─── JSON-LD Structured Data ───
 
-export function OrganizationJsonLd() {
+const ORG_DESCRIPTIONS: Record<string, string> = {
+  nl: 'Gespecialiseerd in occlusie & houdingsdiagnostiek. De relatie tussen kaak en wervelkolom.',
+  en: 'Specialised in occlusion and posture diagnostics. Exploring the connection between jaw and spine.',
+  fr: 'Spécialisé en diagnostic de l\'occlusion et de la posture. La relation entre mâchoire et colonne vertébrale.',
+}
+
+export function OrganizationJsonLd({ locale = 'nl' }: { locale?: string } = {}) {
   const data = {
     '@context': 'https://schema.org',
-    '@type': 'MedicalBusiness',
+    '@type': 'MedicalClinic',
     name: 'Vincor',
     alternateName: 'Vinculum Corporis',
-    description: 'Gespecialiseerd in occlusie & houdingsdiagnostiek. De relatie tussen kaak en wervelkolom.',
-    url: SITE_URL,
+    description: ORG_DESCRIPTIONS[locale] || ORG_DESCRIPTIONS.nl,
+    url: `${SITE_URL}/${locale}`,
     logo: `${SITE_URL}/images/vincor-logo.webp`,
     image: `${SITE_URL}/images/hero-bg.png`,
     telephone: '+31402450023',
     email: 'info@vincorscan.nl',
     address: {
       '@type': 'PostalAddress',
-      streetAddress: 'Vestdijk 25',
+      streetAddress: 'Dokter Cuyperslaan 76',
       addressLocality: 'Eindhoven',
-      postalCode: '5611 CA',
+      postalCode: '5623 BB',
       addressCountry: 'NL',
     },
     geo: {
@@ -72,6 +78,24 @@ export function OrganizationJsonLd() {
       latitude: 51.4381,
       longitude: 5.4752,
     },
+    openingHoursSpecification: [
+      {
+        '@type': 'OpeningHoursSpecification',
+        dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+        opens: '08:30',
+        closes: '17:30',
+      },
+      {
+        '@type': 'OpeningHoursSpecification',
+        dayOfWeek: 'Saturday',
+        description: 'By appointment',
+      },
+    ],
+    sameAs: [
+      'https://www.instagram.com/vincor.kliniek',
+      'https://www.facebook.com/vincor.eindhoven',
+      'https://www.linkedin.com/company/vincor-kliniek',
+    ],
     aggregateRating: {
       '@type': 'AggregateRating',
       ratingValue: '4.8',
@@ -79,7 +103,24 @@ export function OrganizationJsonLd() {
       bestRating: '5',
     },
     priceRange: '€195 - €7000',
-    medicalSpecialty: 'Gnathology',
+    medicalSpecialty: 'Dentistry',
+    availableService: [
+      {
+        '@type': 'MedicalProcedure',
+        name: 'Occlusie-analyse (3D)',
+        procedureType: 'https://schema.org/DiagnosticProcedure',
+      },
+      {
+        '@type': 'MedicalProcedure',
+        name: 'Houdingsdiagnostiek (DIERS Formetric 4D)',
+        procedureType: 'https://schema.org/DiagnosticProcedure',
+      },
+      {
+        '@type': 'MedicalProcedure',
+        name: 'Splinttherapie (relaxatie & repositionering)',
+        procedureType: 'https://schema.org/TherapeuticProcedure',
+      },
+    ],
   }
 
   return (
@@ -123,6 +164,55 @@ export function FaqJsonLd({ items }: { items: { question: string; answer: string
       },
     })),
   }
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }}
+    />
+  )
+}
+
+interface PersonJsonLdProps {
+  name: string
+  jobTitle: string
+  description: string
+  image?: string
+  url: string
+  nationality?: string
+  worksForUrl?: string
+  sameAs?: string[]
+  knowsLanguage?: string[]
+}
+
+export function PersonJsonLd({
+  name,
+  jobTitle,
+  description,
+  image,
+  url,
+  nationality,
+  worksForUrl,
+  sameAs,
+  knowsLanguage,
+}: PersonJsonLdProps) {
+  const data: Record<string, unknown> = {
+    '@context': 'https://schema.org',
+    '@type': 'Person',
+    name,
+    jobTitle,
+    description,
+    url,
+    worksFor: {
+      '@type': 'MedicalClinic',
+      name: 'Vincor',
+      url: worksForUrl || SITE_URL,
+    },
+  }
+  if (image) data.image = image.startsWith('http') ? image : `${SITE_URL}${image}`
+  if (nationality) data.nationality = nationality
+  if (sameAs && sameAs.length) data.sameAs = sameAs
+  if (knowsLanguage && knowsLanguage.length) data.knowsLanguage = knowsLanguage
 
   return (
     <script

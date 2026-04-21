@@ -6,7 +6,7 @@ import PageHero from '@/components/PageHero'
 import ScrollReveal from '@/components/ScrollReveal'
 import CtaBanner from '@/components/CtaBanner'
 import { getContent } from '@/lib/content'
-import { buildMetadata } from '@/lib/seo'
+import { buildMetadata, BreadcrumbJsonLd, SITE_URL } from '@/lib/seo'
 
 /* eslint-disable @typescript-eslint/no-explicit-any */
 const validSlugs = ['cmd-herkennen', 'kaak-en-rug', 'occlusiescan', 'kaaksplint-nodig']
@@ -52,6 +52,11 @@ export default async function KennisbankArticlePage({ params }: { params: Promis
 
   return (
     <>
+      <BreadcrumbJsonLd items={[
+        { name: content.hero.breadcrumb[0], url: `${SITE_URL}/${locale}` },
+        { name: content.hero.breadcrumb[1], url: `${SITE_URL}/${locale}/kennisbank` },
+        { name: content.hero.breadcrumb[2], url: `${SITE_URL}/${locale}/kennisbank/${slug}` },
+      ]} />
       <PageHero
         breadcrumb={content.hero.breadcrumb.map((label: string, i: number) => ({
           label,

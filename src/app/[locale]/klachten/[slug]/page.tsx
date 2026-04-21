@@ -8,7 +8,7 @@ import ScrollReveal from '@/components/ScrollReveal'
 import FaqAccordion from '@/components/FaqAccordion'
 import CtaBanner from '@/components/CtaBanner'
 import { getContent } from '@/lib/content'
-import { buildMetadata, FaqJsonLd } from '@/lib/seo'
+import { buildMetadata, FaqJsonLd, BreadcrumbJsonLd, SITE_URL } from '@/lib/seo'
 
 /* eslint-disable @typescript-eslint/no-explicit-any */
 const validSlugs = [
@@ -43,6 +43,11 @@ export default async function KlachtPage({ params }: { params: Promise<{ locale:
 
   return (
     <>
+      <BreadcrumbJsonLd items={[
+        { name: content.hero.breadcrumb[0], url: `${SITE_URL}/${locale}` },
+        { name: content.hero.breadcrumb[1], url: `${SITE_URL}/${locale}/klachten` },
+        { name: content.hero.breadcrumb[2], url: `${SITE_URL}/${locale}/klachten/${slug}` },
+      ]} />
       <PageHero
         breadcrumb={content.hero.breadcrumb.map((label: string, i: number) => ({
           label,

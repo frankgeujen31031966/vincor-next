@@ -5,7 +5,7 @@ import SectionHeader from '@/components/SectionHeader'
 import ScrollReveal from '@/components/ScrollReveal'
 import CtaBanner from '@/components/CtaBanner'
 import { getContent } from '@/lib/content'
-import { buildMetadata } from '@/lib/seo'
+import { buildMetadata, BreadcrumbJsonLd, PersonJsonLd, SITE_URL } from '@/lib/seo'
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params
@@ -25,6 +25,21 @@ export default async function DrArashPage({ params }: { params: Promise<{ locale
 
   return (
     <>
+      <BreadcrumbJsonLd items={[
+        { name: content.hero.breadcrumb[0], url: `${SITE_URL}/${locale}` },
+        { name: content.hero.breadcrumb[1], url: `${SITE_URL}/${locale}/over-ons` },
+        { name: content.hero.breadcrumb[2], url: `${SITE_URL}/${locale}/over-ons/dr-arash-zarrinpour` },
+      ]} />
+      <PersonJsonLd
+        name={content.hero.title}
+        jobTitle={content.intro?.title || 'Tandarts & Occlusiespecialist'}
+        description={Array.isArray(content.intro?.paragraphs) ? content.intro.paragraphs.join(' ') : content.hero.description}
+        image={content.intro?.image}
+        url={`${SITE_URL}/${locale}/over-ons/dr-arash-zarrinpour`}
+        nationality={content.contact?.location?.includes('Paris') || content.contact?.location?.includes('Parijs') ? 'FR' : undefined}
+        worksForUrl={`${SITE_URL}/${locale}`}
+        knowsLanguage={content.contact?.languages}
+      />
       <PageHero
         breadcrumb={content.hero.breadcrumb.map((label: any, i: number) => ({
           label,
