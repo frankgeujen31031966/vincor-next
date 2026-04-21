@@ -2,6 +2,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { getLocale } from 'next-intl/server'
 import { getContent } from '@/lib/content'
+import CookieSettingsLink from './CookieSettingsLink'
 
 export default async function Footer() {
   const locale = await getLocale()
@@ -85,6 +86,7 @@ export default async function Footer() {
             <Link href={`/${locale}/voorwaarden`} className="hover:text-teal transition-colors">
               {f.terms}
             </Link>
+            <CookieSettingsLink label={f.cookieSettings} />
           </div>
         </div>
       </div>

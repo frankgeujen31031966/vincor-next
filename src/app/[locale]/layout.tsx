@@ -1,4 +1,3 @@
-import Script from 'next/script'
 import { NextIntlClientProvider, hasLocale } from 'next-intl'
 import { getMessages } from 'next-intl/server'
 import { notFound } from 'next/navigation'
@@ -7,6 +6,8 @@ import { routing } from '@/i18n/routing'
 import Navigation from '@/components/Navigation'
 import Footer from '@/components/Footer'
 import CookieBanner from '@/components/CookieBanner'
+import { ConsentProvider } from '@/components/ConsentContext'
+import AnalyticsScripts from '@/components/AnalyticsScripts'
 import { OrganizationJsonLd } from '@/lib/seo'
 import { getContent } from '@/lib/content'
 
@@ -35,16 +36,14 @@ export default async function LocaleLayout({
       <body className="font-[family-name:var(--font-primary)] text-gray-700 bg-white overflow-x-hidden leading-relaxed">
         <OrganizationJsonLd />
         <NextIntlClientProvider messages={messages}>
-          <Navigation items={nav.nav} cta={nav.cta} />
-          <main>{children}</main>
-          <Footer />
-          <CookieBanner text={nav.cookie.text} accept={nav.cookie.accept} decline={nav.cookie.decline} />
+          <ConsentProvider>
+            <Navigation items={nav.nav} cta={nav.cta} />
+            <main>{children}</main>
+            <Footer />
+            <CookieBanner content={nav.cookie} />
+            <AnalyticsScripts />
+          </ConsentProvider>
         </NextIntlClientProvider>
-        <Script
-          src="https://static.cloudflareinsights.com/beacon.min.js"
-          data-cf-beacon='{"token":"03ac6e8d302a43a0b5f1be3e418d80bc"}'
-          strategy="afterInteractive"
-        />
       </body>
     </html>
   )

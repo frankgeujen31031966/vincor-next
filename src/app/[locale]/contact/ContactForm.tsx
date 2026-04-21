@@ -9,6 +9,7 @@ type Status = 'idle' | 'submitting' | 'success' | 'error'
 
 export default function ContactForm({ form, locale }: { form: any; locale: string }) {
   const [formData, setFormData] = useState<Record<string, string>>({})
+  const [healthDataConsent, setHealthDataConsent] = useState(false)
   const [status, setStatus] = useState<Status>('idle')
   const [errorMsg, setErrorMsg] = useState('')
 
@@ -21,7 +22,7 @@ export default function ContactForm({ form, locale }: { form: any; locale: strin
       const res = await fetch('/api/contact', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(formData),
+        body: JSON.stringify({ ...formData, healthDataConsent }),
       })
 
       const data = await res.json()
@@ -29,16 +30,16 @@ export default function ContactForm({ form, locale }: { form: any; locale: strin
       if (res.ok && data.success) {
         setStatus('success')
         setFormData({})
-        // Reset form fields
+        setHealthDataConsent(false)
         const formEl = e.target as HTMLFormElement
         formEl.reset()
       } else {
         setStatus('error')
-        setErrorMsg(data.error || 'Er is iets misgegaan.')
+        setErrorMsg(data.error || form.errorGeneric)
       }
     } catch {
       setStatus('error')
-      setErrorMsg('Kan geen verbinding maken. Controleer uw internetverbinding.')
+      setErrorMsg(form.errorNetwork)
     }
   }
 
@@ -48,13 +49,13 @@ export default function ContactForm({ form, locale }: { form: any; locale: strin
         <div className="w-16 h-16 bg-teal/10 rounded-full flex items-center justify-center mx-auto mb-4">
           <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="text-teal"><path d="M20 6L9 17l-5-5" /></svg>
         </div>
-        <h3 className="text-xl font-bold mb-2">{form.successTitle || 'Bericht verzonden!'}</h3>
-        <p className="text-gray-500">{form.successMessage || 'Wij nemen zo snel mogelijk contact met u op.'}</p>
+        <h3 className="text-xl font-bold mb-2">{form.successTitle}</h3>
+        <p className="text-gray-500">{form.successMessage}</p>
         <button
           onClick={() => setStatus('idle')}
           className="mt-6 text-teal font-semibold hover:underline"
         >
-          {form.sendAnother || 'Nog een bericht sturen'}
+          {form.sendAnother}
         </button>
       </div>
     )
@@ -84,6 +85,11 @@ export default function ContactForm({ form, locale }: { form: any; locale: strin
 
         {form.fields.map((field: any) => (
           <div key={field.id}>
+            {field.type === 'textarea' && form.messageWarning && (
+              <div className="bg-amber-50 border border-amber-200 text-amber-900 rounded-lg px-4 py-3 mb-3 text-sm">
+                <strong className="font-semibold">⚠ </strong>{form.messageWarning}
+              </div>
+            )}
             <label htmlFor={field.id} className="block text-sm font-medium text-gray-700 mb-1">
               {field.label}{field.required && <span className="text-red-500 ml-1">*</span>}
             </label>
@@ -126,6 +132,7 @@ export default function ContactForm({ form, locale }: { form: any; locale: strin
             )}
           </div>
         ))}
+
         {form.checkboxes.map((cb: any) => (
           <label key={cb.id} className="flex items-start gap-3 text-sm text-gray-600">
             <input type="checkbox" required={cb.required} className="mt-1 accent-teal" disabled={status === 'submitting'} />
@@ -138,6 +145,22 @@ export default function ContactForm({ form, locale }: { form: any; locale: strin
             </span>
           </label>
         ))}
+
+        {/* Art. 9 GDPR — explicit consent for health data */}
+        {form.healthDataConsent && (
+          <label className="flex items-start gap-3 text-sm text-gray-700 bg-teal/5 border border-teal/20 rounded-lg p-4">
+            <input
+              type="checkbox"
+              required={form.healthDataConsent.required}
+              checked={healthDataConsent}
+              onChange={(e) => setHealthDataConsent(e.target.checked)}
+              className="mt-1 accent-teal"
+              disabled={status === 'submitting'}
+            />
+            <span>{form.healthDataConsent.label}</span>
+          </label>
+        )}
+
         <button
           type="submit"
           disabled={status === 'submitting'}
@@ -146,7 +169,7 @@ export default function ContactForm({ form, locale }: { form: any; locale: strin
           {status === 'submitting' ? (
             <span className="inline-flex items-center gap-2">
               <svg className="animate-spin h-4 w-4" viewBox="0 0 24 24"><circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" fill="none" /><path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z" /></svg>
-              Verzenden...
+              {form.submitting}
             </span>
           ) : form.submitButton}
         </button>

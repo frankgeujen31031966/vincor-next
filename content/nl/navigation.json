@@ -33,11 +33,27 @@
       { "label": "Fase 3 — Reconstructie", "href": "/behandeling/fase-3-reconstructie" }
     ],
     "privacy": "Privacy",
-    "terms": "Voorwaarden"
+    "terms": "Voorwaarden",
+    "cookieSettings": "Cookievoorkeuren"
   },
   "cookie": {
-    "text": "Wij gebruiken cookies om uw ervaring te verbeteren. Door verder te browsen, stemt u in met ons cookiegebruik.",
-    "accept": "Accepteren",
-    "decline": "Weigeren"
+    "title": "Wij respecteren uw privacy",
+    "description": "Wij gebruiken alleen strikt noodzakelijke cookies. Voor statistieken en de kaart van onze locatie vragen wij uw toestemming. U kunt uw keuze later altijd wijzigen via 'Cookievoorkeuren' in de footer.",
+    "acceptAll": "Alles accepteren",
+    "rejectAll": "Alleen essentieel",
+    "customize": "Aanpassen",
+    "save": "Voorkeuren opslaan",
+    "essential": {
+      "label": "Essentieel (altijd aan)",
+      "description": "Nodig voor basisfunctionaliteit zoals het onthouden van uw cookievoorkeuren."
+    },
+    "analytics": {
+      "label": "Statistieken",
+      "description": "Cloudflare Web Analytics — anonieme bezoekersstatistieken zonder persoonlijke profilering."
+    },
+    "maps": {
+      "label": "Google Maps",
+      "description": "Tonen van onze praktijklocatie via Google Maps. Google plaatst daarbij cookies."
+    }
   }
 }

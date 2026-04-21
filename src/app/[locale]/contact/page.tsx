@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import PageHero from '@/components/PageHero'
 import ScrollReveal from '@/components/ScrollReveal'
+import MapEmbed from '@/components/MapEmbed'
 import { getContent } from '@/lib/content'
 import { buildMetadata } from '@/lib/seo'
 import ContactForm from './ContactForm'
@@ -71,17 +72,14 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
                   </div>
                 </div>
 
-                {/* Map */}
+                {/* Map — consent-gated */}
                 <div className="rounded-xl overflow-hidden aspect-video">
-                  <iframe
+                  <MapEmbed
                     src={content.map.src}
                     title={content.map.title}
-                    width="100%"
-                    height="100%"
-                    style={{ border: 0 }}
-                    allowFullScreen
-                    loading="lazy"
-                    referrerPolicy="no-referrer-when-downgrade"
+                    placeholderTitle={content.map.placeholderTitle}
+                    placeholderDescription={content.map.placeholderDescription}
+                    loadButton={content.map.loadButton}
                   />
                 </div>
               </div>

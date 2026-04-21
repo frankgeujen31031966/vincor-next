@@ -33,11 +33,27 @@
       { "label": "Phase 3 — Reconstruction", "href": "/behandeling/fase-3-reconstructie" }
     ],
     "privacy": "Confidentialité",
-    "terms": "Conditions"
+    "terms": "Conditions",
+    "cookieSettings": "Préférences cookies"
   },
   "cookie": {
-    "text": "Nous utilisons des cookies pour améliorer votre expérience. En continuant à naviguer, vous acceptez notre utilisation des cookies.",
-    "accept": "Accepter",
-    "decline": "Refuser"
+    "title": "Nous respectons votre vie privée",
+    "description": "Nous n'utilisons que des cookies strictement nécessaires. Pour les statistiques et la carte de notre localisation, nous vous demandons votre autorisation. Vous pouvez modifier votre choix plus tard via « Préférences cookies » dans le pied de page.",
+    "acceptAll": "Tout accepter",
+    "rejectAll": "Essentiels uniquement",
+    "customize": "Personnaliser",
+    "save": "Enregistrer les préférences",
+    "essential": {
+      "label": "Essentiels (toujours actifs)",
+      "description": "Nécessaires au fonctionnement de base, notamment pour mémoriser vos préférences de cookies."
+    },
+    "analytics": {
+      "label": "Statistiques",
+      "description": "Cloudflare Web Analytics — statistiques anonymes sans profilage personnel."
+    },
+    "maps": {
+      "label": "Google Maps",
+      "description": "Affiche l'emplacement de notre cabinet via Google Maps. Google dépose des cookies à cette occasion."
+    }
   }
 }

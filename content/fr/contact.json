@@ -50,17 +50,18 @@
       },
       {
         "id": "message",
-        "label": "Votre message",
+        "label": "Votre question en termes généraux",
         "type": "textarea",
-        "placeholder": "Décrivez brièvement vos symptômes ou votre question...",
+        "placeholder": "Par ex. « Je souhaite en savoir plus sur un rendez-vous d'intake » ou « J'ai une question sur les tarifs ».",
         "required": false
       }
     ],
+    "messageWarning": "Attention : ne mentionnez pas de détails médicaux spécifiques dans ce formulaire. Restez général — les symptômes concrets se discutent en toute confidentialité lors du rendez-vous d'intake ou par téléphone.",
     "checkboxes": [
       {
         "id": "privacy",
         "required": true,
-        "label": "J'accepte la politique de confidentialité et j'autorise le traitement de mes données dans le cadre de ce rendez-vous.",
+        "label": "J'accepte la politique de confidentialité et j'autorise le traitement de mes données dans le cadre de cette demande de rendez-vous.",
         "link": { "text": "politique de confidentialité", "href": "/privacy" }
       },
       {
@@ -70,7 +71,18 @@
         "link": { "text": "conditions générales", "href": "/voorwaarden" }
       }
     ],
-    "submitButton": "Demander un rendez-vous"
+    "healthDataConsent": {
+      "id": "healthData",
+      "required": true,
+      "label": "Je consens expressément au traitement des données de santé que je pourrais mentionner dans mon message (RGPD art. 9)."
+    },
+    "submitButton": "Demander un rendez-vous",
+    "submitting": "Envoi...",
+    "successTitle": "Message envoyé !",
+    "successMessage": "Nous vous contacterons dès que possible.",
+    "sendAnother": "Envoyer un autre message",
+    "errorGeneric": "Une erreur s'est produite.",
+    "errorNetwork": "Impossible de se connecter. Vérifiez votre connexion internet."
   },
   "contactInfo": {
     "title": "Coordonnées",
@@ -102,7 +114,10 @@
   },
   "map": {
     "src": "https://www.google.com/maps?q=Vincor,+Dokter+Cuyperslaan+76,+5623+BB+Eindhoven,+Netherlands&output=embed",
-    "title": "Emplacement Vincor — Dokter Cuyperslaan 76, Eindhoven"
+    "title": "Emplacement Vincor — Dokter Cuyperslaan 76, Eindhoven",
+    "placeholderTitle": "Carte non chargée",
+    "placeholderDescription": "Pour afficher notre emplacement sur Google Maps, nous déposons des cookies Google. Donnez votre consentement pour charger la carte.",
+    "loadButton": "Charger la carte"
   },
   "cta": {
     "title": "Préférez appeler directement ?",

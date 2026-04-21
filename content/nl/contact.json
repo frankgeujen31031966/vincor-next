@@ -50,17 +50,18 @@
       },
       {
         "id": "message",
-        "label": "Uw bericht",
+        "label": "Uw vraag in algemene termen",
         "type": "textarea",
-        "placeholder": "Beschrijf kort uw klachten of vraag...",
+        "placeholder": "Bijv. 'ik wil graag meer weten over een intakegesprek' of 'ik heb een vraag over de kosten'.",
         "required": false
       }
     ],
+    "messageWarning": "Let op: vermeld in dit formulier geen specifieke medische details. Houd het algemeen — concrete klachten bespreekt u veilig en vertrouwelijk tijdens het intakegesprek of telefonisch.",
     "checkboxes": [
       {
         "id": "privacy",
         "required": true,
-        "label": "Ik ga akkoord met het privacybeleid en geef toestemming voor het verwerken van mijn gegevens ten behoeve van deze afspraak.",
+        "label": "Ik ga akkoord met het privacybeleid en geef toestemming voor het verwerken van mijn gegevens ten behoeve van deze afspraakaanvraag.",
         "link": { "text": "privacybeleid", "href": "/privacy" }
       },
       {
@@ -70,7 +71,18 @@
         "link": { "text": "algemene voorwaarden", "href": "/voorwaarden" }
       }
     ],
-    "submitButton": "Afspraak aanvragen"
+    "healthDataConsent": {
+      "id": "healthData",
+      "required": true,
+      "label": "Ik geef uitdrukkelijk toestemming voor de verwerking van eventuele gezondheidsgegevens die ik in mijn bericht zou vermelden (AVG art. 9)."
+    },
+    "submitButton": "Afspraak aanvragen",
+    "submitting": "Verzenden...",
+    "successTitle": "Bericht verzonden!",
+    "successMessage": "Wij nemen zo snel mogelijk contact met u op.",
+    "sendAnother": "Nog een bericht sturen",
+    "errorGeneric": "Er is iets misgegaan.",
+    "errorNetwork": "Kan geen verbinding maken. Controleer uw internetverbinding."
   },
   "contactInfo": {
     "title": "Contactgegevens",
@@ -102,7 +114,10 @@
   },
   "map": {
     "src": "https://www.google.com/maps?q=Vincor,+Dokter+Cuyperslaan+76,+5623+BB+Eindhoven,+Netherlands&output=embed",
-    "title": "Vincor locatie \u2014 Dokter Cuyperslaan 76, Eindhoven"
+    "title": "Vincor locatie \u2014 Dokter Cuyperslaan 76, Eindhoven",
+    "placeholderTitle": "Kaart niet geladen",
+    "placeholderDescription": "Om onze locatie op Google Maps te tonen zetten wij cookies van Google. Geef toestemming om de kaart te laden.",
+    "loadButton": "Kaart laden"
   },
   "cta": {
     "title": "Liever direct bellen?",

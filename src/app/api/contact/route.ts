@@ -44,7 +44,7 @@ export async function POST(request: NextRequest) {
   }
 
   // Parse body
-  let body: Record<string, string>
+  let body: Record<string, unknown>
   try {
     body = await request.json()
   } catch {
@@ -56,8 +56,24 @@ export async function POST(request: NextRequest) {
     return NextResponse.json({ success: true }) // silently ignore bots
   }
 
+  // GDPR Art. 9 — explicit consent required for any processing of health data
+  // in the message. Without this consent the submission is rejected even if the
+  // privacy-policy checkbox is ticked, because generic Art. 6 consent does not
+  // cover special category data.
+  if (body.healthDataConsent !== true) {
+    return NextResponse.json(
+      { error: 'Uitdrukkelijke toestemming voor verwerking van gezondheidsgegevens is vereist (AVG art. 9).' },
+      { status: 400 }
+    )
+  }
+
   // Required fields
-  const { naam, email, telefoon, onderwerp, bericht } = body
+  const naam = typeof body.name === 'string' ? body.name : (typeof body.naam === 'string' ? body.naam : '')
+  const email = typeof body.email === 'string' ? body.email : ''
+  const telefoon = typeof body.phone === 'string' ? body.phone : (typeof body.telefoon === 'string' ? body.telefoon : '')
+  const onderwerp = typeof body.subject === 'string' ? body.subject : (typeof body.onderwerp === 'string' ? body.onderwerp : '')
+  const bericht = typeof body.message === 'string' ? body.message : (typeof body.bericht === 'string' ? body.bericht : '')
+
   if (!naam || !email || !bericht) {
     return NextResponse.json(
       { error: 'Vul alle verplichte velden in.' },
