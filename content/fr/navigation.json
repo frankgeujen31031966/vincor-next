@@ -34,7 +34,13 @@
     ],
     "privacy": "Confidentialité",
     "terms": "Conditions",
-    "cookieSettings": "Préférences cookies"
+    "cookieSettings": "Préférences cookies",
+    "contact": {
+      "city": "Eindhoven",
+      "phone": "+31 40 245 00 23",
+      "phoneHref": "tel:+31402450023",
+      "email": "info@vincorscan.nl"
+    }
   },
   "cookie": {
     "title": "Nous respectons votre vie privée",

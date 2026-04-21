@@ -368,12 +368,34 @@ collections:
                 { name: href, label: Link, widget: string }
               ]},
               { name: privacy, label: Privacy tekst, widget: string },
-              { name: terms, label: Voorwaarden tekst, widget: string }
+              { name: terms, label: Voorwaarden tekst, widget: string },
+              { name: cookieSettings, label: "Cookievoorkeuren tekst", widget: string },
+              { name: contact, label: "Contactgegevens footer", widget: object, fields: [
+                { name: city, label: Stad, widget: string },
+                { name: phone, label: "Telefoon (weergave)", widget: string },
+                { name: phoneHref, label: "Telefoon (tel: link)", widget: string },
+                { name: email, label: "E-mailadres", widget: string }
+              ]}
             ]}
-          - { name: cookie, label: Cookie banner, widget: object, fields: [
-              { name: text, label: Tekst, widget: text },
-              { name: accept, label: Accepteren knop, widget: string },
-              { name: decline, label: Weigeren knop, widget: string }
+          - { name: cookie, label: "Cookie banner", widget: object, fields: [
+              { name: title, label: Titel, widget: string },
+              { name: description, label: Beschrijving, widget: text },
+              { name: acceptAll, label: "Alles accepteren knop", widget: string },
+              { name: rejectAll, label: "Alleen essentieel knop", widget: string },
+              { name: customize, label: "Aanpassen knop", widget: string },
+              { name: save, label: "Opslaan knop", widget: string },
+              { name: essential, label: "Categorie: Essentieel", widget: object, fields: [
+                { name: label, label: Label, widget: string },
+                { name: description, label: Beschrijving, widget: text }
+              ]},
+              { name: analytics, label: "Categorie: Statistieken", widget: object, fields: [
+                { name: label, label: Label, widget: string },
+                { name: description, label: Beschrijving, widget: text }
+              ]},
+              { name: maps, label: "Categorie: Google Maps", widget: object, fields: [
+                { name: label, label: Label, widget: string },
+                { name: description, label: Beschrijving, widget: text }
+              ]}
             ]}
 
       - name: navigation-en

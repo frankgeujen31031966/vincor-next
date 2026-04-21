@@ -1,5 +1,46 @@
 import { NextRequest, NextResponse } from 'next/server'
 
+type Locale = 'nl' | 'en' | 'fr'
+const MESSAGES: Record<Locale, Record<string, string>> = {
+  nl: {
+    rateLimited: 'Te veel verzoeken. Probeer het later opnieuw.',
+    invalidRequest: 'Ongeldig verzoek.',
+    invalidFormat: 'Ongeldig formaat.',
+    missingConsent: 'Uitdrukkelijke toestemming voor verwerking van gezondheidsgegevens is vereist (AVG art. 9).',
+    missingFields: 'Vul alle verplichte velden in.',
+    invalidEmail: 'Ongeldig e-mailadres.',
+    serverError: 'Serverfout. Neem telefonisch contact op.',
+    sendFailed: 'Verzenden mislukt. Probeer het later opnieuw.',
+  },
+  en: {
+    rateLimited: 'Too many requests. Please try again later.',
+    invalidRequest: 'Invalid request.',
+    invalidFormat: 'Invalid format.',
+    missingConsent: 'Explicit consent for processing of health data is required (GDPR art. 9).',
+    missingFields: 'Please fill in all required fields.',
+    invalidEmail: 'Invalid email address.',
+    serverError: 'Server error. Please contact us by phone.',
+    sendFailed: 'Sending failed. Please try again later.',
+  },
+  fr: {
+    rateLimited: 'Trop de requêtes. Veuillez réessayer plus tard.',
+    invalidRequest: 'Requête invalide.',
+    invalidFormat: 'Format invalide.',
+    missingConsent: 'Consentement explicite requis pour le traitement des données de santé (RGPD art. 9).',
+    missingFields: 'Veuillez remplir tous les champs obligatoires.',
+    invalidEmail: 'Adresse e-mail invalide.',
+    serverError: 'Erreur serveur. Veuillez nous contacter par téléphone.',
+    sendFailed: "Échec de l'envoi. Veuillez réessayer plus tard.",
+  },
+}
+
+function pickLocale(req: NextRequest): Locale {
+  const header = req.headers.get('accept-language') || ''
+  const first = header.split(',')[0]?.slice(0, 2).toLowerCase()
+  if (first === 'en' || first === 'fr') return first
+  return 'nl'
+}
+
 // ─── Rate limiting (in-memory, resets on deploy) ───
 const rateLimit = new Map<string, { count: number; resetAt: number }>()
 const RATE_LIMIT_MAX = 5       // max submissions
@@ -27,20 +68,19 @@ function sanitize(str: string): string {
 
 // ─── POST handler ───
 export async function POST(request: NextRequest) {
+  const msgs = MESSAGES[pickLocale(request)]
+
   // Rate limit by IP
   const ip = request.headers.get('x-forwarded-for')?.split(',')[0]?.trim() || 'unknown'
   if (isRateLimited(ip)) {
-    return NextResponse.json(
-      { error: 'Te veel verzoeken. Probeer het later opnieuw.' },
-      { status: 429 }
-    )
+    return NextResponse.json({ error: msgs.rateLimited }, { status: 429 })
   }
 
   // Origin check (basic CSRF protection)
   const origin = request.headers.get('origin')
   const host = request.headers.get('host')
   if (origin && host && !origin.includes(host)) {
-    return NextResponse.json({ error: 'Ongeldig verzoek.' }, { status: 403 })
+    return NextResponse.json({ error: msgs.invalidRequest }, { status: 403 })
   }
 
   // Parse body
@@ -48,7 +88,7 @@ export async function POST(request: NextRequest) {
   try {
     body = await request.json()
   } catch {
-    return NextResponse.json({ error: 'Ongeldig formaat.' }, { status: 400 })
+    return NextResponse.json({ error: msgs.invalidFormat }, { status: 400 })
   }
 
   // Honeypot field (spam protection)
@@ -61,10 +101,7 @@ export async function POST(request: NextRequest) {
   // privacy-policy checkbox is ticked, because generic Art. 6 consent does not
   // cover special category data.
   if (body.healthDataConsent !== true) {
-    return NextResponse.json(
-      { error: 'Uitdrukkelijke toestemming voor verwerking van gezondheidsgegevens is vereist (AVG art. 9).' },
-      { status: 400 }
-    )
+    return NextResponse.json({ error: msgs.missingConsent }, { status: 400 })
   }
 
   // Required fields
@@ -75,17 +112,11 @@ export async function POST(request: NextRequest) {
   const bericht = typeof body.message === 'string' ? body.message : (typeof body.bericht === 'string' ? body.bericht : '')
 
   if (!naam || !email || !bericht) {
-    return NextResponse.json(
-      { error: 'Vul alle verplichte velden in.' },
-      { status: 400 }
-    )
+    return NextResponse.json({ error: msgs.missingFields }, { status: 400 })
   }
 
   if (!validateEmail(email)) {
-    return NextResponse.json(
-      { error: 'Ongeldig e-mailadres.' },
-      { status: 400 }
-    )
+    return NextResponse.json({ error: msgs.invalidEmail }, { status: 400 })
   }
 
   // Sanitize all inputs
@@ -105,10 +136,7 @@ export async function POST(request: NextRequest) {
 
   if (!apiKey || !emailTo) {
     console.error('Missing RESEND_API_KEY or CONTACT_EMAIL_TO env vars')
-    return NextResponse.json(
-      { error: 'Serverfout. Neem telefonisch contact op.' },
-      { status: 500 }
-    )
+    return NextResponse.json({ error: msgs.serverError }, { status: 500 })
   }
 
   try {
@@ -140,18 +168,12 @@ export async function POST(request: NextRequest) {
     if (!res.ok) {
       const err = await res.text()
       console.error('Resend API error:', err)
-      return NextResponse.json(
-        { error: 'Verzenden mislukt. Probeer het later opnieuw.' },
-        { status: 502 }
-      )
+      return NextResponse.json({ error: msgs.sendFailed }, { status: 502 })
     }
 
     return NextResponse.json({ success: true })
   } catch (err) {
     console.error('Email send error:', err)
-    return NextResponse.json(
-      { error: 'Verzenden mislukt. Probeer het later opnieuw.' },
-      { status: 500 }
-    )
+    return NextResponse.json({ error: msgs.sendFailed }, { status: 500 })
   }
 }

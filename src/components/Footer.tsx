@@ -65,12 +65,16 @@ export default async function Footer() {
           <div>
             <h4 className="text-white font-semibold mb-4">{f.contactTitle}</h4>
             <ul className="space-y-2 text-sm">
-              <li className="text-gray-400">Eindhoven</li>
-              <li className="text-gray-400">040-1234567</li>
+              <li className="text-gray-400">{f.contact.city}</li>
               <li className="text-gray-400">
-                <Link href={`/${locale}/contact`} className="hover:text-teal transition-colors">
-                  info@vincorscan.nl
-                </Link>
+                <a href={f.contact.phoneHref} className="hover:text-teal transition-colors">
+                  {f.contact.phone}
+                </a>
+              </li>
+              <li className="text-gray-400">
+                <a href={`mailto:${f.contact.email}`} className="hover:text-teal transition-colors">
+                  {f.contact.email}
+                </a>
               </li>
             </ul>
           </div>
