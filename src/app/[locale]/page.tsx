@@ -18,7 +18,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     path: '',
     title: content.meta.title,
     description: content.meta.description,
-    image: '/images/hero-bg.png',
+    image: '/images/og/homepage.jpg',
   })
 }
 

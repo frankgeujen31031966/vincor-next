@@ -7,7 +7,7 @@ import { buildMetadata } from '@/lib/seo'
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params
   const content = await getContent(locale, 'privacy')
-  return buildMetadata({ locale, path: '/privacy', title: content.meta.title, description: content.meta.description })
+  return buildMetadata({ locale, path: '/privacy', title: content.meta.title, description: content.meta.description, image: '/images/og/privacy.jpg' })
 }
 
 export default async function PrivacyPage({ params }: { params: Promise<{ locale: string }> }) {

@@ -11,7 +11,7 @@ import { buildMetadata } from '@/lib/seo'
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params
   const content = await getContent(locale, 'klachten/overzicht')
-  return buildMetadata({ locale, path: '/klachten', title: content.meta.title, description: content.meta.description })
+  return buildMetadata({ locale, path: '/klachten', title: content.meta.title, description: content.meta.description, image: '/images/og/klachten.jpg' })
 }
 
 function CheckIcon() {

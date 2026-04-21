@@ -10,7 +10,7 @@ import { buildMetadata, FaqJsonLd } from '@/lib/seo'
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params
   const content = await getContent(locale, 'faq')
-  return buildMetadata({ locale, path: '/faq', title: content.meta.title, description: content.meta.description })
+  return buildMetadata({ locale, path: '/faq', title: content.meta.title, description: content.meta.description, image: '/images/og/faq.jpg' })
 }
 
 export default async function FaqPage({ params }: { params: Promise<{ locale: string }> }) {

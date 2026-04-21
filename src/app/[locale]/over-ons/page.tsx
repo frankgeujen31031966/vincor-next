@@ -10,7 +10,7 @@ import { buildMetadata } from '@/lib/seo'
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params
   const content = await getContent(locale, 'over-ons')
-  return buildMetadata({ locale, path: '/over-ons', title: content.meta.title, description: content.meta.description })
+  return buildMetadata({ locale, path: '/over-ons', title: content.meta.title, description: content.meta.description, image: '/images/og/over-ons.jpg' })
 }
 
 export default async function OverOnsPage({ params }: { params: Promise<{ locale: string }> }) {
