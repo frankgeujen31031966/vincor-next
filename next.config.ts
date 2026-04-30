@@ -7,6 +7,15 @@ const nextConfig: NextConfig = {
   turbopack: {
     root: __dirname,
   },
+  async redirects() {
+    // Backwards-compatible redirects from the old Webflow site.
+    // Permanent (301) so search engines update their index.
+    return [
+      { source: '/algemene-voorwaarden', destination: '/nl/voorwaarden', permanent: true },
+      { source: '/contact-us', destination: '/nl/contact', permanent: true },
+      { source: '/privacy-waarborg', destination: '/nl/privacy', permanent: true },
+    ]
+  },
   async headers() {
     return [
       {
