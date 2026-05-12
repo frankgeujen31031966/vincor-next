@@ -16,9 +16,9 @@ De site kan op meerdere platforms draaien. Hieronder de opties.
 
 ### Optie 1: Cloudflare Workers (huidige setup)
 
-1. Installeer dependencies: `npm install`
-2. Login bij Cloudflare: `npx wrangler login`
-3. Deploy: `npm run deploy`
+1. Installeer dependencies: `pnpm install`
+2. Login bij Cloudflare: `pnpm exec wrangler login`
+3. Deploy: `pnpm run deploy`
 
 De site draait op `https://<naam>.workers.dev`.
 
@@ -38,7 +38,7 @@ De site draait op `https://<naam>.workers.dev`.
 ### Optie 3: Netlify
 
 1. Verbind je GitHub repo op https://netlify.com
-2. Build command: `npm run build`
+2. Build command: `pnpm run build`
 3. Netlify heeft een ingebouwde Next.js runtime
 
 ### Optie 4: Docker (self-hosted / NAS)
@@ -69,7 +69,7 @@ Het admin paneel is bereikbaar op `/admin/` en gebruikt Sveltia CMS met GitHub a
 2. **Deploy de OAuth Worker:**
    De map `oauth-worker/` bevat een Cloudflare Worker die GitHub OAuth afhandelt.
    - Pas `CLIENT_ID` en `CLIENT_SECRET` aan in `oauth-worker/worker.js`
-   - Deploy: `cd oauth-worker && npx wrangler deploy`
+   - Deploy: `cd oauth-worker && pnpm exec wrangler deploy`
 
 3. **Update CMS config:**
    Pas `public/admin/config.yml` aan:
@@ -115,7 +115,7 @@ Cloudflare Web Analytics is voorbereid. Om te activeren:
    ```
    NEXT_PUBLIC_CF_ANALYTICS_TOKEN=jouw-token-hier
    ```
-   - Bij Cloudflare Workers: `npx wrangler secret put NEXT_PUBLIC_CF_ANALYTICS_TOKEN`
+   - Bij Cloudflare Workers: `pnpm exec wrangler secret put NEXT_PUBLIC_CF_ANALYTICS_TOKEN`
    - Bij Vercel: Settings > Environment Variables
    - Bij Netlify: Site settings > Environment variables
    - Bij Docker: `-e NEXT_PUBLIC_CF_ANALYTICS_TOKEN=jouw-token`
@@ -133,8 +133,8 @@ Cloudflare Web Analytics is voorbereid. Om te activeren:
 ## Lokaal ontwikkelen
 
 ```bash
-npm install
-npm run dev
+pnpm install
+pnpm run dev
 ```
 
 De site draait op `http://localhost:3000`.

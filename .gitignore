@@ -3,6 +3,7 @@ node_modules/
 .open-next/
 plans/
 .waycode/
+.claude/
 .env
 .env.local
 .env.production
